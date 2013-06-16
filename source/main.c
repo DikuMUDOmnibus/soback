@@ -58,17 +58,19 @@
 #include "page.h"
 #include "specials.h"
 
-#ifndef __BSD__
-#define DFLT_DIR "/var/tmp/MUD/diku"        /* default dir  */
-#else
 #define DFLT_DIR "."
-#endif
-#define DFLT_PORT 4000      		/* default port */
+
+//#ifndef __BSD__
+//#define DFLT_DIR "/var/tmp/MUD/diku"        /* default dir  */
+//#else
+//#define DFLT_DIR "."
+//#endif
+#define DFLT_PORT 12700      		/* default port */
 
 #define OPT_USEC 250000       /* time delay corresponding to 4 passes/sec */
 #define MAXOCLOCK (120*4)
 
-jmp_buf env;
+//jmp_buf env;
 
 int 	shutdowngame 	= 0;    	/* clean shutdown */
 int 	autoshutdown 	= 0;    	/* clean shutdown */
@@ -170,6 +172,7 @@ void signal_setup(void)
 	act.sa_handler = shutdown_request;
 	sigaction(SIGUSR2, &act, 0 );
 
+/*
 #ifndef __BSD_DEBUG__ 
 	{
 		struct itimerval 	itime;
@@ -187,6 +190,7 @@ void signal_setup(void)
 		sigaction(SIGALRM,   &act, 0 );
 	}
 #endif
+*/
 }
 
 struct timeval timediff(struct timeval *a, struct timeval *b)
@@ -280,9 +284,7 @@ void game_loop(int s)
   	char 						comm[MAX_INPUT_LENGTH];
   	descriptorType 			* 	point;
   	sigset_t 					mask; 
-#ifndef __BSD_DEBUG__
 	sigset_t					oldmask;
-#endif
 
   	null_time.tv_sec  = 0;
   	null_time.tv_usec = 0;
@@ -328,19 +330,15 @@ void game_loop(int s)
       		last_time.tv_sec++;
     	}
 
-#ifndef __BSD_DEBUG__
     	sigprocmask( SIG_BLOCK, &mask, &oldmask );
-#endif
-
-    	if(select(last_desc+1, &input_set, &output_set, &exc_set, &null_time) < 0) 
-      		FATAL("Select poll");
 
     	if(select(0, (fd_set *) 0, (fd_set *) 0, (fd_set *) 0, &timeout) < 0) 
         	FATAL("Select sleep");
 
-#ifndef __BSD_DEBUG__
+    	if(select(last_desc+1, &input_set, &output_set, &exc_set, &null_time) < 0) 
+      		FATAL("Select poll");
+
  		sigprocmask( SIG_UNBLOCK, &oldmask, 0 );
-#endif
 
     	if( FD_ISSET(s, &input_set) &&  new_descriptor(s) < 0 ) ERROR( "GameLoop> New connection" );
 
@@ -359,7 +357,8 @@ void game_loop(int s)
     	for (point = desc_list; point; point = next_to_process) 
 		{
       		next_to_process = point->next;
-      		if( FD_ISSET(point->fd, &input_set) && (process_input(point) < 0) )
+
+			if (FD_ISSET(point->fd, &input_set) && (process_input(point) < 0))
 			{
            		FD_CLR(point->fd, &input_set);
            		FD_CLR(point->fd, &output_set);
@@ -394,7 +393,7 @@ void game_loop(int s)
 
         		point->prompt = 1;	
 				point->wait   = 1;
-
+				
         		if( point->character ) point->character->timer = 0;
 
         		if( point->str ) string_add( point, comm );
@@ -410,7 +409,8 @@ void game_loop(int s)
 				}
         		else if( point->connected == CON_PLYNG )  
 				{
-           			point->wait += interpreter( point->character, comm, 0 );
+					int wait_value = interpreter( point->character, comm, 0 );
+           			point->wait += wait_value;
            			++point->ncmds;
         		}
         		else
@@ -427,6 +427,7 @@ void game_loop(int s)
 		{
       		next_to_process = point->next;
       		if( FD_ISSET(point->fd, &output_set) && point->output.used )
+			{
         		if( process_output(point) < 0 )
 				{
           			FD_CLR(point->fd, &input_set);
@@ -439,6 +440,7 @@ void game_loop(int s)
           			close_socket(point);
         		} 
 				else point->prompt = 1;
+			}
      	}
 
     	for( point = desc_list; point; point = next_to_process )
@@ -471,7 +473,7 @@ void game_loop(int s)
     		}
 		}
 
-    	setjmp(env);
+    	// setjmp(env);
 
     	if( !(pulse % PULSE_ZONE) ) 
 		{

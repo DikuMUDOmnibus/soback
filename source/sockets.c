@@ -46,6 +46,19 @@ int last_desc		= 0;
 descriptorType *     desc_list;
 descriptorType *     next_to_process;
 
+void nonblock(int s)
+{
+	int flags;
+
+	flags = fcntl(s, F_GETFL, 0);
+	flags |= O_NONBLOCK;
+	if (fcntl(s, F_SETFL, flags) < 0)
+	{
+	    FATAL("Fatal error executing nonblock (socket.c)");
+    	exit(1);
+	}
+}
+
 #ifndef __USE_TERMIOS__
 
 void echo_local(int fd)
@@ -249,8 +262,11 @@ int init_socket( int port )
 	char				hostname[256];
 
 
-  	if( s = socket(AF_INET, SOCK_STREAM, 0), s < 0 ) 	FATAL( "init_socket> socket" );
+  	// if( s = socket(AF_INET, SOCK_STREAM, 0), s < 0 ) 	FATAL( "init_socket> socket" );
+  	if( (s = socket(PF_INET, SOCK_STREAM, 0)) < 0 )
+		FATAL( "init_socket> socket" );
 
+/*
   	if (setsockopt (s, SOL_SOCKET, SO_REUSEADDR, (char *)&opt, sizeof(opt)) < 0) 
   	{
     	FATAL("init_socket> setsockopt REUSEADDR");
@@ -264,6 +280,7 @@ int init_socket( int port )
   		close( s );
     	FATAL("init_socket> setsockopt LINGER");
   	}
+*/
 
 	memset( &sa, 0, sizeof( sa ) );
 
@@ -275,7 +292,7 @@ int init_socket( int port )
   	}
 
   	sa.sin_family = hp->h_addrtype;
-/*  	sa.sin_family = AF_INET;		*/
+  	sa.sin_family = AF_INET;
   	sa.sin_port   = htons(port);
 
   	if( bind(s,(struct sockaddr *) &sa, sizeof(sa)) < 0 ) 
@@ -307,11 +324,15 @@ int new_connection(int s)
 		return -1;
   	}
 
-  	if( fcntl(s, F_SETFL, FNDELAY) == -1)
+	nonblock(s);
+/*
+	int flag = fcntl( s, F_GETFL, 0 );
+  	if( fcntl(s, F_SETFL, flag | FNDELAY) == -1)
   	{
     	ERROR("noblock> %d fd failed.", s );
 		return -1;
   	}
+*/
   	return(t);
 }
 
@@ -480,13 +501,175 @@ int write_to_descriptor(int desc, char *txt)
   	return(0);
 }
 
-static descriptorType * t;
+//static descriptorType * t;
 
+int process_input(descriptorType *t)
+{
+	int buf_length;
+	ssize_t bytes_read;
+	size_t space_left;
+	char *ptr, *read_point, *write_point, *nl_pos = NULL;
+	char tmp[MAX_STRING_LENGTH] = {0,};
+
+	/* first, find the point where we left off reading data */
+	buf_length = strlen(t->buf);
+	read_point = t->buf + buf_length;
+	space_left = MAX_STRING_LENGTH - buf_length - 1;
+
+	do {
+		if (space_left <= 0) {
+			log("WARNING: process_input: about to close connection: input overflow");
+			return (-1);
+		}
+
+		bytes_read = read(t->fd, read_point, space_left);
+
+/*
+		{
+            char buf[MAX_STRING_LENGTH] = {0,};
+            int i = 0;
+
+            sprintf(buf, "socket read %d bytes.\r\n", (int) bytes_read);
+            for( i = 0; i < bytes_read; ++i )
+			{
+				if ( *(read_point + i) > 31 && *(read_point + i) < 127 )
+	                sprintf(buf + strlen(buf), "%c", *(read_point + i));
+				else
+	                sprintf(buf + strlen(buf), "(%u)", (unsigned char)*(read_point + i));
+			}
+            log(buf);
+        }
+*/	
+		if (bytes_read > 0)
+		{
+			/* at this point, we know we got some data from the read */
+	
+			*(read_point + bytes_read) = '\0';				/* terminate the string */
+	
+			/* search for a newline in the data we just read */
+			for (ptr = read_point; *ptr && !nl_pos; ptr++)
+				if (ISNEWL(*ptr))
+					nl_pos = ptr;
+	
+			read_point += bytes_read;
+			space_left -= bytes_read;
+
+		}
+		else if (bytes_read < 0)
+		{
+			if(errno != EWOULDBLOCK) 
+			{
+				return -1;
+			}
+			else
+			{
+				break;
+			}
+		}
+		else
+		{
+			log( "process_input> red EOF from %d.", t->fd );
+			return(-1);
+		}
+
+	} while (0);
+
+	if (nl_pos == NULL)
+	{
+		return (0);
+	}
+
+	/*
+	 * okay, at this point we have at least one newline in the string; now we
+	 * can copy the formatted data to a new array for further processing.
+	 */
+
+	read_point = t->buf;
+
+	while (nl_pos != NULL) {
+		write_point = tmp;
+		space_left = MAX_STRING_LENGTH - 1;
+
+		/* The '> 1' reserves room for a '$ => $$' expansion. */
+		for (ptr = read_point; (space_left > 1) && (ptr < nl_pos); ptr++) {
+			if (*ptr == '\b' || *ptr == 127) { /* handle backspacing or delete key */
+				if (write_point > tmp) {
+					if (*(--write_point) == '$') {
+						write_point--;
+						space_left += 2;
+					} else
+						space_left++;
+				}
+			} else if (isascii(*ptr) && isprint(*ptr)) {
+				if ((*(write_point++) = *ptr) == '$') {								/* copy one character */
+					*(write_point++) = '$';				/* if it's a $, double it */
+					space_left -= 2;
+				} else
+					space_left--;
+			}
+		}
+
+		*write_point = '\0';
+
+		if ((space_left <= 0) && (ptr < nl_pos)) {
+			char buffer[MAX_STRING_LENGTH + 64];
+
+			sprintf(buffer, "Line too long.	Truncated to:\r\n%s\r\n", tmp);
+			if ( write_to_descriptor(t->fd, buffer) < 0 )
+			{
+				return (-1);
+			}
+		}
+
+		if ( t->snoop.by )
+		{
+			put_to_output( t->snoop.by->desc, "%% " );
+			put_to_output( t->snoop.by->desc, tmp );
+			put_to_output( t->snoop.by->desc, "\r\n" );
+		}
+
+		if ( *tmp == '!' )				/* Redo last command. */
+		{
+			strcpy(tmp, t->last_input);
+		} else {
+			strcpy(t->last_input, tmp);
+		}
+
+		put_to_input( t, tmp );
+
+		/* find the end of this line */
+		while (ISNEWL(*nl_pos))
+		{
+			nl_pos++;
+		}
+
+		/* see if there's another newline in the input buffer */
+		read_point = ptr = nl_pos;
+		for (nl_pos = NULL; *ptr && !nl_pos; ptr++)
+		{
+			if (ISNEWL(*ptr))
+			{
+				nl_pos = ptr;
+			}
+		}
+	}
+
+	/* now move the rest of the buffer up to the beginning for the next pass */
+	write_point = t->buf;
+	while (*read_point)
+		*(write_point++) = *(read_point++);
+	*write_point = '\0';
+
+	return (1);
+}
+/*
 int process_input(descriptorType *d)
 {
 	int sofar, thisround, begin, squelch, i, k, flag;
-	char tmp[MAX_STRING_LENGTH+1], buffer[MAX_INPUT_LENGTH + 60];
-	char snoop[MAX_INPUT_LENGTH+10];
+	char tmp[MAX_STRING_LENGTH+1], buffer[MAX_STRING_LENGTH + 60];
+	char snoop[MAX_STRING_LENGTH+10];
+	char last = 0;
+	char input_buf[MAX_STRING_LENGTH+1];
 
 	t = d;
 	if( t->input.head ) return 0;
@@ -494,13 +677,27 @@ int process_input(descriptorType *d)
 	flag = 0;
 	begin = strlen(t->buf);
 
-	for( i = 0 ; i < MAX_INPUT_LENGTH + 2 ; i ++ ) tmp[i] = NULL ;
+	for( i = 0 ; i < MAX_INPUT_LENGTH + 2 ; i ++ )
+	{
+		tmp[i] = '\0';
+	}
 
 	do {
-		if ((thisround = read(t->fd, 
-						      t->buf + begin + sofar, 
-                              MAX_STRING_LENGTH - (begin + sofar) - 1)) > 0)
-			sofar += thisround;    
+		thisround = read(t->fd, t->buf + begin + sofar, MAX_STRING_LENGTH - (begin + sofar) - 1);
+
+		{
+			int i;
+			log("socket read %d bytes", thisround);
+			for( i = 0; i < thisround; ++i )
+			{
+				log("[%d]", *(t->buf + begin + sofar + i));
+			}
+		}
+
+		if (thisround  > 0)
+		{
+			sofar += thisround;
+		}
 		else if (thisround < 0)
 		{
 			if(errno != EWOULDBLOCK) 
@@ -516,13 +713,27 @@ int process_input(descriptorType *d)
 			return(-1);
 			
 		}
-	} while (!ISNEWL(*(t->buf + begin + sofar - 1)));  
+
+		last = *( t->buf + begin + sofar - 1);
+	} while ( !(ISNEWL(last)) && !(last < 0x02) );
+
+	// skip tcp signals
+	if ( last < 0x02 )
+	{
+		return(0);
+	}
+
+//	memcpy( t->buf + begin, &input_buf[0], sofar );
 
 	*(t->buf + begin + sofar) = 0;
 
 	for( i = begin; !ISNEWL(*(t->buf + i)); i++ )
+	{
 		if( !*(t->buf + i) )
+		{
 			return(0);
+		}
+	}
 
 	for (i = 0, k = 0; *(t->buf + i);) 
 	{
@@ -536,26 +747,27 @@ int process_input(descriptorType *d)
 					i++;
 				}
 				else
-					i++;  /* no or just one char.. Skip backsp */
+				{
+					i++; 
+				}
 			}
 			else if( *(t->buf+i) == -1 ) 
 			{
-				log( "process_input> -1 entered.[-1][%d][%d][%c]",
-						(int)*(t->buf+i+1), (int)*(t->buf+i+2), *(t->buf+i+3) );
+				log( "process_input> -1 entered.[-1][%d][%d][%c]", (char)*(t->buf+i+1), (char)*(t->buf+i+2), *(t->buf+i+3) );
 
 				if( *(t->buf+i) && !ISNEWL(*(t->buf+i)) ) i++;
-				if( *(t->buf + i) == NULL ) break ;
+				if( *(t->buf + i) == '\0' ) break ;
 				if( *(t->buf+i) && !ISNEWL(*(t->buf+i)) ) i++;
-				if( *(t->buf + i) == NULL ) break ;
+				if( *(t->buf + i) == '\0' ) break ;
 				if( *(t->buf+i) && !ISNEWL(*(t->buf+i)) ) i++;
-				if( *(t->buf + i) == NULL ) break ;
+				if( *(t->buf + i) == '\0' ) break ;
 			}
 			else if( (*(t->buf+i) & 0x80) && !ISNEWL( *(t->buf+i+1) ) ) 
 			{
 				*(tmp + k++) = *(t->buf + i++);
-				if( *(t->buf + i ) == NULL ) break ;
+				if( *(t->buf + i ) == '\0' ) break ;
 				*(tmp + k++) = *(t->buf + i++);
-				if( *(t->buf + i ) == NULL ) break ;
+				if( *(t->buf + i ) == '\0' ) break ;
 			}
 			else if( isascii( *(t->buf + i) ) && isprint( *(t->buf + i) ) ) 
 			{
@@ -564,7 +776,9 @@ int process_input(descriptorType *d)
 				i++;
 			}
 			else
+			{
 				i++;
+			}
 		}
 		else 
 		{
@@ -603,6 +817,7 @@ int process_input(descriptorType *d)
 
 	return(1);
 }
+*/
 
 void close_sockets( int s )
 {
