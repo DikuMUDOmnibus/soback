@@ -10,6 +10,7 @@
 #include <sys/time.h>
 #include <sys/stat.h>
 #include <ctype.h>
+#include <time.h>
 
 #include "defines.h"
 #include "character.h"
@@ -276,7 +277,8 @@ int post_board(charType *ch, struct board_data *cb, char *arg)
         cb->head[cb->num] = strdup( header );
         cb->writer[cb->num] = strdup( GET_NAME(ch) );
 
-		t = time(0); tz = localtime( &t );
+		t = time(0); 
+		tz = localtime( &t );
 		sprintf( buf2, "%2d/%.2d/%.2d", tz->tm_year, tz->tm_mon+1, tz->tm_mday );
 		cb->created[cb->num] = strdup( buf2 );	
 

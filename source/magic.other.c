@@ -297,7 +297,7 @@ void spell_phase( int level, charType *ch, char *arg, int type,
     	case 's' : case 'S': direction=2; break;
     	case 'd' : case 'D': direction=5; break;
     	case 'u' : case 'U': direction=4; break;
-    	case NULL: send_to_char("Phase to where?\n\r",ch); return;
+    	case 0: send_to_char("Phase to where?\n\r",ch); return;
     	default  : send_to_char("ashgjklasdghiaudsgthl\n\r",ch);return;
   	}
 

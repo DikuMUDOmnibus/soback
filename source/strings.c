@@ -63,15 +63,15 @@ int splitarg(  char * str, char ** arg )
 
 	if( isnumstr( str ) ) return -2;						/* 1 */
 
-	if( strnicmp( str, "all.", 4 ) == 0  )					/* all.abc */
+	if( strncasecmp( str, "all.", 4 ) == 0  )					/* all.abc */
 	{
 		if( *what = str + 4, !*what ) nr = -3;				/* 1. */
 	}
-	else if( strnicmp( str, "a.", 2 ) == 0  )					/* all.abc */
+	else if( strncasecmp( str, "a.", 2 ) == 0  )					/* all.abc */
 	{
 		if( *what = str + 2, !*what ) nr = -3;				/* 1. */
 	}
-	else if( strnicmp( str, "*.", 2 ) == 0 )
+	else if( strncasecmp( str, "*.", 2 ) == 0 )
 	{
 		if( *what = str + 2, !*what ) nr = -3;
 	}
@@ -230,7 +230,7 @@ int	stricmp( const char * from, const char * to )
 	return (*from - *to);
 }
 #if 0
-int strnicmp( const char * from, const char * to, int len )
+int strncasecmp( const char * from, const char * to, int len )
 {  
     int     diff, tlen, flen;
    
@@ -269,7 +269,7 @@ int isprefix( const char * name, const char * compare )
 
 	len = strlen( name );
 
-	if( strnicmp( name, compare, len ) == 0 ) return len;
+	if( strncasecmp( name, compare, len ) == 0 ) return len;
 
 	return 0;
 }

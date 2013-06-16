@@ -188,7 +188,7 @@ void do_help(charType *ch, char *argument, int cmd)
       mid = (bot + top) / 2;
       minlen = strlen(argument);
 
-      if( !(chk = strnicmp(argument, help_index[mid].keyword, minlen)) )
+      if( !(chk = strncasecmp(argument, help_index[mid].keyword, minlen)) )
       {
         fseek(help_fl, help_index[mid].pos, 0);
         *buffer = '\0';

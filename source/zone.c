@@ -434,7 +434,7 @@ static void boot_resets( FILE * fp, zoneType * zp )
       	if( cmd == '*')
       	{
         	fgets( buf, 255, fp ); 
-			(char *)zp->cmds[ cmdNr ].arg1 = strdup( buf );
+			zp->cmds[ cmdNr ].arg1 = strdup( buf );
       	}
 	  	else
 		{
