@@ -1,0 +1,3470 @@
+#95 Zone.
+NAME       : DeathKingdom~
+INFO       : Laiger, Yuria, Gaiot 이 사는 북두 신권에서 따온 존.~
+PATH       : Levee 에서 s.5w.n.w.2n.w.n.w~
+ALIGN      : 0
+AGGRESSIVE : 1
+LEVEL      : 25 ~ 40
+MAX        : 9699
+LIFESPAN   : 50
+RESET      : 2
+
+#MOBILES
+#9501
+sura~
+The sura~
+A tough sura stands here training his own skills.
+~
+The sura looks very tough. he has his own skills for handling weapon. 
+he won many fights.
+~
+360 8 -999 S
+30 -5 -5 5d10+850 4d6+10
+5000 130000
+8 8 1
+#9502
+guru~
+The guru~
+A guru stands here advancing his own skills. 
+~
+The guru is training for becoming sura.
+~
+360 8 -999 S
+25 -10 0 2d30+300 3d6+15
+3000 80000
+8 8 1
+#9503
+captain hook~
+The Captain Hook~
+A Captain Hook can't balance his body because of very refined rums.
+~
+The Captain Hook looks fool. he is one eyed but other one is tingle though. he has one metal leg and is wearing triangle cap.
+~
+42 128 -1000 S
+38 -10 -10 1d100+2000 4d6+30
+50000 300000
+8 8 1
+#9504
+pirate~
+The First class pirate~
+A First class pirate is dancing here like mad dog with holding rum.
+~
+~
+104 8 -999 S
+20 0 0 1d30+300 3d6+5
+1000 60000
+8 8 1
+#9505
+pirate~
+The Second class pirate~
+A Second class pirate is cleaning bottom of ship.
+~
+~
+104 8 -999 S
+15 2 0 1d30+150 3d5+4
+500 20000
+8 8 1
+#9506
+sura candidate~
+The Sura Candidate~
+A Sura candidate is swing his shining brass golden covered double club.
+~
+~
+360 8 -999 S
+25 -3 -3 5d10+500 4d7+7
+4000 100000
+8 8 1
+#9507
+loser~
+A Loser~
+A loser stands here sighing deeply.
+~
+~
+10 8 999 S
+15 10 0 2d5+100 2d5+5
+500 3000
+8 8 1
+#9508
+sura zizon~
+The Zizon Sura~
+A Zizon Sura is sweeping his eyes here.
+A Zizon Sura glows with dark green aura!...he emits a faint humming sound!
+~
+~
+4138 128 -999 S
+40 -10 -15 4d100+5000 4d6+45
+50000 390000
+4 4 1
+#9509
+laiger~
+Laiger~
+Laiger Laiger Laiger Laiger Lagier Lagier Laiger is here!
+~
+Laiger is brother of Hyobik. he is making his clones now. he won Laow some months ago. he can make many his illusion figures
+~
+1048843 2176 -999 S
+44 -15 -30 4d60+16000 5d5+75
+500000 1000000
+8 8 1
+#9510
+hide sura~
+The hide sura~
+A hide sura is hiding in swamp.
+~
+he is hiding in swamp. how can you see him?
+~
+296 1048584 -999 S
+30 -5 -5 5d10+850 4d6+10
+5000 100000
+8 8 1
+#9511
+sand sura~
+The sand sura~
+A hide sand sura is trying to hide in sand.
+~
+~
+296 1048584 -999 S
+30 -5 -5 5d10+850 4d6+10
+5000 100000
+8 8 1
+#9512
+gatekeeper~
+The first Gatekeeper~
+A sharp first Gatekeeper is guarding the gate.
+~
+~
+42 136 -999 S
+35 -10 -10 1d100+1000 4d6+20
+50000 250000
+8 8 1
+#9513
+gatekeeper~
+The second Gatekeeper~
+A sharp second Gatekeeper is guarding the gate.
+~
+~
+42 136 -999 S
+35 -10 -10 1d100+1000 4d6+20
+50000 250000
+8 8 1
+#9514
+gatekeeper~
+The third Gatekeeper~
+A sharp third Gatekeeper is guarding the gate.
+~
+~
+42 136 -999 S
+35 -10 -10 1d100+1000 4d6+20
+50000 250000
+8 8 1
+#9515
+gatekeeper~
+The fourth Gatekeeper~
+A sharp fourth Gatekeeper is guarding the gate.
+~
+~
+42 136 -999 S
+35 -10 -10 1d100+1000 4d6+20
+50000 250000
+8 8 1
+#9516
+micro quadruplets quadruplet~
+Micro~
+Micro, fourth quadruplets, stands here dancing with his micro sword.
+~
+He is fourth brother of quadruplets of Geron. He is using very sharp micro sword. 
+~
+42 136 -999 S
+31 -5 -11 2d100+2500 4d5+30
+50000 310000
+8 8 1
+#9517
+mili quadruplets quadruplet~
+Mili~
+Mili, third quadruplets, stands here breakdancing with his mili sword.
+~
+He is third brother of quadruplets of Geron. He is using his mili sword.
+~
+42 136 -999 S
+32 -7 -12 50d4+2700 4d6+31
+60000 320000
+8 8 1
+#9518
+mega quadruplets quadruplet~
+Mega~
+Mega, second quadruplets, stands here dancing with his mega sword.
+~
+He is second brother of quadruplets of Geron. He is using his great mega sword.
+~
+42 136 -999 S
+32 -8 -12 50d4+2800 5d5+32
+70000 330000
+8 8 1
+#9519
+giga quadruplets quadruplet~
+Giga~
+Giga, first quadruplets, stands here dancing with his Giga sword.
+~
+He is first brother of quadruplets of Geron. He is using his Huge Giga sword.
+~
+42 136 -999 S
+32 -10 -13 50d5+3000 5d5+34
+80000 340000
+8 8 1
+#9520
+rainbow sura~
+The rainbow Sura~
+A Rainbow Sura trains here surrounded by Rainbow.
+~
+He is surrounded by beautiful rainbow.
+~
+42 136 -999 S
+42 -12 -12 50d5+3000 5d5+35
+100000 300000
+8 8 1
+#9521
+month sura~
+The Month Sura~
+A Month Sura trains here with his birth stone.
+~
+He is decorated with birth stone of his month.
+~
+42 136 -999 S
+43 -13 -15 50d5+3500 5d5+40
+200000 300000
+8 8 1
+#9522
+learned sura~
+The learned sura~
+A learned sura trains here.
+~
+He looks very tough and learned. Don't look him..he will attack you.
+~
+298 136 -999 S
+43 -10 -12 2d100+1500 5d5+50
+300000 400000
+8 8 1
+#9523
+master sura~
+The master sura~
+A master sura rests here.
+~
+He is trainer of suras. he is training to become najang.
+~
+298 136 -999 S
+44 -11 -13 2d100+1800 5d5+60
+400000 500000
+8 8 1
+#9524
+sura knight~
+The Sura knight~
+A Sura knight stands here.
+~
+He is guarding Gaiot. you can see his big muscle.
+~
+4138 136 -999 S
+44 -12 -18 2d100+2000 5d5+75
+100000 500000
+8 8 1
+#9525
+gaiot ruler najang~
+The Gaiot~
+Gaiot, The Ruller of DeathKingdom, sits on his comfortable throne.
+~
+He is surrounded by evil sal-ki. you can't balance your body.he seems extremely tough. he is first najang.
+~
+298 2184 -999 S
+45 -19 -25 10d100+12000 5d5+95
+1000000 1200000
+8 8 1
+#9526
+hyobik najang~
+Hyobik~
+Hyobik,THe second najang, sits on his comfortable throne.
+~
+He is Laiger's brother. He is weaker than Laiger. though he is very tough.
+~
+298 136 -999 S
+45 -18 -24 100d10+9000 5d5+70
+500000 1000000
+8 8 1
+#9527
+geron najang~
+Geron~
+Geron,The third najang, sits on his uncomfortable throne.
+~
+He is third najang. baborer shaves him now. 
+~
+1048874 136 -999 S
+44 -17 -23 100d10+8000 5d5+50
+300000 500000
+8 8 1
+#9528
+barborer~
+Barborer~
+Barborer is shaving Geron here.
+~
+He is shaving Geron with acurate effort.
+~
+524330 136 -999 S
+43 -10 -15 50d2+4000 4d4+20
+10000 400000
+8 8 1
+#9529
+brop~
+Brop~
+Brop,The fourth najang, sits on his uncomfortable throne.
+~
+He is fourth najang. He has very Good and Tough children.
+~
+298 136 -999 S
+44 -15 -22 100d10+7000 5d5+35
+100000 300000
+8 8 1
+#9530
+son adle first~
+The Brop's First Son~
+Adle,The first son of Brop, stands here.
+~
+He is first son of Brop. He admires his father Brop
+~
+42 136 -999 S
+33 0 -10 2d100+3000 3d5+10
+50000 200000
+8 8 1
+#9531
+son adle second~
+The Brop's Second Son~
+Adle,The second son of Brop, stands here.
+~
+~
+42 136 -999 S
+32 0 -7 2d100+3000 3d5+10
+40000 200000
+8 8 1
+#9532
+ddal daughter~
+The Brop's Daughter~
+Ddal,daughter of Brop, stands here.
+~
+She seems beautiful, but ugly really.
+~
+42 136 -999 S
+30 0 -5 2d100+2000 3d4+5
+30000 200000
+8 8 2
+#9533
+first class sura~
+The First Class Sura~
+A First Class Sura is training here with woman.
+~
+He is tough tough tough guy.
+~
+360 8 -999 S
+31 -3 -5 5d10+1000 4d6+20
+15000 150000
+8 8 1
+#9534
+maid sura~
+The Maid Sura~
+A Maid Sura is decorating herself with eager.
+~
+She is very beautiful. She is very charming.
+~
+522 33556608 -999 S
+34 -13 -10 4d60+4000 5d5+50
+50000 200000
+8 8 2
+#9535
+lady sura~
+The Lady Sura~
+A Lady Sura is trying to make you fall in love with her.
+~
+She is more beautiful than Maid Sura.
+~
+522 33556608 -999 S
+40 -15 -15 4d60+5000 5d5+60
+100000 300000
+8 8 2
+#9536
+trainer sura~
+The Trainer Sura~
+A Trainer Sura is training sura candidate here.
+~
+~
+42 136 -999 S
+35 -5 -10 2d100+1200 5d5+30
+100000 300000
+8 8 1
+#9537
+grand gatekeeper~
+The Grand Gatekeeper~
+A Grand Gatekeeper is guarding the gate.
+~
+He is best gatekeeper. Grand Gatekeeper he is. he is selected from many first class sura. 
+~
+42 136 -999 S
+38 -5 -10 2d100+1200 5d5+30
+10000 190000
+8 8 1
+#9538
+dragon platinum~
+The platinum dragon~
+An large platinum dragon frowns at you. You feel terrified suddenly.
+~
+He looks lonely.
+~
+8234 136 0 S
+40 -7 -13 8d80+4500 8d8+44
+500 800000
+8 8 1
+#9542
+red rainbow sura~
+Red rainbow Sura~
+A Red rainbow Sura trains here surrounded by red aura.
+~
+He is surrounded by beautiful red aura.
+~
+42 136 1000 S
+42 -12 -12 50d5+3000 5d5+35
+100000 300000
+8 8 1
+#9543
+orange rainbow sura~
+Orange rainbow Sura~
+A Orange rainbow Sura trains here surrounded by orange aura.
+~
+He is surrounded by beautiful orange aura.
+~
+42 136 1000 S
+42 -12 -12 50d5+3000 5d5+35
+100000 300000
+8 8 1
+#9544
+yellow rainbow sura~
+Yellow rainbow Sura~
+A Yellow rainbow Sura trains here surrounded by yellow aura.
+~
+He is surrounded by beautiful yellow aura.
+~
+42 136 1000 S
+42 -12 -12 50d5+3000 5d5+35
+100000 300000
+8 8 1
+#9545
+green rainbow sura~
+Green rainbow Sura~
+A Green rainbow Sura trains here surrounded by green aura.
+~
+He is surrounded by beautiful green aura.
+~
+42 136 1000 S
+42 -12 -12 50d5+3000 5d5+35
+100000 300000
+8 8 1
+#9546
+blue rainbow sura~
+Blue rainbow Sura~
+A Blue rainbow Sura trains here surrounded by blue aura.
+~
+He is surrounded by beautiful blue aura.
+~
+42 136 1000 S
+42 -12 -12 50d5+3000 5d5+35
+100000 300000
+8 8 1
+#9548
+violet rainbow sura~
+Violet rainbow Sura~
+A violet rainbow Sura trains here surrounded by violet aura.
+~
+He is surrounded by beautiful violet aura.
+~
+42 136 1000 S
+42 -12 -12 50d5+3000 5d5+35
+100000 300000
+8 8 1
+#9550
+january month sura~
+January month Sura~
+A January month Sura trains here with his amethyst stone.
+~
+He is decorated with amethyst stone.
+~
+42 136 1000 S
+43 -15 -15 50d5+3500 5d5+40
+200000 300000
+8 8 1
+#9551
+february month sura~
+February month Sura~
+A February month Sura trains here with his bloodstone.
+~
+He is decorated with bloodstone.
+~
+42 136 1000 S
+43 -15 -15 50d5+3500 5d5+40
+200000 300000
+8 8 1
+#9552
+march month sura~
+March month Sura~
+A March month Sura trains here with his birth stone.
+~
+He is decorated with birth stone of his month.
+~
+42 136 1000 S
+43 -15 -15 50d5+3500 5d5+40
+200000 300000
+8 8 1
+#9553
+april month sura~
+April month Sura~
+A April month Sura trains here with his birth stone.
+~
+He is decorated with birth stone of his month.
+~
+42 136 1000 S
+43 -15 -15 50d5+3500 5d5+40
+200000 300000
+8 8 1
+#9554
+may month sura~
+May month Sura~
+A May month Sura trains here with his birth stone.
+~
+He is decorated with birth stone of his month.
+~
+42 136 1000 S
+43 -15 -15 50d5+3500 5d5+40
+200000 300000
+8 8 1
+#9555
+june month sura~
+June month Sura~
+A June month Sura trains here with his birth stone.
+~
+He is decorated with birth stone of his month.
+~
+42 136 1000 S
+43 -15 -15 50d5+3500 5d5+40
+200000 300000
+8 8 1
+#9556
+july month sura~
+July month Sura~
+A July month Sura trains here with his birth stone.
+~
+He is decorated with birth stone of his month.
+~
+42 136 1000 S
+43 -15 -15 50d5+3500 5d5+40
+200000 300000
+8 8 1
+#9558
+september month sura~
+September month Sura~
+A September month Sura trains here with his birth stone.
+~
+He is decorated with birth stone of his month.
+~
+42 136 1000 S
+43 -15 -15 50d5+3500 5d5+40
+200000 300000
+8 8 1
+#9559
+october month sura~
+October month Sura~
+A October month Sura trains here with his birth stone.
+~
+He is decorated with birth stone of his month.
+~
+42 136 1000 S
+43 -15 -15 50d5+3500 5d5+40
+200000 300000
+8 8 1
+#9561
+december month sura~
+December month Sura~
+A December month Sura trains here with his birth stone.
+~
+He is decorated with birth stone of his month.
+~
+42 136 1000 S
+43 -15 -15 50d5+3500 5d5+40
+200000 300000
+8 8 1
+#9562
+yuria~
+Yuria~
+Yuria is in Laiger's arm.
+~
+She is beauty itself. she looks very happy. You can guess that reason.
+she loves Laiger!
+~
+524302 136 1000 S
+40 -15 -25 10d5+14000 5d5+30
+100 700000
+8 8 2
+#9563
+horse black king~
+Black King~
+Horse named Black King is beside Gaiot.
+~
+This horse has dark black skin. it is much bigger than general horse.
+This horse has twin brother. It belongs to Laow.
+~
+558 33556616 1000 S
+43 -13 -19 10d5+9000 5d5+60
+100000 1000000
+8 8 1
+#9564
+master sura~
+The master sura~
+A master sura rests here.
+~
+He is trainer of suras. he is training to become najang.
+~
+298 136 1000 S
+44 -11 -13 2d100+1800 5d5+60
+400000 500000
+8 8 1
+#99999
+
+#OBJECTS
+#9501
+key gatekey~
+a gatekey~
+A huge gate key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9502
+key plaza~
+a plaza key~
+A plaza key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9503
+key huge third~
+a huge Brop key for third castle~
+a huge Brop key for third castle is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9504
+key fourth~
+a fourth castle key~
+A fourth castle key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9505
+key gatekey~
+a gatekey~
+A gate key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9506
+key second castle~
+a second castle key~
+a second castle key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9507
+key first castle~
+a first castle key~
+a first castle key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9508
+belt lss sword~
+a Lss belt sword~
+A Dragon and Lss marked flexible Belt sword is crying here.~
+slash~
+5 4097 10241
+0 5 5 3
+5 800000 34 0
+E
+lss belt sword~
+It is very flexible so you can wear it. Dragon mark is carved on it.
+It seems that LSS is name of maker.
+~
+A
+18 3
+A
+19 3
+#9509
+dragon slayer~
+A Dragon slayer~
+A Dragon slayer is here.~
+slash~
+5 4161 8193
+6 4 6 3
+30 800000 28 0
+A
+17 -10
+A
+19 2
+#9510
+sword honour~
+a Sword of Honour~
+A Sword of Honour is welded on very heavy stone.~
+slash~
+5 4097 8193
+0 4 5 3
+10 300000 21 0
+A
+17 -5
+A
+19 3
+#9511
+helmet gaiot~
+The Gaiot's Helmet~
+A Gaiot's Helmet is here.~
+~
+9 4162 17
+9 0 0 0
+12 700000 33 0
+A
+31 10
+A
+18 2
+#9512
+cloak shadow gaiot~
+Gaiot's evil shadow~
+evil shadow is following Gaiot.~
+~
+9 4161 1025
+10 0 0 0
+5 700000 34 0
+A
+18 1
+A
+19 1
+#9513
+boots gaiot~
+a Gaiot's leather boots~
+leather boots is here.~
+~
+9 4161 65
+10 0 0 0
+20 800000 27 0
+A
+2 3
+A
+18 3
+#9514
+gloves hyobik~
+a Hyobik gloves~
+A hyobik's gloves is here.~
+~
+9 4097 129
+10 0 0 0
+2 500000 26 0
+#9515
+black death plates~
+A Black death plates~
+A Black plates is here.~
+~
+9 4097 131073
+5 0 0 0
+1 400000 24 0
+A
+19 2
+#9516
+club hexagonal~
+a hexagonal club~
+A large steel hexagonal club is here.~
+pound~
+5 0 8193
+1 2 8 7
+20 1000 10 0
+#9517
+cap~
+a captain's cap~
+A captain's cap is here.~
+~
+9 4096 17
+6 0 0 0
+3 300000 17 0
+A
+19 1
+A
+17 -2
+#9518
+sword yuseong~
+Yuseong sword~
+A Yuseong sword is fallen from sky.~
+pound~
+5 4161 8193
+3 4 5 3
+8 200000 5 1
+A
+18 2
+A
+19 2
+#9519
+laiger leggings~
+A Laiger's leggings~
+A black leather leggings which were worn by Laiger is here.~
+~
+9 4096 33
+12 0 0 0
+5 1300000 26 0
+#9520
+ring yuria yuriaring~
+a ring of Yuria~
+A undecorated ring is lying here.~~
+~
+9 4097 3
+0 0 0 0
+2 500000 25 0
+A
+17 -12
+#9521
+scale knee band~
+a dragon scale knee band~
+A mysterious scale knee band is in dirt.~
+~
+9 4224 65537
+7 0 0 0
+4 250000 22 0
+#9522
+shield holy cross~
+a Holy cross shield~
+a Holy cross shield is lying here.~
+~
+9 4096 513
+13 0 0 0
+1 180000 23 0
+A
+24 -5
+A
+23 -5
+#9523
+kabot chainmail~
+a black chainmail kabot~
+a black chainmail kabot leans against wall.~
+~
+9 4097 9
+9 0 0 0
+30 200000 18 0
+A
+17 -3
+A
+19 2
+#9524
+razor~
+a razor~
+a razor is here.~
+pierce~
+5 4096 8193
+0 4 5 11
+10 100000 21 0
+#9525
+giga light~
+a giga light~
+a light made by giga glows brightly.~
+~
+1 4193 16385
+0 0 -1 0
+50 120000 19 0
+A
+19 2
+A
+17 -3
+#9526
+mega bracelet~
+a mega bracelet~
+a bracelet made by mega is crying here.~
+~
+9 4194 4097
+3 0 0 0
+10 140000 14 0
+A
+5 2
+A
+18 3
+#9527
+mili stone~
+a mili stone~
+a stone made by mili is in silence.~
+~
+8 4192 16385
+0 0 0 0
+10 130000 13 0
+A
+18 1
+A
+19 1
+#9528
+micro ring microring~
+a micro ring~
+a ring made by micro is making you crazy.~
+~
+9 4195 3
+0 0 0 0
+1 100000 0 0
+A
+17 -9
+A
+19 1
+#9529
+adamantite shoes~
+a adamantite horse shoes~
+a adamantite horse shoes is lying here.~
+~
+9 102400 65
+5 0 0 0
+10 1000000 29 0
+A
+12 10
+A
+19 3
+#9530
+pathetic tear of death~
+A Pathetic tear of Death~
+a pathetic tear of death is lying here.~
+~
+1 8385 1
+10 0 -1 0
+380 2000000 35 0
+A
+31 10
+A
+17 -12
+#9600
+key redkey~
+a redkey~
+a red key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9601
+key orangekey~
+a orangekey~
+a orange key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9602
+key yellowkey~
+a yellowkey~
+a yellow key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9603
+key greenkey~
+a greenkey~
+a green key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9604
+key bluekey~
+a bluekey~
+a blue key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9605
+key indigokey~
+a indigokey~
+a indigo key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9606
+key violetkey~
+a violetkey~
+a violet key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9611
+key garnet~
+a garnet key~
+a garnet key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9612
+key amethyst~
+a amethyst key~
+a amethyst key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9613
+key bloodstone~
+a bloodstone key~
+a bloodstone key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9614
+key diamond~
+a diamond key~
+a diamond key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9615
+key emerald~
+a emerald key~
+a emerald key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9616
+key pearl~
+a pearl key~
+a pearl key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9617
+key ruby~
+a ruby key~
+a ruby key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9618
+key sardonyx~
+a sardonyx key~
+a sardonyx key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9619
+key sapphire~
+a sapphire key~
+a sapphire key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9620
+key opal~
+a opal key~
+a opal key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9621
+key topaz~
+a topaz key~
+a topaz key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9622
+key turquoise~
+a turquoise key~
+a turquoise key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#9623
+key small~
+small key~
+small hyobik key is lying here.~
+~
+18 0 1
+0 0 0 0
+1 1 10 0
+#99999
+
+#ROOMS
+#9500
+Ocean to kingdom~
+  you see very large ocean.  you can notice there is noise in west.
+~
+95 4102 1
+D1
+~
+~
+0 0 18301
+D3
+~
+~
+0 -1 9501
+S
+#9501
+Ocean to kingdom~
+  you see very large ocean.  you can notice there is noise in west.
+~
+95 4098 1
+D3
+~
+~
+0 -1 9502
+S
+#9502
+Ocean to kingdom~
+  you see very large ocean.  you gasped when you found there are many pirates in west.
+~
+95 4098 1
+D1
+~
+~
+0 -1 9501
+D3
+~
+~
+0 -1 9503
+S
+#9503
+Ocean~
+  There is very large ocean.  you feel thick whiskey smell. 
+ There are many pirates.  Be Careful.
+~
+95 4098 2
+D0
+~
+~
+0 -1 9521
+D1
+~
+~
+0 -1 9502
+D2
+~
+~
+0 -1 9504
+D3
+~
+~
+0 -1 9518
+S
+#9504
+Ocean~
+  There is very large ocean.  you feel thick whiskey smell. 
+ There are many pirates.  Be Careful.
+~
+95 4098 2
+D0
+~
+~
+0 -1 9503
+D2
+~
+~
+0 -1 9505
+D3
+~
+~
+0 -1 9516
+S
+#9505
+Small path to third castle~
+  There are many trees around you. this path is too small you to go through. 
+but you can. 
+~
+95 4098 1
+D0
+~
+~
+0 -1 9504
+D2
+~
+~
+0 -1 9506
+S
+#9506
+Small path to third castle~
+  There are many trees around you. this path is too small you to go through. 
+but you can. 
+~
+95 4098 1
+D0
+~
+~
+0 -1 9505
+D2
+~
+~
+0 -1 9507
+S
+#9507
+Small path to third castle~
+  There are many trees around you. this path is too small you to go through. 
+but you can. 
+~
+95 4098 1
+D0
+~
+~
+0 -1 9506
+D3
+~
+~
+0 -1 9508
+S
+#9508
+Small path to third castle~
+  There are many trees around you. this path is too small you to go through. 
+but you can. 
+~
+95 4098 1
+D1
+~
+~
+0 -1 9507
+D3
+~
+~
+0 -1 9509
+S
+#9509
+Small path to third castle~
+  There are many trees around you. this path is too small you to go through. 
+but you can. 
+~
+95 4098 1
+D1
+~
+~
+0 -1 9508
+D3
+~
+~
+0 -1 9510
+S
+#9510
+Northeast small plaza~
+  There are many weapons and skulls. it seems that there are many fights.
+you can see blood in the ground. there are four people in this plaza.
+they are alike each other. they are four twins. Flee!!!
+you can see small door in west and gate in south.
+~
+95 4098 1
+D1
+~
+~
+0 -1 9509
+D2
+~
+gate~
+2 9502 9511
+D3
+~
+door~
+2 9502 9515
+S
+#9511
+Southeast small plaza~
+  There are many weapons and skulls. it seems that there are many fights.
+you can see blood in the ground. there are four people in this plaza.
+they are alike each other. they are four twins. Flee!!!
+~
+95 4098 1
+D0
+~
+gate~
+2 9502 9510
+D3
+~
+~
+0 -1 9512
+S
+#9512
+Gate of third castle~
+  You can see Great gate in south.
+there are many weapons and skulls. it seems that there are many fights.
+you can see blood in the ground. 
+~
+95 4098 1
+D0
+~
+~
+0 -1 9515
+D1
+~
+~
+0 -1 9511
+D2
+~
+brop~
+2 9503 9527
+D3
+~
+~
+0 -1 9513
+S
+#9513
+Southwest small plaza~
+  There are many weapons and skulls. it seems that there are many fights.
+you can see blood in the ground. there are four people in this plaza.
+they are alike each other. they are four twins. Flee!!!
+~
+95 4098 1
+D0
+~
+~
+0 -1 9514
+D1
+~
+~
+0 -1 9512
+S
+#9514
+Northwest small plaza~
+  There are many weapons and skulls. it seems that there are many fights.
+you can see blood in the ground. there are four people in this plaza.
+they are alike each other. they are four twins. Flee!!!
+~
+95 4098 1
+D1
+~
+~
+0 -1 9515
+D2
+~
+~
+0 -1 9513
+S
+#9515
+Shelter of Small plaza~
+  There are many weapons and skulls. it seems that there are many fights.
+you can see blood in the ground. you can see flashing light and hear ear
+splitting bonecrashing sound near. you feel here is safe room.
+~
+95 4102 1
+D0
+~
+~
+0 -1 9528
+D1
+~
+door~
+2 9502 9510
+D2
+~
+~
+0 -1 9512
+D3
+~
+~
+0 -1 9514
+S
+#9516
+Southern Ocean~
+  There is very large ocean.  you smell thick whiskey smell.
+There are many pirates.  Be Careful.
+~
+95 4098 2
+D0
+~
+~
+0 -1 9518
+D1
+~
+~
+0 -1 9504
+D3
+~
+~
+0 -1 9517
+S
+#9517
+Southwest Ocean~
+  There is very large ocean.  you smell thick whiskey smell.
+There are many pirates.  Be Careful.
+~
+95 4098 2
+D0
+~
+~
+0 -1 9520
+D1
+~
+~
+0 -1 9516
+S
+#9518
+Mid Ocean~
+  There is very large ocean.  you smell thick whiskey smell.
+There are many pirates.  Be Careful.
+~
+95 4098 2
+D0
+~
+~
+0 -1 9519
+D1
+~
+~
+0 -1 9503
+D2
+~
+~
+0 -1 9516
+D3
+~
+~
+0 -1 9520
+S
+#9519
+Northern Ocean~
+  There is very large ocean.  you smell thick whiskey smell.
+There are many pirates.  Be Careful.
+~
+95 4098 2
+D1
+~
+~
+0 -1 9521
+D2
+~
+~
+0 -1 9518
+S
+#9520
+Western Ocean~
+  You can see the large gate of DeathKingdom in west.
+there is beautiful see shore.  you smell thick whiskey smell.
+there are many pirates.  be careful.
+~
+95 4098 2
+D1
+~
+~
+0 -1 9518
+D2
+~
+~
+0 -1 9517
+D3
+~
+~
+0 -1 9532
+S
+#9521
+Northeast Ocean~
+  There is very large white sea shore.  you smell thick whiskey smell.
+There are many pirates.  Be Careful.
+~
+95 4098 2
+D2
+~
+~
+0 -1 9503
+D3
+~
+~
+0 -1 9519
+S
+#9522
+Broad path from fourth castle.~
+  It seems to be path to next castle. There are many Suras. they are ready
+to fight with anyone. many trees grow near broad path.
+~
+95 4098 2
+D2
+~
+~
+0 -1 9521
+S
+#9523
+Broad path from fourth castle.~
+  It seems to be path to next castle. There are many Suras. they are ready
+to fight with anyone. many trees grow near broad path.
+~
+95 4098 2
+D2
+~
+~
+0 -1 9522
+S
+#9524
+Broad path from fourth castle.~
+  It seems to be path to next castle. There are many Suras. they are ready
+to fight with anyone. many trees grow near broad path.
+~
+95 4098 2
+D2
+~
+~
+0 -1 9523
+S
+#9525
+Broad path from fourth castle.~
+  It seems to be path to next castle. There are many Suras. they are ready
+to fight with anyone. many trees grow near broad path.
+~
+95 4098 2
+D2
+~
+~
+0 -1 9524
+S
+#9526
+Great gate of fourth castle.~
+  There is Great gate in east. it makes you more small.  there is skillful
+Gatekeeper who seems to very powerful.  many corpses and blood is all over
+the ground broad path lies in south. It seems to be path to next castle. 
+~
+95 4098 2
+D1
+~
+gate~
+2 9504 9544
+D2
+~
+~
+0 -1 9525
+D3
+~
+~
+0 -1 9543
+S
+#9527
+Hall of Geron~
+You can see Geron and Barborer. Barborer shaves Geron with eager. Barborer
+seems to seek a tick when he can kill Geron. Barborer pocarisweats. 
+~
+95 4106 1
+D0
+~
+brop~
+2 9503 9512
+S
+#9528
+Short Way~
+  This way is very short.  this way links main stage and third castle. 
+you hear death cry around you.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9529
+D2
+~
+~
+0 -1 9515
+S
+#9529
+Short Way~
+  This way is very short.  this way links main stage and third castle.
+you hear death cry around you.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9530
+D2
+~
+~
+0 -1 9528
+S
+#9530
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9531
+D1
+~
+~
+0 -1 9555
+D2
+~
+~
+0 -1 9529
+D3
+~
+~
+0 -1 9545
+S
+#9531
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9533
+D1
+~
+gate~
+2 9501 9532
+D2
+~
+~
+0 -1 9530
+D3
+~
+~
+0 -1 9546
+S
+#9532
+Entrance of DeathKingdom~
+  There is ancient legend that a lonely fighter will come this kingdom.
+when he come there are peace and happiness. his name is Laow. Only he can
+defeat Gaiot and bring peace and freedom to inhabitant of this kingdom.
+Where is Laow?.....  Are you Laow? If you are not Laow, return to your home.
+it is told that Gaiot is brother of Laow...
+Here is 4 najangs. Their names are Gaiot, Hyobik, Geron and Brop. 
+there is only death in this kingdom. why do you wanna go this kingdom?
+Path goes to west.
+~
+95 4098 1
+D1
+~
+~
+0 -1 9520
+D3
+~
+gate~
+2 9501 9531
+S
+#9533
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9534
+D1
+~
+~
+0 -1 9557
+D2
+~
+~
+0 -1 9531
+D3
+~
+~
+0 -1 9547
+S
+#9534
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9535
+D1
+~
+~
+0 -1 9558
+D2
+~
+~
+0 -1 9533
+D3
+~
+~
+0 -1 9548
+S
+#9535
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9536
+D1
+~
+~
+0 -1 9559
+D2
+~
+~
+0 -1 9534
+D3
+~
+~
+0 -1 9549
+S
+#9536
+Minor Plaza~
+  This plaza is small. there are a few people in this plaza.  Sura candidates
+train very hard.  you hear very big shout.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9537
+D1
+~
+~
+0 -1 9539
+D2
+~
+~
+0 -1 9535
+S
+#9537
+Minor Plaza~
+  This plaza is small. there are a few people in this plaza.  Sura candidates 
+train very hard.  you hear very big shout.
+~
+95 4098 1
+D1
+~
+~
+0 -1 9538
+D2
+~
+~
+0 -1 9536
+S
+#9538
+Minor Plaza~
+  This plaza is small. there are a few people in this plaza.  Sura candidates 
+train very hard.  you hear very big shout.
+~
+95 4098 1
+D1
+~
+~
+0 -1 9541
+D2
+~
+~
+0 -1 9539
+D3
+~
+~
+0 -1 9537
+S
+#9539
+Minor Plaza~
+  This plaza is small. there are a few people in this plaza.  Sura candidates
+train very hard.  you hear very big shout.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9538
+D1
+~
+~
+0 -1 9540
+D3
+~
+~
+0 -1 9536
+S
+#9540
+Minor Plaza~
+  This plaza is small. there are a few people in this plaza.  Sura candidates 
+train very hard.  you hear very big shout.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9541
+D3
+~
+~
+0 -1 9539
+S
+#9541
+Minor Plaza~
+  This plaza is small. there are a few people in this plaza.  Sura candidates 
+train very hard.  you hear very big shout.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9542
+D2
+~
+~
+0 -1 9540
+D3
+~
+~
+0 -1 9538
+S
+#9542
+Bend~
+  You can see very big castle in east.
+~
+95 4098 1
+D1
+~
+~
+0 -1 9543
+D2
+~
+~
+0 -1 9541
+S
+#9543
+T-clossing~
+  There is big castle in east.  there is northern path in north.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9578
+D1
+~
+~
+0 -1 9526
+D3
+~
+~
+0 -1 9542
+S
+#9544
+Inside castle~
+  You are inside castle. you can see many horses and smith in this castle.
+you found stair to fourth najang upward.
+~
+95 4106 1
+D3
+~
+gate~
+2 9504 9526
+D4
+~
+~
+0 -1 9600
+S
+#9545
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken 
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9546
+D1
+~
+~
+0 -1 9530
+D2
+~
+~
+0 -1 9549
+D3
+~
+~
+0 -1 9554
+S
+#9546
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9547
+D1
+~
+~
+0 -1 9531
+D2
+~
+~
+0 -1 9545
+D3
+~
+~
+0 -1 9553
+S
+#9547
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9548
+D1
+~
+~
+0 -1 9533
+D2
+~
+~
+0 -1 9546
+D3
+~
+~
+0 -1 9552
+S
+#9548
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9549
+D1
+~
+~
+0 -1 9534
+D2
+~
+~
+0 -1 9547
+D3
+~
+~
+0 -1 9551
+S
+#9549
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9545
+D1
+~
+~
+0 -1 9535
+D2
+~
+~
+0 -1 9548
+D3
+~
+~
+0 -1 9550
+S
+#9550
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9560
+D1
+~
+~
+0 -1 9549
+D2
+~
+~
+0 -1 9551
+D3
+~
+~
+0 -1 9559
+S
+#9551
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9550
+D1
+~
+~
+0 -1 9548
+D2
+~
+~
+0 -1 9552
+D3
+~
+~
+0 -1 9558
+S
+#9552
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9551
+D1
+~
+~
+0 -1 9547
+D2
+~
+~
+0 -1 9553
+D3
+~
+~
+0 -1 9557
+S
+#9553
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9552
+D1
+~
+~
+0 -1 9546
+D2
+~
+~
+0 -1 9554
+D3
+~
+~
+0 -1 9556
+S
+#9554
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9553
+D1
+~
+~
+0 -1 9545
+D2
+~
+~
+0 -1 9550
+D3
+~
+~
+0 -1 9555
+S
+#9555
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9556
+D1
+~
+~
+0 -1 9554
+D2
+~
+~
+0 -1 9566
+D3
+~
+~
+0 -1 9530
+S
+#9556
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9557
+D1
+~
+~
+0 -1 9553
+D2
+~
+~
+0 -1 9555
+D3
+~
+~
+0 -1 9531
+S
+#9557
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9556
+D1
+~
+~
+0 -1 9552
+D2
+~
+~
+0 -1 9556
+D3
+~
+~
+0 -1 9533
+S
+#9558
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9559
+D1
+~
+~
+0 -1 9551
+D2
+~
+~
+0 -1 9557
+D3
+~
+~
+0 -1 9534
+S
+#9559
+Main Stage~
+  Here is very large stage.
+many Suras and Fighters train eagerly.  there are many corpses and broken
+weapons.  stage is red because of blood. there are too many suras.
+you are almost faint to death.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9555
+D1
+~
+~
+0 -1 9550
+D2
+~
+~
+0 -1 9558
+D3
+~
+~
+0 -1 9535
+S
+#9560
+Northern minor plaza~
+  This plaza is small. there are a few people in this plaza.  Sura candidates 
+train very hard.  you hear very big shout.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9561
+D2
+~
+~
+0 -1 9550
+D3
+~
+~
+0 -1 9565
+S
+#9561
+Northern minor plaza~
+  This plaza is small. there are a few people in this plaza.  Sura candidates 
+train very hard.  you hear very big shout.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9562
+D2
+~
+~
+0 -1 9560
+D3
+~
+~
+0 -1 9564
+S
+#9562
+Northern minor plaza~
+  This plaza is small. there are a few people in this plaza.  Sura candidates 
+train very hard.  you hear very big shout.
+~
+95 4098 1
+D2
+~
+~
+0 -1 9561
+D3
+~
+~
+0 -1 9563
+S
+#9563
+Northern minor plaza~
+  This plaza is small. there are a few people in this plaza.  Sura candidates 
+train very hard.  you hear very big shout.
+you can see very big castle in west.
+~
+95 4098 1
+D1
+~
+~
+0 -1 9562
+D2
+~
+~
+0 -1 9564
+D3
+~
+~
+0 -1 9585
+S
+#9564
+Northern minor plaza~
+  This plaza is small. there are a few people in this plaza.  Sura candidates 
+train very hard.  you hear very big shout.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9563
+D1
+~
+~
+0 -1 9561
+D2
+~
+~
+0 -1 9565
+S
+#9565
+Northern minor plaza~
+  This plaza is small. there are a few people in this plaza.  Sura candidates 
+train very hard.  you hear very big shout.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9564
+D1
+~
+~
+0 -1 9560
+S
+#9566
+Bend~
+  You can see a very large plaza in west.
+There are very many people in west. you think you had better not going to west.
+you feel much dangerous.  you wanna to recite recall. but you have something to
+do here.  Go through them.
+~
+95 4098 1
+D0
+~
+~
+0 -1 9555
+D3
+~
+~
+0 -1 9569
+S
+#9567
+SE Large plaza~
+  This plaza seems to special.
+this plaza is for first class suras. there are many women who serve
+first class suras.  this plaza is filled with evil sal-ki.  you hardly
+endure that sal-ki. 
+~
+95 4098 1
+D0
+~
+~
+0 -1 9568
+D3
+~
+~
+0 -1 9570
+S
+#9568
+Eastern Large plaza~
+  This plaza seems to special.
+this plaza is for first class suras. there are many women who serve
+first class suras.  this plaza is filled with evil sal-ki.  you hardly
+endure that sal-ki. 
+~
+95 4098 1
+D0
+~
+~
+0 -1 9569
+D2
+~
+~
+0 -1 9567
+D3
+~
+~
+0 -1 9571
+S
+#9569
+NE Large plaza~
+  This plaza seems to special.
+this plaza is for first class suras. there are many women who serve
+first class suras.  this plaza is filled with evil sal-ki.  you hardly
+endure that sal-ki. 
+~
+95 4098 1
+D1
+~
+~
+0 -1 9566
+D2
+~
+~
+0 -1 9568
+D3
+~
+~
+0 -1 9572
+S
+#9570
+Southern Large plaza~
+  This plaza seems to special.
+this plaza is for first class suras. there are many women who serve
+first class suras. this plaza is filled with evil sal-ki. you hardly
+endure that sal-ki. 
+~
+95 4098 1
+D0
+~
+~
+0 -1 9571
+D1
+~
+~
+0 -1 9567
+D2
+~
+~
+1 -1 9576
+D3
+~
+~
+0 -1 9575
+S
+#9571
+Mid Large plaza~
+  This plaza seems to special.
+this plaza is for first class suras. there are many women who serve
+first class suras. this plaza is filled with evil sal-ki. you hardly
+endure that sal-ki. 
+~
+95 4098 1
+D0
+~
+~
+0 -1 9572
+D1
+~
+~
+0 -1 9568
+D2
+~
+~
+0 -1 9570
+D3
+~
+~
+0 -1 9574
+S
+#9572
+Northern Large plaza~
+  This plaza seems to special.
+this plaza is for first class suras. there are many women who serve
+first class suras. this plaza is filled with evil sal-ki. you hardly
+endure that sal-ki. 
+~
+95 4098 1
+D1
+~
+~
+0 -1 9569
+D2
+~
+~
+0 -1 9571
+D3
+~
+~
+0 -1 9573
+S
+#9573
+NW Large plaza~
+  This plaza seems to special.
+this plaza is for first class suras. there are many women who serve
+first class suras. this plaza is filled with evil sal-ki. you hardly endure
+that sal-ki. you can see the Greatest castle in west.
+~
+95 4098 1
+D1
+~
+~
+0 -1 9572
+D2
+~
+~
+0 -1 9574
+D3
+~
+~
+0 -1 9594
+S
+#9574
+Western Large plaza~
+  This plaza seems to special.
+this plaza is for first class suras. there are many women who serve
+first class suras. this plaza is filled with evil sal-ki. you hardly
+endure that sal-ki. 
+~
+95 4098 1
+D0
+~
+~
+0 -1 9573
+D1
+~
+~
+0 -1 9571
+D2
+~
+~
+0 -1 9575
+S
+#9575
+SW Large plaza~
+  This plaza seems to special.
+this plaza is for first class suras. there are many women who serve
+first class suras. this plaza is filled with evil sal-ki. you hardly
+endure that sal-ki. 
+~
+95 4098 1
+D0
+~
+~
+0 -1 9574
+D1
+~
+~
+0 -1 9570
+D3
+~
+~
+0 -1 9577
+S
+#9576
+Losers nest~
+  This is poor nest for losers.
+there are many losers who lost some of his body. they are gloomy.
+~
+95 4098 1
+D0
+~
+~
+1 -1 9570
+S
+#9577
+Room of 1st Sura~
+  There are many bottles of whiskey which 1st Sura drinks. this room is full
+of dirty smell. Sura seems to sleep. but don't wake him. he will kill you.
+~
+95 4098 1
+D1
+~
+~
+0 -1 9575
+S
+#9578
+Northern Road~
+  There are many swamps around road.  you feel there are Suras who hide in 
+Swamps.  this road is for second castle. don't die here. you can't get your 
+equip back.
+~
+95 4098 2
+D2
+~
+~
+0 -1 9543
+D3
+~
+~
+0 -1 9579
+S
+#9579
+Northern Road~
+  There are many swamps around road.  you feel there are Suras who hide in 
+Swamps.  this road is for second castle. don't die here. you can't get your 
+equip back.
+~
+95 4098 2
+D3
+~
+~
+0 -1 9580
+S
+#9580
+Northern Road~
+  There are many swamps around road.  you feel there are Suras who hide in 
+Swamps.  this road is for second castle. don't die here. you can't get your 
+equip back.
+~
+95 4098 2
+D3
+~
+~
+0 -1 9581
+S
+#9581
+Northern Road~
+  There are many swamps around road.  you feel there are Suras who hide in 
+Swamps.  this road is for second castle. don't die here. you can't get your 
+equip back.
+~
+95 4098 2
+D3
+~
+~
+0 -1 9582
+S
+#9582
+Northern Road~
+  There are many swamps around road.  you feel there are Suras who hide in 
+Swamps.  this road is for second castle. don't die here. you can't get your 
+equip back.
+~
+95 4098 2
+D3
+~
+~
+0 -1 9583
+S
+#9583
+Northern Road~
+  There are many swamps around road.  you feel there are Suras who hide in 
+Swamps.  this road is for second castle. don't die here. you can't get your 
+equip back.
+~
+95 4098 2
+D3
+~
+~
+0 -1 9584
+S
+#9584
+Northern Road~
+  There are many swamps around road.  you feel there are Suras who hide in 
+Swamps.  this road is for second castle. don't die here. you can't get your 
+equip back.
+~
+95 4098 2
+D2
+~
+~
+0 -1 9563
+D3
+~
+~
+0 -1 9597
+S
+#9585
+Great gate of second castle~
+  There is Great gate in west. you think you never open this gate.
+This gate is too big. there is tough Gatekeeper. watch out.
+~
+95 4098 1
+D1
+~
+~
+0 -1 9563
+D3
+~
+gate~
+2 9505 9586
+S
+#9586
+Inside of second castle~
+  You are standing inside castle. there are stair way to 2nd floor.
+you can notice that there are many people upstairs. Secret Western Road is
+lied in west. 
+~
+95 4106 1
+D1
+~
+gate~
+2 9505 9585
+D3
+~
+secret~
+1 9506 9587
+D4
+~
+geron~
+2 9506 9602
+S
+#9587
+Western Road~
+  There is very serious sand wind. this road is full of sand.
+skulls and broken weapons lie here. there must be wicked Suras.
+you can't return from now. fight to death.
+~
+95 4098 1
+D2
+~
+~
+0 -1 9588
+S
+#9588
+Western Road~
+  There is very serious sand wind. this road is full of sand.
+skulls and broken weapons lie here. there must be wicked Suras.
+you can't return from now. fight to death.
+~
+95 4098 1
+D2
+~
+~
+0 -1 9589
+S
+#9589
+Western Road~
+  There is very serious sand wind. this road is full of sand.
+skulls and broken weapons lie here. there must be wicked Suras.
+you can't return from now. fight to death.
+~
+95 4098 1
+D2
+~
+~
+0 -1 9590
+S
+#9590
+Western Road~
+  There is very serious sand wind. this road is full of sand.
+skulls and broken weapons lie here. there must be wicked Suras.
+you can't return from now. fight to death.
+~
+95 4098 1
+D2
+~
+~
+0 -1 9591
+S
+#9591
+Western Road~
+  There is very serious sand wind. this road is full of sand.
+skulls and broken weapons lie here. there must be wicked Suras.
+you can't return from now. fight to death.
+~
+95 4098 1
+D2
+~
+~
+0 -1 9592
+S
+#9592
+Western Road~
+  There is very serious sand wind. this road is full of sand.
+skulls and broken weapons lie here. there must be wicked Suras.
+you can't return from now. fight to death.
+~
+95 4098 1
+D2
+~
+~
+0 -1 9593
+S
+#9593
+Western Road~
+  There is very serious sand wind. this road is full of sand.
+skulls and broken weapons lie here. there must be wicked Suras.
+you can't return from now. fight to death.
+~
+95 4098 1
+D2
+~
+~
+0 -1 9594
+S
+#9594
+Last Junctions~
+  You can see the Greatest castle in west. Do decide your mind. 
+this is your last chance to live. you can't return if you enter this castle.
+Do what you wanna do........
+~
+95 4098 1
+D1
+~
+~
+0 -1 9573
+D3
+~
+~
+0 -1 9595
+S
+#9595
+The Greatest gate~
+  There is Greatest gate in west.  Gate..Gate..Gate...
+it can be Gate of your Death. Please return to your house...
+Good luck to you...
+~
+95 4098 1
+D1
+~
+~
+0 -1 9594
+D3
+~
+gate~
+2 9507 9610
+S
+#9597
+Great Cave~
+  you can't escape from here... hahahahaha....
+how about recall?...................................
+..........................................................
+.................................................................
+~
+95 4106 1
+S
+#9600
+Room~
+  You are inside room. there are too many expensive clothing, furniture,
+accesaries. you can see great shield on the wall. you can see very sharp
+grintting sword on the other side wall. you feel that there are some people
+who are very tough and skillful and good trained. they are sons and daughter
+of the fourth najang Brop.
+~
+95 4106 1
+D4
+~
+door~
+1 0 9601
+D5
+~
+~
+0 -1 9544
+S
+#9601
+Hall of Brop~
+  This hall is very large. you see there is Brop in far front of you. there is
+long carpet to Brop. it is too quiet.
+~
+95 4106 1
+D5
+~
+door~
+1 0 9600
+S
+#9602
+Stair way~
+  You can see very high and big Stair way above you. It seems the Stair way to
+Heaven(or Hell??). this stair way is spiral. there are many Suras near you.
+you think that the high you go up the more difficult to survive. stair way lies upward and downward.
+~
+95 4106 1
+D4
+~
+red~
+2 9600 9603
+D5
+~
+geron~
+2 9506 9586
+S
+#9603
+Stair way~
+  You can see very high and big Stair way above you. It seems the Stair way to
+Heaven(or Hell??). this stair way is spiral. there are many Suras near you.
+you think that the high you go up the more difficult to survive. stair way lies upward and downward.
+~
+95 4106 1
+D4
+~
+orange~
+2 9601 9604
+D5
+~
+red~
+2 9600 9602
+S
+#9604
+Stair way~
+  You can see very high and big Stair way above you. It seems the Stair way to
+Heaven(or Hell??). this stair way is spiral. there are many Suras near you.
+you think that the high you go up the more difficult to survive. stair way lies upward and downward.
+~
+95 4106 1
+D4
+~
+yellow~
+2 9602 9605
+D5
+~
+orange~
+2 9601 9603
+S
+#9605
+Stair way~
+  You can see very high and big Stair way above you. It seems the Stair way to
+Heaven(or Hell??). this stair way is spiral. there are many Suras near you.
+you think that the high you go up the more difficult to survive. stair way lies upward and downward.
+~
+95 4106 1
+D4
+~
+green~
+2 9603 9606
+D5
+~
+yellow~
+2 9602 9604
+S
+#9606
+Stair way~
+  You can see very high and big Stair way above you. It seems the Stair way to
+Heaven(or Hell??). this stair way is spiral. there are many Suras near you.
+you think that the high you go up the more difficult to survive. stair way lies upward and downward.
+~
+95 4106 1
+D4
+~
+blue~
+2 9604 9607
+D5
+~
+green~
+2 9603 9605
+S
+#9607
+Stair way~
+  You can see very high and big Stair way above you. It seems the Stair way to
+Heaven(or Hell??). this stair way is spiral. there are many Suras near you.
+you think that the high you go up the more difficult to survive. stair way lies upward and downward.
+~
+95 4106 1
+D4
+~
+indigo~
+2 9605 9608
+D5
+~
+blue~
+2 9604 9606
+S
+#9608
+Stair way~
+  You can see very high and big Stair way above you. It seems the Stair way to
+Heaven(or Hell??). this stair way is spiral. there are many Suras near you.
+you think that the high you go up the more difficult to survive. stair way lies upward and downward.
+~
+95 4106 1
+D4
+~
+violet~
+2 9606 9609
+D5
+~
+indigo~
+2 9605 9607
+S
+#9609
+Top of Second Castle~
+  You are in the top of second castle. top is shaped large round. the hinge of
+the top seems cliff. don't go far or you fall into bottom of castle.  
+You can see one person who sits with closing eyes. he looks like stone figure.
+~
+95 4106 1
+D5
+~
+violet~
+2 9606 9608
+S
+#9610
+January Hall~
+  You feel some cold. this hall is surrounded by Garnet. Ground of Hall is
+covered with thin snow. it is windy. only exit is up.
+~
+95 4106 1
+D4
+~
+february~
+2 9612 9611
+S
+#9611
+February Hall~
+  You feel some warm. this hall is surrounded by Amethyst. Ground of Hall is
+covered with thin snow. wind becomes milder. only exit is up.
+~
+95 4106 1
+D4
+~
+march~
+2 9613 9612
+S
+#9612
+March Hall~
+  You feel it becomes warmer. this hall is surrounded by Blood Stone. this
+hall is filled with flower perfume. warm breeze comes from somewhere.
+only exit is up.
+~
+95 4106 1
+D4
+~
+april~
+2 9614 9613
+S
+#9613
+April Hall~
+  You feel you are some sleepy. this hall is surrounded by Diamond.  Ground of
+Hall is filled with fragrant flowers. perfume of flowers...perfume..perfume..
+only exit is up. 
+~
+95 4106 1
+D4
+~
+may~
+2 9615 9614
+S
+#9614
+May Hall~
+  You feel it is warm. this hall is surrounded by Emerald. Ground of Hall is
+filled with many flowers. warm breeze make flowers wave. only exit is up.
+~
+95 4106 1
+D4
+~
+june~
+2 9616 9615
+S
+#9615
+June Hall~
+  You feel it becomes warmer and warmer. this hall is surrounded by Pearl.
+Ground of Hall is covered with beautiful flowers. only exit is up.
+~
+95 4106 1
+D4
+~
+july~
+2 9617 9616
+S
+#9616
+July Hall~
+  You feel it becomes hotter. this hall is surrounded by Ruby. hot wind
+make you breathless. only exits is up.
+~
+95 4106 1
+D4
+~
+august~
+2 9618 9617
+S
+#9617
+August Hall~
+  You feel it is very hot.  this hall is surrounded by Sardonyx. Ground of
+Hall is covered with sand. wind make you see hardly. only exit is up.
+~
+95 4106 1
+D4
+~
+september~
+2 9619 9618
+S
+#9618
+September Hall~
+  You feel hot wind becomes milder. this hall is surrounded by Sapphire.
+Ground of Hall is covered with many leaves. it is windy. only exit is up.
+~
+95 4106 1
+D4
+~
+october~
+2 9620 9619
+S
+#9619
+October Hall~
+  You feel it is some cool. this hall is surrounded by Opal. Ground of Hall
+is filled with many leaves. wind is cool. only exit is up.
+~
+95 4106 1
+D4
+~
+november~
+2 9621 9620
+S
+#9620
+November Hall~
+  You feel it becomes cold. this hall is surrounded by Topaz. snow is
+falling from sky. it is windy. only exit is up.
+~
+95 4106 1
+D4
+~
+december~
+2 9622 9621
+S
+#9621
+December Hall~
+  You feel it is very cold. cold wind make you shiver. this ahll is
+surrounded by Turquoise. snow is full in this room. only exit is up.
+~
+95 4106 1
+D4
+~
+hyobik~
+2 9623 9622
+S
+#9622
+Gaiot's Room~
+  You are sorrounded by evil sal-ki from Gaiot. you hardly balance your body.
+you think it is cold or hot... strange...
+You lost your concentration.
+~
+95 4106 1
+D4
+~
+january~
+2 9611 3001
+S
+#99999
+
+#RESET
+*
+D 0  9531   1     2    Main Stage
+D 0  9532   3     2    Entrance of DeathKingdom
+*
+D 0  9510   2     2    Northeast small plaza
+D 0  9511   0     2    Southeast small plaza
+D 0  9510   3     2    Northeast small plaza
+D 0  9515   1     2    Shelter of Small plaza
+*
+D 0  9527   0     2    Hall of Geron
+D 0  9512   2     2    Gate of third castle
+*
+D 0  9544   3     2    Inside castle
+D 0  9526   1     2    Great gate of fourth castle.
+*
+D 0  9585   3     2    Great gate of second castle
+D 0  9586   1     2    Inside of second castle
+*
+D 0  9586   3     2    Inside of second castle
+D 0  9586   4     2    Inside of second castle
+D 0  9602   5     2    Stair way
+*
+D 0  9595   3     2    The Greatest gate
+*
+D 0  9600   4     2    Room
+D 0  9601   5     2    Hall of Brop
+*
+D 0  9602   4     2    Stair way
+D 0  9603   5     2    Stair way
+*
+D 0  9603   4     2    Stair way
+D 0  9604   5     2    Stair way
+*
+D 0  9604   4     2    Stair way
+D 0  9605   5     2    Stair way
+*
+D 0  9605   4     2    Stair way
+D 0  9606   5     2    Stair way
+*
+D 0  9606   4     2    Stair way
+D 0  9607   5     2    Stair way
+*
+D 0  9607   4     2    Stair way
+D 0  9608   5     2    Stair way
+*
+D 0  9608   4     2    Stair way
+D 0  9609   5     2    Top of Second Castle
+*
+D 0  9610   4     2    January Hall
+*
+D 0  9611   4     2    February Hall
+*
+D 0  9612   4     2    March Hall
+*
+D 0  9613   4     2    April Hall
+*
+D 0  9614   4     2    May Hall
+*
+D 0  9615   4     2    June Hall
+*
+D 0  9616   4     2    July Hall
+*
+D 0  9617   4     2    August Hall
+*
+D 0  9618   4     2    September Hall
+*
+D 0  9619   4     2    October Hall
+*
+D 0  9620   4     2    November Hall
+*
+D 0  9621   4     2    December Hall
+*
+D 0  9622   4     2    Gaiot's Room
+*
+M 0  9537   1  9532   The Grand Gatekeeper (Entrance of DeathKingdom)
+E 1  9501   3    17     a gatekey
+M 0  9501  24  9577   The sura (Room of 1st Sura)
+E 1  9516  20    16     a hexagonal club
+M 0  9501  24  9577   The sura (Room of 1st Sura)
+M 0  9501  24  9530   The sura (Main Stage)
+E 1  9516  20    16     a hexagonal club
+M 0  9501  24  9531   The sura (Main Stage)
+M 0  9501  24  9533   The sura (Main Stage)
+E 1  9516  20    16     a hexagonal club
+M 0  9501  24  9534   The sura (Main Stage)
+M 0  9501  24  9535   The sura (Main Stage)
+M 0  9501  24  9545   The sura (Main Stage)
+E 1  9516  20    16     a hexagonal club
+M 0  9501  24  9546   The sura (Main Stage)
+M 0  9501  24  9547   The sura (Main Stage)
+M 0  9501  24  9548   The sura (Main Stage)
+E 1  9516  20    16     a hexagonal club
+M 0  9501  24  9549   The sura (Main Stage)
+M 0  9501  24  9550   The sura (Main Stage)
+E 1  9516  20    16     a hexagonal club
+M 0  9501  24  9551   The sura (Main Stage)
+M 0  9501  24  9552   The sura (Main Stage)
+E 1  9516  20    16     a hexagonal club
+M 0  9501  24  9553   The sura (Main Stage)
+M 0  9501  24  9554   The sura (Main Stage)
+E 1  9516  20    16     a hexagonal club
+M 0  9501  24  9555   The sura (Main Stage)
+M 0  9501  24  9556   The sura (Main Stage)
+E 1  9516  20    16     a hexagonal club
+M 0  9501  24  9557   The sura (Main Stage)
+M 0  9501  24  9558   The sura (Main Stage)
+E 1  9516  20    16     a hexagonal club
+M 0  9501  24  9559   The sura (Main Stage)
+*
+M 0  9502  20  9530   The guru (Main Stage)
+M 0  9502  20  9531   The guru (Main Stage)
+M 0  9502  20  9533   The guru (Main Stage)
+M 0  9502  20  9534   The guru (Main Stage)
+M 0  9502  20  9535   The guru (Main Stage)
+M 0  9502  20  9545   The guru (Main Stage)
+M 0  9502  20  9546   The guru (Main Stage)
+M 0  9502  20  9547   The guru (Main Stage)
+M 0  9502  20  9548   The guru (Main Stage)
+M 0  9502  20  9549   The guru (Main Stage)
+M 0  9502  20  9550   The guru (Main Stage)
+M 0  9502  20  9551   The guru (Main Stage)
+M 0  9502  20  9552   The guru (Main Stage)
+M 0  9502  20  9553   The guru (Main Stage)
+M 0  9502  20  9554   The guru (Main Stage)
+M 0  9502  20  9555   The guru (Main Stage)
+M 0  9502  20  9556   The guru (Main Stage)
+M 0  9502  20  9557   The guru (Main Stage)
+M 0  9502  20  9558   The guru (Main Stage)
+*
+M 0  9503   1  9520   The Captain Hook (Western Ocean)
+E 1  9517   1     6     a captain's cap
+M 0  9504  20  9520   The First class pirate (Western Ocean)
+M 0  9504  20  9517   The First class pirate (Southwest Ocean)
+M 0  9504  20  9516   The First class pirate (Southern Ocean)
+M 0  9504  20  9518   The First class pirate (Mid Ocean)
+M 0  9504  20  9518   The First class pirate (Mid Ocean)
+M 0  9504  20  9519   The First class pirate (Northern Ocean)
+M 0  9504  20  9504   The First class pirate (Ocean)
+M 0  9504  20  9503   The First class pirate (Ocean)
+M 0  9504  20  9521   The First class pirate (Northeast Ocean)
+M 0  9505  20  9520   The Second class pirate (Western Ocean)
+M 0  9505  20  9517   The Second class pirate (Southwest Ocean)
+M 0  9505  20  9516   The Second class pirate (Southern Ocean)
+M 0  9505  20  9518   The Second class pirate (Mid Ocean)
+M 0  9505  20  9518   The Second class pirate (Mid Ocean)
+M 0  9505  20  9519   The Second class pirate (Northern Ocean)
+M 0  9505  20  9504   The Second class pirate (Ocean)
+M 0  9505  20  9503   The Second class pirate (Ocean)
+M 0  9505  20  9521   The Second class pirate (Northeast Ocean)
+*
+M 0  9536   2  9538   The Trainer Sura (Minor Plaza)
+M 0  9536   2  9564   The Trainer Sura (Northern minor plaza)
+M 0  9506  24  9560   The Sura Candidate (Northern minor plaza)
+M 0  9506  24  9561   The Sura Candidate (Northern minor plaza)
+M 0  9506  24  9562   The Sura Candidate (Northern minor plaza)
+M 0  9506  24  9563   The Sura Candidate (Northern minor plaza)
+M 0  9506  24  9564   The Sura Candidate (Northern minor plaza)
+M 0  9506  24  9565   The Sura Candidate (Northern minor plaza)
+M 0  9506  24  9536   The Sura Candidate (Minor Plaza)
+M 0  9506  24  9537   The Sura Candidate (Minor Plaza)
+M 0  9506  24  9538   The Sura Candidate (Minor Plaza)
+M 0  9506  24  9539   The Sura Candidate (Minor Plaza)
+M 0  9506  24  9540   The Sura Candidate (Minor Plaza)
+M 0  9506  24  9541   The Sura Candidate (Minor Plaza)
+*
+M 0  9507   9  9576   A Loser (Losers nest)
+M 0  9508   1  9577   The Zizon Sura (Room of 1st Sura)
+E 1  9510   1    16     a Sword of Honour
+M 0  9509   1  9576   Laiger (Losers nest)
+E 1  9519   1     7     A Laiger's leggings
+M 0  9562   1  9576   Yuria (Losers nest)
+E 1  9520   1     2     a ring of Yuria
+*
+M 0  9510  10  9505   The hide sura (Small path to third castle)
+M 0  9510  10  9507   The hide sura (Small path to third castle)
+M 0  9510  10  9508   The hide sura (Small path to third castle)
+M 0  9510  10  9522   The hide sura (Broad path from fourth castle.)
+M 0  9510  10  9523   The hide sura (Broad path from fourth castle.)
+M 0  9510  10  9524   The hide sura (Broad path from fourth castle.)
+M 0  9510  10  9579   The hide sura (Northern Road)
+M 0  9510  10  9581   The hide sura (Northern Road)
+M 0  9510  10  9583   The hide sura (Northern Road)
+M 0  9510  10  9584   The hide sura (Northern Road)
+*
+M 0  9511   5  9587   The sand sura (Western Road)
+M 0  9511   5  9588   The sand sura (Western Road)
+M 0  9511   5  9589   The sand sura (Western Road)
+M 0  9511   5  9590   The sand sura (Western Road)
+M 0  9511   5  9591   The sand sura (Western Road)
+M 0  9511   5  9592   The sand sura (Western Road)
+M 0  9511   5  9593   The sand sura (Western Road)
+*
+M 0  9512   1  9595   The first Gatekeeper (The Greatest gate)
+E 1  9507  50    17     a first castle key
+M 0  9513   1  9585   The second Gatekeeper (Great gate of second castle)
+E 1  9505  50    17     a gatekey
+M 0  9514   1  9512   The third Gatekeeper (Gate of third castle)
+M 0  9515   1  9526   The fourth Gatekeeper (Great gate of fourth castle.)
+E 1  9504  50    17     a fourth castle key
+*				quradruplets		
+M 0  9516   1  9510   Micro (Northeast small plaza)
+E 1  9502   3    17     a plaza key
+E 1  9528   1     1     a micro ring
+M 0  9517   1  9514   Mili (Northwest small plaza)
+E 1  9527   1    17     a mili stone
+M 0  9518   1  9513   Mega (Southwest small plaza)
+E 1  9526   1    14     a mega bracelet
+M 0  9519   1  9511   Giga (Southeast small plaza)
+E 1  9525   1     0     a giga light
+*
+M 0  9533   7  9575   The First Class Sura (SW Large plaza)
+M 0  9533   7  9570   The First Class Sura (Southern Large plaza)
+M 0  9533   7  9567   The First Class Sura (SE Large plaza)
+M 0  9533   7  9574   The First Class Sura (Western Large plaza)
+M 0  9533   7  9571   The First Class Sura (Mid Large plaza)
+M 0  9533   7  9568   The First Class Sura (Eastern Large plaza)
+M 0  9533   7  9572   The First Class Sura (Northern Large plaza)
+*
+M 0  9538   1  9597   The platinum dragon (Great Cave)
+E 1  9509   1    17     A Dragon slayer
+M 0  9530   1  9600   The Brop's First Son (Room)
+M 0  9531   1  9600   The Brop's Second Son (Room)
+M 0  9532   1  9600   The Brop's Daughter (Room)
+*
+M 0  9529   1  9601   Brop (Hall of Brop)
+E 1  9503  50    17     a huge Brop key for third castle
+E 1  9522   1    11     a Holy cross shield
+*
+M 0  9527   1  9527   Geron (Hall of Geron)
+E 1  9506  50    17     a second castle key
+E 1  9521   2    18     a dragon scale knee band
+E 1  9521   2    19     a dragon scale knee band
+M 0  9528   1  9527   Barborer (Hall of Geron)
+E 1  9524   1    16     a razor
+*
+M 0  9542   1  9602   Red rainbow Sura (Stair way)
+E 1  9600  50    17     a redkey
+M 0  9543   1  9603   Orange rainbow Sura (Stair way)
+E 1  9601  50    17     a orangekey
+M 0  9544   1  9604   Yellow rainbow Sura (Stair way)
+E 1  9602  50    17     a yellowkey
+M 0  9545   1  9605   Green rainbow Sura (Stair way)
+E 1  9603  50    17     a greenkey
+M 0  9546   1  9606   Blue rainbow Sura (Stair way)
+E 1  9604  50    17     a bluekey
+M 0  9522   5  9606   The learned sura (Stair way)
+M 0  9522   5  9606   The learned sura (Stair way)
+M 0  9534   1  9607   The Maid Sura (Stair way)
+E 1  9605  50    17     a indigokey
+M 0  9548   1  9608   Violet rainbow Sura (Stair way)
+E 1  9606  50    17     a violetkey
+M 0  9564   1  9608   The master sura (Stair way)
+E 1  9523   5     5     a black chainmail kabot
+E 1  9518   5    16     Yuseong sword
+M 0  9522   5  9608   The learned sura (Stair way)
+M 0  9526   1  9609   Hyobik (Top of Second Castle)
+E 1  9623  50    17     small key
+E 1  9514   1     9     a Hyobik gloves
+E 1  9515   1    20     A Black death plates
+*
+M 0  9550   1  9610   January month Sura (January Hall)
+E 1  9612  50    17     a amethyst key
+M 0  9551   1  9611   February month Sura (February Hall)
+E 1  9613  50    17     a bloodstone key
+M 0  9552   1  9612   March month Sura (March Hall)
+E 1  9614  50    17     a diamond key
+M 0  9553   1  9613   April month Sura (April Hall)
+E 1  9615  50    17     a emerald key
+M 0  9554   1  9614   May month Sura (May Hall)
+E 1  9616  50    17     a pearl key
+M 0  9555   1  9615   June month Sura (June Hall)
+E 1  9617  50    17     a ruby key
+M 0  9556   1  9616   July month Sura (July Hall)
+E 1  9618  50    17     a sardonyx key
+M 0  9535   2  9617   The Lady Sura (August Hall)
+E 1  9619  50    17     a sapphire key
+M 0  9558   1  9618   September month Sura (September Hall)
+E 1  9620  50    17     a opal key
+M 0  9522   5  9618   The learned sura (September Hall)
+M 0  9522   5  9618   The learned sura (September Hall)
+M 0  9559   1  9619   October month Sura (October Hall)
+E 1  9621  50    17     a topaz key
+M 0  9523   2  9619   The master sura (October Hall)
+*E 1 9523 5 5			kabot
+*E 1 9518 5 16			Yuseong
+M 0  9523   2  9619   The master sura (October Hall)
+*E 1 9523 5 5			kabot
+*E 1 9518 5 16			Yuseong
+M 0  9535   2  9620   The Lady Sura (November Hall)
+E 1  9622  50    17     a turquoise key
+M 0  9561   1  9621   December month Sura (December Hall)
+M 0  9524   2  9621   The Sura knight (December Hall)
+*E 1 9523 5 5			kabot
+E 1  9518   5    16     Yuseong sword
+M 0  9524   2  9621   The Sura knight (December Hall)
+E 1  9523   5     5     a black chainmail kabot
+*E 1 9518 5 16			Yuseong
+M 0  9563   1  9622   Black King (Gaiot's Room)
+E 1  9529   1     8     a adamantite horse shoes
+M 0  9525   1  9622   The Gaiot (Gaiot's Room)
+E 1  9508   1    16     a Lss belt sword
+E 1  9511   1     6     The Gaiot's Helmet
+E 1  9512   1    12     Gaiot's evil shadow
+E 1  9513   1     8     a Gaiot's leather boots
+S
+
+#SHOPS
+$
+#END of DeathKingdom.

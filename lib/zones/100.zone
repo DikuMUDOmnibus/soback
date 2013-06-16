@@ -1,0 +1,1291 @@
+#100 Zone.
+NAME       : City of Darclan~
+INFO       : 일본 중세의 세도 가문을 딴 존. Diamyo, Samurai.~
+PATH       : Turnning 에서 s.e.s.e.s.e.e.e.s.e.e.s.9e~
+ALIGN      : 1
+AGGRESSIVE : 1
+LEVEL      : 30 ~ 40
+MAX        : 10099
+LIFESPAN   : 30
+RESET      : 2
+
+#MOBILES
+#10000
+daimyo ukita~
+The Daimyo of the Ukita Family~
+The Daimyo of the Ukita Family glares at musashi. ATTACKS Musashi!
+~
+He is a powerful provincial warlord and an enormous man.  Somewhere in his
+gene pool is sure to be a giant.  He is a man who thrives on fear and hatred.
+~
+107 136 -1000 S
+45 -20 -20 20d20+20000 8d8+100
+666000 5000000
+8 8 1
+#10001
+samurai ukita~
+a Samurai of House Ukita~
+A Samurai of House Ukita screams at you in rage.
+~
+He is a warrior by birth who is disciplined in Kendo, 'The Way of the Sword'.
+He is obviously pissed that you have invaded his land.  He is a great and
+powerful warrior.
+~
+104 8 -800 S
+30 -2 -7 10d10+1000 5d5+10
+10000 200000
+8 8 1
+#10002
+captive princess~
+the Captive Princess~
+A captive princess from some distant kingdom is here.
+~
+She is a beautiful young woman.  Yet her overwhelming sadness takes away from
+her great beauty.
+~
+218 8 1000 S
+25 0 0 2d10+600 4d5+25
+1000 50000
+8 8 2
+#10003
+ronin~
+a Ronin~
+A ronin prepares for an assualt on a nearby castle.
+~
+He looks like a vicious warrior, who would not hesitate to remove your head
+from your body.
+~
+104 8 -500 S
+28 -5 -5 10d10+600 3d9+10
+10000 110000
+8 8 1
+#10004
+member ukita~
+a Member of the Ukita Family~
+A member of the Ukita Family is here going about her daily routine.
+~
+She looks disturbed by your presence, but she does not seem to be a threat.
+~
+76 0 -750 S
+20 0 0 1d10+550 3d6+10
+500 35000
+8 8 2
+#10005
+child~
+a child~
+A small child is here throwing rocks at passers by.
+~
+He looks like a real brat.
+~
+204 0 -500 S
+10 0 2 1d8+155 2d6+10
+100 10000
+8 8 1
+#10006
+ashigaru spearman ukita~
+a Ashigaru Spearman~
+A ashigaru spearman is here watching for invading warriors.
+~
+He is very maddened by your presence here.  He attacks you with a rage few live
+to tell about.
+~
+104 8 -500 S
+35 -5 -6 10d10+800 5d5+20
+5000 100000
+8 8 1
+#10007
+advisor~
+an Advisor~
+An Advisor to the Daimyo is here planning an attack.
+~
+He is both a highly intelligent strategist and a skilled warrior.  Beware his
+abilities for they are formidable.
+~
+106 8 -350 S
+37 -10 -10 2d8+3000 4d12+50
+20000 600000
+8 8 1
+#99999
+
+#OBJECTS
+#10000
+stealer soul~
+The Soul Stealer~
+A dark powerful sword lies here.~
+slash~
+5 2144 8193
+10 5 5 3
+26 800000 0 1
+E
+nine lives stealer sword~
+     It looks like a very powerful weapon, but a your sixth sense makes you
+wonder of its true nature.~
+A
+9 10
+A
+23 -5
+#10001
+black breast plate~
+A black breast plate~
+A black breast plate is lying here.~
+~
+9 0 9
+5 0 0 0
+9 60000 0 0
+A
+1 1
+A
+18 1
+#10002
+vial tears~
+a vial of tears~
+A vial of clear liquid lies here.~
+~
+10 0 1
+10 1 3 36
+1 3000 0 0
+#10003
+visor clearsight~
+The Visor of Clearsight~
+An interesting visor lies here~
+~
+9 66 17
+3 0 0 0
+1 50000 20 0
+A
+3 1
+A
+12 50
+#10004
+kabuto helmet~
+A Kabuto with Maedate~
+A crested helmet has been dropped here.~
+~
+9 64 17
+7 0 0 0
+10 50000 0 0
+#10005
+nodowa guard~
+A laminated Nodowa~
+A laminated metal neck guard has been left here.~
+~
+9 64 5
+10 0 0 0
+5 50000 0 0
+#10006
+haramaki-do do plate~
+A Haramaki-do~
+A lamellar metal plate lies here.~
+~
+9 64 9
+10 0 0 0
+15 50000 0 0
+#10007
+sune-ate guards~
+A pair of Sune-ate~
+A pair of shin guards have been dropped here.~
+~
+9 64 33
+10 0 0 0
+5 50000 0 0
+#10008
+waraji sandals~
+A pair of Waraji~
+A pair of sandals rest here.~
+~
+9 64 65
+5 0 0 0
+3 50000 0 0
+#10009
+kote sleeves~
+A pair of Kote~
+A set of sleeves has been left here~
+~
+9 64 257
+6 0 0 0
+5 50000 0 0
+A
+18 2
+A
+19 2
+#10010
+sode plates~
+A set of Sode~
+A set of armored plates has been left here.~
+~
+9 64 1025
+0 0 0 0
+10 50000 0 0
+A
+17 -8
+#10011
+uwa-obi belt~
+An Uwa-obi~
+An interesting belt has been dropped here.~
+~
+9 64 2049
+0 0 0 0
+3 50000 0 0
+A
+17 -7
+#10013
+gumbia fan~
+A Gumbia~
+A small metal war fan is lying here.~
+~
+9 64 513
+10 0 0 0
+3 50000 0 0
+A
+19 1
+A
+18 3
+#10014
+yari spear~
+A yari spear~
+A long curved spear lies here.~
+pierce~
+5 0 8193
+0 2 7 11
+15 5000 10 0
+#10015
+katana sword~
+A katana sword~
+A long curved sword has been dropped here.~
+slash~
+5 0 8193
+0 4 5 3
+15 10000 10 0
+A
+18 3
+A
+19 2
+#10052
+deathfight key~
+DeathFight Key~
+A bloody black key lies on the ground~
+~
+18 2 1
+0 0 0 0
+5 100 0 0
+#99999
+
+#ROOMS
+#10001
+Before the Gates of Castle Ukita~
+   The gates have been constructed from giant marble blocks, eternal in
+appearance.  An enormous 40 foot wall surrounds the entire city.
+~
+100 0 1
+D0
+~
+~
+0 -1 10004
+D2
+~
+~
+0 -1 11050
+S
+#10002
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10049
+D1
+~
+~
+0 -1 10003
+S
+#10003
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D1
+~
+~
+0 -1 10004
+D3
+~
+~
+0 -1 10002
+S
+#10004
+The Gates of Castle Ukita~
+   You stand under the great gates of Castle Ukita.  There is a large sign posted on
+the wall.  To the north is the hustle and bustle of the city.
+~
+100 0 1
+E
+sign~
+
+               ALL NON CITIZENS ATTEMPTING ENTRANCE
+                TO CASTLE UKITA WILL BE KILLED ON SIGHT!
+~
+D0
+~
+~
+0 -1 10008
+D1
+~
+~
+0 -1 10005
+D2
+~
+~
+0 -1 10001
+D3
+~
+~
+0 -1 10003
+S
+#10005
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D1
+~
+~
+0 -1 10006
+D3
+~
+~
+0 -1 10004
+S
+#10006
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10065
+D3
+~
+~
+0 -1 10005
+S
+#10007
+Guard Post~
+   From here all those entering the city can easily be watched.
+~
+100 0 1
+D1
+~
+~
+0 -1 10008
+S
+#10008
+A dark street~
+   The high wall of the city makes inside the city look like dusk at all times
+except around high noon.
+~
+100 0 1
+D0
+~
+~
+0 -1 10010
+D1
+~
+~
+0 -1 10009
+D2
+~
+~
+0 -1 10004
+D3
+~
+~
+0 -1 10007
+S
+#10009
+Guard Post~
+   From here all those entering the city can easily be watched.
+~
+100 0 1
+D3
+~
+~
+0 -1 10008
+S
+#10010
+A dark street~
+   The high wall of the city makes inside the city look like dusk at all times
+except around high noon.
+~
+100 0 1
+D0
+~
+~
+0 -1 10013
+D2
+~
+~
+0 -1 10008
+S
+#10011
+West Manor Lane~
+   The majority of the inhabitants of Castle Ukita live off of this Lane.
+~
+100 0 1
+D0
+~
+~
+0 -1 10016
+D1
+~
+~
+0 -1 10012
+S
+#10012
+West Manor Lane~
+   The majority of the inhabitants of Castle Ukita live off of this Lane.
+~
+100 0 1
+D1
+~
+~
+0 -1 10013
+D3
+~
+~
+0 -1 10011
+S
+#10013
+A dark street~
+   The high wall of the city makes inside the city look like dusk at all times
+except around high noon.
+~
+100 0 1
+D0
+~
+~
+0 -1 10018
+D1
+~
+~
+0 -1 10014
+D2
+~
+~
+0 -1 10010
+D3
+~
+~
+0 -1 10012
+S
+#10014
+East Manor Lane~
+   The majority of the inhabitants of Castle Ukita live off of this Lane.
+~
+100 0 1
+D1
+~
+~
+0 -1 10015
+D3
+~
+~
+0 -1 10013
+S
+#10015
+East Manor Lane~
+   The majority of the inhabitants of Castle Ukita live off of this Lane.
+~
+100 0 1
+D0
+~
+~
+0 -1 10020
+D3
+~
+~
+0 -1 10014
+S
+#10016
+West Manor Lane~
+   The majority of the inhabitants of Castle Ukita live off of this Lane.
+~
+100 0 1
+D0
+~
+~
+0 -1 10021
+D2
+~
+~
+0 -1 10011
+S
+#10018
+A dark street~
+   The high wall of the city makes inside the city look like dusk at all times
+except around high noon.
+~
+100 0 1
+D0
+~
+~
+0 -1 10023
+D2
+~
+~
+0 -1 10013
+S
+#10020
+East Manor Lane~
+   The majority of the inhabitants of Castle Ukita live off of this Lane.
+~
+100 0 1
+D0
+~
+~
+0 -1 10025
+D2
+~
+~
+0 -1 10015
+S
+#10021
+West Manor Lane~
+   The majority of the inhabitants of Castle Ukita live off of this Lane.  There is
+a door leading into a large building to the east.
+~
+100 0 1
+D1
+~
+door~
+1 -1 10022
+D2
+~
+~
+0 -1 10016
+S
+#10022
+The Common House~
+   Many Castle Ukitas live in this small building.
+~
+100 8 0
+D0
+~
+secret~
+1 -1 10026
+D3
+~
+door~
+1 -1 10021
+S
+#10023
+A dark street~
+   The high wall of the city makes inside the city look like dusk at all times
+except around high noon.
+~
+100 0 1
+D0
+~
+~
+0 -1 10027
+D2
+~
+~
+0 -1 10018
+S
+#10024
+The Boarding House~
+   Many, many people live in this somewhat small building.
+~
+100 8 0
+D1
+~
+door~
+1 -1 10025
+S
+#10025
+East Manor Lane~
+   The majority of the inhabitants of Castle Ukita live off of this Lane.  There is
+a door leading into a large building to the west.
+~
+100 0 1
+D2
+~
+~
+0 -1 10020
+D3
+~
+door~
+1 -1 10024
+S
+#10026
+Guard Post~
+   From here all those entering the castle can easily be watched.
+~
+100 0 1
+D1
+~
+~
+0 -1 10027
+D2
+~
+secret~
+1 -1 10022
+S
+#10027
+A dark street~
+   The high wall of the city makes inside the city look like dusk at all times
+except around high noon.
+~
+100 0 1
+D0
+~
+~
+0 -1 10031
+D1
+~
+~
+0 -1 10028
+D2
+~
+~
+0 -1 10023
+D3
+~
+~
+0 -1 10026
+S
+#10028
+Guard Post~
+   From here all those entering the castle can easily be watched.
+~
+100 0 1
+D3
+~
+~
+0 -1 10027
+S
+#10029
+Under a Tower~
+   Above a large stone tower rises into the sky.
+~
+100 0 1
+D0
+~
+~
+0 -1 10036
+D1
+~
+~
+0 -1 10030
+D4
+~
+~
+0 -1 10034
+S
+#10030
+The CourtYard~
+   Above you is the castle of Castle Ukita.
+~
+100 0 1
+D1
+~
+~
+0 -1 10031
+D3
+~
+~
+0 -1 10029
+S
+#10031
+Entrance to the Castle~
+   Before you stands the great castle of Castle Ukita.  Its enormous marble blocks
+make it virtually indestructible.
+~
+100 8 0
+D0
+~
+~
+0 -1 10066
+D1
+~
+~
+0 -1 10032
+D2
+~
+~
+0 -1 10027
+D3
+~
+~
+0 -1 10030
+S
+#10032
+The CourtYard~
+   Above you is the castle of Castle Ukita.
+~
+100 0 1
+D1
+~
+~
+0 -1 10033
+D3
+~
+~
+0 -1 10031
+S
+#10033
+Under a Tower~
+   Above a large stone tower rises into the sky.
+~
+100 0 1
+D0
+~
+~
+0 -1 10037
+D3
+~
+~
+0 -1 10032
+D4
+~
+~
+0 -1 10035
+S
+#10034
+In the Great Clerics Chamber~
+   This room is full of tombs of mystic writing.
+~
+100 8 0
+D5
+~
+~
+0 -1 10029
+S
+#10035
+In the Advisor's Chamber~
+   This room is full of all sorts of documents and scrolls.  Maps cover most of
+the walls and the small bed in the corner is covered in books.
+~
+100 8 0
+D5
+~
+~
+0 -1 10033
+S
+#10036
+The CourtYard~
+   Above you is the castle of Castle Ukita.
+~
+100 0 1
+D0
+~
+~
+0 -1 10038
+D2
+~
+~
+0 -1 10029
+S
+#10037
+The CourtYard~
+   Above you is the castle of Castle Ukita.
+~
+100 0 1
+D0
+~
+~
+0 -1 10040
+D2
+~
+~
+0 -1 10033
+S
+#10038
+Against the Wall~
+   The courtyard ends here against the inside of the City wall.
+~
+100 0 1
+D2
+~
+~
+0 -1 10036
+S
+#10039
+The Warriors Barracks~
+   Most of the warriors of Castle Ukita, when not in battle stay here.
+~
+100 8 0
+D1
+~
+door~
+1 -1 10040
+S
+#10040
+The CourtYard~
+   Above you is the castle of Castle Ukita.
+~
+100 0 1
+D2
+~
+~
+0 -1 10037
+D3
+~
+door~
+1 -1 10039
+S
+#10041
+The Great Hall~
+   The walls here are decorated with huge Castle Ukita banners.  The walls are lined
+with full suits of captured Malikorian, Balad Naranian, Tysisan, ??????, and
+many other kingdoms armor.
+~
+100 8 0
+D0
+~
+~
+0 -1 10043
+D5
+~
+~
+0 -1 10066
+S
+#10043
+The Great Hall~
+   The walls here are decorated with huge Castle Ukita banners.  The walls are lined
+with full suits of captured Malikorian, Balad Naranian, Tysisan, ??????, and
+many other kingdoms armor.
+~
+100 8 0
+D0
+~
+~
+0 -1 10046
+D2
+~
+~
+0 -1 10041
+S
+#10045
+The Guest Chamber~
+   This room is finely furnished.  It has been the open prison of many captive
+princesses and ladies until the King tires of them.
+~
+100 8 0
+D1
+~
+~
+0 -1 10046
+S
+#10046
+The Throne Room~
+   There is a great iron throne in the center of the room.  It is covered in a
+great bear skin.  There are doors to the east, west, north, and south.
+Otherwise the room is totally empty.
+~
+100 8 0
+D0
+~
+~
+0 -1 10048
+D1
+~
+~
+0 -1 10047
+D2
+~
+~
+0 -1 10043
+D3
+~
+~
+0 -1 10045
+S
+#10047
+The Knights Barracks~
+   This room is well furnished with many fine beds and chests.  The walls are
+covered with banners and tapestries.
+~
+100 8 0
+D3
+~
+~
+0 -1 10046
+S
+#10048
+The Treasure Room~
+   It was once full of wondrous treasures but now the Kings desire to conquer
+the world has drained all the reserves.
+~
+100 8 0
+D2
+~
+~
+0 -1 10046
+S
+#10049
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10050
+D2
+~
+~
+0 -1 10002
+S
+#10050
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10051
+D2
+~
+~
+0 -1 10049
+S
+#10051
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10053
+D2
+~
+~
+0 -1 10050
+S
+#10052
+시체실~
+    당신은 음침한 시체실에 서있습니다.방 구석구석에 곧 여러분들의 
+    시체가 싸일겁니다.모두들 준비가 되셨는지 모르겠군요..이제 여기서
+    준비를 단단히 하시고 DeathFight 를 준비하십시요..설령 당신이 패배
+    하고 이곳에 다시 들어오시더라도 그리 실망은 하지 마세요..당신에겐
+    내일이 다시 있을테니까요..
+~
+100 2052 0
+D4
+~
+~
+4 10052 3001
+S
+#10053
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10054
+D2
+~
+~
+0 -1 10051
+S
+#10054
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10055
+D2
+~
+~
+0 -1 10053
+S
+#10055
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 -1
+D1
+~
+~
+0 -1 10056
+D2
+~
+~
+0 -1 10054
+S
+#10056
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D1
+~
+~
+0 -1 10057
+D3
+~
+~
+0 -1 10055
+S
+#10057
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D1
+~
+~
+0 -1 10058
+D3
+~
+~
+0 -1 10056
+S
+#10058
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D1
+~
+~
+0 -1 10059
+D3
+~
+~
+0 -1 10057
+S
+#10059
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D2
+~
+~
+0 -1 10060
+D3
+~
+~
+0 -1 10058
+S
+#10060
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10059
+D2
+~
+~
+0 -1 10061
+S
+#10061
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10060
+D2
+~
+~
+0 -1 10062
+S
+#10062
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10061
+D2
+~
+~
+0 -1 10063
+S
+#10063
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10062
+D2
+~
+~
+0 -1 10064
+S
+#10064
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10063
+D2
+~
+~
+0 -1 10065
+S
+#10065
+Outside the Great Wall of Castle Ukita~
+   You stand next to the 40 foot wall that seals Castle Ukita in safely.
+~
+100 0 1
+D0
+~
+~
+0 -1 10064
+D2
+~
+~
+0 -1 10006
+S
+#10066
+The Main Hall~
+   You are in the Main Hall of the Castle Castle Ukita.  A large stairwell leads up
+to the floor above.
+~
+100 8 0
+D2
+~
+~
+0 -1 10031
+D4
+~
+~
+0 -1 10041
+S
+#99999
+
+#RESET
+*
+M 0 10000   1 10046   The Daimyo of the Ukita Family (The Throne Room)
+E 1 10000   1    16     The Soul Stealer
+E 1 10004   5     6     A Kabuto with Maedate
+E 1 10005   9     4     A laminated Nodowa
+E 1 10006   5     5     A Haramaki-do
+E 1 10007   5     7     A pair of Sune-ate
+E 1 10008   5     8     A pair of Waraji
+E 1 10009   5    10     A pair of Kote
+E 1 10010   5    12     A set of Sode
+E 1 10011   5    13     An Uwa-obi
+E 1 10013   5    11     A Gumbia
+M 0  3133   1 10046   Musashi (The Throne Room)
+E 1  3026   1    16     a Samurai sword
+*
+M 0 10001  10 10047   a Samurai of House Ukita (The Knights Barracks)
+E 1 10001 1000     5     A black breast plate
+E 1 10015  10    16     A katana sword
+M 0 10001  10 10047   a Samurai of House Ukita (The Knights Barracks)
+E 1 10001 1000     5     A black breast plate
+E 1 10015  10    16     A katana sword
+M 0 10001  10 10066   a Samurai of House Ukita (The Main Hall)
+E 1 10001 1000     5     A black breast plate
+E 1 10015  10    16     A katana sword
+M 0 10001  10 10013   a Samurai of House Ukita (A dark street)
+E 1 10001 1000     5     A black breast plate
+E 1 10015  10    16     A katana sword
+M 0 10001  10 10004   a Samurai of House Ukita (The Gates of Castle Ukita)
+E 1 10001 1000     5     A black breast plate
+E 1 10015  10    16     A katana sword
+*
+M 0 10002   1 10045   the Captive Princess (The Guest Chamber)
+G 1 10002  20             a vial of tears
+*
+M 0 10003  20 10051   a Ronin (Outside the Great Wall of Castle Ukita)
+M 0 10003  20 10055   a Ronin (Outside the Great Wall of Castle Ukita)
+M 0 10003  20 10055   a Ronin (Outside the Great Wall of Castle Ukita)
+M 0 10003  20 10059   a Ronin (Outside the Great Wall of Castle Ukita)
+M 0 10003  20 10059   a Ronin (Outside the Great Wall of Castle Ukita)
+M 0 10003  20 10002   a Ronin (Outside the Great Wall of Castle Ukita)
+M 0 10003  20 10002   a Ronin (Outside the Great Wall of Castle Ukita)
+M 0 10003  20 10006   a Ronin (Outside the Great Wall of Castle Ukita)
+M 0 10003  20 10006   a Ronin (Outside the Great Wall of Castle Ukita)
+M 0 10003  20 10062   a Ronin (Outside the Great Wall of Castle Ukita)
+*
+M 0 10004  20 10022   a Member of the Ukita Family (The Common House)
+M 0 10004  20 10022   a Member of the Ukita Family (The Common House)
+M 0 10004  20 10022   a Member of the Ukita Family (The Common House)
+M 0 10004  20 10024   a Member of the Ukita Family (The Boarding House)
+M 0 10004  20 10024   a Member of the Ukita Family (The Boarding House)
+M 0 10004  20 10024   a Member of the Ukita Family (The Boarding House)
+M 0 10004  20 10016   a Member of the Ukita Family (West Manor Lane)
+M 0 10004  20 10011   a Member of the Ukita Family (West Manor Lane)
+M 0 10004  20 10020   a Member of the Ukita Family (East Manor Lane)
+M 0 10004  20 10015   a Member of the Ukita Family (East Manor Lane)
+*
+M 0 10005  10 10022   a child (The Common House)
+M 0 10005  10 10024   a child (The Boarding House)
+M 0 10005  10 10014   a child (East Manor Lane)
+M 0 10005  10 10012   a child (West Manor Lane)
+M 0 10005  10 10045   a child (The Guest Chamber)
+*
+M 0 10006  10 10004   a Ashigaru Spearman (The Gates of Castle Ukita)
+E 1 10014  10    16     A yari spear
+M 0 10006  10 10004   a Ashigaru Spearman (The Gates of Castle Ukita)
+E 1 10014  10    16     A yari spear
+M 0 10006  10 10001   a Ashigaru Spearman (Before the Gates of Castle Ukita)
+E 1 10014  10    16     A yari spear
+M 0 10006  10 10001   a Ashigaru Spearman (Before the Gates of Castle Ukita)
+E 1 10014  10    16     A yari spear
+M 0 10006  10 10007   a Ashigaru Spearman (Guard Post)
+E 1 10014  10    16     A yari spear
+M 0 10006  10 10009   a Ashigaru Spearman (Guard Post)
+E 1 10014  10    16     A yari spear
+M 0 10006  10 10026   a Ashigaru Spearman (Guard Post)
+E 1 10014  10    16     A yari spear
+M 0 10006  10 10028   a Ashigaru Spearman (Guard Post)
+E 1 10014  10    16     A yari spear
+M 0 10006  10 10007   a Ashigaru Spearman (Guard Post)
+E 1 10014  10    16     A yari spear
+M 0 10006  10 10028   a Ashigaru Spearman (Guard Post)
+E 1 10014  10    16     A yari spear
+*
+M 0 10007   1 10035   an Advisor (In the Advisor's Chamber)
+E 1 10003   5     6     The Visor of Clearsight
+*
+D 0 10021   1     1    West Manor Lane
+D 0 10022   3     1    The Common House
+*
+D 0 10022   0     1    The Common House
+D 0 10026   2     1    Guard Post
+*
+D 0 10024   1     1    The Boarding House
+D 0 10025   3     1    East Manor Lane
+*
+D 0 10039   1     1    The Warriors Barracks
+D 0 10040   3     1    The CourtYard
+*
+S
+
+#SHOPS
+$
+#END of City of Darclan.

@@ -1,0 +1,1827 @@
+#22 Zone.
+NAME       : Dragon Tower~
+INFO       : Tiamat 이 군림하는 dragon 들의 존.~
+PATH       : Turnning Point 에서 10n.2e.2n.w~
+ALIGN      : 2
+AGGRESSIVE : 2
+LEVEL      : 25 ~ 40
+MAX        : 2299
+LIFESPAN   : 60
+RESET      : 1
+
+#MOBILES
+#2200
+hatchling dragon baby~
+The dragon hatchling~
+A Dragon Hatchling is here, chewing on a bone.
+~
+This small dragon hisses at you as you enter the room.  Although it is only a
+few feet long, its sharp teeth make you think twice about petting it.
+~
+8266 524288 -900 S
+10 2 -4 4d8+200 2d8+2
+2000 10050
+8 8 0
+#2201
+draconian~
+The Draconian~
+The Draconian is standing here.
+~
+This horrible creature is a bizarre cross between a man and a dragon.  He 
+has black scales and a seven foot wingspan.  He scowls at you and hefts his 
+spear as you enter the room.
+~
+8238 8 -900 S
+15 8 -5 3d8+350 2d6+3
+2000 17000
+8 8 1
+#2202
+master dragon~
+The Dragon Master~
+The lord of this crypt is here.
+~
+He doesn't look happy to see you.
+~
+8238 1048712 -1000 S
+40 -5 -12 1d10+5000 3d6+48
+12000 550000
+8 8 1
+#2203
+mage wizard~
+A Powerful Mage~
+A Man is here, studying some books.
+~
+A powerful looking mage is standing in this room studying his spells.  You are
+surprised at the fact that he is human, and realize that he must be very
+powerful to have been accepted by the creatures which live here.
+~
+554 138 -900 S
+32 -3 -13 2d10+1375 1d8+20
+6000 120000
+8 8 1
+#2204
+cleric draconian~
+The Holy Draconian~
+A Draconian is here, deep in thought.          
+~
+A Draconian stands here, dressed in simple robes.  Around his neck you 
+notice a golden medallion in the shape of a five headed dragon.  
+~
+1070 136 -900 S
+27 -1 -10 2d10+1400 3d5+16
+4000 121000
+8 8 1
+#2205
+king draconian~
+The Draconian King~
+A Draconian wearing fine clothes is here, pondering his greatness.          
+~
+The king of the draconians sits here on a golden throne.  He looks as 
+though he could crush your head with a single blow.  Yet, you sense that he 
+is controlled by a greater power. 
+~
+8206 136 -900 S
+46 -10 -20 6d10+7500 2d8+62
+8000 600000
+8 8 1
+#2206
+concubine draconian~
+A Concubine~
+A concubine is resting here. 
+~
+This is a concubine of the king.  She is lounging here, wearing nothing at 
+all.  You find yourself strangely repulsed as she draws a knife and 
+prepares to defend herself. 
+~
+8202 0 -500 S
+6 16 5 6d10+50 2d3+1
+100 2000
+8 8 2
+#2207
+bodyguard draconian~
+A bodyguard~
+A bodyguard is here, staring at you menacingly. 
+~
+This creature has devoted its life to defending the king.  Your intrusion has
+not pleased it.
+~
+42 4 -800 S
+18 3 2 1d4+1225 2d6+14
+5000 150000
+8 8 1
+#2220
+tiamat dragon~
+Tiamat~
+A Five headed dragon hisses at you as you enter this room.
+~
+You see before you the master of this Tower, Tiamat.  She frowns at you as she
+prepares to make you pay for your insolence...with your lives!
+~
+8234 136 -1000 S
+50 -23 -26 1d100+30000 8d9+46
+50000 1300000
+8 8 2
+#2221
+dragon red~
+The Great Red Dragon~
+A Red Dragon is here, contemplating your existence. 
+~
+This huge red dragon dominates the chamber.  As you turn to flee, he grins at
+you and invites you to stay...forever! 
+~
+8238 8 -1000 S
+40 -4 -15 1d100+2700 2d8+30
+25000 320000
+8 8 0
+#2222
+dragon black~
+The Great Black Dragon~
+A Black Dragon is here, laughing at your insolence. 
+~
+This huge black wyrm laughs at your puny weapons.  You realize that he is not
+going to roll over and die for you.
+~
+8238 8 -900 S
+36 -10 -13 6d10+3600 3d8+48
+25000 435000
+8 8 0
+#2223
+dragon white~
+The Great White Dragon~
+A White Dragon is here, waiting for you. 
+~
+This dragon towers over you.  Recalling your previous experiences with white
+dragons, you are not afraid.  It smiles at you and says 'I think you will find
+me a greater challenge than my offspring.'
+~
+8238 8 -1000 S
+40 -5 -20 1d1+4650 3d8+48
+25000 500000
+8 8 0
+#2225
+dragon green~
+The Ancient Green Dragon~
+A Green Dragon is here, looking distraught. 
+~
+This huge beast appears to be the most directly related to the draconians. 
+It looks at you with sorrow in its eyes and says 'You have slaughtered my 
+children.  Prepare to die.'
+~
+8238 8 -1000 S
+41 -5 -14 1d100+5000 3d8+45
+20000 490000
+8 8 0
+#2226
+hydra~
+A large hydra~
+A Hydra is here, blocking the doorway. 
+~
+A hydra is here, guarding the entrance to a sealed vault.  You have the feeling
+it isn't happy to see you.
+~
+8238 8 -800 S
+38 -3 -11 1d50+5000 2d8+27
+5000 380000
+8 8 0
+#2227
+slave human~
+A human slave~
+A Human slave is here, hard at work.          
+~
+He looks like he's under a lot of stress.  He would probably like it if you
+left him alone.
+~
+10 0 0 S
+5 16 6 1d10+150 1d6+4
+100 3900
+8 8 1
+#2240
+zombie draconian~
+A Zombie~
+A zombie is here, staring at nothing in particular.
+~
+This used to be one of the warriors of this tribe.  He was denied his final
+rest, however, and now guards this corridor tirelessly as a zombie.
+~
+10 0 -400 S
+9 9 4 1d100+175 1d8+6
+1500 5000
+8 8 0
+#2241
+dragon phase~
+the phase dragon~
+A Phase Dragon is darting around the room.          
+~
+This small dragon looks like he's up to no good. 
+~
+8392 524288 -300 S
+10 11 3 1d50+175 2d3+2
+5000 29000
+8 8 1
+#2242
+fool draconian~
+the draconian fool~
+A Fool is here, making fun of you.          
+~
+This dragon man looks VERY foolish, dressed in a green and blue striped 
+suit.  As you enter the room, he points at you and laughs. 
+~
+8264 0 0 S
+5 16 5 1d10+150 3d3+4
+500 10000
+8 8 1
+#2243
+queen draconian~
+the Draconian Queen~
+A Female Draconian sits, here, looking very important.          
+~
+This draconian looks VERY busy as she orders her slaves around.  You think 
+it might be a good idea to leave her alone. 
+~
+14 0 -600 S
+44 -10 -20 1d100+5000 3d4+34
+10000 500000
+8 8 2
+#99999
+
+#OBJECTS
+#2200
+spear jagged~
+A Jagged Spear~
+A barbed spear has been left here.~
+pierce~
+5 0 8193
+0 2 5 11
+15 4000 0 0
+#2201
+dagger silver~
+A silver dagger~
+A silver dagger is lying here.~
+pierce~
+5 0 8193
+0 2 4 11
+10 1000 0 0
+#2202
+knife tooth dragon~
+A Dragon's Tooth Knife~
+A dangerous looking knife made from a Dragon's Tooth has been left here.~
+pierce~
+5 4163 8193
+0 4 5 11
+8 130000 21 0
+A
+2 2
+A
+19 2
+#2203
+bracelet dragon~
+A Dragon Skin Bracelet~
+A Scaly Bracelet lies on the ground.~
+~
+9 4161 4097
+5 0 0 0
+10 40000 0 0
+A
+1 1
+#2204
+belt silk black~
+A Black Silk Belt~
+A black belt made of the finest silk is hanging here.~
+~
+15 0 2049
+150 0 -1 0
+25 40000 0 0
+A
+17 -4
+A
+5 2
+#2205
+belt silk white~
+A White Silk Belt.~
+A white belt made of the finest silk is hanging here.~
+~
+15 0 2049
+150 0 -1 0
+25 40000 0 0
+A
+17 -4
+A
+1 2
+#2206
+bracelet platinum~
+A Platinum Bracelet.~
+A tarnished platinum bracelet has been dropped here.~
+~
+9 1 4097
+7 0 0 0
+5 120000 17 0
+#2207
+necklace symbol holy~
+A Holy Symbol~
+A Golden Medallion is here.~
+~
+9 45057 16389
+0 0 0 0
+2 20000 0 0
+A
+12 15
+A
+18 -1
+#2208
+robe black~
+A Plain Black Robe~
+A black robe is hanging on a hook on the wall.~
+~
+9 512 1025
+5 0 0 0
+3 50000 0 0
+A
+19 2
+#2209
+sword emerald~
+An Emerald Sword~
+An emerald long sword is leaning against the wall.~
+slash~
+5 6146 8193
+8 5 5 3
+24 250000 25 7
+A
+18 2
+A
+19 3
+#2210
+club stone~
+a stone club~
+A heavy looking stone club is here.~
+pound~
+5 4096 8193
+0 3 5 7
+18 7500 0 0
+#2211
+axe heavy~
+a heavy axe~
+A heavy old axe has been dropped here.~
+chop~
+5 6656 8193
+0 18 1 3
+30 5000 0 0
+A
+2 -3
+#2212
+ring diamond diamondring~
+a diamond ring~
+A diamond ring lies gleaming on the ground.~
+~
+9 4096 3
+2 0 0 0
+6 1500000 32 0
+A
+17 -11
+A
+19 2
+#2213
+ring copper copperring~
+a copper ring~
+A copper ring is here.~
+~
+9 0 3
+1 0 0 0
+1 300000 0 0
+A
+4 2
+#2214
+key steel~
+a steel key~
+A steel key.~
+~
+18 0 1
+0 0 0 0
+1 500 0 0
+#2215
+key ruby~
+A ruby key~
+A ruby key.~
+~
+18 0 1
+0 0 0 0
+1 500 0 0
+#2216
+key white~
+a white key~
+A white key.~
+~
+18 0 1
+0 0 0 0
+1 500 0 0
+#2217
+key grey~
+a grey key~
+A grey key.~
+~
+18 0 1
+0 0 0 0
+1 500 0 0
+#2218
+key stone~
+a stone key~
+A stone key.~
+~
+18 0 1
+0 0 0 0
+1 500 0 0
+#2220
+bow diana~
+Diana's great bow~
+A carefully crafted bow, used by Diana, has been foolishly dropped here.~
+~
+6 4096 16385
+1 1 100 0
+18 50000 1 0
+#2221
+arrow~
+An arrow for Diana's bow~
+An arrow for Diana's bow has been left here.~
+~
+8 4096 16385
+0 0 0 0
+3 10000 1 0
+#2222
+leggings~
+Diana's leggings~
+A pair of fur leggings, worn by Diana, are here.~
+~
+9 4096 33
+9 0 0 0
+7 10000 17 0
+A
+1 1
+#2223
+sash~
+A fur sash~
+A soft fur sash, worn by Diana, lies here.~
+~
+9 4096 2049
+9 0 0 0
+7 70000 21 0
+A
+14 5
+#2224
+fur hat~
+A fur hat~
+A hat, made of soft fur, has been left here.~
+~
+9 4096 17
+9 0 0 0
+7 80000 19 0
+A
+12 5
+#2226
+loin cloth~
+A small loin cloth~
+A small loin cloth lies in a heap here.~
+~
+9 4096 2049
+7 0 0 0
+7 10000 0 0
+#2227
+horn~
+The Horn of Silenus~
+The Horn of Silenus has been foolishly dropped here.~
+~
+9 323 16513
+11 3 3 36
+9 5000000 35 0
+A
+19 3
+A
+25 2
+#2228
+spear~
+The spear of Narcissus~
+The spear used by Narcissus has been left here.~
+slash~
+5 0 8193
+0 1 21 3
+8 4900 0 0
+#2230
+staff echo~
+Echo's staff~
+Echo's staff has been left here.~
+~
+4 0 16385
+25 2 2 13
+5 1000 1 0
+#2231
+berries~
+Some berries~
+Some berries were left here.~
+~
+19 0 1
+10 0 0 2
+5 1000 1 0
+#2232
+a nut~
+A large nut~
+A large nut has been left here.~
+~
+19 0 16385
+12 0 0 0
+5 1000 1 0
+#2233
+jug wine~
+a jug of wine~
+A large jug of wine has been left here.~
+~
+17 0 16385
+100 100 2 0
+9 1000 0 0
+#2240
+sling~
+A small sling~
+A small sling has been heedlessly discarded here.~
+~
+6 4096 16385
+1 1 25 0
+8 5000 1 0
+#2241
+rock~
+A small rock~
+There is a small rock here.~
+~
+7 0 1
+0 0 0 0
+3 100 1 0
+#2242
+cape green~
+A dark green cape~
+A dark green cape has been left here.~
+~
+9 4418 1025
+10 0 0 0
+10 10000 0 0
+A
+2 -2
+#2243
+necklace emerald~
+An emerald necklace~
+A beautiful emerald necklace has been left here.~
+~
+9 4097 5
+8 0 0 0
+6 10000 0 0
+A
+5 -2
+#2244
+brass ring brassring~
+A brass ring~
+A brass ring has been left here.~
+~
+11 4160 3
+0 0 0 0
+2 25000 25 0
+A
+18 3
+A
+19 2
+#2245
+broadsword black~
+A black broadsword~
+A black broadsword has been carelessly left here.~
+slash~
+5 4161 8193
+0 2 9 3
+24 10250 0 0
+A
+18 2
+A
+19 2
+#2246
+crooked dagger~
+A strange looking crooked dagger~
+A strange looking crooked dagger has been dropped here.~
+pierce~
+5 4672 8193
+0 6 3 11
+8 10000 0 0
+#2247
+bonnet~
+A blue bonnet~
+A blue bonnet has been left here.~
+~
+9 0 17
+5 0 0 0
+100 100 0 0
+#2248
+key black~
+a black key~
+A black key.~
+~
+18 0 1
+0 0 0 0
+1 500 0 0
+#2249
+key platinum~
+a platinum key~
+A platinum key.~
+~
+18 0 1
+0 0 0 0
+1 500 0 0
+#2250
+staff black~
+a black staff~
+You notice the faint outline of a staff.~
+~
+4 577 16385
+30 2 2 36
+25 75000 0 0
+#2251
+potion cyan~
+a cyan potion~
+A small cyan potion has been left here.~
+~
+10 0 1
+30 15 34 0
+1 40000 0 0
+#2252
+potion magenta~
+a magenta potion~
+A magenta potion.~
+~
+10 128 1
+30 4 27 0
+1 2000 0 0
+#2253
+sandals~
+moth-eaten sandals~
+An old pair of sandals is here.~
+~
+9 90176 65
+4 0 0 0
+10 40000 12 0
+A
+2 2
+A
+14 100
+#2254
+gauntlets spiked~
+a pair of spiked gauntlets~
+A pair of spiked gauntlets.~
+~
+9 4161 129
+4 0 0 0
+10 150000 18 0
+A
+19 2
+A
+1 1
+#2260
+scimitar golden~
+a golden scimitar~
+A golden scimitar.~
+slash~
+5 1 8193
+0 3 5 3
+10 40000 0 0
+A
+3 1
+A
+4 1
+#2261
+brooch diamond~
+a diamond brooch~
+A diamond brooch.~
+~
+9 114752 5
+4 0 0 0
+2 100000 13 0
+A
+12 25
+A
+25 1
+#2262
+shield crested~
+a crested shield~
+A large crested shield draws your attention.~
+~
+9 4096 513
+10 0 0 0
+20 200000 15 0
+A
+5 1
+A
+1 2
+#2263
+wand golden~
+a golden wand~
+A golden wand has been dropped here.~
+~
+3 1 16385
+25 20 20 42
+5 10000 16 0
+#2264
+staff silver~
+a silver staff~
+A silver staff.~
+~
+4 65 16385
+25 3 3 28
+5 10000 15 0
+#2265
+staff dragon~
+the staff of the dragon~
+A powerful oak staff has been left here.~
+~
+1 1 16385
+0 0 -1 0
+5 10000 0 0
+A
+3 2
+A
+4 -2
+#2266
+mail scale~
+the white dragon scale mail~
+A set of scale mail has been abandoned here.~
+~
+9 1 9
+10 0 0 0
+20 100000 0 0
+#2267
+tiamat mail scale~
+the Tiamat mail~
+A set of Tiamat mail has been abandoned here.~
+~
+9 4097 9
+8 0 0 0
+20 3000000 34 0
+A
+2 3
+A
+17 -7
+#2270
+scroll runed armor~
+a runed scroll~
+A runed scroll.~
+~
+2 64 16385
+30 1 2 36
+1 5000 0 0
+#2271
+gloves dragon~
+a pair of dragon skin gloves~
+A pair of dragon skin gloves is lying on the ground.~
+~
+9 4096 129
+6 0 0 0
+5 40000 0 0
+A
+2 2
+A
+5 -1
+#2275
+helm dragon~
+a helm of dragon kind~
+A helm made of a dragon's skull is lying on the ground.~
+~
+9 4096 17
+6 0 0 0
+15 30000 21 0
+A
+13 15
+A
+18 2
+#2276
+fur cloak~
+a fur cloak~
+A large mound of fur is lying here.~
+~
+9 4096 1025
+9 0 0 0
+10 25000 16 0
+A
+1 1
+A
+13 10
+#2280
+leggings dragon scale~
+a pair of dragon scale leggings~
+A pair of dragon scale leggings is lying on the ground.~
+~
+9 4096 33
+9 0 0 0
+15 235000 13 0
+#2281
+sleeves dragon scale~
+a set of dragon scale sleeves~
+A set of dragon scale sleeves is lying on the ground.~
+~
+9 4096 257
+9 0 0 0
+12 230000 12 0
+#2285
+whip dragon tail~
+a dragon tailed whip~
+A dragon tailed whip is lying on the ground.~
+pound~
+5 111106 8193
+0 6 4 4
+14 130000 16 0
+A
+18 2
+A
+19 2
+#2286
+hammer copper~
+a copper hammer~
+A copper hammer is lying on the ground.~
+pound~
+5 4096 8193
+0 3 5 7
+12 30000 0 0
+#2298
+cloak winged~
+a dragon winged cloak~
+A dragon winged cloak is hanging on a wall here.~
+~
+9 4096 1025
+0 0 0 0
+10 10000 15 0
+A
+17 -4
+A
+1 5
+#2299
+key gold tarnished~
+a tarnished gold key~
+a tarnished gold key.~
+~
+18 0 1
+0 0 0 0
+1 500 0 0
+#99999
+
+#ROOMS
+#2201
+The Tower Gates~
+You are at the entrance to a tall tower.  Lightning flashes 
+periodically and it is raining.  You think it might be a good idea to head back
+to Midgaard.
+~
+22 4099 1
+E
+gate~
+The gate is tall and secure.  Whoever built it must value privacy.
+~
+D0
+You see a large steel gate.  Beyond is the Foyer of the Tower.
+~
+gate steel~
+1 2214 2202
+D1
+A small clearing~
+~
+0 0 4031
+S
+#2202
+The Foyer~
+   This is the entrance to the Tower.  The hallway continues to the north,
+leading towards a staircase.  You notice a grim painting on the wall,  and 
+quickly look away.
+~
+22 4110 0
+E
+painting~
+This painting depicts the grisly death of a foolish human.  You hope you do 
+not share his fate.
+~
+D0
+You see a long hallway. 
+~
+~
+0 -1 2203
+D2
+You see the gate. 
+~
+~
+0 -1 2201
+S
+#2203
+Hallway~
+   This hallway seems to stretch on forever.  You notice a stairway in  
+the distance. 
+~
+22 4106 0
+D0
+The hall continues. 
+~
+~
+0 -1 2204
+D2
+You see the foyer. 
+~
+~
+0 -1 2202
+S
+#2204
+Hallway~
+   You trudge down the hallway.  You notice doors to the east and west. 
+~
+22 4106 0
+E
+sign~
+The sign says "NURSERY" in bold letters.     
+~
+E
+inscription~
+It says "STORAGE"
+~
+D0
+The hall continues. 
+~
+~
+0 -1 2207
+D1
+You see a door.  You notice a sign. 
+~
+door~ ~
+1 -1 2205
+D2
+The hall continues.
+~
+~
+0 -1 2203
+D3
+You see an oak door.  There is an inscription on it. 
+~
+oak~
+1 -1 2206
+S
+#2205
+Nursery~
+   It looks like a tornado has been through here.  Toys are scattered 
+everywhere, and a small group of dragon hatchlings are fighting over a 
+bone. 
+~
+22 4106 1
+D1
+You see a large stone door.
+~
+door stone~
+4 2218 2223
+D3
+You see the hallway. 
+~
+~
+1 -1 2204
+S
+#2206
+Storage Room~
+   This room is covered with dust, it looks as if no one has been here in 
+ages.
+~
+22 4106 1
+E
+dust~
+As you look closely at the dust, you notice the outline of a trapdoor!       
+~
+D1
+You see the hallway. 
+~
+~
+1 -1 2204
+D5
+You see nothing special. 
+~
+trapdoor~ ~
+1 -1 2208
+S
+#2207
+End of the Hallway~
+   You have finally reached the end of the hallway.  A huge staircase leads 
+up.  You see a sign at the base of the staircase. 
+~
+22 4106 0
+E
+sign~
+The sign reads:
+       This area is kind of tough.  You probably shouldn't go up these stairs 
+         alone if you are under 18th level, or at all if you under 14th level.  
+         Have fun!
+                - Wench 
+~
+D2
+The hall continues. 
+~
+~
+0 -1 2204
+D4
+The second floor.
+~
+~
+0 -1 2210
+S
+#2208
+Guardian's Room~
+   You climb down the rickety stairs and find yourself face to face with a 
+gargantuan hydra.  How fast can you climb UP stairs? 
+~
+22 4106 1
+D2
+A large grey door.
+~
+grey~~
+1 2217 2209
+D4
+You see the storage room. 
+~
+door trap trapdoor~
+1 -1 2206
+S
+#2209
+The Treasure Room~
+   You have made it past the hydra into the vault.  You are astounded by 
+the treasure here.  Not only are you now rich, you can probably rest here
+safely.  The west wall seems to have a large door made entirely of ruby.
+~
+22 4110 1
+D0
+You see nothing special. 
+~
+grey~
+4 2217 2208
+D3
+You see a ruby door!
+~
+door ruby~
+4 2215 2218
+S
+#2210
+The Second Floor~
+    You have made it up to the second floor.  You hear a hissing and see
+several dragon men rushing you.  You wonder how long you will be staying here.
+~
+22 4106 1
+D2
+You see the court.
+~
+~
+0 1 2211
+D5
+You see the first floor.
+~
+~
+0 -1 2207
+S
+#2211
+The Court~
+   You have entered what seems to be a large court.  The people guarding it
+don't seem happy to see you...
+~
+22 4106 1
+D0
+You see nothing special.
+~
+~
+0 -1 2210
+D1
+You see a wooden door. 
+~
+door wooden~
+1 -1 2212
+D2
+You see the court.
+~
+~
+0 -1 2213
+S
+#2212
+Hall O' Pleasure~
+    You stop dead in your tracks as you enter this ornately decorated room - it
+is populated with the king's harem.  
+~
+22 4106 1
+D3
+You see the Court.
+~
+~
+0 -1 2211
+S
+#2213
+The Court~
+    You are continuing down the hall.  To the east and west you notice ornate
+doors.
+~
+22 4098 1
+D0
+You see the court.
+~
+~
+0 -1 2211
+D1
+You see a black door.
+~
+door black~
+1 2248 2214
+D2
+You see the court.
+~
+~
+0 -1 2216
+D3
+You see a white door.
+~
+door white~
+1 2216 2215
+S
+#2214
+The Library~
+    You have entered a huge room, filled with books.  A peaceful looking man is
+sitting at a table, studying.
+~
+22 4106 1
+D3
+You see the court.
+~
+door black~
+1 2248 2213
+S
+#2215
+The Sanctum~
+    This small room is modestly decorated with small dragon icons.  It's sole
+occupant is deep in thought.
+~
+22 4106 1
+D1
+You see the Court.
+~
+door white~
+1 2216 2213
+S
+#2216
+The Court Ends~
+    You have reached the end of the court.  A huge draconian is sitting in a
+chair here.  As you enter, he motions with his hand and you are rushed by three
+of his bodyguards.
+~
+22 4106 1
+D0
+You see the court.
+~
+~
+0 -1 2213
+D1
+You see a private chamber.
+~
+~
+0 -1 2217
+S
+#2217
+BedRoom~
+    This is the personal room of the draconian king.  It is not empty.
+~
+22 4106 1
+D3
+You see Court.
+~
+~
+0 -1 2216
+S
+#2218
+Entrance to the Crypt~
+    You have entered a large room which smells heavily of reptile.  You wonder
+what awaits you here.
+~
+22 4106 1
+D1
+You see the Treasure Vault.
+~
+door ruby~
+2 2215 2209
+D3
+You see the Crypt.
+~
+~
+0 -1 2219
+S
+#2219
+Crypt~
+    You are in a large room which continues to the west.  You notice many
+coffins here.  Open coffins reveal remains of something other than man.  
+The smell of reptile is very strong here.
+~
+22 4106 1
+D1
+You see the entrance.
+~
+~
+0 -1 2218
+D3
+You see nothing special.
+~
+~
+0 -1 2222
+S
+#2220
+The Lair~
+    You have entered a large room dominated by a great white dragon.  It growls
+at you before it attacks.
+~
+22 4106 1
+D2
+You the cave opening.
+~
+~
+0 0 2235
+S
+#2221
+A Lair~
+     You have entered a large room dominated by a great black dragon.  It looks
+as though it is amused by your presence.
+~
+22 4106 1
+D0
+You the cave opening.
+~
+~
+0 0 2241
+S
+#2222
+The Crypt Ends~
+    You have come to the end of the Crypt.  It seems deserted.  There is a 
+strange coffin lying against the wall.
+~
+22 4106 1
+E
+coffin~
+  A coffin lies a against the east wall.  It is closed.
+~
+D1
+You see the Crypt.
+~
+~
+0 -1 2219
+D3
+~
+coffin~
+1 0 2232
+S
+#2223
+Entrance to the Great Hall~
+    You have entered a huge hall.  It has been carefully decorated with
+beautiful tapestries depicting a great battle between dragons and men.  The
+dragons appear to be the victors.
+~
+22 4106 1
+D1
+The Hall continues.
+~
+~
+0 -1 2224
+D3
+You see the Nursery.
+~
+door stone~
+1 2218 2205
+S
+#2224
+The Great Hall~
+    You are working your way down the Hall.  To the north, you notice a smaller
+passageway, while the main hall continues to the east.
+~
+22 4106 1
+D0
+You see a narrow passageway.
+~
+~
+0 -1 2225
+D1
+You see the Hall.
+~
+~
+0 -1 2229
+D3
+~
+~
+0 -1 2223
+S
+#2225
+A Narrow Passageway~
+    This Passageway branches off from the main hall and leads somewhere...but
+where?
+~
+22 4106 1
+D0
+You see a large Lair.  It looks dangerous.
+~
+~
+0 -1 2226
+D2
+You see the great hall.
+~
+~
+0 -1 2224
+S
+#2226
+Lair~
+    You have entered a large lair with bones strewn about the ground.  You
+notice the source of these as you come face to face with a rather large red
+dragon.  You notice a trap door in the floor.
+~
+22 4106 1
+D2
+The narrow passageway.
+~
+~
+0 -1 2225
+D5
+You see a trap door.
+~
+door trap trapdoor~
+1 -1 2227
+S
+#2227
+Underground Tunnel~
+    You have entered an underground tunnel.  It is dark and dirty, and you find
+yourself wishing you were back in Midgaard.
+~
+22 4107 2
+D0
+You see the tunnel.
+~
+~
+0 -1 2228
+D4
+You see the red dragon's lair.
+~
+door trap trapdoor~
+1 -1 2226
+S
+#2228
+Underground Tunnel~
+    This tunnel has come to an end.  You see a trapdoor above you, and sense
+that it leads to a safe place.
+~
+22 4111 2
+D2
+You see the tunnel.
+~
+~
+0 -1 2227
+D4
+You see a trap door.
+~
+door trap trapdoor~
+1 -1 3001
+S
+#2229
+The Great Hall Ends.~
+    You have come to the end of the great hall.  You see before you a huge
+golden door, it must be at least twenty feet tall!  It has beautiful etchings
+of dragons.  You see a sign on the door.
+~
+22 4106 1
+E
+sign~
+          Congratulations on making it this far!  Watch out, it gets a little
+              nasty here...:)                                               
+                        - Wench
+~
+D1
+You see a great golden door.
+~
+door great golden~
+4 2299 2230
+D3
+You see the hall.
+~
+~
+0 -1 2224
+S
+#2230
+THE Lair~
+    You have entered a huge lair.  You feel that something big lives here or
+at least did.  The golden door lies back to the west.
+~
+22 4106 2
+D3
+You see a great golden door.
+~
+door golden great~
+4 2299 2229
+S
+#2231
+The End...~
+    You have reached the final lair.  It is dominated by a huge five headed
+dragon.  You suddenly realize that you have SERIOUS problems...
+~
+22 4106 2
+D2
+You see the top of the mountain.
+~
+~
+4 2249 2243
+S
+#2232
+Stairwell~
+   This is an old decript stairwell that leads to the wine cellar.  It looks
+like it hasn't been used for decades.  Well, at least not by anthing living.
+~
+22 4106 2
+D1
+The crypt~
+~
+0 0 2222
+D5
+A wine cellar~
+~
+0 0 2233
+S
+#2233
+Wine cellar~
+   This is the old wine cellar of the Dragon Tower.  The shelves are empty.
+Nothing living has been in here for a long time.  You see a tunnel leading
+off to the east and boy does it smell bad.  Kinda of like rotting flesh.
+~
+22 4099 2
+D1
+A tunnel
+~
+~
+0 0 2234
+D4
+The stairwell
+~
+~
+0 0 2232
+S
+#2234
+Tunnel~
+   The tunnel goes on and on and on.  You feel like you have be walking 
+forever.  A branch of the tunnel lies off to the north.  This tunnel
+goes east and west.
+~
+22 4355 2
+D0
+A cave opening
+~
+~
+0 0 2235
+D1
+A tunnel
+~
+~
+0 0 2236
+D3
+A tunnel
+~
+~
+0 0 2233
+S
+#2235
+A cave opening~
+  You stand at the opening of a giant cave.  There are many bones strewn across
+the room.  Some human, some undistinguishable.  It smells very bad in here.
+You can hear movement in the cave to the north.  The tunnel goes back to the
+south.
+~
+22 4355 2
+D0
+The lair
+~
+~
+0 0 2220
+D2
+The tunnel
+~
+~
+0 0 2234
+S
+#2236
+The End of the tunnel~
+   You have finally come to the end of the tunnel.  Back to the west lies
+the miles of tunnels you have walked through.  You see the faint outline of
+a trapdoor above you.  A bride over an underground river lies to the south.
+~
+22 4355 2
+D2
+bridge
+~
+~
+0 0 2237
+D3
+The tunnel
+~
+~
+0 0 2234
+D4
+trapdoor
+~
+~
+0 0 2202
+S
+#2237
+The Bridge~
+   You are walking along an old wooden bridge.  Its not that secure.  You 
+might want to hurry along.  To the south, on the other side of the bridge,
+lies a small opening.
+~
+22 4107 2
+D0
+The tunnel end
+~
+~
+0 0 2236
+D2
+A small opening
+~
+~
+0 0 2238
+S
+#2238
+A small opening~
+   You are standing in a small opening.  To the north lies the old wooden
+bridge.  To your south the you can see a clearing.  You can see sunlight
+again.  What a welcome relief
+~
+22 4107 2
+D0
+bridge
+~
+~
+0 0 2237
+D2
+clearing
+~
+~
+0 0 2239
+S
+#2239
+Clearing~
+   You stand out in a clearing.  Mountains are all around you.  There is a 
+well in the middle of the clearing.  Lying against the well is a sign.  A
+path leads up the mountain.  The small opening is back to the north.
+~
+22 4098 2
+E
+well~
+  You peer over the side of the well.  It looks VERY, VERY deep.  It appears
+to be ENDLESS.
+~
+E
+sign~
+  The sign reads:
+         This is a bottomless pit cleverly disguised as a well.  Peope have
+fallen in and never been heard from again.  Trust me, you dont want to go 
+down there.
+                      Looney the God of Laughs
+~
+D0
+the small opening
+~
+~
+0 0 2237
+D4
+A path
+~
+~
+0 0 2240
+D5
+The well
+~
+~
+0 4098 2244
+S
+#2240
+A path~
+   This path leads up the side of the mountain.  A clearing lies below you.
+There is a cave opening to the west.  The path continues up the mountain.
+~
+22 4098 2
+D3
+cave opening
+~
+~
+0 0 2241
+D4
+the path continues
+~
+~
+0 0 2242
+D5
+clearing
+~
+~
+0 0 2239
+S
+#2241
+A cave opening~
+   You stand before a huge cave opening.  You hearing heavy breathing from
+within the cave.  There are a few skeletons lying about.  The cave lies to 
+the south.  The path is back to the east.
+~
+22 4098 2
+D1
+the path
+~
+~
+0 0 2240
+D2
+A lair
+~
+~
+0 0 2221
+S
+#2242
+The path continues~
+   The path continues up the moutain to the top.  The path also goes down.
+Thats it, nothing more to see.
+~
+22 4098 2
+D4
+top of the mountain
+~
+~
+0 0 2243
+D5
+path
+~
+~
+0 0 2240
+S
+#2243
+The top of the mountain~
+   You are standing at the top of the mountain.  It feels more like the top of
+the world.  To your north lies a huge platinum door.  You hear very pronounced
+grumbling from behind the doors.  It sounds like something huge and its hungry.
+But if you dont have the key you dont have to worry because you cant get it.  
+If you do have the key I would suggest not going in.  Some believe the Five
+Headed dragon Tiamat was imprisoned here by the gods.  But who believes in 
+fairy tales.  Well if your scared you can always go down the mountain.
+~
+22 4098 2
+E
+door platinum~
+A huge platinum door separates you from harm~
+D0
+The platinum door
+~
+door platinum~
+4 2249 2231
+D5
+The path continues
+~
+~
+0 0 2242
+S
+#2244
+Well~
+
+
+
+
+
+
+
+
+   O
+   h
+   !
+
+
+   N
+   o
+   !
+
+
+
+
+
+   I warned you!  You have fallen into the bottomless pit.  You life flashes
+right before your eyes.  Pretty pathetic isn't it?  Next time you'll know
+to listen to the God of Laughs.
+~
+22 4100 0
+S
+#99999
+
+#RESET
+M 0  2200   5  2241   The dragon hatchling (A cave opening)
+M 0  2200   5  2239   The dragon hatchling (Clearing)
+M 0  2200   5  2201   The dragon hatchling (The Tower Gates)
+G 1  2214   1             a steel key
+M 0  2200   5  2202   The dragon hatchling (The Foyer)
+M 0  2200   5  2203   The dragon hatchling (Hallway)
+M 0  2200   5  2203   The dragon hatchling (Hallway)
+M 0  2200   5  2205   The dragon hatchling (Nursery)
+M 0  2200   5  2205   The dragon hatchling (Nursery)
+M 0  2200   5  2205   The dragon hatchling (Nursery)
+M 0  2200   5  2205   The dragon hatchling (Nursery)
+M 0  2201   7  2203   The Draconian (Hallway)
+E 1  2200  20    16     A Jagged Spear
+M 0  2201   7  2204   The Draconian (Hallway)
+E 1  2200  20    16     A Jagged Spear
+M 0  2201   7  2204   The Draconian (Hallway)
+E 1  2200  20    16     A Jagged Spear
+M 0  2201   7  2204   The Draconian (Hallway)
+E 1  2200  20    16     A Jagged Spear
+M 0  2200   5  2207   The dragon hatchling (End of the Hallway)
+M 0  2227   5  2207   A human slave (End of the Hallway)
+*M 0 2246 5 2207
+M 0  2200   5  2206   The dragon hatchling (Storage Room)
+M 0  2226   1  2208   A large hydra (Guardian's Room)
+G 1  2217   1             a grey key
+E 1  2264   5    17     a silver staff
+O 0  2263   2  2209    a golden wand (The Treasure Room)
+O 0  2210   2  2209    a stone club (The Treasure Room)
+D 0  2230   3     2    THE Lair
+D 0  2209   0     2    The Treasure Room
+D 0  2208   2     2    Guardian's Room
+D 0  2218   1     2    Entrance to the Crypt
+D 0  2201   0     2    The Tower Gates
+D 0  2229   1     2    The Great Hall Ends.
+D 0  2243   0     2    The top of the mountain
+D 0  2209   3     2    The Treasure Room
+D 0  2222   3     2    The Crypt Ends
+M 0  2201   7  2210   The Draconian (The Second Floor)
+E 1  2200  20    16     A Jagged Spear
+M 0  2207  20  2210   A bodyguard (The Second Floor)
+E 1  2286   1    16     a copper hammer
+M 0  2207  10  2211   A bodyguard (The Court)
+M 0  2207  10  2211   A bodyguard (The Court)
+E 1  2260   1    16     a golden scimitar
+M 0  2206   5  2212   A Concubine (Hall O' Pleasure)
+E 1  2201  50    16     A silver dagger
+M 0  2206   5  2212   A Concubine (Hall O' Pleasure)
+E 1  2216   2    17     a white key
+E 1  2201  50    16     A silver dagger
+M 0  2206   5  2212   A Concubine (Hall O' Pleasure)
+E 1  2248   2    17     a black key
+E 1  2201  50    16     A silver dagger
+M 0  2206   5  2212   A Concubine (Hall O' Pleasure)
+E 1  2201  50    16     A silver dagger
+M 0  2203   1  2214   A Powerful Mage (The Library)
+G 1  2251   5             a cyan potion
+E 1  2210   2    12     a stone club
+E 1  2250   1    17     a black staff
+E 1  2261   5     3     a diamond brooch
+M 0  2242   5  2214   the draconian fool (The Library)
+M 0  2204   1  2214   The Holy Draconian (The Library)
+G 1  2270  50             a runed scroll
+G 1  2252  50             a magenta potion
+E 1  2207   2     3     A Holy Symbol
+E 1  2206   1    14     A Platinum Bracelet.
+E 1  2205   1    13     A White Silk Belt.
+M 0  2205   1  2216   The Draconian King (The Court Ends)
+E 1  2215   2    17     A ruby key
+E 1  2209   1    16     An Emerald Sword
+E 1  2276   1    12     a fur cloak
+E 1  2262   1    11     a crested shield
+E 1  2254   1     9     a pair of spiked gauntlets
+M 0  2207   5  2216   A bodyguard (The Court Ends)
+M 0  2207   5  2216   A bodyguard (The Court Ends)
+M 0  2207   5  2216   A bodyguard (The Court Ends)
+M 0  2242   5  2216   the draconian fool (The Court Ends)
+M 0  2242   5  2216   the draconian fool (The Court Ends)
+M 0  2243   1  2217   the Draconian Queen (BedRoom)
+E 1  2203   1    14     A Dragon Skin Bracelet
+E 1  2204   1    13     A Black Silk Belt
+E 1  2201  50    16     A silver dagger
+E 1  2253   1     8     moth-eaten sandals
+M 0  2227   5  2217   A human slave (BedRoom)
+M 0  2227   5  2217   A human slave (BedRoom)
+M 0  2241   5  2217   the phase dragon (BedRoom)
+M 0  2240   5  2218   A Zombie (Entrance to the Crypt)
+M 0  2240   5  2218   A Zombie (Entrance to the Crypt)
+M 0  2240   5  2219   A Zombie (Crypt)
+M 0  2240   5  2219   A Zombie (Crypt)
+M 0  2240   5  2232   A Zombie (Stairwell)
+M 0  2240   5  2233   A Zombie (Wine cellar)
+M 0  2240   5  2234   A Zombie (Tunnel)
+M 0  2240   5  2236   A Zombie (The End of the tunnel)
+M 0  2223   1  2220   The Great White Dragon (The Lair)
+E 1  2266   2     5     the white dragon scale mail
+M 0  2222   1  2221   The Great Black Dragon (A Lair)
+E 1  2280   1     7     a pair of dragon scale leggings
+M 0  2202   1  2222   The Dragon Master (The Crypt Ends)
+E 1  2202   1    16     A Dragon's Tooth Knife
+E 1  2281   1    10     a set of dragon scale sleeves
+E 1  2271   1     9     a pair of dragon skin gloves
+M 0  2221   1  2226   The Great Red Dragon (Lair)
+G 1  2299   2             a tarnished gold key
+E 1  2275   1     6     a helm of dragon kind
+E 1  2265   1    17     the staff of the dragon
+M 0  2225   1  2230   The Ancient Green Dragon (THE Lair)
+G 1  2249  10             a platinum key
+E 1  2285   1    16     a dragon tailed whip
+E 1  2261   2     3     a diamond brooch
+M 0  2220   1  2231   Tiamat (The End...)
+E 1  2267   1     5     the Tiamat mail
+E 1  2212   1     1     a diamond ring
+E 1  2213   1     2     a copper ring
+E 1  2298   1    12     a dragon winged cloak
+S
+
+#SHOPS
+$
+#END of Dragon Tower.

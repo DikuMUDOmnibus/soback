@@ -1,0 +1,931 @@
+#201 Zone.
+NAME       : Plain of Fire~
+INFO       : 불사조가 지배하는 Fire 계..~
+PATH       : Elemantal Temple 에서 해매야한다.~
+ALIGN      : 2
+AGGRESSIVE : 1
+LEVEL      : 30 ~ 40
+MAX        : 20199
+LIFESPAN   : 40
+RESET      : 2
+
+#MOBILES
+#99999
+
+#OBJECTS
+#99999
+
+#ROOMS
+#20101
+The Lair Of The Pheonix~
+    You are standing on top of the hill, and see grand view of plain of fire.
+You are very glad to be out of that place, here is more calm. There are ten
+circular collumns here, each is thirty meters high. They form a large cirle.
+In the center of the cirle, you see a large bird-dragon, with flaming blue
+scales. It is Xyros, the Elemental Pricne of Fire. He is resting from his 
+great battle with Genok, the Evil Overlord which stole some power of fire. You
+sense great calm here, and no matter how hard you try, you can not find the
+want to leave this room.
+~
+201 4098 2
+S
+#20102
+The Plain Of Fire~
+    All around is great heat and flames. Fireballs explode from the atomsphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20141
+D2
+~
+~
+0 -1 20103
+S
+#20103
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20102
+D2
+~
+~
+0 -1 20106
+S
+#20104
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20137
+D1
+~
+~
+0 -1 20105
+D2
+~
+~
+0 -1 20110
+D3
+~
+~
+0 -1 20106
+S
+#20105
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20112
+D1
+~
+~
+0 -1 20106
+D2
+~
+~
+0 -1 20111
+D3
+~
+~
+0 -1 20104
+S
+#20106
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20103
+D1
+~
+~
+0 -1 20104
+D2
+~
+~
+0 -1 20112
+D3
+~
+~
+0 -1 20105
+S
+#20107
+Near The Hill~
+    All around is flames and smoke. Huge fireballs are thrown from the sky and
+crash into the ground. Very near you see a large hill that is untouched from 
+the great destruction here. You see a strange blue light coming fromthe top of
+the hill. There is a path that leads south and east from here.
+~
+201 4098 2
+D1
+~
+~
+0 -1 20108
+D2
+~
+~
+0 -1 20113
+S
+#20108
+The Plain Of Fire~
+    All around is desolate chaos. The ground is burned and black. Flames rise
+up and burn you, and huge fireballs thrown from the sky crash into the ground.
+You notice there is a large hill far to the south. On top of the hill, you see
+a bright blue glowing aura. There is a path leading west and east from here.
+~
+201 4098 2
+D1
+~
+~
+0 -1 20109
+D3
+~
+~
+0 -1 20107
+S
+#20109
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D2
+~
+~
+0 -1 20114
+D3
+~
+~
+0 0 20108
+S
+#20110
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20104
+D1
+~
+~
+0 -1 20111
+D2
+~
+~
+0 -1 20116
+D3
+~
+~
+0 -1 20112
+S
+#20111
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20105
+D1
+~
+~
+0 -1 20112
+D3
+~
+~
+0 -1 20110
+S
+#20112
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20106
+D1
+~
+~
+0 -1 20110
+D3
+~
+~
+0 -1 20111
+S
+#20113
+Bottom Of The Hill~
+    You are standing at the base of the hill. It is much calmer here, there
+is less fire and smoke. To the east, you see a path leading up to the hill,
+and notice on top of the hill what looks like some structure. There is a soft
+glowing aura from top of hill.
+~
+201 4102 2
+D0
+~
+~
+0 -1 20107
+D1
+~
+~
+0 -1 20101
+S
+#20114
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20109
+D1
+~
+~
+0 -1 20115
+D2
+~
+~
+0 -1 20118
+S
+#20115
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D1
+~
+~
+0 -1 20116
+D3
+~
+~
+0 -1 20114
+S
+#20116
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20110
+D1
+~
+~
+0 -1 20104
+D2
+~
+~
+0 -1 20120
+D3
+~
+~
+0 -1 20115
+S
+#20117
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D1
+~
+~
+0 -1 20118
+D3
+~
+~
+0 -1 20124
+S
+#20118
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20114
+D1
+~
+~
+0 -1 20119
+D3
+~
+~
+0 -1 20117
+S
+#20119
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D1
+~
+~
+0 -1 20120
+D3
+~
+~
+0 -1 20118
+S
+#20120
+A Ring of Flames~
+    There is a huge swirling ring of blue and green flames which floats above 
+the ground. You feel great energy in the air here. All around, flames rise up
+from the ground and huge fireballs fall from the sky. 
+~
+201 4102 2
+D0
+~
+~
+0 -1 20116
+D1
+~
+~
+0 -1 20110
+D2
+~
+~
+0 -1 20121
+D3
+~
+~
+0 -1 20119
+S
+#20121
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20120
+D1
+~
+~
+0 -1 20122
+D2
+~
+~
+0 -1 20127
+S
+#20122
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D1
+~
+~
+0 -1 20123
+D2
+~
+~
+0 -1 20128
+D3
+~
+~
+0 -1 20121
+S
+#20123
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20112
+D1
+~
+~
+0 -1 20124
+D2
+~
+~
+0 -1 20129
+D3
+~
+~
+0 -1 20122
+S
+#20124
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D2
+~
+~
+0 -1 20130
+D3
+~
+~
+0 -1 20123
+S
+#20125
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D1
+~
+~
+0 -1 20126
+D2
+~
+~
+0 -1 20131
+D3
+~
+~
+0 -1 20130
+S
+#20126
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D1
+~
+~
+0 -1 20127
+D2
+~
+~
+0 -1 20132
+D3
+~
+~
+0 -1 20125
+S
+#20127
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20121
+D3
+~
+~
+0 -1 20126
+S
+#20128
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20122
+D1
+~
+~
+0 -1 20129
+D2
+~
+~
+0 -1 20133
+S
+#20129
+The Plain Of Fire~
+    You are standing on a desolate plain of destruction. All around you, the
+ground is burned and cracked. Often, flames burst from the ground and you are 
+burned. The way is difficult, and the heat is like an oven. On the horizon, you
+see a huge fire buring, filling the sky with smoke and ash. There is a great
+storm in the atomsphere which burns like an inferno and shoot large fireballs
+down to the surface. In the distance, you hear the explosion of huge fireball
+crashing into the ground.
+~
+201 4102 2
+D0
+~
+~
+0 -1 20123
+D1
+~
+~
+0 -1 20130
+D2
+~
+~
+0 -1 20134
+D3
+~
+~
+0 -1 20128
+S
+#20130
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20124
+D1
+~
+~
+0 -1 20125
+D2
+~
+~
+0 -1 20135
+D3
+~
+~
+0 -1 20129
+S
+#20131
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20125
+D1
+~
+~
+0 -1 20132
+D2
+~
+~
+0 -1 20137
+D3
+~
+~
+0 -1 20135
+S
+#20132
+A Ring Of Falmes~
+    There is a huge swirlring ring of blue and green flames which floats above
+the ground. You feel great energy in the air. All around, great flames rise up
+from the ground, and huge fireballs fall from the sky. The air is thick and 
+filled with smoke, and you almost faint from the heat.
+~
+201 4102 2
+D0
+~
+~
+0 -1 20126
+D3
+~
+~
+0 -1 20131
+S
+#20133
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+To the south, you notice that the air is distorted and glowing.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20128
+D1
+~
+~
+0 -1 20134
+D2
+~
+~
+0 -1 20044
+S
+#20134
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20129
+D1
+~
+~
+0 -1 20135
+D3
+~
+~
+0 -1 20133
+S
+#20135
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20130
+D1
+~
+~
+0 -1 20131
+D2
+~
+~
+0 -1 20139
+D3
+~
+~
+0 -1 20124
+S
+#20136
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D1
+~
+~
+0 -1 20137
+D3
+~
+~
+0 -1 20139
+S
+#20137
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20131
+D2
+~
+~
+0 -1 20104
+D3
+~
+~
+0 -1 20136
+S
+#20138
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D1
+~
+~
+0 -1 20139
+D2
+~
+~
+0 -1 20140
+S
+#20139
+The Plain Of Fire~
+    All around is great heat and flames. Firebals explode from the atmosphere
+and crash to the ground. All is chaos and destruction. There is much smoke and
+fire. The ground is burned and cracked, and you are burned as flames burst up
+from below the surface. You shiver with fear of dying in this place.
+~
+201 4098 2
+D0
+~
+~
+0 -1 20135
+D1
+~
+~
+0 -1 20136
+D3
+~
+~
+0 -1 20138
+S
+#20140
+A Ring Of Flames~
+    There is a huge swirling ring of blue and green flames which floats above
+the ground. You feel great energy in the air. All around, great flames rise up
+from the ground, and huge fireballs fall from the sky. The air is thick and 
+filled with smoke, and you almost faint from the heat.
+~
+201 4102 2
+D0
+~
+~
+0 -1 20138
+D2
+~
+~
+0 -1 20141
+S
+#20141
+A Ring Of Flames~
+    There is a huge swirling ring of blue and green flames which floats above
+the ground. You feel great energy in the air. All around, great flames rise up
+from the ground, and huge fireballs fall from the sky. The air is thick and 
+filled with smoke, and you almost faint from the heat.
+~
+201 4102 2
+D0
+~
+~
+0 -1 20140
+D2
+~
+~
+0 -1 20102
+S
+#99999
+
+#RESET
+O 0 20021   0 20101    some ashes (The Lair Of The Pheonix)
+*
+X 0 20021 20101       some ashes (The Lair Of The Pheonix)
+M 1 20018   1 20101   Xyros (The Lair Of The Pheonix)
+G 1 20018   1             some ashes
+*
+X 0 20018 20101       some ashes (The Lair Of The Pheonix)
+M 1 20019   1 20101   Xyros (The Lair Of The Pheonix)
+G 1 20019   1             some ashes
+*
+X 0 20019 20101       some ashes (The Lair Of The Pheonix)
+M 1 20022   1 20101   Xyros (The Lair Of The Pheonix)
+G 1 20020   1             some ashes
+*
+X 0 20020 20101       some ashes (The Lair Of The Pheonix)
+M 1 20023  -1 20101   Xyros (The Lair Of The Pheonix)
+E 1 20022  -1    20     A pair of Pheonix Leggings
+E 1 20023  -1    11     a glowing aura of blue flames
+E 1 20025  -1    17     a talisman of red flames
+E 1 20026  -1     3     a medallion of blue flames
+E 1 20026  -1     4     a medallion of blue flames
+E 1 20027  -1    16     the Sword of The Pheonix
+G 1 20007   3             a pile of ashes
+G 1 20021   3             some ashes
+*
+M 0 20015   1 20120   The Fire Elemental (A Ring of Flames)
+M 0 20017  10 20118   A fire nymph (The Plain Of Fire)
+M 0 20017  10 20126   A fire nymph (The Plain Of Fire)
+M 0 20017  10 20138   A fire nymph (The Plain Of Fire)
+M 0 20017  10 20124   A fire nymph (The Plain Of Fire)
+M 0 20017  10 20104   A fire nymph (The Plain Of Fire)
+M 0 20016  20 20106   A fireball (The Plain Of Fire)
+M 0 20016  20 20108   A fireball (The Plain Of Fire)
+M 0 20016  20 20110   A fireball (The Plain Of Fire)
+M 0 20016  20 20112   A fireball (The Plain Of Fire)
+M 0 20016  20 20114   A fireball (The Plain Of Fire)
+M 0 20016  20 20122   A fireball (The Plain Of Fire)
+M 0 20016  20 20128   A fireball (The Plain Of Fire)
+M 0 20016  20 20138   A fireball (The Plain Of Fire)
+M 0 20016  20 20124   A fireball (The Plain Of Fire)
+M 0 20016  20 20126   A fireball (The Plain Of Fire)
+M 0 20016  20 20132   A fireball (A Ring Of Falmes)
+M 0 20016  20 20136   A fireball (The Plain Of Fire)
+M 0 20016  20 20141   A fireball (A Ring Of Flames)
+M 0 20020  15 20103   A burst of energy (The Plain Of Fire)
+M 0 20020  15 20105   A burst of energy (The Plain Of Fire)
+M 0 20020  15 20110   A burst of energy (The Plain Of Fire)
+M 0 20020  15 20114   A burst of energy (The Plain Of Fire)
+M 0 20020  15 20116   A burst of energy (The Plain Of Fire)
+M 0 20020  15 20117   A burst of energy (The Plain Of Fire)
+M 0 20020  15 20123   A burst of energy (The Plain Of Fire)
+M 0 20020  15 20125   A burst of energy (The Plain Of Fire)
+M 0 20020  15 20127   A burst of energy (The Plain Of Fire)
+M 0 20020  15 20141   A burst of energy (A Ring Of Flames)
+M 0 20020  15 20136   A burst of energy (The Plain Of Fire)
+M 0 20020  15 20134   A burst of energy (The Plain Of Fire)
+M 0 20021  15 20115   a firestorm (The Plain Of Fire)
+M 0 20021  15 20104   a firestorm (The Plain Of Fire)
+M 0 20021  15 20103   a firestorm (The Plain Of Fire)
+M 0 20021  15 20117   a firestorm (The Plain Of Fire)
+M 0 20021  15 20119   a firestorm (The Plain Of Fire)
+M 0 20021  15 20121   a firestorm (The Plain Of Fire)
+M 0 20021  15 20124   a firestorm (The Plain Of Fire)
+M 0 20021  15 20131   a firestorm (The Plain Of Fire)
+M 0 20021  15 20125   a firestorm (The Plain Of Fire)
+M 0 20021  15 20133   a firestorm (The Plain Of Fire)
+M 0 20021  15 20135   a firestorm (The Plain Of Fire)
+M 0 20021  15 20138   a firestorm (The Plain Of Fire)
+M 0 20021  15 20141   a firestorm (A Ring Of Flames)
+S
+
+#SHOPS
+$
+#END of Plain of Fire.

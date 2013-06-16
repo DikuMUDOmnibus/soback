@@ -1,0 +1,21 @@
+
+                Hobbes the tiger in Dirk castle
+
+T.P의 동쪽에 있는 Dirk's Castle에서 whe hobbes하면 private library에
+있는 것으로 나옵니다.
+원래 디꾸에서는 거기로 갈 수 있는데 지금은 못가게 되어 있더군요.
+
+하도 이상해서 world file을 뒤져보니 지도가 잘못되어 있더군요.
+Private Library란 방은 #1500번으로 되어있는데 여기로 들어오는 link가 없어졌어요
+..
+#1503의 Main Hall에서 description을 읽어보면 분명히 private library로 가는
+길이 있어야 할것 같은데..
+ > At the top you see the entrance to Dirk's private library.
+이런 문장이 있거든요.
+
+world file을 약간만 수정하면 고쳐지지 않을까 합니다.
+
+GOD님의 선처를 바랍니다.
+
+              Lin
+

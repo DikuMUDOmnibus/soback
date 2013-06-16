@@ -1,0 +1,269 @@
+#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/time.h>
+
+#include "structs.h"
+#include "defines.h"
+#include "macros.h"
+#include "comm.h"
+#include "db.h"
+#include "interpreter.h"
+#include "utils.h"
+#include "sockets.h"
+#include "handler.h"
+#include "variables.h"
+
+void do_who(struct char_data *ch, char *argument, int cmd)
+{
+  struct descriptor_data *d;
+  char buf[256], buf2[256], class;
+  int num_player=0,tlev = 0,lev = 0,tz = 0,z = 0,flag = 0,condtype;
+
+  if(argument) {
+    while(argument[0]==' ') ++argument;
+    switch(argument[0]) {
+      case '+': condtype=1; ++argument; break;
+      case '-': condtype=2; ++argument; break;
+      case '=': condtype=3; ++argument; break;
+      case '*': condtype=4; ++argument; z=world[ch->in_room].zone; break;
+      default: condtype=1;
+    }
+    if(condtype < 4)
+      lev=atoi(argument);
+  } else {
+    condtype=0;
+  }
+  send_to_char_han("Players\n\r-------\n\r", "ªÁ∂˜µÈ\n\r-------\n\r", ch);
+  for (d = descriptor_list; d; d = d->next) {
+    if (!d->connected && CAN_SEE(ch, d->character)) {
+      if(condtype){
+        if(condtype < 4)
+          tlev=d->original ? GET_LEVEL(d->original) : GET_LEVEL(d->character);
+        else
+          tz=d->original ? world[d->original->in_room].zone :
+                           world[d->character->in_room].zone;
+        switch(condtype) {
+          case 1: flag=(tlev >= lev); break;
+          case 2: flag=(tlev <= lev); break;
+          case 3: flag=(tlev == lev); break;
+          case 4: flag=(tz == z); break;
+        }
+        if(!flag) continue;
+      }
+      if(d->original){ /* If switched */ 
+        switch(GET_CLASS(d->original)){
+          case CLASS_MAGIC_USER: class='M'; break;
+          case CLASS_CLERIC    : class='C'; break;
+          case CLASS_THIEF     : class='T'; break;
+          case CLASS_WARRIOR   : class='W'; break;
+          default        : class='U';
+        }     
+        if(IS_SET(d->character->specials.act,PLR_KOREAN))
+          sprintf(buf, "( %c %2d ) %s %s", class, GET_LEVEL(d->original), 
+             GET_NAME(d->original), d->original->player.title);
+        else
+          sprintf(buf, "< %c %2d > %s %s", class, GET_LEVEL(d->original), 
+             GET_NAME(d->original), d->original->player.title);
+      }
+      else{
+        switch(GET_CLASS(d->character)){
+          case CLASS_MAGIC_USER: class='M'; break;
+          case CLASS_CLERIC    : class='C'; break;
+          case CLASS_THIEF     : class='T'; break;
+          case CLASS_WARRIOR   : class='W'; break;
+          default        : class='U';
+        }
+        if(IS_SET(d->character->specials.act,PLR_KOREAN))
+          sprintf(buf, "( %c %2d ) %s %s", class, GET_LEVEL(d->character), 
+             GET_NAME(d->character), d->character->player.title);
+        else
+          sprintf(buf, "< %c %2d > %s %s", class, GET_LEVEL(d->character), 
+             GET_NAME(d->character), d->character->player.title);
+        if(IS_SET(d->character->specials.act,PLR_CRIMINAL))
+           strcat(buf," (CRIMINAL)\n\r");
+        else
+           strcat(buf,"\n\r");
+      }
+    send_to_char(buf, ch);
+    num_player++;
+    }
+  }
+  send_to_char("\n\r", ch);
+  sprintf(buf,"You can see %d players.\n\r",num_player);
+  sprintf(buf2,"%d ∏Ì¿Ã ¿÷Ω¿¥œ¥Ÿ.\n\r",num_player);
+  send_to_char_han(buf, buf2, ch);
+}
+
+void who_service( struct descriptor_data * d )
+{
+	time_t t;
+
+	GET_LEVEL( d->character ) = 40;
+
+	SET_BIT( d->character->specials.affected_by, AFF_DETECT_INVISIBLE );
+
+	do_who( d->character, "", -1 );
+
+	REMOVE_BIT( d->character->specials.affected_by, AFF_DETECT_INVISIBLE );
+
+  	t = 30 + time(0) - boottime;
+  	sendf( d->character, "Running time %d:%02d",t/3600,(t%3600)/60);
+
+	GET_LEVEL( d->character ) = 0;
+
+  	SEND_TO_Q("\n\rEnter \"who\" to read who-list again or enter your mud-name to play.\n\r", d );
+    SEND_TO_Q("By what name do you wish to be known? ", d );
+}
+
+void do_where(struct char_data *ch, char *argument, int cmd)
+{
+    char name[MAX_INPUT_LENGTH], buf[MAX_STRING_LENGTH];
+    struct char_data *i, * tmp;
+    int 	 j, n, pre,found = 0;
+    char	 * np, *cp, c ; 
+    struct obj_data *k;
+    struct descriptor_data *d;
+
+  	one_argument(argument, name);
+  	n=0;
+  	if( !*name ) 
+  	{
+		if (GET_LEVEL(ch) < IMO) 
+		{
+		  	for (d = descriptor_list; d; d = d->next) 
+		  	{
+				if (d->character && (d->connected == CON_PLYNG) &&
+				 	(d->character->in_room != NOWHERE))
+	#ifdef DEATHFIGHT
+			 	if(CAN_SEE(ch,d->character)) 
+				{
+	#else
+			 	if(CAN_SEE(ch,d->character) && 
+			  		world[d->character->in_room].zone == world[ch->in_room].zone) 
+				{
+	#endif DEATHFIGHT
+					sendf( ch , "%-20s - %s [%d]",
+				  			d->character->player.name,
+				  			world[d->character->in_room].name,
+				  			world[d->character->in_room].number);
+				}
+		  	}
+    	} 
+		else 
+		{
+      		for (d = descriptor_list; d; d = d->next) 
+	  		{
+        		if (d->character && (d->connected == CON_PLYNG) &&
+             		(d->character->in_room != NOWHERE))
+         			if(CAN_SEE(ch,d->character)) 
+		 			{
+          				if (d->original)
+            				sendf( ch, "%-20s - %s [%d] In body of %s",
+								d->original->player.name,
+								world[d->character->in_room].name,
+								world[d->character->in_room].number,
+								fname(d->character->player.name));
+          				else
+            				sendf( ch, "%-20s - %s [%d]",
+              					d->character->player.name,
+							  	world[d->character->in_room].name,
+							  	world[d->character->in_room].number);
+        			}
+      		}
+  			for( tmp = character_list; tmp; tmp = tmp->next ) 
+  				if( (!IS_NPC(tmp) && !(tmp->desc )) &&
+  					( GET_LEVEL(tmp) < IMO || GET_LEVEL(tmp) <= GET_LEVEL(ch)) )
+  					{
+           				sendf( ch, "%-15s LOST - %s [%d]",
+           					tmp->player.name,
+						  	world[tmp->in_room].name,
+						  	world[tmp->in_room].number);
+					}
+    	}
+		return;
+  	}
+
+	pre = 0;
+	np = name;
+	cp = strchr( name, '.' );
+
+	if( cp )
+	{
+		c = *cp; *cp = 0;
+		if( is_number( np ) ) 
+		{
+			if( pre = atoi( np ), pre <= 1 )
+			{
+				sendf( ch, "Eh? Do you wanna find it or what?" );
+				return;
+			}
+		}
+		else
+		{
+			*cp = c;
+			sendf( ch, "Huh? Can't find any %s.", np );
+			return;
+		}
+		cp++;
+	}
+	else cp = name;
+
+  	for( i = character_list; i; i = i->next )
+  	{
+  		if(isname( cp, i->player.name) && CAN_SEE(ch, i) ) 
+		{
+      		if((i->in_room != NOWHERE) && ((GET_LEVEL(ch)>=IMO) ||
+          		(world[i->in_room].zone == world[ch->in_room].zone))) 
+		  	{
+				found++;
+				if( pre && found != pre ) continue;
+        		if (GET_LEVEL(ch) >= IMO)
+          			sprintf( buf, "[%d]", world[i->in_room].number);
+        		if (IS_NPC(i))
+          			sendf( ch, "%2d: %-30s- %s %s",++n,i->player.short_descr,
+            			world[i->in_room].name, (GET_LEVEL(ch) >= IMO) ? buf : "" );
+        		else
+          			sendf( ch, "%2d: %-30s- %s ",++n,i->player.name,
+            			world[i->in_room].name);
+				if( pre && found == pre ) return;
+        		if( GET_LEVEL(ch) < IMO ) break;
+      		}
+    	}
+	}
+
+  	if (GET_LEVEL(ch) >= IMO) 
+  	{
+   		for( i = character_list; i; i = i->next )
+   			for( j = 0; j < MAX_WEAR; ++j ) 
+  				if( i->equipment[j] && isname( cp, i->equipment[j]->name))
+				{
+					found++;
+					if( pre && found != pre ) continue;
+       				sendf( ch, "%2d: %s worn by %s",
+           				++n,i->equipment[j]->short_description, GET_NAME(i));
+					if( pre && found == pre ) return;
+				}
+   		for( k = object_list; k; k = k->next ) 
+   		{
+			if( isname( cp, k->name) )
+			{
+	   			found++;
+				if( pre && found != pre ) continue;
+   				if( k->carried_by ) 
+       				sendf( ch, "%2d: %s carried by %s.",
+       					++n,k->short_description,PERS(k->carried_by,ch));
+  				else if(k->in_obj) 
+				{
+       				sprintf( buf,"%2d: %s in %s",++n, k->short_description,
+       							k->in_obj->short_description );
+       				if( k->in_obj->carried_by )
+       					sendf(ch, "%s carried by %s", buf, PERS(k->in_obj->carried_by,ch));
+       				else
+       					sendf(ch, buf );
+   				} 
+  				else if( k->in_room != NOWHERE ) 
+       				sendf( ch, "%2d: %s in %s [%d]",++n, k->short_description,
+       						world[k->in_room].name, world[k->in_room].number);
+				if( pre && found ñ/  1^ @ P   7^ ¿   ò/  8^ ‡   À/  9^ ‡   <  :^   5     V^   ®     c^    P§ l^    P§ {^    P§ ç^ d   P§ ®^ d   P§ ª^ Ä       ›^ Ä       Ô^ Ä       _ Ä       /_ Ä       M_ Ä       ë_ Ä       ’_ Ä       Û_ Ä       ` Ä       2` Ä       N` Ä       `` Ä       s` Ä       å` Ä       π` Ä       ‘` Ä       ` Ä       a Ä       a Ä 3     )a Ä 4     4a Ä 5     =a Ä 6     Ga Ä 7     Qa Ä 8     Ya Ä ;     ea Ä <     oa Ä =     ~a Ä ?     ça Ä @     òa Ä A     °a Ä B     ¨a Ä C     µa Ä D     æa Ä E     »a Ä F     ”a Ä G     ‹a Ä H     Âa Ä I     a Ä J     ˚a Ä K     b Ä       )b Ä +     9b Ä       ab Ä /     mb Ä 2     |b Ä 3     âb Ä 9     îb Ä :     °b Ä ;     ¨b Ä <     πb Ä =     ƒb Ä >     —b Ä ?     ‹b Ä @     Èb Ä g     Ùb Ä l     ˛b Ä q     	c Ä v     c Ä á     c Ä       Jc Ä ê     Uc Ä F     _c Ä       éc Ä       µc Ä       ‡c Ä       d Ä       Id Ä       zd Ä       •d Ä       ‹d Ä       e Ä î     e Ä      !e Ä 	     +e Ä 
+     5e Ä      @e Ä      He Ä      Pe Ä       èe Ä       £e Ä       ”e Ä       f Ä       ?f Ä       sf Ä       îf Ä       Œf Ä       g Ä       8g Ä       {g Ä       ≥g Ä       g Ä       1h Ä       Bh Ä ?     Nh Ä       áh Ä       ∏h Ä        h Ä       ¯h Ä       1i Ä       qi Ä       ¨i Ä       “i Ä ]     ﬂi Ä       j Ä       (j Ä       Vj Ä       gj Ä       £j Ä       ﬁj Ä       k Ä       9k Ä       ok Ä       ók Ä       •k Ä       €k Ä   

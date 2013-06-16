@@ -1,0 +1,64 @@
+
+			        *********
+			      *************
+		-------------- News of Mud --------------
+		
+     죽은 후에 rent + 0 번으로 나갔다 들어올 이유가 없어졌습니다.
+     Board 에서 포스팅한 분이 자기 메세지는 직접 지울 수 있습니다.
+     Login 에서 who 를 입력하면 who list 를 보실 수 있습니다.
+     where 2.hit 처럼 where 에 index 를 지정할 수가 있습니다.
+     방에 musashi 가 있다면 단지 l m 함으로써 musashi 를 볼 수 있습니다.
+     ( l u, l e 등과 혼란이 오니 urchin 이라면 l ur 이라고 해야합니다 )
+     Level Up 시에 base stat 만이 관여되므로 레벨업 아이템이 의미가 없습니다.
+     wear all 시에 light, weapon, hold item 이 자동으로 입혀집니다.
+     wear all.ring 이 됩니다.
+     rem all, rem all.ring, rem 3.ring 이 됩니다.
+     아이템의 수명이 생겼습니다.
+     Charm 한 mobile 은 Ungroup 할 수 없습니다.
+     get all.wand bag, get all all.bag, get one all.bag 이 됩니다.
+     put all altar, put all.ring bag 이 됩니다.
+     scroll 명령으로 자신의 최대 스크롤 양을 정할 수 있습니다.
+5/24 이템에 사용자 레벨 제한이 생겼습니다.
+5/25 새로운 magic system 으로 메직이 더욱 강력해졌습니다.
+5/25 SAVES_SPELL, SAVES_PARA 가 이제 전보다 중요해졌습니다.
+5/27 아이템 수리소가 d.2s.3w.4s.2e.2n.3e 에 생겼습니다.
+5/30 warrior, thief 는 cast 를 못하게 되었습니다.( drain wand 는 상점에 )
+5/30 punch 류의 새기술이 생겼습니다.
+5/30 kick,bash,punch 가 강해졌스며 해당하는 아이템에 영향을 받습니다.
+5/30 Pink 님의 새존 South castle 이 d.2s.3w.4s.s 에 새로 붙었습니다.
+6/06 새로운 DB system 으로 존 reset 이 강력해지고 메모리사용이 대폭줄었습니다
+6/06 새로운 명령어 해석기로 대문자, 소문자, 한글명령이 먹습니다.
+     k -> kill, r -> rescue, a -> assist 등으로 우선 순위가 바뀌었습니다.
+6/06 zone 명령이 추가되고, examine all, repair all, motd 등 명령이 변했습니다
+6/06 midgaard 북쪽을 활용하고 확장하기 위해 temple 주의의 지도가 바뀌었습니다
+6/08 중고품 가계가 생겼습니다. Mid 의 가계들 보다 비싸게 팔수있죠.(d.n.4w)
+6/10 attribute 명령이 부활했습니다.
+6/14 미드북쪽의 성문밖에 4 개의 새존이 붙었습니다.. 자세한 내용은 board 에서..
+6/15 lessor god 방의 북동쪽에 Rome 존이 새로 붙었습니다.. board 를 참고하세요
+6/25 locker 가 w.w 에 생겼습니다.
+6/25 소포가 가능합니다.. d.w.s
+6/25 새로운 round 단위의 기술이 생겼습니다. time stop, berserk, morpeth
+6/25 commands 명령이 새로워졌습니다. 이외에 많은 작은 변화가 있습니다.
+7/01 새 기술 Masquerade ( thief ), Deafen ( Warrior ) 가 생겼습니다.
+7/02 은행에 '가족 계좌'를 만들 수가 있습니다. ( 최대 20 명 등록 가능 )
+7/04 item 이름도 짧게 칠 수가 있습니다. a.br == *.br == all.bread
+7/04 Key 류를 보험에 가입(?)하여 다운되도 다음 리부팅에 쓸 수가 있습니다.
+7/04 buy recall nuis <-- nuis 는 구좌이름으로 물건등을 살 수가 있습니다.
+7/09 Ambush( thief ), Sanctuary shield( Cleric ) 의 새기술이 생겼습니다.
+7/09 split, group all 의 명령이 추가 되었습니다.
+7/31 머드에 on-line edition 기능이 내장되었습니다.
+7/31 새로운 타격 메세지가 생겼습니다.
+7/31 새로운 존 sundhaven, trade road, pyramid( not chiak zone ) 가 붙었습니다.
+7/31 seed 의 기능이 생겼습니다.. ( 그 리부팅 안에서만 99 로 올려줌 )
+8/02 dazzle blast( Warrior ), serpent stab( Thief ) 새기술이 생겼습니다.
+8/02 타격의 종류와 damage 에 따라 시체가 분리되기도 합니다.
+8/05 새존 ghenna 와 oceania 가 붙었으며 mid 의 몇 mobile 이 사라졌거나 변했습니다.
+8/12 Information room 이 생겼습니다. d.4s.w.n . Reboot,Shutdown mob 이 생겼습니다.
+8/12 detect good Magic 이 쓰입니다. 또, (Red Aura) 메시지도 변했습니다.
+9/04 새기술 Track & Peek 이 새기고 여러 새로운 social 명령이 생겼습니다.
+9/05 Afk 란 새로운 명령이 생기고 who 를 비롯한 여러 display 가 바뀌었습니다.
+9/07 Warrior 에 새로운 방전체 공격 기술, bang the earth, swirl blade 가 생겼습니다.
+9/08 More 기능의 대폭적인 강화와 몇가지 god 명령이 추가 되었습니다.
+9/12 새존들이 붙었습니다. AntKingdom, Elemental ( Fire & Earth ).
+9/15 새존 Three sword, Ciquala 가 붙었습니다.
+10/25 wear [item] 에서 item 이 이미 그 위치에 입혀있을 경우 아이템을 대체합니다.

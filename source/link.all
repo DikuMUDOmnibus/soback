@@ -1,0 +1,11 @@
+tmsBase=/var/tmp/MUD/diku
+
+cd $tmsBase/obj
+
+if [ "x$1" = "xtest" ]; then
+	echo "gcc -lsocket -lnsl -o $tmsBase/diku.backup/tms.test *.o"
+	gcc -lnsl -lsocket -o $tmsBase/diku.backup/tms.test *.o
+else
+	echo "gcc -lsocket -lnsl -o $tmsBase/tms.tmp *.o"
+	gcc -lnsl -lsocket -o $tmsBase/tms.tmp *.o
+fi

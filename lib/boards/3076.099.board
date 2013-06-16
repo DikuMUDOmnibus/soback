@@ -1,0 +1,19 @@
+full fire 와 disintergrate 가 바뀌었습니다..
+
+summon 을 현재 delay 가 걸린 char 을 summon 하면 그 char 가
+몇 초후에 날라오게 고친 후.. mage 의 일반적 magic 의
+세기를 올렸습니다..
+
+full fire 의 경우 mage 단군이 2000 mana 정도 만들었을
+때를 상정해서 damage 가 어느 정도 발휘되게 고쳤고..
+
+disintergrate 의 경우는 전과는 달리 일반적인 공격 마법
+과 비슷하게 작동하게 됩니다.. 즉 saves_spell 이 먹혀도
+damage 가 0 되지 않고 약해질 뿐이면, 대신 전과 같이
+상대의 sanc 에 영향을 받지 않으므로 sanc 있는 mob 을
+공격하는데 아주 유용하겠습니다.. 그 쎄기는 상당합니다.
+
+Mage 균형의 첫발이겠죠.. 새로운 메직이 빨리 선보이기를 바라면서
+
+*Nuis*
+

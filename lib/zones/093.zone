@@ -1,0 +1,681 @@
+#93 Zone.
+NAME       : Mob Factory~
+INFO       : 초급레벨을 위한 훈련존..~
+PATH       : Temple 에서 d.2s.4e~
+ALIGN      : 2
+AGGRESSIVE : 0
+LEVEL      : 1 ~ 5
+MAX        : 9399
+LIFESPAN   : 20
+RESET      : 2
+
+#MOBILES
+#9301
+mutant fido dog~
+The mutant beastly fido~
+The mutant beastly fido is here, his eyes glowing green!
+~
+You see a mutant beastly fido, glaring at you with green eyes!  You wonder if
+this factory meets ASPCA guidlines....
+~
+488 8 -700 S
+6 18 -3 3d6+20 2d4+1
+5 2000
+8 8 1
+#9302
+foreman floyd~
+Foreman Floyd~
+Foreman Floyd is here, making plans for the factory's future.
+~
+You see Foreman Floyd of the Mob factory -- a sterling example of what comes
+of dedicated Mudding!  Rewarded for his years of dedication as a monster
+slayer, Floyd now creates the beasts for other adventurers to fight.
+~
+74 168 2 S
+12 10 -4 2d100+100 2d7+2
+1000 3500
+6 8 1
+#9303
+cityguard guard head~
+The Cityguard head~
+The Cityguard head floats around aimlessly.
+~
+You see a Cityguard head floating around without a care in the world.
+Obviously, this one got past quality control!  Careful, those teeth look
+sharp...
+~
+72 524288 0 S
+9 12 0 3d15+30 2d6+2
+0 2000
+8 8 0
+#9304
+revolving drunk~
+The revolving drunk~
+The Revolving drunk is here, spinning in place.
+~
+You see and smell a drunk who looks much like other drunks...but he is spinning
+in place!  Someone should tell him that he is a REVOLTING drunk.
+~
+204 0 1 S
+2 20 4 2d4+10 1d6+1
+50 150
+8 8 1
+#9305
+toxic slime~
+The toxic slime~
+A pool of toxic slime lies on  the floor.
+~
+yick.  Looks like someone had digestion problems!  Either that, or the 
+hydraulic fluid is leaking again.
+~
+14 0 0 S
+4 17 8 3d10+30 2d4+0
+0 650
+6 6 0
+#9306
+worker~
+The factory worker~
+A Mob Factory worker is standing here, looking bored.
+~
+The worker wears a bright orange pair of overalls, with the words "Mob
+Factory" written in a bright purple starburst.  Fashion plate, he's not.
+~
+200 0 100 S
+3 18 6 4d20+5 1d4+1
+50 325
+8 8 1
+#9307
+worker~
+The factory worker~
+A Mob Factory worker is here, asleep in a chair.
+~
+If Floyd walks in, you can bet there'll be trouble.  Guess she shouldn't have
+worked the late shift!
+~
+138 0 150 S
+3 18 6 4d20+5 1d4+1
+75 300
+4 4 2
+#99999
+
+#OBJECTS
+#99999
+
+#ROOMS
+#9300
+Entrance to the Mob Factory~
+You find that you have entered a strange factory. This factory doesn't
+make cars or computers or something - it makes mobs! The sound of
+machinery can be heard in the background; the grinding gears drive you
+crazy! To the north you see the storage area, to the south the
+foreman's office, to the east the entrance hallway, and to the west the
+eastern end of alley.
+~
+93 12 0
+D0
+~
+~
+0 0 9301
+D1
+~
+~
+0 0 9307
+D2
+~
+~
+0 0 9303
+D3
+~
+~
+0 0 3046
+S
+#9301
+Mob Factory Storage Area~
+This is where the raw materials from which mobs are manufactured are
+stored. You see sacks of sawdust, cans of pink paint, a large box
+containing wigs and a bottle mysteriously labelled "solution x". Exits
+are more of storage to the east and north, and entrance to the mob
+factory to the south.
+~
+93 8 0
+D0
+~
+~
+0 0 9302
+D1
+~
+~
+0 0 9306
+D2
+~
+~
+0 0 9300
+S
+#9302
+Mob Factory Storage Area~
+This is where the raw materials from which mobs are manufactured are
+stored. You see sacks of sawdust, cans of pink paint, a large box
+containing wigs and a bottle mysteriously labelled "solution X". Exits
+are more of storage to the east and south.
+~
+93 8 0
+D1
+~
+~
+0 0 9305
+D2
+~
+~
+0 0 9301
+S
+#9303
+Foreman's Office~
+This is the ofice of the mob factory foreman. The room is sparsely
+furnished with a metal desk, a couple of chairs, a shelf with helmets
+of various sizes and a Sports Illustrated Swimsuit calendar on the west
+wall. Exits lead north to the mob factory entrance and south to the
+foreman's bathroom.
+~
+93 8 0
+D0
+~
+~
+0 0 9300
+D2
+~
+~
+0 0 9304
+S
+#9304
+Foreman's Bathroom~
+This is the place where the foreman makes frequent visits. The smell
+here is very strong and reminds you of bovine excrement! There is a
+shower to the back, and a urinal to the left. On the floor you can
+see stains of a very suspicious nature. The only exit leads north to
+the foreman's office.
+~
+93 8 0
+D0
+~
+~
+0 0 9303
+S
+#9305
+Mob Factory Storage Area~
+This is where the raw materials from which mobs are manufactured are
+stored. You see sacks of sawdust, cans of pink paint, a large box
+containing wigs and a bottle mysteriously labelled "solution X". Exits
+are more of storage to the west and south, and an inspection room to
+the east.
+~
+93 8 0
+D1
+~
+~
+0 0 9310
+D2
+~
+~
+0 0 9306
+D3
+~
+~
+0 0 9302
+S
+#9306
+Mob Factory Storage Area~
+This is where the raw materials from which mobs are manufactured are
+stored. You see sacks of sawdust, cans of pink paint, a large box
+containing wigs and a bottle mysteriously labelled "solution X". Exits
+are more of storage to the west and north, an inspection room to the
+east and the entrance hallway to the south.
+~
+93 8 0
+D0
+~
+~
+0 0 9305
+D1
+~
+~
+0 0 9311
+D2
+~
+~
+0 0 9307
+D3
+~
+~
+0 0 9301
+S
+#9307
+Entrance Hallway to Mob Factoy~
+You are standing in the entrance hallway of the mob factory. The sound
+of machinery gets louder now, and you can hear people shouting in the
+distance. Every once in a while you get creepy feeling that a pair of
+eyes is observing you...... Exits are north to the storage area, east
+to the entrance hallway, south to the cafeteria and west to the mob
+factory entrance.
+~
+93 8 0
+D0
+~
+~
+0 0 9306
+D1
+~
+~
+0 0 9312
+D2
+~
+~
+0 0 9308
+D3
+~
+~
+0 0 9300
+S
+#9308
+Mob Factory Cafeteria~
+You find that you have entered the cafeteria of the mob factory. There
+are many workers eating at the numerous tables placed around the room.
+The food doesn't look too appetising, but the factory workers don't
+seem to care. There are many places where food and drink have been
+spilled on the ground. Exits are north to the entrance hallway and
+south to the mob factory cafeteria.
+~
+93 8 0
+D0
+~
+~
+0 0 9307
+D2
+~
+~
+0 0 9309
+S
+#9309
+Mob Factory Cafeteria~
+You find that you have entered the cafeteria of the mob factory. There
+are many workers eating at the numerous tables placed around the room.
+The food doesn't look too appetising, but the factory workers don't
+seem to care. There are many places where food and drink have been
+spilled on the ground. The only exit is north to the mob factory
+cafeteria.
+~
+93 8 0
+D0
+~
+~
+0 0 9308
+S
+#9310
+Mob Factory Inspection Room~
+You have entered the mob factory inspections room. This is where the
+mobs manufactured on the assembly lines are inspected for defects. A
+whole team of inspectors from the Midgaard Inspections Bureau is
+standing around, trying to look busy. Exits are south to the mob
+factory inspection room, east to the primary assembly line and west to
+the storage area.
+~
+93 8 0
+D1
+~
+~
+0 0 9315
+D2
+~
+~
+0 0 9311
+D3
+~
+~
+0 0 9305
+S
+#9311
+Mob Factory Inspection Room~
+You have entered the mob factory inspections room. This is where the
+mobs manufactured on the assembly lines are inspected for defects. A
+whole team of inspectors from the Midgaard Inspections Bureau is
+standing around, trying to look busy. Exits are south to the mob
+factory inspection room, east to the primary assembly line and west to
+the storage area.
+~
+93 8 0
+D0
+~
+~
+0 0 9310
+D1
+~
+~
+0 0 9316
+D2
+~
+~
+0 0 9312
+D3
+~
+~
+0 0 9306
+S
+#9312
+Entrance Hallway to Mob Factoy~
+You are standing in the entrance hallway of the mob factory. The sound
+of machinery gets louder now, and you can hear people shouting in the
+distance. Every once in a while you get creepy feeling that a pair of
+eyes is observing you...... Exits are north to the inspection room,
+east to the primary assembly line, south to the reject room and west
+to the entrance hallway.
+~
+93 8 0
+D0
+~
+~
+0 0 9311
+D1
+~
+~
+0 0 9317
+D2
+~
+~
+0 0 9313
+D3
+~
+~
+0 0 9307
+S
+#9313
+Mob Factory Reject Room~
+This is the factory reject room. All the mobs that are manufactured
+incorrectly or have some defect are placed here before subsequent
+destruction. You shudder at the many deformed and grotesque shapes
+present before you. Exits are south to the reject room and north to
+the entrance hallway.
+~
+93 8 0
+D0
+~
+~
+0 0 9312
+D2
+~
+~
+0 0 9314
+S
+#9314
+Mob Factory Reject Room~
+This is the factory reject room. All the mobs that are manufactured
+incorrectly or have some defect are placed here before subsequent
+destruction. You shudder at the many deformed and grotesque shapes
+present before you. The only exit is north to the reject room.
+~
+93 8 0
+D0
+~
+~
+0 0 9313
+S
+#9315
+Primary Assembly Line~
+This is the primary assembly line of the mob factory. Here, all the
+mobs seen roaming around the city of Midgaard are manufactured from
+raw materials. There is a big conveyor belt present which makes a lot
+of noise! It seems that the workers are making drunks today. Exits are
+east to the secondary assembly line, south to the primary assembly
+line and west to the inspection room.
+~
+93 8 0
+D1
+~
+~
+0 0 9320
+D2
+~
+~
+0 0 9316
+D3
+~
+~
+0 0 9310
+S
+#9316
+Primary Assembly Line~
+This is the primary assembly line of the mob factory. Here, all the
+mobs seen roaming around the city of Midgaard are manufactured from
+raw materials. There is a big conveyor belt present which makes a lot
+of noise! It seems that the workers are making drunks today. Exits are
+east to the secondary assembly line, north and south to the primary
+assembly line and west to the inspection room.
+~
+93 8 0
+D0
+~
+~
+0 0 9315
+D1
+~
+~
+0 0 9321
+D2
+~
+~
+0 0 9317
+D3
+~
+~
+0 0 9311
+S
+#9317
+Primary Assembly Line~
+This is the primary assembly line of the mob factory. Here, all the
+mobs seen roaming around the city of Midgaard are manufactured from
+raw materials. There is a big conveyor belt present which makes a lot
+of noise! It seems that the workers are making drunks today. Exits are
+east to the secondary assembly line, north and south to the primary
+assembly line and west to the entrance hallway.
+~
+93 8 0
+D0
+~
+~
+0 0 9316
+D1
+~
+~
+0 0 9322
+D2
+~
+~
+0 0 9318
+D3
+~
+~
+0 0 9312
+S
+#9318
+Primary Assembly Line~
+This is the primary assembly line of the mob factory. Here, all the
+mobs seen roaming around the city of Midgaard are manufactured from
+raw materials. There is a big conveyor belt present which makes a lot
+of noise! It seems that the workers are making drunks today. Exits are
+east to the secondary assembly line, north and south to the primary
+assembly line.
+~
+93 8 0
+D0
+~
+~
+0 0 9317
+D1
+~
+~
+0 0 9323
+D2
+~
+~
+0 0 9319
+S
+#9319
+Primary Assembly Line~
+This is the primary assembly line of the mob factory. Here, all the
+mobs seen roaming around the city of Midgaard are manufactured from
+raw materials. There is a big conveyor belt present which makes a lot
+of noise! It seems that the workers are making drunks today. Exits are
+east to the secondary assembly line and north to the primary
+assembly line.
+~
+93 8 0
+D0
+~
+~
+0 0 9318
+D1
+~
+~
+0 0 9324
+S
+#9320
+Secondary Assembly Line~
+This is the secondary asembly line of the mob factory. You are
+surprised to see cityguard heads come floating on the conveyor belt!
+The very sight is sickening, but the workers seem to be quite
+cheerful about their work. Exits are south to the secondary assembly
+line and west to the primary assembly line.
+~
+93 8 0
+D2
+~
+~
+0 0 9321
+D3
+~
+~
+0 0 9315
+S
+#9321
+Secondary Assembly Line~
+This is the secondary asembly line of the mob factory. You are
+surprised to see cityguard heads come floating on the conveyor belt!
+The very sight is sickening, but the workers seem to be quite
+cheerful about their work. Exits are north and south to the secondary
+assembly line and west to the primary assembly line.
+~
+93 8 0
+D0
+~
+~
+0 0 9320
+D2
+~
+~
+0 0 9322
+D3
+~
+~
+0 0 9316
+S
+#9322
+Secondary Assembly Line~
+This is the secondary asembly line of the mob factory. You are
+surprised to see cityguard heads come floating on the conveyor belt!
+The very sight is sickening, but the workers seem to be quite
+cheerful about their work. Exits are north and south to the secondary
+assembly line and west to the primary assembly line.
+~
+93 8 0
+D0
+~
+~
+0 0 9321
+D2
+~
+~
+0 0 9323
+D3
+~
+~
+0 0 9317
+S
+#9323
+Secondary Assembly Line~
+This is the secondary asembly line of the mob factory. You are
+surprised to see cityguard heads come floating on the conveyor belt!
+The very sight is sickening, but the workers seem to be quite
+cheerful about their work. Exits are north and south to the secondary
+assembly line and west to the primary assembly line.
+~
+93 8 0
+D0
+~
+~
+0 0 9322
+D2
+~
+~
+0 0 9324
+D3
+~
+~
+0 0 9318
+S
+#9324
+Secondary Assembly Line~
+This is the secondary asembly line of the mob factory. You are
+surprised to see cityguard heads come floating on the conveyor belt!
+The very sight is sickening, but the workers seem to be quite
+cheerful about their work. Exits are north to the secondary
+assembly line and west to the primary assembly line.
+~
+93 8 0
+D0
+~
+~
+0 0 9323
+D3
+~
+~
+0 0 9319
+S
+#99999
+
+#RESET
+*
+M 0  9305   7  9301   The toxic slime (Mob Factory Storage Area)
+M 0  9301   5  9302   The mutant beastly fido (Mob Factory Storage Area)
+M 0  9302   1  9303   Foreman Floyd (Foreman's Office)
+M 0  9305   7  9304   The toxic slime (Foreman's Bathroom)
+M 0  9303   9  9306   The Cityguard head (Mob Factory Storage Area)
+M 0  9305   7  9308   The toxic slime (Mob Factory Cafeteria)
+M 0  9301   5  9308   The mutant beastly fido (Mob Factory Cafeteria)
+M 0  9305   7  9309   The toxic slime (Mob Factory Cafeteria)
+M 0  9307   4  9310   The factory worker (Mob Factory Inspection Room)
+M 0  9304   6  9310   The revolving drunk (Mob Factory Inspection Room)
+M 0  9303   9  9310   The Cityguard head (Mob Factory Inspection Room)
+M 0  9307   4  9311   The factory worker (Mob Factory Inspection Room)
+M 0  9301   5  9311   The mutant beastly fido (Mob Factory Inspection Room)
+M 0  9304   6  9313   The revolving drunk (Mob Factory Reject Room)
+M 0  9303   9  9314   The Cityguard head (Mob Factory Reject Room)
+M 0  9305   7  9315   The toxic slime (Primary Assembly Line)
+M 0  9306   9  9315   The factory worker (Primary Assembly Line)
+M 0  9306   9  9316   The factory worker (Primary Assembly Line)
+M 0  9306   9  9317   The factory worker (Primary Assembly Line)
+M 0  9306   9  9318   The factory worker (Primary Assembly Line)
+M 0  9301   5  9318   The mutant beastly fido (Primary Assembly Line)
+M 0  9306   9  9319   The factory worker (Primary Assembly Line)
+M 0  9306   9  9320   The factory worker (Secondary Assembly Line)
+M 0  9307   3  9320   The factory worker (Secondary Assembly Line)
+M 0  9305   7  9321   The toxic slime (Secondary Assembly Line)
+M 0  9303   9  9321   The Cityguard head (Secondary Assembly Line)
+M 0  9303   9  9322   The Cityguard head (Secondary Assembly Line)
+M 0  9306   9  9323   The factory worker (Secondary Assembly Line)
+M 0  9303   9  9323   The Cityguard head (Secondary Assembly Line)
+M 0  9303   9  9324   The Cityguard head (Secondary Assembly Line)
+M 0  9306   9  9324   The factory worker (Secondary Assembly Line)
+M 0  9305   7  9324   The toxic slime (Secondary Assembly Line)
+S
+
+#SHOPS
+$
+#END of Mob Factory.

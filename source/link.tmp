@@ -1,0 +1,4 @@
+dmsBase=/var/tmp/teof
+cd /tmp/teof/diku/obj
+echo "ld -L/usr/ucblib -lc -lsocket -lnsl -lucb -o $dmsBase/diku/dms.tmp *.o"
+ld -L/usr/ucblib -lc -lsocket -lnsl -lucb -o $dmsBase/diku/dms.tmp *.o

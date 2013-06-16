@@ -1,0 +1,29 @@
+#!/bin/sh
+
+tmsBase=/var/tmp/MUD/diku
+
+if [ ! -d $tmsBase ]; then
+	exit
+fi
+
+cd $tmsBase
+
+if [ ! -d $tmsBase/diku.backup ]; then
+	mkdir diku.backup
+fi
+
+#rm -rf diku.backup/source
+#rm -rf diku.backup/header
+#rm -rf diku.backup/lib/stash
+#cp -r source diku.backup
+#cp -r header diku.backup
+#cp -r lib    diku.backup
+
+/usr/bin/tar -cf soback.tar lib source header run.tms Makefile backup stash backup.next block clog cron.file
+/usr/local/bin/gzip -f soback.tar
+
+#if [ -f $HOME/diku/soback.tar.gz ]; then 
+#	mv $HOME/diku/soback.tar.gz $HOME/diku/soback.tar.gz.old 
+#fi
+
+cp soback.tar.gz $HOME/diku

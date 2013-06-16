@@ -1,0 +1,133 @@
+#!/bin/sh
+#
+tmsBase=/var/tmp/MUD/diku
+
+#if [ ! -d /var/tmp/teof ]; then
+#
+#	mkdir /var/tmp/teof
+#	mkdir /var/tmp/teof/diku
+#	
+#	cd $tmsBase
+#
+#	cp ~/diku/soback.tar.gz .
+#	gunzip soback.tar.gz
+#	tar -xf soback.tar.gz
+#fi
+
+cd $tmsBase
+
+tmspid=`cat dms.pid`
+
+if [ -f block.tms ]; then
+	exit
+fi
+
+runtms=`/usr/ucb/ps ax | grep $tmsBase/run.tms | wc -l`
+
+if [ ! -f run.check ]; then
+	cp /dev/null run.check
+fi
+
+if [ `expr $runtms \>= 4` = 1 ]; then
+	echo "====> Run.tms( by ps ) checkted at : `date +%y-%m-%d--%H:%M`"  >> run.check
+	exit
+fi
+
+for w in `/usr/bin/ps -p $tmspid | grep tms`
+do
+	if test "x$w" = "x$tmspid"; then
+		echo "====> Run.tms( by pid ) checkted at : `date +%y-%m-%d--%H:%M`"  >> run.check
+		exit
+	fi
+done
+
+if test "x$USER" != "x" ; then
+	echo "====> Run.tms is started by $USER at : `date +%y-%m-%d--%H:%M`"  >> run.check
+else
+	echo "====> Run.tms is started by CRON at : `date +%y-%m-%d--%H:%M`"  >> run.check
+fi
+
+curlog=$tmsBase/curlog
+runcount=0
+
+while [ `expr $runcount \< 20` = 1 ]
+do
+	if [ -f block.tms ]; then
+		sleep 5
+		continue;
+	fi
+
+	if [ ! -f run.log ]; then
+		cp /dev/null run.log
+	fi
+
+	if [ -f $tmsBase/core ]; then
+		/usr/bin/mv core ../core
+		/usr/bin/cp tms ../core.tms
+		echo "tms is moved to core.tms" >> run.log
+	fi
+
+	logfile="$tmsBase/log/`date +%y-%m-%d--%H:%M`"
+
+	if [ -f $curlog ]; then 
+		/usr/bin/rm -f $curlog 
+	fi
+
+	if [ -h $curlog ]; then
+		/usr/bin/cp curlog log/lastlog
+		/usr/bin/rm -f $curlog
+	fi
+
+	/usr/bin/cp /dev/null $logfile
+
+	/usr/bin/ln -s $logfile $curlog
+
+	echo "Log file ==> $logfile" >> run.log
+
+	if [ -f lib/help_table.new ]; then
+		/usr/bin/mv lib/help_table.new lib/help_table
+	fi
+
+	if [ -f tms.tmp ]; then
+		/usr/bin/mv tms.tmp tms
+		/usr/bin/chmod 700 tms
+	fi
+
+	echo "====> Mud restarted at : `date +%y-%m-%d--%H:%M`" >> run.log
+
+	tms 2>> $logfile
+
+	cd $tmsBase/log
+
+    if [ -f mud.log.8 ]; then mv -f mud.log.8 mud.log.9; fi
+    if [ -f mud.log.7 ]; then mv -f mud.log.7 mud.log.8; fi
+    if [ -f mud.log.6 ]; then mv -f mud.log.6 mud.log.7; fi
+    if [ -f mud.log.5 ]; then mv -f mud.log.5 mud.log.6; fi
+    if [ -f mud.log.4 ]; then mv -f mud.log.4 mud.log.5; fi
+    if [ -f mud.log.3 ]; then mv -f mud.log.3 mud.log.4; fi
+    if [ -f mud.log.2 ]; then mv -f mud.log.2 mud.log.3; fi
+    if [ -f mud.log.1 ]; then mv -f mud.log.1 mud.log.2; fi
+    if [ -f lastlog ];   then mv -f lastlog mud.log.1; fi
+
+	cd $tmsBase
+
+	echo "====> Mud finished  at : `date +%y-%m-%d--%H:%M`" >> run.log
+	echo "====> Mud finished( $runcount ) with following messages..." >> run.log
+	tail -20 $logfile >> run.log
+	echo "=============================================" >> run.log
+
+	/usr/bin/mv $logfile $tmsBase/log/lastlog
+
+	if [ -f $tmsBase/core ]; then
+		/usr/bin/mv core ../core
+		/usr/bin/cp tms  ../core.tms
+		echo "tms is moved to core.tms" >> run.log
+	fi
+
+#	/usr/sbin/quota -v >> run.log
+#	echo "---------------------------------------------" >> run.log
+
+	runcount=`expr $runcount + 1`
+done
+
+echo "====> run.tms finished after $runcount loop........" >> run.check

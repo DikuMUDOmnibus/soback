@@ -1,0 +1,8 @@
+음.. 뭔가 bug가 있는듯하군요..
+rem one
+put one urn
+get mauve urn
+hold mauve stone을 드니까 str이 졸지에 18/100이 되는군요..
+check해 보고 고쳐 주세요..
+(이건 상줄라나? :p)
+

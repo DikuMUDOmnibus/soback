@@ -1,0 +1,1232 @@
+#98 Zone.
+NAME       : The Death Star~
+INFO       : 스타워즈에서 따온 존. Vader, Dark emperor.~
+PATH       : Galaxy 의 black hole 에서 n~
+ALIGN      : 1
+AGGRESSIVE : 1
+LEVEL      : 40 ~ 40
+MAX        : 9899
+LIFESPAN   : 20
+RESET      : 2
+
+#MOBILES
+#9800
+imperial fighter~
+Imperial space fighter~
+A fast space fighter flies to you and SHOOTS you!!
+~
+This swift spacecraft has globular body and hexagonal wings. It looks
+like a white eyeball with metal wings.
+~
+40 40 -1000 S
+35 -4 -12 2d100+3500 1d1+50
+10000 500000
+8 8 0
+#9801
+imperial cruiser~
+Imperial cruiser~
+A huge triangular shaped space cruiser blocks your way and prepares for
+attack.
+~
+This huge spacecraft is almost 1000 feet in length and has more than
+40 large beam weapons. You feel terrified by its appearance.
+~
+40 168 -1000 S
+40 -6 -20 10d100+9000 1d1+80
+100000 1000000
+8 8 0
+#9802
+imperial stormtrooper~
+Imperial stormtrooper~
+A well armored imperial stormtrooper with his weapon is wandering around.
+~
+He is armored in a white metal suit and very strange-looking helmet.
+They looks somewhat clumbsy.
+~
+424 40 -1000 S
+30 -4 0 10d5+1500 1d1+40
+2000 200000
+8 8 1
+#9803
+imperial commander~
+Imperial commander~
+Imperial commander is monitoring the situations in the Death
+Star.
+~
+This man doesn't seem to be armored well. But his appearance and pose
+reveal much more power than he seems to have. He commands several
+guards to attack you.
+~
+298 168 -1000 S
+40 -9 -13 10d30+4500 4d4+65
+10000 450000
+8 8 1
+#9804
+imperial vice admiral~
+Imperial vice-admiral~
+Imperial vice-admiral is standing here.
+~
+This honored man contributed much in conquering many peaceful planets
+of allied force and wears many medals for his distinguished service to
+the dark empire. He directs many officers to operate his army properly.
+~
+298 168 -1000 S
+41 -9 -16 10d30+6000 4d4+70
+20000 700000
+8 8 1
+#9805
+trash monster~
+Trash monster~
+Trashes are moving in a strange manner near you.
+~
+Large hairy arms emerge from the piles of trashes, grasping you. You
+see many arms attacking your companions. Terrible smell, toxic gas, and
+horrifying noise fills the entire room. PANIC!!!! You can't ESCAPE!!
+~
+24618 1048744 -1000 S
+44 -11 -16 1d1+10000 10d4+70
+1000000 1000000
+8 8 0
+#9806
+imperial admiral~
+Imperial admiral~
+Imperial admiral is planning the invasion of a peaceful planet.
+~
+You are overwhelmed by the solemness and unrevealed power when you see
+this admiral. He is at the supreme status in the strategic planning of
+the dark empire. He looks surprised by your sudden appearance.
+~
+298 16777384 -1000 S
+42 -12 -16 1d1+9000 4d4+90
+100000 1000000
+8 8 1
+#9807
+darth vader~
+Darth Vader, the evil Jedi~
+Darth Vader is standing here horrifying all residence in this room.
+~
+Darth Vader is the traitor of the Jedi knights. He now follows the dark
+emperor. He is receving commands from his master, the EVIL DARK
+EMPEROR.
+~
+298 16777384 -1000 S
+44 -20 -16 1d1+12000 5d6+110
+100000 2000000
+8 8 1
+#9808
+dark emperor~
+The dark emperor~
+The dark emperor is murmuring something.
+~
+The ruler of dark empire sits in his black throne. He wants to destroy
+those who are against him and spread his authority to the end of the
+universe. His grinning at you paralyses your thought and conscience.
+~
+42 16777384 -1000 S
+50 -20 -20 1d1+15000 6d6+95
+100000 3000000
+8 8 1
+#99999
+
+#OBJECTS
+#9800
+card key~
+hatch card key~
+A magnetic card key is lying here.~
+~
+18 3 1
+0 0 0 0
+2 0 0 0
+#9801
+card key~
+first card key~
+A magnetic card key is lying here.~
+~
+18 3 1
+0 0 0 0
+2 0 0 0
+#9802
+card key~
+second card key~
+A magnetic card key is lying here.~
+~
+18 3 1
+0 0 0 0
+2 0 0 0
+#9803
+black aura~
+black aura~
+black aura from the dark emperor is choking you to death.~
+~
+9 65 1025
+9 0 0 0
+5 100000 15 0
+A
+18 2
+A
+19 1
+#9804
+dark ring darkring~
+dark ring~
+dark ring is hiding itself in the darkness.~
+~
+9 0 3
+0 0 0 0
+1 1000000 1 0
+A
+18 3
+A
+19 3
+#9805
+blue light sabre~
+blue light sabre~
+blue light sabre is waiting for its new master.~
+~
+1 2 16385
+0 0 -1 0
+10 400000 35 0
+A
+18 2
+A
+19 2
+#9806
+grey shoes~
+a pair of grey leather shoes~
+a pair of leather shoes is dropped here.~
+~
+9 98304 65
+5 0 0 0
+2 500000 1 0
+A
+19 2
+A
+25 2
+#9807
+black masked helmet~
+black masked helmet~
+black masked helmet is breathing with a terrible noise.~
+~
+9 0 17
+8 0 0 0
+15 200000 1 0
+A
+18 -1
+A
+19 2
+#9808
+black suit~
+black mechanical suit~
+black mechanical suit is left here.~
+~
+9 0 9
+12 0 0 0
+30 300000 1 0
+A
+13 100
+A
+19 2
+#9809
+red light sabre~
+red light sabre~
+red light sabre is lighting here.~
+~
+5 24642 8193
+520 5 6 3
+30 100000 22 0
+A
+18 2
+A
+19 2
+#9810
+service cross medal~
+Distinguished Service Cross~
+A honorable medal is lying here.~
+~
+9 64 5
+8 0 0 0
+1 100000 1 0
+A
+18 1
+A
+19 1
+#9811
+rubber hose~
+dirty abandoned rubber hose~
+A dirty hose is abandoned here.~
+~
+9 64 2049
+8 0 0 0
+8 300000 1 0
+A
+18 1
+A
+19 2
+#9812
+golden watch~
+gold-plated sapphire-tungsten watch~
+A glittering watch let you know the time.~
+~
+9 0 257
+7 0 0 0
+1 250000 17 0
+A
+18 5
+#9813
+metal fragment hull~
+large fragment of a spaceship's hull~
+A large metal plate is lying here.~
+~
+9 64 513
+15 0 0 0
+1 100000 19 0
+A
+18 -2
+#9814
+power capsule engine~
+main engine of the Death Star~
+A large heavy power capsule is generating power here.~
+~
+8 262144 16385
+0 0 0 0
+530 20000 30 0
+A
+25 10
+A
+2 -3
+#9815
+power capsule engine~
+main engine of the Death Star~
+A large heavy power capsule is generating power here.~
+~
+8 262144 16385
+0 0 0 0
+480 10000 25 0
+A
+25 5
+A
+2 -3
+#99999
+
+#ROOMS
+#9800
+Worm hole~
+You can't feel anything in the singularity of the universe........
+~
+98 4110 5
+D0
+~
+~
+0 -1 9801
+S
+#9801
+Near the Death Star~
+You float in the void near a huge artificial globular object.
+Death Star overwhelms you with the rising terror and the energy
+of evil and darkness.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9802
+S
+#9802
+Near the Death Star~
+You float in the void near a huge artificial glubular object.
+Death Star overwhelms you with the rising terror and the energy
+of evil and darkness.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9803
+D2
+~
+~
+0 -1 9801
+S
+#9803
+Entrance of the Death Star~
+Many spaceships enter and exit the Death Star here. Some spaceships
+are forced to dock by the Imperial Navy.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9805
+D2
+~
+~
+0 -1 9802
+S
+#9804
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9808
+D1
+~
+~
+0 -1 9805
+S
+#9805
+Air buffer room~
+You entered a calm and clean room. You think you can rest here. Here is
+some air-pressure control facilities. A sign reads : Take off space
+suit after blue light turns on.
+~
+98 4110 5
+D0
+~
+~
+0 -1 9808
+D1
+~
+~
+0 -1 9806
+D2
+~
+~
+0 -1 9803
+D3
+~
+~
+0 -1 9804
+S
+#9806
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9808
+D3
+~
+~
+0 -1 9805
+S
+#9807
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9811
+D1
+~
+~
+0 -1 9808
+S
+#9808
+Main Engine room~
+You are surrounded with a vast amount of light and heat when you enter
+this room. A large power capsule emits intense light and dangerous gas
+to animate the Death Star.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9817
+D1
+~
+~
+0 -1 9812
+D2
+~
+~
+0 -1 9805
+D3
+~
+~
+0 -1 9811
+D4
+~
+~
+0 -1 9831
+D5
+~
+grate~
+1 9800 9820
+S
+#9809
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9812
+D3
+~
+~
+0 -1 9808
+S
+#9810
+Defence Control Center of the Death Star~
+The facilities of this room controls tremendous fires mounted on the
+surface of the Death Star.
+~
+98 4106 5
+D1
+~
+~
+0 -1 9811
+S
+#9811
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9814
+D1
+~
+~
+0 -1 9808
+D2
+~
+~
+0 -1 9807
+D3
+~
+~
+0 -1 9810
+S
+#9812
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9815
+D1
+~
+~
+0 -1 9813
+D2
+~
+~
+0 -1 9809
+D3
+~
+~
+0 -1 9808
+S
+#9813
+Defence Control Center of the Death Star~
+The facilities of this room controls tremendous fires mounted on the
+surface of the Death Star.
+~
+98 4106 5
+D3
+~
+~
+0 -1 9812
+S
+#9814
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D1
+~
+~
+0 -1 9808
+D2
+~
+~
+0 -1 9811
+S
+#9815
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D2
+~
+~
+0 -1 9812
+D3
+~
+~
+0 -1 9808
+S
+#9816
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D1
+~
+~
+0 -1 9817
+D2
+~
+~
+0 -1 9808
+S
+#9817
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9819
+D1
+~
+~
+0 -1 9818
+D2
+~
+~
+0 -1 9808
+D3
+~
+~
+0 -1 9816
+S
+#9818
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D2
+~
+~
+0 -1 9808
+D3
+~
+~
+0 -1 9817
+S
+#9819
+Defence Control Center of the Death Star~
+The facilities of this room controls tremendous fires mounted on the
+surface of the Death Star.
+~
+98 4106 5
+D2
+~
+~
+0 -1 9817
+S
+#9820
+Trash room~
+This large area is filled with all kinds of dirty trashes and polluted
+liquid. You hear some strange sound beneath the water.
+~
+98 4106 5
+D0
+~
+north door~
+1 9800 9821
+D1
+~
+east door~
+1 9800 9823
+D2
+~
+south door~
+1 9800 9824
+D3
+~
+west door~
+1 9800 9822
+D4
+~
+grate~
+1 9800 9808
+D5
+~
+down door~
+1 9800 9825
+S
+#9821
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D2
+~
+door~
+1 9800 9820
+S
+#9822
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D1
+~
+door~
+1 9800 9820
+S
+#9823
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D3
+~
+door~
+1 9800 9820
+S
+#9824
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+door~
+1 9800 9820
+S
+#9825
+Axis room of the Death Star~
+This room is at the spin-axis of the Death Star. Many pipes run to all
+direction to supply energy, materials and information. The office for a
+guard commander is within this room.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9826
+D1
+~
+~
+0 -1 9827
+D2
+~
+~
+0 -1 9828
+D3
+~
+~
+0 -1 9829
+D4
+~
+door~
+1 9800 9820
+D5
+~
+hatch~
+2 9800 9830
+S
+#9826
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D2
+~
+~
+0 -1 9825
+S
+#9827
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D3
+~
+~
+0 -1 9825
+S
+#9828
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9825
+S
+#9829
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D1
+~
+~
+0 -1 9825
+S
+#9830
+South Pole of the Death Star~
+This room seems to function as the defence control center of the Death
+Star. Many imperial officers control the facility to repel the
+infiltrators from the Galactic allied force.
+~
+98 4106 5
+D4
+~
+hatch~
+2 9800 9825
+S
+#9831
+Axis room of the Death Star~
+This room is at the spin-axis of the Death Star. Many pipes run to all
+direction to supply energy, materials and information. The office for a
+guard commander is within this room.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9832
+D1
+~
+~
+0 -1 9833
+D2
+~
+~
+0 -1 9834
+D3
+~
+~
+0 -1 9835
+D4
+~
+~
+0 -1 9844
+D5
+~
+~
+0 -1 9808
+S
+#9832
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9836
+D1
+~
+~
+0 -1 9837
+D2
+~
+~
+0 -1 9831
+D3
+~
+~
+0 -1 9843
+S
+#9833
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9837
+D1
+~
+~
+0 -1 9838
+D2
+~
+~
+0 -1 9839
+D3
+~
+~
+0 -1 9831
+S
+#9834
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9831
+D1
+~
+~
+0 -1 9839
+D2
+~
+~
+0 -1 9840
+D3
+~
+~
+0 -1 9841
+S
+#9835
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9843
+D1
+~
+~
+0 -1 9831
+D2
+~
+~
+0 -1 9841
+D3
+~
+~
+0 -1 9842
+S
+#9836
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D2
+~
+~
+0 -1 9832
+S
+#9837
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D2
+~
+~
+0 -1 9833
+D3
+~
+~
+0 -1 9832
+S
+#9838
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D3
+~
+~
+0 -1 9833
+S
+#9839
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9833
+D3
+~
+~
+0 -1 9834
+S
+#9840
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9834
+S
+#9841
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9835
+D1
+~
+~
+0 -1 9834
+S
+#9842
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D1
+~
+~
+0 -1 9835
+S
+#9843
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D1
+~
+~
+0 -1 9832
+D2
+~
+~
+0 -1 9835
+S
+#9844
+Axis room of the Death Star~
+This room is at the spin-axis of the Death Star. Many pipes run to all
+direction to supply energy, materials and information. The office for a
+guard commander is within this room.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9845
+D1
+~
+~
+0 -1 9846
+D2
+~
+~
+0 -1 9847
+D3
+~
+~
+0 -1 9848
+D4
+~
+~
+0 -1 9849
+D5
+~
+~
+0 -1 9831
+S
+#9845
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D2
+~
+~
+0 -1 9844
+S
+#9846
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D3
+~
+~
+0 -1 9844
+S
+#9847
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D0
+~
+~
+0 -1 9844
+S
+#9848
+Room~
+Nothing special except guards here.
+~
+98 4106 5
+D1
+~
+~
+0 -1 9844
+S
+#9849
+Security Guard room~
+This is a heavily guarded room for the safety of the dark empire. Many
+guards are forbidding arbitrary traffic.
+~
+98 4106 5
+D4
+~
+first door~
+2 9801 9850
+D5
+~
+~
+0 -1 9844
+S
+#9850
+Control Center of the Death Star~
+Enormous computers are working for the operation of the Death Star.
+Many officers and soldiers are working for computers and their admiral.
+~
+98 4106 5
+D4
+~
+second door~
+2 9802 9851
+D5
+~
+first door~
+2 9801 9849
+S
+#9851
+Sovereign room of dark emperor~
+Atmosphere of dark sovereignty presses all the residence into dooms.
+Calmness and smell of death arise from the evil throne of the dark
+emperor. A large screen shows the current situations of the war between
+the Galactic alliance and the Empire.
+~
+98 4106 5
+D5
+~
+second door~
+2 9802 9850
+S
+#99999
+
+#RESET
+D 0  9851   5     2    Sovereign room of dark emperor
+D 0  9850   4     2    Control Center of the Death Star
+D 0  9850   5     2    Control Center of the Death Star
+D 0  9849   4     2    Security Guard room
+D 0  9830   4     2    South Pole of the Death Star
+D 0  9825   4     2    Axis room of the Death Star
+D 0  9825   5     2    Axis room of the Death Star
+D 0  9824   0     2    Room
+D 0  9823   3     2    Room
+D 0  9822   1     2    Room
+D 0  9821   2     2    Room
+D 0  9820   0     2    Trash room
+D 0  9820   1     2    Trash room
+D 0  9820   2     2    Trash room
+D 0  9820   3     2    Trash room
+D 0  9820   5     2    Trash room
+D 0  9820   4     2    Trash room
+D 0  9808   5     2    Main Engine room
+M 0  9800   6  9801   Imperial space fighter (Near the Death Star)
+M 0  9800   6  9801   Imperial space fighter (Near the Death Star)
+M 0  9800   6  9801   Imperial space fighter (Near the Death Star)
+M 0  9800   6  9801   Imperial space fighter (Near the Death Star)
+M 0  9800   6  9802   Imperial space fighter (Near the Death Star)
+M 0  9801   1  9802   Imperial cruiser (Near the Death Star)
+E 1  9813   1    13     large fragment of a spaceship's hull
+M 0  9802  30  9804   Imperial stormtrooper (Room)
+M 0  9802  30  9806   Imperial stormtrooper (Room)
+M 0  9802  30  9807   Imperial stormtrooper (Room)
+M 0  9802  30  9808   Imperial stormtrooper (Main Engine room)
+M 0  9802  30  9808   Imperial stormtrooper (Main Engine room)
+M 0  9803  15  9808   Imperial commander (Main Engine room)
+M 0  9803  15  9808   Imperial commander (Main Engine room)
+O 0  9814   1  9808    main engine of the Death Star (Main Engine room)
+O 0  9815   1  9808    main engine of the Death Star (Main Engine room)
+M 0  9802  30  9809   Imperial stormtrooper (Room)
+M 0  9803  15  9810   Imperial commander (Defence Control Center of the Death Star)
+M 0  9803  15  9810   Imperial commander (Defence Control Center of the Death Star)
+M 0  9804   8  9810   Imperial vice-admiral (Defence Control Center of the Death Star)
+E 1  9812   1    12     gold-plated sapphire-tungsten watch
+M 0  9802  30  9811   Imperial stormtrooper (Room)
+M 0  9802  30  9812   Imperial stormtrooper (Room)
+M 0  9803  15  9813   Imperial commander (Defence Control Center of the Death Star)
+M 0  9803  15  9813   Imperial commander (Defence Control Center of the Death Star)
+M 0  9804   8  9813   Imperial vice-admiral (Defence Control Center of the Death Star)
+M 0  9802  30  9814   Imperial stormtrooper (Room)
+M 0  9802  30  9815   Imperial stormtrooper (Room)
+M 0  9802  30  9816   Imperial stormtrooper (Room)
+M 0  9802  30  9817   Imperial stormtrooper (Room)
+M 0  9802  30  9818   Imperial stormtrooper (Room)
+M 0  9803  10  9819   Imperial commander (Defence Control Center of the Death Star)
+M 0  9803  10  9819   Imperial commander (Defence Control Center of the Death Star)
+M 0  9804   8  9819   Imperial vice-admiral (Defence Control Center of the Death Star)
+M 0  9805   1  9820   Trash monster (Trash room)
+E 1  9811   1    15     dirty abandoned rubber hose
+E 1  9800  99    19     hatch card key
+M 0  9802  30  9821   Imperial stormtrooper (Room)
+M 0  9802  30  9822   Imperial stormtrooper (Room)
+M 0  9802  30  9823   Imperial stormtrooper (Room)
+M 0  9802  30  9824   Imperial stormtrooper (Room)
+M 0  9803  15  9825   Imperial commander (Axis room of the Death Star)
+M 0  9802  30  9825   Imperial stormtrooper (Axis room of the Death Star)
+M 0  9802  30  9825   Imperial stormtrooper (Axis room of the Death Star)
+M 0  9802  30  9826   Imperial stormtrooper (Room)
+M 0  9802  30  9827   Imperial stormtrooper (Room)
+M 0  9802  30  9828   Imperial stormtrooper (Room)
+M 0  9802  30  9829   Imperial stormtrooper (Room)
+M 0  9803  15  9830   Imperial commander (South Pole of the Death Star)
+M 0  9803  15  9830   Imperial commander (South Pole of the Death Star)
+M 0  9804   8  9830   Imperial vice-admiral (South Pole of the Death Star)
+E 1  9801  99    19     first card key
+M 0  9802  30  9831   Imperial stormtrooper (Axis room of the Death Star)
+M 0  9802  30  9831   Imperial stormtrooper (Axis room of the Death Star)
+M 0  9803  15  9831   Imperial commander (Axis room of the Death Star)
+M 0  9802  30  9832   Imperial stormtrooper (Room)
+M 0  9802  30  9833   Imperial stormtrooper (Room)
+M 0  9802  30  9834   Imperial stormtrooper (Room)
+M 0  9802  30  9835   Imperial stormtrooper (Room)
+M 0  9802  30  9836   Imperial stormtrooper (Room)
+M 0  9802  30  9837   Imperial stormtrooper (Room)
+M 0  9802  30  9838   Imperial stormtrooper (Room)
+M 0  9802  30  9839   Imperial stormtrooper (Room)
+M 0  9802  30  9840   Imperial stormtrooper (Room)
+M 0  9802  30  9841   Imperial stormtrooper (Room)
+M 0  9802  30  9842   Imperial stormtrooper (Room)
+M 0  9802  30  9843   Imperial stormtrooper (Room)
+M 0  9802  30  9844   Imperial stormtrooper (Axis room of the Death Star)
+M 0  9802  30  9844   Imperial stormtrooper (Axis room of the Death Star)
+M 0  9803  15  9844   Imperial commander (Axis room of the Death Star)
+M 0  9802  30  9845   Imperial stormtrooper (Room)
+M 0  9802  30  9846   Imperial stormtrooper (Room)
+M 0  9802  30  9847   Imperial stormtrooper (Room)
+M 0  9802  30  9848   Imperial stormtrooper (Room)
+M 0  9803  15  9849   Imperial commander (Security Guard room)
+M 0  9803  15  9849   Imperial commander (Security Guard room)
+M 0  9804   8  9850   Imperial vice-admiral (Control Center of the Death Star)
+M 0  9804   8  9850   Imperial vice-admiral (Control Center of the Death Star)
+M 0  9806   1  9850   Imperial admiral (Control Center of the Death Star)
+E 1  9810   1     5     Distinguished Service Cross
+E 1  9802  99    19     second card key
+M 0  9808   1  9851   The dark emperor (Sovereign room of dark emperor)
+E 1  9803   1    14     black aura
+E 1  9804   1     1     dark ring
+E 1  9805   1     0     blue light sabre
+E 1  9806   1    10     a pair of grey leather shoes
+M 0  9807   1  9851   Darth Vader, the evil Jedi (Sovereign room of dark emperor)
+E 1  9807   1     8     black masked helmet
+E 1  9808   1     7     black mechanical suit
+E 1  9809   1    18     red light sabre
+S
+
+#SHOPS
+$
+#END of The Death Star.

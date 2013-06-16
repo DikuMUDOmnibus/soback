@@ -1,0 +1,851 @@
+#16 Zone.
+NAME       : Dirk's Castle~
+INFO       : 성은 별 것이 없다. 북쪽 탑아래 closet 을 통하면 blue dragon~
+PATH       : Turnning point 에서 e~
+ALIGN      : 1
+AGGRESSIVE : 2
+LEVEL      : 10 ~ 20
+MAX        : 1699
+LIFESPAN   : 35
+RESET      : 2
+
+#MOBILES
+#1601
+maid~
+Dirk's Maid~
+Dirk's Maid is here tidying up the place.
+~
+~
+204 128 200 S
+19 2 2 6d10+490 1d8+12
+2000 70000
+8 8 2
+#1602
+tiger hobbes~
+Hobbes~
+Hobbes the tiger is here.
+~
+Hobbes is Dirk's private pet.  He seems to have very sharp claws and is
+protected by the gods.
+~
+14 128 100 S
+20 2 2 6d10+500 1d10+30
+1000 85000
+8 8 1
+#1603
+dragon blue~
+The blue dragon~
+A sparkling blue dragon is standing here.
+~
+Energy crackles around his body makeing him glow in a soft blue light.
+~
+8234 24 -600 S
+25 -2 -10 8d50+1500 4d8+8
+500 100000
+8 8 1
+#1604
+thug~
+A mean thug.~
+A mean thug is standing here.  You feel an urge to hide you pocketbook.
+~
+He is a tough mean looking character.
+~
+172 0 -500 S
+12 9 2 2d12+200 2d7+4
+2500 12000
+8 8 1
+#1650
+gobind singh guru sikhu~
+Gobind Singh~
+Gobind Singh, last of the Sikhu Gurus, is here meditating....
+~
+  Yes it is Gobind Singu, last guru of the Sikhism religion of 
+northern India.  He is a very fit and strong man with long dark hair
+dangling about his body.  Though he is a holy man in search of
+moksha, he is also a very powerful looking warrior.
+
+Gobind says 'I do not wish to harm you, but I will kill you if need be.'
+Gobind stares into your eyes....you now feel at peace with yourself.
+~
+4110 136 -200 S
+30 -3 -10 1d3000+7000 6d10+10
+100000 1700000
+6 6 1
+#1651
+sikh disciple~
+A Sikh~
+A Sikh -- Sikhu disciple -- stands in line here...
+~
+  He is fit looking fellow.  Not the most powerful of the Sikhs, but
+he looks quite intimidating.  He seems more interested in entering
+the Gurdwara, then with what you are doing.  He is silent and does
+not want to partake in conversation.
+~
+4254 8 0 S
+22 -1 -1 1d250+550 3d8+4
+5000 70000
+8 8 1
+#99999
+
+#OBJECTS
+#1600
+key stoney~
+a stoney key~
+A rock is here that looks like a stoney key.~
+~
+18 32 16385
+2 0 0 0
+5 200 0 0
+#1601
+biker jacket~
+a biker jacket~
+A jacket with an eagle on it.~
+~
+9 512 9
+3 0 0 0
+10 300 0 0
+#1602
+electric force shield~
+an electric force shield~
+A force shield generator is on the ground here.~
+~
+9 99 513
+5 0 0 0
+8 50000 10 0
+A
+17 -4
+A
+24 5
+#1650
+kangha comb~
+a Golden Kangha~
+A Golden Kangha lies on the ground here.~
+~
+9 1 17
+4 0 0 0
+1 60000 15 0
+E
+kangha comb~
+It is a comb worn by the Sikhu warrior to hold their hair back.
+~
+A
+4 2
+#1651
+kachks pants~
+A pair of Kachks~
+A pair of white and red Kachks lie on the ground...~
+~
+9 4097 33
+6 0 0 0
+1 60000 0 0
+A
+14 25
+#1652
+kara bracelet~
+A Shinning Steel Kara~
+A Shinning Stell Kara lies on the ground...~
+~
+9 4097 4097
+4 0 0 0
+2 100000 20 0
+E
+kara bracelet~
+It's looks like a Sikhu Warrior's bracelet.
+~
+A
+19 2
+A
+24 5
+#1653
+kirpan dagger~
+A Golden Kirpan~
+A Golden Kirpan lies stabbed into the ground...~
+pierce~
+5 4097 8193
+0 4 4 11
+4 80000 12 0
+E
+kirpan dagger~
+It's a Sikhu Dagger.
+~
+A
+18 2
+#99999
+
+#ROOMS
+#1600
+Private Library~
+   This is a quiet old-style library with a large warm fire in the fireplace.
+Shelves lined the walls holding the books that contain the secrets of the
+universe.  To the east is a shimmering portal, through which you seem to
+see the temple.  A set of strangly glowing stairs lead down.
+~
+16 520 0
+D1
+~
+~
+0 -1 3001
+D5
+~
+~
+0 -1 1603
+S
+#1601
+Drawbridge~
+  You are on the drawbridge leading to Dirk's Castle.  Funny though, there
+is no moat so why is there a drawbridge?
+~
+16 0 1
+D1
+~
+~
+0 -1 1602
+D3
+~
+~
+0 -1 3502
+S
+#1602
+Castle Gate~
+   Here is the grand gate of Dirk's castle.  No guards are around, but then
+why would a god need guards.  Even so, you feel welcome.
+~
+16 8 0
+D0
+~
+~
+0 -1 1605
+D1
+~
+~
+0 -1 1603
+D2
+~
+~
+0 -1 1609
+D3
+~
+~
+0 -1 1601
+S
+#1603
+Main Hall~
+  You are standing in the main hall of Dirk's Castle.  You see a
+shimmering set of stairs.  They do not seem solid looking at them 
+from below.  At the top you see the entrance to Dirk's private
+library.
+~
+16 8 0
+D0
+~
+~
+0 -1 1604
+D2
+~
+~
+0 -1 1608
+D3
+~
+~
+0 -1 1602
+S
+#1604
+North Foyer~
+   This is the northern foyer in Dirk's castle.  He has added the coat
+closet that he has always wanted but he still needs to get a coat.
+~
+16 8 0
+D0
+~
+~
+0 -1 1605
+D1
+~
+~
+0 -1 1603
+D2
+~
+~
+0 -1 1608
+D3
+~
+closet~
+1 -1 1616
+D5
+~
+floorboards boards~
+1 -1 2001
+S
+#1605
+North Tower Base~
+   You are in the base of the north tower.  A large stair case leads up to
+the north tower from here.  To the south is the main gate.
+~
+16 8 0
+E
+step~
+It appears to be a secret door with a stone keyhole.
+~
+D1
+~
+~
+0 -1 1604
+D2
+~
+~
+0 -1 1602
+D4
+~
+~
+0 -1 1606
+D5
+Step
+~
+step~
+2 1600 1614
+S
+#1606
+North Stairs~
+   You are on the stairs leading up to the top of the north tower.  Down
+you see the base of the tower.
+~
+16 8 0
+D4
+~
+~
+0 -1 1607
+D5
+~
+~
+0 -1 1605
+S
+#1607
+North Parapet~
+   You are standing on the top of the northern parapet of Dirk's Castle.
+You see the hills of moria to the north and the city of MidGaard to the
+west.
+~
+16 8 0
+D5
+~
+~
+0 -1 1606
+S
+#1608
+South Foyer~
+   You are standing in the south foyer of Dirk's Castle.  To the north
+is the north end of the foyer and to the east is the main hall.  Some
+stairs lead up to the upstairs hall.
+~
+16 8 0
+D0
+~
+~
+0 -1 1604
+D1
+~
+~
+0 -1 1603
+D2
+~
+~
+0 -1 1609
+D4
+~~
+~
+0 -1 1612
+D5
+~
+floorboards boards~
+1 -1 2065
+S
+#1609
+South Tower Base~
+   You are at the base of the south tower.  A great stair case leads up
+to the south tower.  To the north is the main gate.
+~
+16 8 0
+D0
+~
+~
+0 -1 1602
+D1
+~
+~
+0 -1 1608
+D4
+~
+~
+0 -1 1610
+S
+#1610
+South Stairs~
+   You are standing on the south stairs that lead up to the south 
+parapet.  Down is the base of the south tower.
+~
+16 8 0
+D4
+~
+~
+0 -1 1611
+D5
+~
+~
+0 -1 1609
+S
+#1611
+South Parapet~
+   You are standing on the south parapet of Dirk's Castle.  To the north
+you see the northern parapet.  To the west you see the fine city of
+Midgaard.
+~
+16 8 0
+D5
+~
+~
+0 -1 1610
+S
+#1612
+Upstairs Hall~
+   This is the hall upstairs that leads to the master bedroom.
+~
+16 8 0
+D0
+~
+~
+0 -1 1613
+D5
+~
+~
+0 -1 1608
+S
+#1613
+Master Bedroom~
+   This is Dirk's master bedroom.  This place is his private room.  On
+the headstand of the waterbed is a photo of a dark haired girl.  The 
+inscription on it reads: Loveya Kitty.
+~
+16 8 0
+D3
+~
+~
+0 -1 1612
+S
+#1614
+Secret Stairs~
+   These are secrets steps leading down to what looks like a private
+cellar.  It might be dangerous down there.
+~
+16 1 0
+D4
+~
+step~
+2 1600 1605
+D5
+~
+~
+0 -1 1615
+S
+#1615
+Dirk's Cellar~
+   It looks like an ordinary cellar but looks are not always what they
+seem.  Most people store stuff in cellars, but what would a god store?
+~
+16 1 0
+D4
+~
+~
+0 -1 1614
+S
+#1616
+Alcove~
+   This is a small alcove behind Dirk's coat closet.  To the south is the
+north foyer.  To the east you see a small passage way through the wall.
+~
+16 9 0
+D1
+~
+~
+0 -1 1617
+D2
+~
+closet~
+1 -1 1604
+S
+#1617
+In the Wall~
+   You are inside the walls of Dirk's castle.  The air is musty and thick
+but is laced with the smell of old oil.
+~
+16 9 0
+D1
+~
+~
+0 -1 1618
+D3
+~
+~
+0 -1 1616
+S
+#1618
+In the Wall~
+   You are at the end of a small passage way in the walls of Dirk's castle.
+The smell of old oil is strong here.  The passage way continues to the
+west.  There are some concrete stairs leading down, but it is too dark to
+see where they lead.
+~
+16 13 0
+D3
+~
+~
+0 -1 1617
+D5
+~
+~
+0 -1 1621
+S
+#1619
+The subway cavein~
+  You are standing at the west end of a subway tunnel.  The tunnel is
+blocked to the west by a cavein.  The tunnel continues to the east.
+~
+16 9 0
+D1
+~
+~
+0 -1 1620
+S
+#1620
+Subway Tunnel~
+   You are standing in a long east-west subway tunnel.  It continues
+on to the east and the west.
+~
+16 9 0
+D1
+~
+~
+0 -1 1621
+D3
+~
+~
+0 -1 1619
+S
+#1621
+Subway Tunnel~
+   You are standing in a long east-west subway tunnel.  The tunnel continues
+on to the east and the west.  There are some stairs leading up here though
+the sign over the stairs has faded to illegibility.
+~
+16 9 0
+D1
+~
+~
+0 -1 1622
+D3
+~
+~
+0 -1 1620
+D4
+~
+~
+0 -1 1618
+S
+#1622
+Subway Tunnel~
+   You are standing in a long east-west tunnel.  There is a small hole
+through the wall to the south.
+~
+16 9 0
+D0
+~
+~
+0 -1 1625
+D1
+~
+~
+0 -1 1623
+D3
+~
+~
+0 -1 1621
+S
+#1623
+Subway Tunnel~
+  You are standing in a long east-west tunnel.  There is a broken caution
+sign half blocking the way to the east, but its light still casts a dim
+glow on what looks like a split in the earth.
+~
+16 8 0
+D1
+Split in the Earth.~
+~
+0 -1 1624
+D3
+~
+~
+0 -1 1622
+S
+#1624
+Split in the Earth~
+   You realize your mistake as you tumble head over heels down the steep
+bank.  You feel stupid.  Hell, you ARE stupid.
+~
+16 0 0
+S
+#1625
+Small service access~
+   You are in a service access tunnel for the subway.  There is a hole to
+the south leading to the main subway tunnel.  There is a service ladder
+leading down to the main service tunnels here.
+~
+16 13 0
+D2
+~
+~
+0 -1 1622
+D5
+~
+~
+0 -1 1632
+S
+#1626
+The Northern Bend~
+   You are standing in a northern bend of the subway service tunnel.  The
+tunnel continues to the east and south.
+~
+16 9 0
+D1
+~
+~
+0 -1 1627
+D2
+~
+~
+0 -1 1631
+S
+#1627
+Northeastern Bend~
+   This is the northeastern bend of the subway service tunnel.  The service
+tunnel continues to the west and the south.
+~
+16 9 0
+D2
+~
+~
+0 -1 1628
+D3
+~
+~
+0 -1 1626
+S
+#1628
+Curve in tunnel~
+   This is a curve in the subway service tunnel.  The tunnel continues on
+to the east and the south.
+~
+16 9 0
+D1
+~
+~
+0 -1 1627
+D2
+~
+~
+0 -1 1632
+S
+#1629
+Eastern Bend~
+   This is the eastern bend in the service tunnel for the subway.  The
+tunnel continues to the east and south.
+~
+16 9 0
+D1
+~
+~
+0 -1 1630
+D2
+~
+~
+0 -1 1633
+S
+#1630
+Service Tunnel~
+   You are in the service tunnel for the subway.  The tunnel continues on
+to the east and west.
+~
+16 9 0
+D1
+~
+~
+0 -1 1631
+D3
+~
+~
+0 -1 1629
+S
+#1631
+Service Tee~
+   You are in a tee in the service tunnel.  The tunnel continues north and
+south.  There is a passage way to the west.
+~
+16 9 0
+D0
+~
+~
+0 -1 1626
+D2
+~
+~
+0 -1 1635
+D3
+~
+~
+0 -1 1630
+S
+#1632
+Service Entrance~
+   You are in the entrance to the service tunnels for the subway.  The
+tunnel continues on to the north and south.  There is a service ladder
+leading up.
+~
+16 9 0
+D0
+~
+~
+0 -1 1628
+D2
+~
+~
+0 -1 1635
+D4
+~
+~
+0 -1 1625
+S
+#1633
+Southwestern Bend~
+   You are in the southwestern bend of the subway service tunnel.  The
+tunnel continues to the north.  To the east is an abandoned service office.
+There is a smell of crackling ozone in the air.
+~
+16 9 0
+D0
+~
+~
+0 -1 1629
+D1
+~
+~
+0 -1 1634
+S
+#1634
+Service Office~
+   You are in the service office.  Its old occupants have been removed
+(or eaten) long ago.  Now the place is a shambled dragon's lair.
+~
+16 9 0
+D3
+~
+~
+0 -1 1633
+S
+#1635
+Southern Bend~
+   You are in the southern bend of the subway service tunnel.  The tunnel
+continues to the north and east.
+~
+16 9 0
+D0
+~
+~
+0 -1 1631
+D1
+~
+~
+0 -1 1632
+S
+#1650
+Path to Moksha~
+  You are a dusty path leading to what most Indian religions
+call Moksha, or release from the continuous cycle of death and
+rebirth.  There is total nothingness in the air.
+~
+16 0 0
+D1
+~
+~
+0 -1 1651
+D3
+~
+~
+0 -1 4000
+S
+#1651
+Gurdwara of Durga~
+   The Gurdwara of Durga is a small room with a statue against the
+northern wall.  Here, the great Sikhu warriors worship the
+Hindu goddess of death -- Durga.  You sense nothingness, no evil
+and no powers of good.
+~
+16 8200 0
+E
+statue wall durga~
+  It is a statue of the Hindu Goddess of Death, Durga.  She is also
+known in the Hindu religion as Kali.  The statue is wearing a
+necklace of human skulls.  In this statue she is depicted drinking
+human blood from a flask and ripping the flesh off of a human
+warrior.  The very thought of meeting Durga face-to-face brings
+chills through your body.
+~
+D3
+~
+~
+0 -1 1650
+S
+#99999
+
+#RESET
+*
+M 0  1602   1  1600   Hobbes (Private Library)
+M 0  1601   1  1603   Dirk's Maid (Main Hall)
+E 1  1600   2    17     a stoney key
+D 0  1605   5     2    North Tower Base
+D 0  1614   4     2    Secret Stairs
+D 0  1616   2     1    Alcove
+D 0  1604   3     1    North Foyer
+M 0  1604   2  1620   A mean thug. (Subway Tunnel)
+E 1  1601  50     5     a biker jacket
+M 0  1604   2  1622   A mean thug. (Subway Tunnel)
+E 1  1601  50     5     a biker jacket
+M 0  1604   2  1623   A mean thug. (Subway Tunnel)
+E 1  1601  50     5     a biker jacket
+M 0  1603   1  1634   The blue dragon (Service Office)
+E 1  1602   4    11     an electric force shield
+M 0  7006   5  1628   The slithering snake (Curve in tunnel)
+M 0  7006   6  1631   The slithering snake (Service Tee)
+M 0  7006   5  1626   The slithering snake (The Northern Bend)
+M 0  7011   3  1629   the shadowy morkoth (Eastern Bend)
+M 0  7011   3  1635   the shadowy morkoth (Southern Bend)
+M 0  7011   3  1633   the shadowy morkoth (Southwestern Bend)
+M 0  7203  10  1632   The ugly wererat (Service Entrance)
+M 0  7203  10  1633   The ugly wererat (Southwestern Bend)
+M 0  7203  10  1631   The ugly wererat (Service Tee)
+M 0  7203  10  1635   The ugly wererat (Southern Bend)
+*
+M 0  1650   1  1651   Gobind Singh (Gurdwara of Durga)
+E 1  1650   1     6     a Golden Kangha
+E 1  1651   1     7     A pair of Kachks
+E 1  1652   1    14     A Shinning Steel Kara
+E 1  1653   1    16     A Golden Kirpan
+M 0  1651   3  1650   A Sikh (Path to Moksha)
+E 1  1704   1     5     a silvery cloak
+E 1  7922   1    19     a leather knee protecter
+M 0  1651   3  1650   A Sikh (Path to Moksha)
+*
+D 0  1604   5     1    North Foyer
+D 0  1608   5     1    South Foyer
+S
+
+#SHOPS
+$
+#END of Dirk's Castle.

@@ -1,0 +1,112 @@
+#1 Zone.
+NAME       : LIMBO~
+INFO       : 머드운영에 필요한 내부적인 존이다. Limbo & Void.~
+PATH       : Gobind 등에서 relocate 로 올 수가 있다.~
+ALIGN      : 2
+AGGRESSIVE : 0
+LEVEL      : 0 ~ 0
+MAX        : 99
+LIFESPAN   : 0
+RESET      : 0
+
+#MOBILES
+#1
+Puff~
+Puff~
+Puff the Fractal Dragon is here, contemplating a higher reality.
+~
+~
+9 0 1000 S
+45 -8 -16 5d10+4250 4d6+35
+10000 155000
+8 8 2
+#2
+zombie~
+a zombie~
+A zombie is here, staring at nothing.
+~
+~
+10 4194304 -100 S
+1 15 3 2d2+5 2d2+2
+0 10
+8 8 0
+#99999
+
+#OBJECTS
+#99999
+
+#ROOMS
+#1
+The Void~
+  You don't think that you are not floating in nothing.
+~
+1 8 1
+D4
+void~
+~
+0 -1 3001
+S
+#2
+Limbo~
+   You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+   There is a "No Tipping" notice pinned to the darkness.
+~
+1 8 1
+D4
+void~
+~
+0 -1 3001
+S
+#3
+The Wizards Lounge~
+
+  Say!  Isn't this a nifty room?
+  There is a NOTE here.  You might want to "look note".
+
+~
+1 0 0
+E
+note~
+The note says:
+
+1. Do not help mortals gain experience, gold, nice toys, etc.
+2. Do not load expensive items (or leave them around).
+3. Don't bring aggressive monsters to town.
+4. Do not help or hinder mortals.
+5. Do not play mortal and immortal at the same time.
+   This also means don't use your immortal to HELP your mortal or
+   provide any service not available to ALL mortals.
+6. Do not retreive players' corpse or You will be DEMOTED.
+
+~
+D5
+~
+~
+0 -1 3001
+S
+#4
+The Chat Room~
+   You are lounging in a quiet cosy parlour, warmed by a gentle magical fire
+which twinkles happily in a warm fireplace.  There are no doors out.  Clearly
+the owner of this room needs none.
+~
+1 520 0
+S
+#5
+The Secret Room~
+   I guess it's no secret anymore?
+~
+1 6656 0
+S
+#99999
+
+#RESET
+M 0     1   1     2   Puff (Limbo)
+O 0  3099   2     3    a bulletin board (The Wizards Lounge)
+S
+
+#SHOPS
+$
+#END of LIMBO.

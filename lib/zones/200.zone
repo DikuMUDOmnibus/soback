@@ -1,0 +1,1478 @@
+#200 Zone.
+NAME       : Elemental Temple~
+INFO       : 현재는 fire 와 불충분한 earth 만이있지만 fire,earth,water,air 계의 존~
+PATH       : Levee 에서 s.w.w.w.w.s.e.s.e ~
+ALIGN      : 2
+AGGRESSIVE : 1
+LEVEL      : 25 ~ 40
+MAX        : 20099
+LIFESPAN   : 40
+RESET      : 2
+
+#MOBILES
+#20001
+mist~
+something~
+An strange white mist covers the ground.
+~
+The mist is only a few inches thick, but it hides the ground completely.
+~
+172 0 -800 S
+10 0 2 4d10+200 2d6+12
+100 30000
+8 8 0
+#20002
+ghost~
+a ghost~
+A mysterious ghost hovers in the shadows.
+~
+The ghost tells you the anctient tale of the temple:
+    " Long ago, this temple was erected to worship the elements 
+      of creation. The priests of the temple learned to harness
+      the  elemental powers, and used them for the good of man.
+      But Genok, the   Evil   Overlord  of the Realm of Eternal 
+      Darkness  sought  to steal  these powers, and use them to
+      rule  the gods  themselves.  He  attacked the temple, and
+      conquered the plains of the elements. He returned to his
+      Realm of Evil, exhausted by his great battle. He has slept
+      for 100 years now, but he may return at any time. Take this
+      key, and gain the powers of the elements, that you may unlock
+      the door to his realm, and defeat the Dark Overlord. "
+~
+72 524290 900 S
+1 90 10 1d10+10 1d1+1
+0 1
+8 8 0
+#20003
+worker ant~
+a giant worker ant~
+A giant worker ant is here, hunting for food.
+~
+Wow, this thing is as big as a truck!
+~
+42 8 300 S
+20 0 30 5d7+450 3d6+5
+10000 30000
+8 8 2
+#20004
+worker ant~
+a giant worker ant~
+A gigantic worker ant is here.
+~
+If you weren't so busy avoiding being squashed, you could get a better look at
+it!
+~
+14 8 0 S
+20 0 30 5d7+420 3d6+5
+10000 30000
+8 8 2
+#20005
+guard ant~
+a giant guard ant~
+A giant guard ant is here at its post.
+~
+It is much larger than the worker's, and definately stronger. The guard ant is
+ready to give her life for the protection of the hive.
+~
+65546 8 800 S
+25 -1 0 6d7+700 4d8+10
+10000 50000
+8 8 2
+#20006
+soldier ant~
+the soldier ant~
+A dealdy soldier ant patrols the tunnels, looking for intruders.
+~
+It's powerful jaws could easily crush a tank! The soldier ant charges at you,
+eager for battle.
+~
+296 16777224 700 S
+27 -3 -30 3d5+870 5d8+10
+5000 80000
+8 8 2
+#20007
+guard royal ant~
+a Royal Guard Ant~
+A member of the Queen's Royal Guard watches for intruders.
+~
+These ants have been specially raised for only one purpose: protect the queen
+at all costs!
+~
+4136 8 1000 S
+35 0 -9 3d6+973 1d40+11
+4866 90000
+8 8 0
+#20008
+queen ant~
+the Queen Ant~
+The Queen is very busy laying eggs.
+~
+The queen is very tired from laying so many eggs.
+~
+1066 136 1000 S
+30 -10 -23 7d5+1438 4d5+20
+1000 160000
+5 5 2
+#20009
+nurse ant~
+a nurse ant~
+A nurse ant faithfully tends to the Queen.
+~
+She is very busy performing all the queen's orders.
+~
+1066 8 800 S
+10 0 4 2d6+100 1d4+15
+632 7000
+8 8 0
+#20010
+pebble small~
+a pebble~
+You see a small pebble here on the ground.
+~
+It appears to be made of semi-precious stones.
+~
+10 0 0 S
+8 11 3 6d10+100 2d8+12
+500 10000
+5 5 0
+#20011
+rock~
+a large rock~
+You nearly trip over a very large rock in the path.
+~
+It's is too heavy to move, perhaps you should go around it.
+~
+10 0 0 S
+18 5 0 3d7+337 3d5+5
+15000 20000
+8 8 0
+#20012
+boulder rock~
+a boulder~
+A huge boulder falls from above and almost crushes your head!
+~
+As you look at the size of the hole made by the impact, you are thankful
+for your quick reflexes.
+~
+40 8 0 S
+20 0 0 7d3+313 4d5+8
+20000 50000
+8 8 0
+#20013
+earth elemental stone ground~
+Elemental Stone~
+The ground errupts violently and forms a titanic creature of stone.
+~
+A mammoth titan of stone and rock, this elemental creature is the guardian of
+the plain of Earth. It's huge firsts are as hard as steele, and could easily
+crush a house in one blow! As it approaches you, the ground trembles and
+shakes under it's weight.
+~
+840 0 0 S
+35 -6 -40 8d7+2468 1d40+10
+10000 160000
+8 8 0
+#20014
+drijen mountain~
+Drijen~
+A huge mountain towers above you.
+~
+Drijen was born as a mighty mountain, and given rule over the plain of earth.
+In his fight with the Dark Overlord, the mountain was cracked, forming the
+canyons leading to the peak.
+~
+10 0 0 S
+40 -5 -30 10d10+10000 1d5+2
+10000 200000
+8 8 0
+#20015
+elemental fire flames~
+The Fire Elemental~
+The air in front of you suddenly bursts into a towering pillar of flames!
+~
+Radiating tremendous heat, the huge collumn of blue and green flames towers
+above you like a giant. It twists and swills violently, and you are almost
+blinded by the dazzling light.
+
+~
+2670 136 330 S
+31 -4 -20 8d7+960 1d25+12
+2000 135234
+8 8 0
+#20016
+fireball~
+A fireball~
+A raging fireball speeds towards you from high in the atmosphere.
+~
+The fireball hurls itself straight at you, determined to collide with your
+face. LOOK OUT!
+
+Oh no, here it comes again!
+~
+104 8 -520 S
+15 -1 5 6d7+320 4d8+5
+6000 30000
+8 8 0
+#20017
+nymph fire~
+A fire nymph~
+A tiny fire nymph dances playfully among the flames.
+~
+Her naked body is covered only by her long, firey hair, and her glowing red 
+eyes playfully invite you to dance with her.
+~
+2190 524288 330 S
+8 -10 2 1d12+123 1d8+3
+500 9000
+8 8 2
+#20018
+xyros pheonix~
+Xyros~
+A giant pheonix sleeps here peacefully.
+~
+You see a majestic creature of beauty and grace. A giant bird madde entirely 
+of blue flames, the mighty pheonix is the symbol of life and hope. Reborn from
+its ashes, the pheonix never dies.
+~
+8744 128 900 S
+45 -10 -40 6d10+18023 2d20+75
+30 4500000
+4 4 1
+#20019
+xyros pheonix~
+Xyros~
+A giant pheonix sleeps here peacefully.
+~
+You see a majestic creature of beauty and grace. A giant bird madde entirely 
+of blue flames, the mighty pheonix is the symbol of life and hope. Reborn from
+its ashes, the pheonix never dies.
+~
+8744 136 900 S
+47 -15 -40 6d10+22023 2d20+80
+30 6500000
+4 4 1
+#20020
+sunburst~
+A burst of energy~
+You see a blinding light, almost as bright as the sun.
+~
+A bright burst of energy smirks as it explodes in your face.
+
+You are blinded!
+
+~
+8296 8 -520 S
+20 0 -20 6d7+370 8d3+3
+10000 30000
+8 8 0
+#20021
+firestorm~
+a firestorm~
+A firestorm is flowed in the atmosphere.
+You are blinded!
+~
+The sky is as fire, and you scream in pain as scortching flames fill the
+room and burn your flesh.
+
+~
+8296 8 -900 S
+30 -5 -30 6d7+680 4d8+7
+2000 90000
+8 8 0
+#20022
+xyros pheonix~
+Xyros~
+A pile of ashes bursts into flames, giving rise to a giant firey bird.
+~
+You see a majestic creature of beauty and grace. A giant bird of blue flames,
+the mighty pheonix is the symbol of life and hope. Reborn from it's ashes, the
+pheonix never dies.
+~
+11048 2184 900 S
+50 -20 -30 6d10+26000 2d20+85
+300 12000000
+8 8 1
+#20023
+xyros pheonix~
+Xyros~
+A pile of ashes bursts into flames, giving rise to a giant firey bird.
+~
+You see a majestic creature of beauty and grace. A giant bird of blue flames,
+the mighty pheonix is the symbol of life and hope. Reborn from it's ashes, the
+pheonix never dies.
+~
+13096 2184 900 S
+50 -25 -30 6d10+40000 2d20+115
+300 25000000
+8 8 1
+#99999
+
+#OBJECTS
+#20001
+cracked urn clay pot~
+a cracked clay pot~
+A cracked clay pot rests in the corner of the room.~
+~
+15 64 1
+500 0 -1 0
+500 0 0 10
+E
+pot urn cracked clay~
+It is a baked clay pot with geometric patterns.
+~
+#20002
+wing wings wingtip~
+the wings of the statue~
+A statue of a half bird, half human goddess stands in the center of the room.~
+~
+17 64 1
+1 0 -1 0
+500 0 0 10
+E
+wings wing wingtip~
+You notice that there is a feather missing from one of the wingtips, obviously
+stolen by looters.
+~
+#20003
+embers pit~
+the smoldering, red hot embers~
+A pit filled with glowing embers radiates with heat.~
+~
+17 64 1
+1 0 -1 0
+500 0 0 10
+E
+pit embers~
+It is a pit that is sixteen square meters which has been dug to contain a very
+large fire. The coals are still hot, so you better not get to close.
+~
+#20004
+pond pool water~
+the sparkling pool of water~
+A sparkling pool of water merrily reflects the outdoor sunlight.~
+~
+17 64 1
+1 0 -1 0
+500 0 0 10
+E
+pool water pond~
+Some water lillies float on the water's surface.
+~
+#20005
+rubble rocks rock debris~
+some rubble from a demolished mountain~
+Some small rocks and debris cover the floor.~
+~
+13 64 1
+0 0 0 0
+1 0 0 10
+E
+rock rubble rocks debris~
+The rocks are small and fragmented, as if they were once part of a larger
+formation.
+~
+#20006
+feather diamond~
+a diamond feather~
+A feather made of diamond crystal has been carelessly left here.~
+~
+8 64 1
+0 0 0 0
+1 10000 0 10
+E
+feather diamond~
+The feather sparkles and shines in the light. From its size, It looks like it
+came from a very large bird.
+~
+#20007
+ashes pile~
+a pile of ashes~
+A small pile of ashes blows away in the wind.~
+~
+13 64 1
+0 0 0 0
+1 0 0 10
+E
+ashes pile~
+Because is it is just ash, it is impossible to know what it was.
+~
+#20008
+shell~
+a sea shell~
+A beautiful sea shell lies here on the ground.~
+~
+13 64 1
+0 0 0 0
+1 0 0 10
+E
+shell~
+You hold the shell up to your ear and hear the sounds of the ocean.
+~
+#20009
+key black crystal~
+a black crystal key~
+A small key made of translucent black crystal is suspended in mid air.~
+~
+18 2 1
+2 0 0 0
+1 0 0 10
+E
+key black crystal~
+It vibrates mysteriously in your hand, and seems almost to be alive.
+~
+#20010
+egg~
+an egg of the queen ant~
+An egg of a giant ant is here.~
+~
+10 0 1
+17 15 16 28
+10 100 0 10
+E
+egg~
+It is soft and jelly-like. It looks as if there is a living larva in it.
+~
+#20011
+key brown red~
+a reddish-brown key~
+A reddish-brown key is here.~
+~
+18 0 1
+1 0 0 0
+3 0 0 10
+#20012
+plates legplates leg ant~
+the leg plates of a giant ant~
+The leg plates of a giant ant have been carelessly left here.~
+~
+9 0 131072
+5 0 0 0
+10 800 0 10
+A
+1 1
+A
+4 1
+#20013
+armor shell body ant~
+the armored shell of a giant ant~
+A giant ant has been slain, and it's armored shell has been left here.~
+~
+9 0 8
+9 0 0 0
+12 800 0 10
+A
+1 1
+A
+4 1
+#20014
+armplates arm plates~
+the armplates of a giant ant~
+The armplates of a giant ant have been left here.~
+~
+9 0 256
+6 0 0 0
+8 800 0 10
+A
+1 1
+A
+4 1
+#20015
+pinchers~
+the Pinchers of a Gaint Queen Ant~
+The huge pinchers of a giant ant rest here on the ground.~
+~
+5 0 8193
+0 4 5 11
+25 800 0 10
+#20016
+ore metal~
+a strange metal ore~
+A translucent blue metal ore lies here on the ground.~
+~
+12 2240 16385
+0 0 0 0
+1 0 0 10
+E
+ore metal~
+The metal looks almost like ice, and is extremely cold to the touch.
+~
+A
+23 -2
+#20017
+boots metal cool~
+boots of cool metal~
+A pair of boots look like they are made of ice.~
+~
+9 192 65
+8 0 0 0
+1 7000 0 10
+E
+boots metal cool~
+They are very light and as cold as ice.~
+A
+23 8
+#20018
+ashes~
+some ashes~
+There is a large pile of ashes here on the ground.~
+~
+12 65 0
+0 0 0 0
+1 0 0 10
+E
+ashes~
+Because it is just ashes, it is hard to tell what it was.
+~
+#20019
+ashes~
+some ashes~
+There is a large pile of ashes here on the ground.~
+~
+12 65 0
+0 0 0 0
+1 0 0 10
+E
+ashes~
+Because it is just ashes, it is hard to tell what it was.
+~
+#20020
+ashes~
+some ashes~
+There is a large pile of ashes here on the ground.~
+~
+12 65 0
+0 0 0 0
+1 0 0 10
+E
+ashes~
+Because it is just ashes, it is hard to tell what it was.
+~
+#20021
+ashes~
+some ashes~
+There is a large pile of ashes here on the ground.~
+~
+12 65 0
+0 0 0 0
+1 0 0 10
+E
+ashes~
+Because it is just ashes, it is hard to tell what it was.
+~
+#20022
+leggings pheonix~
+A pair of Pheonix Leggings~
+A ruffled pile of flaming blue feathers lied here on the ground~
+~
+9 64 33
+8 0 0 0
+3 100 40 10
+A
+18 2
+A
+19 3
+#20023
+aura blue flaming shield~
+a glowing aura of blue flames~
+The air here is very warm, and you feel someone protecting you.
+~
+~
+9 2049 513
+13 0 0 0
+10 100000 38 10
+A
+19 2
+A
+23 -5
+#20024
+larva ant~
+the larva of a giant ant~
+A giant ant egg has hatched, and the larva of a queen ant has emerged.~
+~
+10 0 1
+25 44 39 19
+10 100 0 10
+E
+larva ant~
+It is pale white and squishy. It squirms in your hand, trying to escape.
+~
+#20025
+talisman red flame~
+a talisman of red flames~
+A small tlisman is floating in the air...It is surrounded by red flames.~
+~
+9 0 16389
+7 74 -1 -1
+2 500 35 10
+A
+18 1
+A
+19 2
+#20026
+medallion blue~
+a medallion of blue flames~
+A small medallion is flaoting here.... It is surrounded by blue flames~
+~
+3 1024 5
+50 20 20 45
+2 500 30 10
+A
+17 -10
+A
+4 3
+#20027
+pheonix sword~
+the Sword of The Pheonix~
+A sparkling crystal sword is floating here.... It is surrouded by blue flames~
+~
+5 65 8193
+2 13 3 3
+28 1000 40 1
+A
+18 2
+A
+18 2
+#99999
+
+#ROOMS
+#20001
+A Narrow Path In The Forest~
+    The path looks as if it was once well traveled, but now it is deserted. The
+trees here are withered and dried, as if they had been touched by an ancient 
+evil. The path continues north, and to the south is the forest trail.
+~
+200 0 3
+D0
+~
+~
+0 -1 20002
+D2
+~
+~
+0 -1 20002
+D3
+~
+~
+0 0 18490
+S
+#20002
+A Path In The Dead Forest~
+    All around you the plants and trees are withered and decaying. There is no
+sound at all, and a strange mist floats in from the north, and covers the path.
+There seems to be no life present at all. The path leads north and south from
+here.
+~
+200 0 3
+D0
+~
+~
+0 -1 20004
+D2
+~
+~
+0 -1 20001
+S
+#20003
+A Path In The Dead Forest~
+    You are deep within the dead forest. A strange mist covers the ground, and 
+makes it difficult to see where the path leads. This is the place of a great
+battle, and all the area is dead.
+~
+200 0 3
+D0
+~
+~
+0 -1 20006
+D1
+~
+~
+1 -1 20004
+S
+#20004
+A Path In The Dead Forest~
+    You are deep within a forest of dead trees. The mist here is very thick,
+making it impossible to see where the path leads. As you walk, you hear strange
+sounds moving in the distance. The forest is destroyed from a violent battle.
+~
+200 2 3
+D1
+~
+~
+0 -1 20005
+D2
+~
+~
+0 -1 20002
+D3
+~
+~
+0 -1 20003
+S
+#20005
+A Path In The Dead Forest~
+    A strange mist covers the ground, making it difficult to see the ground.
+As you walk along, the mist swirls around your feet, and often you spot the 
+bones of a small animal. There was a great battle here and all life is dead.
+~
+200 0 3
+D3
+~
+~
+0 -1 20004
+S
+#20006
+A Path In The Dead Forest~
+    As you walk along, you hear the muffled screams of some poor animal far in
+the distance. You jump suddenly as you notice something underneath the mist
+scurry by your leg. You feel the uneasy urge to move on.
+~
+200 2 3
+D1
+~
+~
+0 -1 20017
+D2
+~
+~
+0 -1 20003
+D3
+~
+~
+0 -1 20007
+S
+#20007
+A Path In The Dead Forest~
+    You are deep within a forest of dead trees. You hear strange sounds from
+the bushes and trees nearby, but see no signs of life. A strange mist covers
+the ground, making it difficult to see where the path leads.
+~
+200 0 3
+D1
+~
+~
+0 -1 20006
+D3
+~
+~
+0 -1 20008
+S
+#20008
+A Path In The Dead Forest~
+    The trees here are black and withered, and the air is filled with the smell
+of decay. As you walk, it seems like the mist covering the path is moving out
+of your way, as if it were alive. You get the feeling that something is in the
+forest watching you. You feel the urge to hurry on.
+~
+200 0 3
+D1
+~
+~
+0 -1 20007
+D3
+~
+~
+0 -1 20009
+S
+#20009
+A Path In The Dead Forest~
+    You are still within the dead forest. A strange mist covers the ground, and
+makes it difficult to see where the path leads. As you walk along, you here the
+muffled sounds of a struggle not far in the distance. Looking around, you see
+the remains of small animals, and something rubs past your leg underneath the 
+mist.
+~
+200 2 3
+D0
+~
+~
+0 -1 20010
+D1
+~
+~
+0 -1 20008
+S
+#20010
+A Path In The Dead Forest~
+    You are deep within a forest of dead trees. A strange mist covering the
+ground makes it difficult to see where the path leads. This is really a gloomy
+place, and you wonder to yourself if it is haunted.
+~
+200 2 3
+D2
+~
+~
+0 -1 20009
+D3
+~
+~
+0 -1 20011
+S
+#20011
+Near The Ruins Of A Stone Tower~
+    You are deep within a forest of dead trees. The mist covering the ground
+makes it hard to see where the path leads, but to the west, you see the ruins
+of an old, stone tower rise above the withered and decaying forest.
+~
+200 0 3
+D1
+~
+~
+0 -1 20010
+D3
+~
+~
+0 -1 20012
+S
+#20012
+Base Of The Tower~
+    You are standing at the ruins of a stone tower. Although the base remains
+intact, as you look up, you see that the upper levels have been destroyed. All
+around, large stone blocks which once made the walls of the tower lay shattered
+on the ground. Some of the trees around the tower appear to have been scorched
+by a fire. There is an iron door here which leads into the tower.
+~
+200 2 3
+E
+door iron lock~
+The lock seems to be rusted shut.
+~
+D1
+~
+~
+0 -1 20011
+D3
+~
+door~
+1 -1 20013
+S
+#20013
+In The Tower~
+    You are on the first level of the tower ruins. The air is thick and musty,
+and smells of decay. You cover your mouth to shield yourself from the stench.
+Some ugly green moss grows on the walls, and a few rats run into the shadows
+as you approach. A rotting wooded staircase spirals upward to the next level.
+~
+200 13 0
+D1
+~
+door~
+1 -1 20012
+D4
+~
+~
+0 -1 20014
+S
+#20014
+The Staircase~
+    You are on an old wooden staircase of the tower ruins. The stairs continue
+up and down from here.
+~
+200 9 0
+D4
+~
+~
+0 -1 20015
+D5
+~
+~
+0 -1 20013
+S
+#20015
+The Staircase~
+    You are on an old wooden staircase of the tower ruins. The stairs continue
+up and down from here.
+~
+200 9 0
+D4
+~
+~
+0 -1 20016
+D5
+~
+~
+0 -1 20014
+S
+#20016
+The Top Of The Ruins~
+    You are at the top of the tower ruins. The roof has been destroyed, along
+with the upper levels of the tower. The west wall has collapsed, and beneath
+the rubble is a skeleton. There is a window here in the east wall.
+~
+200 8 0
+E
+window~
+Below, you see a temple. You lean out the window and try to get a better look.
+~
+E
+temple~
+The temple is a rectangular structure with two levels.
+~
+D5
+~
+~
+0 -1 20015
+S
+#20017
+Path To Temple~
+    The mist here is much thinner, and you see that the path leads north to a
+temple. Mysteriously, the temple seems untouched by the forces which have
+destroyed the surrounding forest. To the south, the path disappears into the
+mist.
+~
+200 4 3
+D0
+~
+~
+0 -1 20018
+D2
+~
+~
+0 -1 20006
+S
+#20018
+Entrance To The Temple~
+   The temple is very beautiful, made of marble and sparkling quartz crystals.
+It looks as if the temple grew from the ground, and is not man made. Steps 
+lead up and to the north, into the temple, and a path leads south from here.
+~
+200 0 1
+D0
+~
+~
+0 -1 20029
+D2
+~
+~
+0 -1 20017
+D4
+~
+~
+0 -1 20029
+S
+#20019
+Chamber Of Earth~
+    You are standing in a room dedicated to element of earth. The flor is a
+soft beach sand. Along the walls, a beautiful hand-painted mural decorates
+the walls. There is an offering stand here, and several lidded clay pots line
+the walls. The sweet smell of inscence hangs in the air. Exits lead east and
+south into the temple.
+~
+200 8 0
+E
+mural wall~
+The mural is of Drijen, the elemental prince of earth. He was born as a mighty
+mountain range. According to legend, the Dark Overlord fought with Drijen for
+70 days and 70 nights without rest. In the end, the mighty mountain cracked, 
+and the Dark Overlord conquered the power over earth.
+~
+D1
+~
+~
+0 -1 20020
+D2
+~
+~
+0 -1 20022
+S
+#20020
+The Temple Of The Elements~
+    You are standing in the Temple of the Elements. It is completely deserted,
+but you feel a strange presence.
+~
+200 8 0
+D1
+~
+~
+0 -1 20021
+D2
+~
+~
+0 -1 20023
+D3
+~
+~
+0 -1 20019
+D4
+~
+trapdoor~
+2 20009 20036
+S
+#20021
+Chamber Of Air~
+    You are standing in a room which is dedicated to the element of air. 
+Although there are no windows, a gentle breeze cools you as it blows through
+your hair. A beautiful mural decorates the walls. Exits lead west and south.
+~
+200 8 0
+E
+mural wall~
+The mural is of Ariel, the Princess of the Realm of Air. The Dark Overlord,
+Genok, fought for many days with Ariel for control of the Realm of Air. During
+the battle, he was captured by her beauty, and fell in love. But she refused 
+him, and so, Genok imprissoned her in a floating island city in the sky.
+~
+E
+statue bird ariel~
+A magnificent work of art, the statue, carved from a single diamond crystal,
+stands 15 meters high. It is Ariel, the Goddess of Wind, as she spreads her
+wings in freedom. You stand in awe and admire the grace and beauty of the 
+huge wings as they soar upward, towering over you.
+~
+D2
+~
+~
+0 -1 20024
+D3
+~
+~
+0 -1 20020
+S
+#20022
+The Temple Of The Elements~
+    You are standing in the Temple of the Elements. It is completely deserted,
+you feel a strange presence.
+~
+200 8 0
+D0
+~
+~
+0 -1 20019
+D1
+~
+~
+0 -1 20023
+D2
+~
+~
+0 -1 20025
+S
+#20023
+The Temple Of The Elements~
+    You are standing in the Temple of the Elements. It is completely deserted,
+you feel a strange presence.
+~
+200 8 0
+D0
+~
+~
+0 -1 20020
+D1
+~
+~
+0 -1 20024
+D2
+~
+~
+0 -1 20026
+D3
+~
+~
+0 -1 20022
+S
+#20024
+The Temple Of The Elements~
+    You are standing in the Temple of the Elements. It is completely deserted,
+you feel a strange presence.
+~
+200 8 0
+D0
+~
+~
+0 -1 20021
+D2
+~
+~
+0 -1 20027
+D3
+~
+~
+0 -1 20023
+S
+#20025
+The Temple Of The Elements~
+    You are standing in the Temple of the Elements. It is completely deserted,
+you feel a strange presence.
+~
+200 8 0
+D0
+~
+~
+0 -1 20022
+D1
+~
+~
+0 -1 20026
+D2
+~
+~
+0 -1 20028
+S
+#20026
+The Altar Of The Elemental Temple~
+   You are standing before a large, oval shaped altar made of a heavy black
+stone. Four brass torch stands rest in each corner of the room. Although there
+is no obvious flame, they emit a strange glowing light. As you look around the
+room, you notice that the floor, walls, and ceiling, all form a complex star
+chart of the entire galaxy.
+~
+200 136 0
+D0
+~
+~
+0 -1 20023
+D1
+~
+~
+0 -1 20027
+D2
+~
+~
+0 -1 20029
+D3
+~
+~
+0 -1 20025
+D5
+~
+gateway~
+2 -1 20026
+S
+#20027
+The Temple Of The Elements~
+    You are standing in the Temple of the Elements. It is completely deserted,
+you feel a strange presence.
+~
+200 8 0
+D0
+~
+~
+0 -1 20024
+D2
+~
+~
+0 -1 20030
+D3
+~
+~
+0 -1 20026
+S
+#20028
+The Temple Of The Elements~
+    You are standing in the Temple of the Elements. It is completely deserted,
+you feel a strange presence.
+~
+200 8 0
+D0
+~
+~
+0 -1 20025
+D1
+~
+~
+0 -1 20029
+D2
+~
+~
+0 -1 20031
+S
+#20029
+The Temple Of Elements~
+    By studying the wall carvings and mystic writings, you realize that this 
+temple has been erected in honor of the four elements of creation: Earth, Air,
+Water, and Fire. According to legend, this temple was destroyed by the Evil 
+Overlord, Genok, who sought to conquer the powers of the elements. Exits lead
+north, south, east and west from here.
+~
+200 8 0
+D0
+~
+~
+0 -1 20026
+D1
+~
+~
+0 -1 20030
+D2
+~
+~
+0 -1 20018
+D3
+~
+~
+0 -1 20028
+D5
+~
+~
+0 -1 20018
+S
+#20030
+The Temple Of The Elements~
+    You are standing in the Temple of the Elements. It is completely deserted,
+you feel a strange presence.
+~
+200 8 0
+D0
+~
+~
+0 -1 20027
+D2
+~
+~
+0 -1 20032
+D3
+~
+~
+0 -1 20029
+S
+#20031
+Chamber Of Fire~
+    Upon entering, you notice that this room is much warmer than the others.
+You look around and find the source of the heat: a pit has been dug in the
+floor, and is filled with glowing embers from a recent fire. The walls are 
+covered in white gold and diamonds, and radiate a brilliant light. A mural
+on the ceiling decorates the room.
+~
+200 8 0
+E
+mural ceiling~
+You recognize the painting of Xyros, the elemental prince of fire. Born as a
+firery pheonix, Xyros was given rule over the Realm of Fire. The strongest of
+the elemental rulers, Xyros fought longest against the evil Genok. Every time
+Genok killed him, Xyros was reborn from his own ashes. And so, Genok was only
+able to gain a small amout of the power of fire.
+~
+D0
+~
+~
+0 -1 20028
+S
+#20032
+Chamber Of Water~
+    As you enter, you notice that this room is an enchanting and peaceful
+water garden. A small waterfall in the far wall fills a pond, and a small 
+stream winds through the room. Beautiful lillies float on the surface of the
+pond, and the room is filled with exotic tropical plants. Through the foliage
+you can see a large mural which decorates the walls.
+~
+200 8 0
+E
+wall mural~
+The mural is of Mara, The Elemental Princess of Water. She fought violently
+with Genok for control over the realm of water. The two titans struggled so
+wildly, that a huge, endless tidal wave formed. Even after she was defeated,
+the giant sunami still romes through the vast ocean.
+~
+D0
+~
+~
+0 -1 20030
+S
+#20036
+Entrance To The Chamber Of Elements~
+    You are in a very small room above the temple. As there is no light, you
+can not see any exits. But from the south, you hear a faint humming sound 
+somewhere in the darkness.
+~
+200 9 0
+D2
+~
+~
+0 -1 20038
+D5
+~
+trapdoor~
+2 20009 20020
+S
+#20037
+The Chamber Of Elements~
+    You are standing in a secret room above the temple. The walls are made of 
+tranlucent black crystals which vibrate to produce a faint, almost hypnotic,
+humming sound. The air seems charged with energy, and a warm feeling fills
+your body.
+~
+200 9 0
+D1
+~
+~
+0 -1 20038
+D2
+~
+~
+0 -1 20041
+S
+#20038
+The Chamber Of Elements~
+    The air seems charged with energy, and a warm feeling fills your body.
+~
+200 13 0
+D0
+~
+~
+0 -1 20036
+D1
+~
+~
+0 -1 20039
+D2
+~
+~
+0 -1 20040
+D3
+~
+~
+0 -1 20037
+S
+#20039
+The Chamber Of Elements~
+    The air seems charged with energy, and a warm feeling fills your body.
+~
+200 9 0
+D2
+~
+~
+0 -1 20043
+D3
+~
+~
+0 -1 20038
+S
+#20040
+Above The Altar~
+    You are standing in a room which is directly over the temple altar. It was
+rumored that the ancient priests of this temple could create dorways directly
+to the elemental plains. You wonder if this could be the room where these 
+mystic rituals were performed. The energy here is strong, and you feel 
+compelled to reamain here, as if something were about to happen.
+~
+200 9 0
+D0
+~
+~
+0 -1 20038
+D1
+~
+~
+0 0 20044
+D2
+~
+~
+0 -1 20042
+D3
+~
+~
+0 0 20045
+S
+#20041
+The Chamber Of Elements~
+    The air seems charged with energy, and a warm feeling fills your body.
+~
+200 9 0
+D0
+~
+~
+0 -1 20037
+D1
+~
+~
+0 -1 20042
+S
+#20042
+The Chamber Of Elements~
+    The air seems charged with energy, and a warm feeling fills your body.
+~
+200 13 0
+D0
+~
+~
+0 -1 20040
+D1
+~
+~
+0 -1 20043
+D3
+~
+~
+0 -1 20041
+S
+#20043
+The Chamber Of Elements~
+    The air seems charged with energy, and a warm feeling fills your body.
+~
+200 9 0
+D0
+~
+~
+0 -1 20039
+D3
+~
+~
+0 -1 20042
+S
+#20044
+Above The Altar~
+    THIS ROOM WILL LEAD TO FIRE.
+~
+200 9 0
+D0
+~
+~
+0 -1 20129
+S
+#20045
+Above The Altar~
+    THIS ROOM WILL LEAD TO MAZE.
+~
+200 9 0
+D0
+~
+~
+0 -1 20410
+S
+#20046
+Above The Altar~
+    THIS ROOM WILL LEAD TO WATER.
+~
+200 9 0
+D0
+~
+~
+0 -1 20038
+S
+#20047
+Above The Altar~
+    THIS ROOM WILL LEAD TO AIR.
+~
+200 9 0
+D0
+~
+~
+0 -1 20038
+S
+#99999
+
+#RESET
+M 0 20001  10 20001   something (A Narrow Path In The Forest)
+M 0 20001  10 20002   something (A Path In The Dead Forest)
+M 0 20001  10 20003   something (A Path In The Dead Forest)
+M 0 20001  10 20004   something (A Path In The Dead Forest)
+M 0 20001  10 20007   something (A Path In The Dead Forest)
+M 0 20001  10 20009   something (A Path In The Dead Forest)
+M 0 20001  10 20011   something (Near The Ruins Of A Stone Tower)
+M 0 20002   1 20026   a ghost (The Altar Of The Elemental Temple)
+G 1 20009   1             a black crystal key
+O 0 20001   1 20019    a cracked clay pot (Chamber Of Earth)
+O 0 20002   1 20021    the wings of the statue (Chamber Of Air)
+O 0 20003   1 20031    the smoldering, red hot embers (Chamber Of Fire)
+O 0 20004   1 20032    the sparkling pool of water (Chamber Of Water)
+O 0 20005   1 20026    some rubble from a demolished mountain (The Altar Of The Elemental Temple)
+O 0 20006   1 20026    a diamond feather (The Altar Of The Elemental Temple)
+O 0 20007   1 20026    a pile of ashes (The Altar Of The Elemental Temple)
+O 0 20008   1 20026    a sea shell (The Altar Of The Elemental Temple)
+D 0 20026   5     2    The Altar Of The Elemental Temple
+D 1 20026   5     0    The Altar Of The Elemental Temple
+P 1 20017  50 20003       boots of cool metal (embers pit)
+S
+
+#SHOPS
+$
+#END of Elemental Temple.

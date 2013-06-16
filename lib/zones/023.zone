@@ -1,0 +1,1737 @@
+#23 Zone.
+NAME       : Muncie, Loftwick City~
+INFO       : Midgaard 에서 추방된 종족이 은둔해 사는 음산한 존.~
+PATH       : Dump 에서 d.w.d.2w.d.2n.3w.2n.3e.n.e.2d (중간에 문 2 개)~
+ALIGN      : 1
+AGGRESSIVE : 1
+LEVEL      : 20 ~ 40
+MAX        : 2399
+LIFESPAN   : 60
+RESET      : 2
+
+#MOBILES
+#2301
+spectral minion~
+A spectral minion~
+A ghostly figure continues about his business, unaware that you are here.
+~
+You see an ancient figure that is still attempting to complete his life's
+task. Githyanki like to keep them around as trophies and entertainment.
+~
+10 8 1000 S
+20 -3 -7 1d50+500 5d5+0
+10000 120000
+8 8 0
+#2302
+slave human~
+A Human Slave~
+A Human Slave stands here drooling and calling mindlessly for his master.
+~
+A creature that once human stands here. He is gibbering incoherently and 
+calling for Githyanki master. He turns a blank stare upon you and drools on 
+his chest.
+~
+108 0 10 S
+6 15 4 1d10+80 1d6+5
+0 1500
+8 8 1
+#2303
+acolyte~
+An Acolyte of Yunin~
+An Acolyte of Yunin is here acting silly (like her goddess).
+~
+An Acolyte of Yunin is wondering why the HELL Yunin put her here. She runs 
+up to you and rubs against you asking for help, she seems to be carrying a 
+bag full of snowballs.
+~
+1036 0 1000 S
+4 17 6 1d10+60 1d8+4
+300 1000
+8 8 2
+#2304
+wraith~
+A shadowy figure~
+A shadowy figure materializes from out of nowhere.
+~
+The wraith is not amused that you have disturbed him.
+~
+108 1572888 -1000 S
+30 -3 -10 2d100+1000 3d8+9
+10000 200000
+8 8 0
+#2305
+baby shadow dragon~
+The shadow dragon~
+A small shadow dragon is here, looking around for it's mother.
+~
+You can barely make out the form of the shadow dragon.  It's wicked
+figure indicates that you might not be welcome.
+~
+40 1572888 -600 S
+15 6 -1 2d50+300 18d1+5
+2000 35000
+8 8 0
+#2306
+hatchling shadow dragon~
+The shadow dragon hatchling~
+A tiny shadow dragon is here, being nursed by it's mother.
+~
+~
+42 24 0 S
+3 15 6 1d10+30 1d8+2
+1000 800
+8 8 0
+#2307
+shadow dragon~
+The ancient shadow dragon~
+A huge shadow dragon was lying here nursing, until you entered....
+~
+This mother is angry!  You never should have distured her or her
+children.  This might have been a bad idea on your part....
+~
+8238 1048728 -1000 S
+30 -3 -13 2d50+2850 5d4+25
+50000 300000
+8 8 2
+#2308
+dark stalker~
+The Dark Stalker~
+The Dark Stalker is here stalking YOU!
+~
+The Dark Stalker is a tall figure dressed in black bandages, black as if
+he is covered in the dried blood of his victims.
+~
+332 1048586 0 S
+29 -3 -5 1d50+1250 4d6+5
+500 100000
+8 8 0
+#2309
+githyanki child~
+A Githyanki Child~
+A child is here screaming its head off WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!
+~
+A small creature with an oversized mouth and throat is here. It 
+wails in torment...
+                   
+              WAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!!!!
+~
+108 1048600 1000 S
+12 6 -8 1d1+68 1d50+1
+7500 10000
+8 8 2
+#2310
+githyanki citizen~
+A Githyanki Citizen~
+A Githyanki Citizen is here going about his business.
+~
+A Githyanki Citizen walks about minding his own business, like buying 
+slaves, buying humans for dinner, pieces of mindflayers as jewelry etc.
+~
+204 0 -500 S
+10 11 2 4d30+20 1d8+5
+300 9921
+8 8 0
+#2311
+githyanki warrior~
+The Githyanki warrior~
+The Githyanki warrior leaps to attack you!
+~
+A defender of the Githyanki race, this creature looks very deadly.
+He screams I AM GITHYANKI! DIE DIE DIE DIE!
+~
+364 24 -550 S
+12 5 -3 2d10+180 1d10+5
+1000 41000
+8 8 1
+#2312
+githyanki sergeant~
+A Githyanki Sergeant~
+A Githyanki Sergeant stands here watching over his underlings.
+~
+A Githyanki Sergeant, known throughout the world and planes as the most 
+viscious creatures to ever exist, stands here glaring at you. Before you 
+can even think he screams "DIE ADVENTURER SCUM!!" and attacks you...
+~
+364 524312 -650 S
+14 4 -2 3d10+220 2d8+7
+2500 61501
+8 8 1
+#2313
+githyanki guard~
+A Githyanki Royal Guard~
+A Githyanki Royal Guard Stands here watching diligently.
+~
+The guard is dressed in what appears to be the finest Githyanki armor 
+bearing the symbol of Lofwick.
+~
+364 24 -351 S
+18 0 -4 1d20+430 4d5+10
+1500 70000
+8 8 1
+#2314
+githyanki lord~
+The GITHYANKI lord~
+As you enter the room, the Lord raises his sword to attack !
+~
+A figure that can only be described as impressive, the Githyanki Lord is 
+truly frightening. He licks his lips as he looks at you with hunger in his 
+eyes.
+~
+4142 152 -1000 S
+23 -3 -7 2d10+900 5d5+15
+10000 200000
+8 8 1
+#2315
+githyanki warlock~
+A Warlock~
+A Githyanki Warlock is here making strange gestures in your direction.
+~
+A Githyanki Warlock the most feared of all Githyanki stands here. He is 
+dressed in strange garb covered with arcane runes. As you enter his domain 
+he looks at you and begins gesturing....
+~
+558 1048730 -1000 S
+30 -3 -7 2d20+1000 10d3+10
+15000 350000
+8 8 1
+#2316
+githyanki priest~
+A Priest~
+A Githyanki Priest is here praying to Sinat for his blessings.
+~
+A Githyanki Priest wearing the symbols of Sinat and Karn prays for someone 
+to work his ministrations of Magic, Mayhem, Chaos, Destruction, and Death 
+on. When you enter he states simply..."My prayers have been answered!".
+~
+1070 1048730 -1000 S
+30 -3 -7 3d20+1000 10d3+11
+20000 360000
+8 8 1
+#2317
+loftwick lich~
+Loftwick~
+A once powerful knight and brother of Redferne stands here.
+~
+This knight stands here in defiance to all that are living. He is a Lich of
+the greatest power. As you look at him a disembodied voice rasps....
+
+I am LOFTWICK THE LICH-KING of the GITHYANKI! Prepare to meet your gods...
+~
+4142 152 -1000 S
+45 -15 -15 1d50+13000 3d6+25
+30000 4000000
+8 8 1
+#2318
+mirissa wife~
+Mirissa Redferne~
+Mirissa the undead wife of Loftwick is sleeping here in eternal torment.
+~
+A beautiful female lies here on the bed. When she turns over you are 
+horrified to see that one half of her face has been ritually and
+methodically burned away, leaving horrible scars.
+~
+138 0 1000 S
+14 9 2 1d20+380 1d20+3
+100 15000
+4 4 2
+#2319
+dark creeper~
+A Dark Creeper~
+A Dark Creeper is here trying to hide in the shadows.
+~
+A small creature about the size of the dwarf is skulking here. He is 
+dressed from head to toe in dark and somber clothes.
+~
+76 524288 -500 S
+12 9 2 1d40+160 3d7+5
+5000 12000
+8 8 0
+#99999
+
+#OBJECTS
+#2301
+pike~
+a huge, heavy, black pike~
+A heavy looking black pike is floating above the ground here.~
+slash~
+5 4226 8193
+0 5 4 3
+12 150000 13 0
+A
+18 2
+A
+23 -1
+#2302
+sleeves chaos~
+a pair of chaos sleeves~
+A pair of scorched pitch-black spiked sleeves lie here.~
+~
+9 6786 257
+9 0 0 0
+18 125000 23 0
+#2303
+leggings chaos~
+a pair of chaos leggings~
+A pair of scorched pitch-black plate leggings lie here.~
+~
+9 6786 33
+9 0 0 0
+18 125000 23 0
+#2304
+helm darkness~
+a pitch-black helm of darkness~
+A pitch-black helm with a bone white skull visor lies here.~
+~
+9 6786 17
+9 0 0 0
+16 125000 23 0
+#2305
+flesh boots~
+a pair of blackened flesh boots~
+A pair of boots made from the flesh of a mindflayer lie here.~
+~
+9 6786 65
+9 0 0 0
+18 125000 23 0
+#2306
+gauntlets~
+a pair of blackened gauntlets~
+A pair of heavy plated gauntlets lies here.~
+~
+9 6786 129
+9 0 0 0
+5 125000 23 0
+#2307
+dragon shield~
+gold dragon shield~
+A large gold shield, with a skull emblazoned on it lies here.~
+~
+9 6786 513
+9 0 0 0
+10 12500 7 0
+A
+23 -2
+A
+24 -2
+#2308
+skull belt~
+a black leather belt with dangling skulls~
+A black leather belt with the heads of previous victims lies here.~
+~
+9 4546 2049
+8 0 0 0
+2 125000 15 0
+A
+19 1
+A
+4 -2
+#2309
+staff arcane~
+a staff with arcane symbols~
+A small wooden staff lies here collecting dust.~
+~
+4 65 16385
+9 10 10 15
+15 50000 0 0
+A
+12 5
+#2310
+black pearl power~
+the black pearl of power~
+a glistening black pearl lies here.~
+~
+12 193 16385
+0 0 0 0
+5 20000 0 0
+A
+12 10
+A
+18 1
+#2311
+blood red vial~
+a blood red vial~
+A small vial of a reddish color lies here.~
+~
+10 64 1
+20 15 43 -1
+1 5000 0 0
+#2312
+swirling blue potion~
+a swirling blue potion~
+A swirling blue potion sits here.~
+~
+10 65 1
+15 33 27 17
+1 1 0 0
+#2313
+bloody mary~
+a bloody chalice~
+a gold chalice filled with a dark red drink.~
+~
+17 0 1
+5 5 13 0
+1 5 0 0
+#2314
+githyanki chainmail~
+a suit of githyanki chainmail~
+a glinting suit of chainmail lies here.~
+~
+9 0 9
+9 0 0 0
+20 24000 15 0
+A
+2 1
+#2315
+githyanki blade~
+a wicked-looking silver blade~
+a runed and decorated githyanki sword lies here.~
+slash~
+5 0 8193
+0 2 7 3
+12 5000 0 0
+A
+18 3
+#2316
+signet ring signetring~
+a signet ring~
+a large ring made of a black metal lies here.~
+~
+9 226 3
+0 0 0 0
+1 160000 30 0
+A
+13 -20
+A
+12 -20
+#2317
+flail~
+a heavy, black flail~
+a heavy looking black flail is lying here.~
+crush~
+5 130 8193
+0 2 8 6
+16 15000 0 0
+A
+18 2
+A
+19 2
+#2318
+cloak darkness~
+a cloak of darkness~
+A jet black cloak lies here in the dirt.~
+~
+9 4674 1025
+9 0 0 0
+5 110000 14 0
+A
+18 1
+A
+19 1
+#2319
+rod darklight~
+a rod of darklight~
+A thin black rod glows evilly in the dirt.~
+~
+1 65 16385
+0 0 -1 0
+5 30000 10 0
+A
+18 1
+A
+19 1
+#2320
+crystal ring crystalring~
+a black crystal ring~
+A ring made of what seems to be black ice lies here.~
+~
+9 4288 3
+0 0 0 0
+1 35000 0 0
+A
+17 -9
+#2321
+robe runed arcane~
+an arcane runed robe~
+a black robe covered with arcane runes lies here.~
+~
+9 65 9
+11 0 0 0
+6 10000 0 0
+A
+12 5
+A
+2 -2
+#2322
+cinnamon stick meat~
+a stick of meat~
+a stick covered with meat lies here it smells faintly of cinnamon.~
+~
+19 0 1
+20 0 0 3
+1 5 1 0
+#2323
+wand~
+a dark black wand~
+A wand that makes your soul shiver lies here.~
+~
+3 612 16385
+13 11 11 25
+1 60000 11 0
+#2324
+demonic ring posession demonicring~
+a demonic ring of posession~
+a ring that has demon's figure lies here.~~
+~
+9 6850 3
+0 0 0 0
+1 225000 23 0
+A
+17 -10
+A
+19 3
+#99999
+
+#ROOMS
+#2300
+A dark passage~
+This a very old section of tunnel. It shows signs of recent use. The air
+here is quite musty and stale. It smells as if you have entered a 
+recently opened tomb.
+~
+23 13 5
+D4
+~
+~
+0 0 7432
+D5
+~
+~
+0 0 2301
+S
+#2301
+Entrance to the lost city of Loftwick~
+This is the entrance to the lost city of Loftwick.  The once beautiful 
+architecture has long since been destroyed.  Parts of the ceiling here
+has caved in and rubble lines the streets.  There appears to be footprints
+in the dust on the ground here.  Fresh ones......
+~
+23 13 3
+D1
+~
+~
+0 0 2302
+D2
+~
+~
+0 0 2305
+D3
+~
+~
+0 0 2303
+D4
+~
+~
+0 0 2300
+S
+#2302
+A small guard outpost~
+This room appears to once have been a guard room.  There are several chairs 
+smashed about the room.  A table lies on the floor, minus it's legs.  Against
+the south wall you notice what once was probably a weapons rack. There are 
+fresh footprints all around.
+~
+23 9 3
+D3
+~
+~
+0 0 2301
+S
+#2303
+A small guard outpost~
+This was once a guard post.  Amongst the rubble you see a broken pitcher
+along with several wooden cups.  A table stands in the center of the room.
+The door to the captain's chamber is ripped off of it's hinges and leans 
+against the far wall. The room seems recently used.
+~
+23 9 3
+D1
+~
+~
+0 0 2301
+D3
+~
+~
+0 0 2304
+S
+#2304
+The Captain's office~
+This room once housed the captain of the guard.  It seems a NEW captain has
+moved in!
+~
+23 9 3
+D1
+~
+~
+0 0 2303
+S
+#2305
+Check Point~
+This street leads into the city of loftwick.  Shops and homes have been
+carved from the stone surrounding the street.  The whole place looks to 
+be in horridshape. The devices that once provided perpetual light here 
+are gone, leaving this place in complete darkness, probably for some 
+time now.
+~
+23 9 3
+D0
+~
+~
+0 0 2301
+D1
+~
+~
+0 0 2306
+D2
+~
+~
+0 0 2310
+D3
+~
+~
+0 0 2321
+S
+#2306
+Jalpa Drive~
+An ordinary city street, except for the shape that it's in.  But then again,
+all the streets here are in pretty rough shape, so this could be normal. A
+pair of footprints can faintly be seen in the dust.
+~
+23 9 3
+D1
+~
+~
+0 0 2307
+D3
+~
+~
+0 0 2305
+S
+#2307
+Jalpa Drive~
+An ordinary city street, except for the shape that it's in.  But then again,
+all the streets here are in pretty rough shape, so this could be normal. A
+pair of footprints can faintly be seen in the dust.
+~
+23 9 3
+D1
+~
+~
+0 0 2308
+D3
+~
+~
+0 0 2306
+S
+#2308
+Jalpa Drive~
+An ordinary city street, except for the shape that it's in.  But then again,
+all the streets here are in pretty rough shape, so this could be normal. A
+pair of footprints can faintly be seen in the dust.
+~
+23 9 3
+D0
+~
+~
+0 0 2309
+D3
+~
+~
+0 0 2307
+S
+#2309
+Metal Smith~
+This was once the shop of an accomplished metal smith.  Various items lay
+scattered in the dust, rusted and ruined beyound all hope.  It appears as 
+though a battle took place in this room.  Whoever was defending the shop
+must have lost, for you see a skeleton with a spear shoved through it.
+~
+23 9 3
+D2
+~
+~
+0 0 2308
+S
+#2310
+Hokar Ave~
+This street is in an amazing state of repair.  Gone are the signs of decay
+and ruin.  This street probably leads to a section of town more used.
+The dust on the ground here is only along the sides of the street, as 
+though something big moves through here from time to time.
+~
+23 9 0
+D0
+~
+~
+0 0 2305
+D1
+~
+~
+0 0 2311
+D2
+~
+~
+0 0 2313
+D3
+~
+~
+0 0 2322
+S
+#2311
+Bank of Loftwick~
+This was once the bank of loftwick, where citizens stored thier fortunes.
+Against the far wall, behind the teller windows, you can vaguely make out
+the outlines of the vault door. The vault has been torn apart and is filled 
+with rubble. Oddly it looks as if something tore it's way OUT!?!?!
+~
+23 9 0
+D3
+~
+~
+0 0 2310
+S
+#2312
+Chapel~
+This chapel has been untouched by time.  Everything in this chapel is in 
+excellent condition.  All the pews are polished to a gleem.  To the far end
+you can just make out an altar.  There are numerous candles along the walls,
+all of which are lit and burning.  You sense a presence of Peace in this 
+room. You can barely make out the sounds of chanting here.
+~
+23 8 0
+D3
+~
+~
+0 0 2313
+S
+#2313
+Hokar Ave.~
+The sides of this street have been scraped clean as though something large
+moved this way.
+~
+23 9 0
+D0
+~
+~
+0 0 2310
+D1
+~
+~
+0 0 2312
+D2
+~
+~
+0 0 2314
+S
+#2314
+Hokar Ave~
+This is the end of the street.  To the west is the entrance to a grand arena.
+Looking to the west you notice a heavy metal gate blocking your entrance west.
+There are deep gouges from something passing this way many times.  A stench
+like that of a sewer assaults your nostrils.
+~
+23 13 0
+D0
+~
+~
+0 0 2313
+D3
+~
+~
+0 0 2315
+S
+#2315
+Arena Entrance~
+This is the entrance to a very large arena.  You can from here see that this
+building is different from all the others you have seen. As you get a little
+closer you can see that it is because the outside is covered with claw marks
+large and small from the ground to the roof.
+~
+23 9 0
+D0
+~
+~
+0 0 2316
+D1
+~
+~
+0 0 2314
+D3
+~
+~
+0 0 2318
+S
+#2316
+Concession Stand~
+This is what appears to have been the concession stand.  A sign still hangs 
+from rusty hinges.  All around this room are candy wrappers, as if something
+has been snacking between meals....  All candies have been eaten save for
+a Mars bar with a bite taken out of it.  The bite appears to have been spit
+back on the ground in disgust.
+~
+23 9 0
+D2
+~
+~
+0 0 2315
+D3
+~
+~
+0 0 2317
+S
+#2317
+Hall of Victors~
+This is a great hall dedicated to the gladiators that fought and won in the 
+arena.  The warriors here stand in death as they did in life.
+~
+23 8 0
+D1
+~
+~
+0 0 2316
+D2
+~
+~
+0 0 2318
+S
+#2318
+Arena Hallway~
+This hall leads to the great arena and the hall of victors.  The scratch
+marks on the wall here are enormous.  None of the creatures you've met so far
+could have done this.
+~
+23 9 0
+D0
+~
+~
+0 0 2317
+D1
+~
+~
+0 0 2315
+D3
+~
+~
+0 0 2319
+S
+#2319
+Arena Grounds~
+This is where the hero's and fell monsters fought.  Many a battle was fought
+here.  If you listen closely you can almost hear the sounds of battle.
+~
+23 9 0
+D0
+~
+~
+0 0 2320
+D1
+~
+~
+0 0 2318
+S
+#2320
+Arena Grounds~
+This section of the arena has been converted into a nursery for a dragon, 
+you think.  The size of the nest suggests a HUGE dragon would live here.
+However, the only thing you can see is an outline drawn on the wall of a
+a powerful and huge dragon.  Many bodies lay strewn about, half eaten.
+Wait.  The shadow moved!  It IS the dragon!
+~
+23 9 5
+D2
+~
+~
+0 0 2319
+S
+#2321
+Jalpa Drive~
+An ordinary city street, you see nothing of special interest.
+~
+23 9 5
+D1
+~
+~
+0 0 2305
+D3
+~
+~
+0 0 2326
+S
+#2322
+Royal Guard Headquarters~
+This the headquarters of the elite Githyanki guard of Loftwick.
+~
+23 9 5
+D1
+~
+~
+0 0 2310
+D3
+~
+~
+0 0 2323
+S
+#2323
+Jail~
+This is the jail of Loftwick.  Prisoners of old were kept just to the west of
+here in cells.  You can hear sounds from the west now...  To the west you
+see the cell door. It looks as if new residents have moved in.
+~
+23 9 5
+D1
+~
+~
+0 0 2322
+D3
+~
+~
+0 0 2324
+S
+#2324
+Jail Cell~
+This is the cell where people having committed minor crimes were kept.
+~
+23 9 5
+D1
+~
+~
+0 0 2323
+D3
+~
+~
+0 0 2325
+S
+#2325
+Death Row~
+Only the most vile prisoners imaginable were kept here.  The walls and door
+have been scratched at by inmates serving thier last days in hopes of an
+escape.
+~
+23 9 5
+D1
+~
+~
+0 0 2324
+S
+#2326
+Jalpa Drive~
+An ordinary city street, you see nothing of special interest other than some
+footprints here.
+~
+23 9 5
+D1
+~
+~
+0 0 2321
+D3
+~
+~
+0 0 2327
+S
+#2327
+Jalpa Drive~
+An ordinary city street, you see nothing of special interest other than some
+footprints here.
+~
+23 9 5
+D1
+~
+~
+0 0 2326
+D3
+~
+~
+0 0 2328
+S
+#2328
+Jalpa Drive~
+An ordinary city street, you see nothing of special interest other than some
+footprints here.
+~
+23 9 5
+D1
+~
+~
+0 0 2327
+D2
+~
+~
+0 0 2329
+S
+#2329
+Farmer's Row~
+This street was the center of trading and business of the city.  To the 
+west is a small shop.  The street here is in very bad shape and littered 
+with rubble.
+~
+23 9 5
+D0
+~
+~
+0 0 2328
+D2
+~
+~
+0 0 2331
+D3
+~
+~
+0 0 2330
+S
+#2330
+Small Shop~
+This shop appears to have been a produce shop.  Goods were bought and sold
+here many years before you were born.  The shopkeeper, WHAT ?, tries to
+sell you long gone vegetables.
+~
+23 9 5
+D1
+~
+~
+0 0 2329
+S
+#2331
+Farmer's Row~
+This street was the center of trading and business of the city.
+The street here is in very bad shape and littered with rubble.
+~
+23 9 5
+D0
+~
+~
+0 0 2329
+D2
+~
+~
+0 0 2333
+D3
+~
+~
+0 0 2332
+S
+#2332
+Small Shop~
+This shop appears to have been a butchery.  Goods were bought and sold here
+many years before you were born.  The shopkeeper, WHAT ?, tries to sell you
+long rotted chunks of meat.  The smell here is horrible.
+~
+23 9 5
+D1
+~
+~
+0 0 2331
+S
+#2333
+Farmer's Row~
+This street was the center of trading and business of the city. 
+The street here is in very bad shape and littered with rubble.
+~
+23 9 5
+D0
+~
+~
+0 0 2331
+D1
+~
+~
+0 0 2335
+D2
+~
+~
+0 0 2340
+D3
+~
+~
+0 0 2334
+S
+#2334
+Small Shop~
+This shop was probably once the armoury.  Countless peices of armor were made
+here over time.  You see a figure that 'appears' to be working on something.
+He turns to you and tries to sell you some armor.
+~
+23 9 5
+D1
+~
+~
+0 0 2333
+S
+#2335
+Dark Alley~
+This is a very dark alley.  There is laughter and many sounds from
+the North.
+~
+23 9 5
+D0
+~
+~
+0 0 2336
+D3
+~
+~
+0 0 2333
+S
+#2336
+MoonMurg Bar~
+This was once a place to kick back and relax.  There are many card tables
+all about the room.  To your horror most of the card tables are full of
+Patrons.
+~
+23 9 5
+D0
+~
+~
+0 0 2337
+D2
+~
+~
+0 0 2335
+S
+#2337
+Sleazy Inn~
+This was once a pay by the hour inn according to the writing on the wall.
+~
+23 9 5
+D1
+~
+~
+0 0 2338
+D2
+~
+~
+0 0 2336
+S
+#2338
+A Brothel~
+This was once well....the name says it all.
+~
+23 9 5
+D3
+~
+~
+0 0 2337
+D4
+~
+~
+0 0 2339
+S
+#2339
+Lords Room~
+This was the Lord of the Citiesy's secret room.  You wonder what the 
+Lord of the City would have a room above the Brothel for?  
+Maybe you can ask the current occupant.
+~
+23 9 5
+D5
+~
+~
+0 0 2338
+S
+#2340
+Farmer's Row~
+This street was the center of trading and business of the city.
+The street here is in very bad shape and littered with rubble.
+~
+23 9 5
+D0
+~
+~
+0 0 2333
+D1
+~
+~
+0 0 2343
+D3
+~
+~
+0 0 2341
+S
+#2341
+Small Shop~
+This was once an alcemist shop.  Many broken vials lie scattered about the
+floor.  Alcemy equipment lies smashed about the room.  A withered old man
+offers to make you a love potion.
+~
+23 9 5
+D1
+~
+~
+0 0 2340
+D4
+~
+~
+0 0 2342
+S
+#2342
+Mage's Private Lab~
+You have entered a room filled with every type of test tube and glass pipe
+you can imagine. Some of it lies is pieces but others parts are inatact and 
+look fairly new. The room is filled with strange smells some pleasant and
+others vile.
+~
+23 9 0
+D5
+~
+~
+0 0 2341
+S
+#2343
+Bastro Road~
+This road is amazingly in great shape.
+~
+23 13 0
+D1
+~
+~
+0 0 2344
+D3
+~
+~
+0 0 2340
+S
+#2344
+Bastro Road~
+This road leads to a palace in the distance.
+~
+23 9 0
+D1
+~
+~
+0 0 2346
+D3
+~
+~
+0 0 2343
+D5
+~
+~
+0 0 2345
+S
+#2345
+A tunnel under the street~
+You are in a tunnel under the street probably an ancient sewer. You see
+fresh footprints in the dust.
+~
+23 9 0
+D1
+~
+~
+0 0 2352
+D4
+~
+~
+0 0 2344
+S
+#2346
+Bastro Road~
+To the East you can see the palace of Loftwick.  To the north is a
+small shop.
+~
+23 9 0
+D0
+~
+~
+0 0 2347
+D1
+~
+~
+0 0 2350
+D3
+~
+~
+0 0 2344
+S
+#2347
+Library of Loftwick~
+There are literally hundreds of books lying here. They are surprisingly
+in good condition. After a brief search of the texts you learn that
+Loftwick was not only the founder of this city but was also the brother
+of Redferne the Grand Knight of Paladins. Loftwick left Midgaard after
+a bitter dispute with Redferne. He used vile magics in pursuit of
+immortality. Through his magics he met a race called the GITHYANKI that 
+offered to help him in exchange for a haven on this plane that they 
+could raid Midgaard from. Loftwick agreed but he didn't count on the 
+Githyanki turning his city into a realm of the living dead and a truly 
+EVIL place.
+~
+23 9 0
+D2
+~
+~
+0 0 2346
+S
+#2350
+Palace~
+This was the palace of Loftwick.  It is in excellent condition.  This is
+truly a home fit for a king.
+~
+23 9 0
+D3
+~
+~
+0 0 2346
+D4
+~
+~
+0 0 2351
+S
+#2351
+The Bedchamber~
+This is the bedroom of Loftwick.  A huge canopy bed rests in the middle of the
+floor.  A Picture of the God Karn is on the wall.  You begin to see where 
+Loftwick got the power of Darkness from.  The Bed appears to have been slept
+in only moments ago.  You sense a great anger as it becomes apparent 
+that for Karn to grant Loftwicks request, Loftwick had to murder his own wife
+to show dedication to Karn.
+~
+23 9 0
+D5
+~
+~
+0 0 2350
+S
+#2352
+The Catacombs~
+You have entered the catacombs. You feel very uneasy as if great evil is 
+all around you. You see movement in every shadow and jump at the sounds of 
+your own footsteps.
+~
+23 9 0
+D3
+~
+~
+0 0 2345
+D5
+~
+~
+0 0 2353
+S
+#2353
+The Catacombs~
+All around you lie the crypts of the long dead. All the crypts have been 
+clawed open. You hear a faint shuffling sound. It makes you very nervous.
+~
+23 9 0
+D0
+~
+~
+0 0 3001
+D1
+~
+~
+0 0 2301
+D4
+~
+~
+0 0 2352
+D5
+~
+~
+0 0 2354
+S
+#2354
+The Cavern~
+You have entered a Huge underground cavern. There are exits in several 
+directions.
+~
+23 13 0
+D0
+~
+~
+0 0 2355
+D1
+~
+~
+0 0 2356
+D4
+~
+~
+0 0 2353
+S
+#2355
+A lighted room~
+There is an ornate altar here stained by the blood of the many sacrifices 
+performed on it. You see a another section of the room filled with books 
+full of arcane writing and a comfortable reading desk. In the other corner 
+you see a bed fit for a God. You feel strangley relaxed, as if you will
+never leave this place. 
+
+		In fact you won't without MAGICAL HELP!!!!
+
+~
+23 12 0
+S
+#2356
+A Damp tunnel~
+You are in a damp tunnel it smells of death and decay. Sounds come from all 
+around you. Is it just an echo??
+~
+23 9 0
+D1
+~
+~
+0 0 2357
+D3
+~
+~
+0 0 2354
+S
+#2357
+A Damp tunnel~
+You are in a damp tunnel. You see an exit to the North.
+~
+23 9 0
+D0
+~
+~
+0 0 2358
+D3
+~
+~
+0 0 2356
+S
+#2358
+An ancient ruined hallway~
+You have entered what seems to be an ancient hallway of a long destroyed 
+castle. You can tell it was once a very great structure but now debris is 
+everywhere.
+~
+23 9 1
+D0
+~
+~
+0 0 2359
+D2
+~
+~
+0 0 2357
+S
+#2359
+A ruined Hallway~
+The debris thins out here and you sense a great evil ahead. It sends 
+shivers up your spine.
+~
+23 9 1
+D1
+~
+~
+0 0 2360
+D2
+~
+~
+0 0 2358
+S
+#2360
+A Grand Hall~
+You stand in an immense hall. There are long faded murals painted here of
+many vile deeds and sacrifices to Karn and Sinat. The pictures almost make 
+you sick.
+~
+23 9 1
+D1
+~
+~
+0 0 2361
+D3
+~
+~
+0 0 2359
+S
+#2361
+A Dining Hall~
+You stand now in a large room with a long table in the center. Many 
+skeletons lie slumped on the table as if they had been poisoned sitting at 
+the table. You can almost hear the laughter of the ones who were 
+responsible.
+~
+23 9 1
+D2
+~
+~
+0 0 2362
+D3
+~
+~
+0 0 2360
+S
+#2362
+The Kitchen~
+The stench here makes you gag. It smells of rotten flesh and filth you see 
+a door to the South.
+~
+23 9 1
+D0
+~
+~
+0 0 2361
+D2
+~
+~
+0 0 2363
+S
+#2363
+The Pantry~
+A room the size of a closet. Many long rotten foodstuffs are here.
+~
+23 9 1
+D0
+~
+~
+0 0 2362
+D5
+~
+~
+0 0 2364
+S
+#2364
+The Broken Stairs~
+This Staircase is in ruins you hope it will support your weight.
+~
+23 9 1
+D4
+~
+~
+0 0 2363
+D5
+~
+~
+0 0 2365
+S
+#2365
+A hallway~
+You are in a huge hallway to then north you see a bright light.
+~
+23 9 1
+D0
+~
+~
+0 0 2366
+D4
+~
+~
+0 0 2364
+S
+#2366
+The Grand Cathedral of Evil~
+You are in awe of this place. You cannot find words to describe the horrors
+potrayed on the walls here. The floor is covered with a slick substance it 
+looks like blood and entrails. As you enter a huge slab of stone seal the 
+only exit to this room. You are TRAPPED!
+~
+23 12 1
+S
+#2369
+Sinat's Library~
+You stand in a very comfortable library. The shelves of books run all
+the way to the ceiling. The room is filled with luxurious furniture and 
+items. In the corner is a large four posted bed. A large ornate desk sits 
+against North wall on the desk sits a strange object you have never seen, 
+an inscription on it says "AMIGA 2000 HD".
+~
+23 2560 0
+D2
+~
+~
+0 0 2370
+D4
+~
+~
+0 0 3054
+S
+#2370
+Karn's Sanctum~
+If you are here you better have been invited, or be mel :)
+There is a huge fireplace against the South wall. There is no fire but it 
+does give off heat. There is a huge canopy bed against the North wall. And 
+against the west wall is a very elaborate desk, and on this desk sits an 
+Amiga 2000 HD.
+~
+23 2560 0
+D2
+~
+~
+0 0 2369
+D4
+~
+~
+0 0 3054
+S
+#99999
+
+#RESET
+M 0  2311  20  2302   The Githyanki warrior (A small guard outpost)
+M 0  2311  20  2302   The Githyanki warrior (A small guard outpost)
+M 0  2312   4  2302   A Githyanki Sergeant (A small guard outpost)
+*E 1 2314 30 5		githyanki chainmail
+*E 1 2315 30 16		githyanki blade
+M 0  2311  20  2303   The Githyanki warrior (A small guard outpost)
+M 0  2311  20  2303   The Githyanki warrior (A small guard outpost)
+M 0  2312   4  2303   A Githyanki Sergeant (A small guard outpost)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2314   5  2304   The GITHYANKI lord (The Captain's office)
+E 1  2314  30     5     a suit of githyanki chainmail
+*E 1 2317 15 16		flail
+M 0  2311  20  2305   The Githyanki warrior (Check Point)
+M 0  2311  20  2305   The Githyanki warrior (Check Point)
+M 0  2311  20  2307   The Githyanki warrior (Jalpa Drive)
+M 0  2309  15  2308   A Githyanki Child (Jalpa Drive)
+M 0  2301   7  2309   A spectral minion (Metal Smith)
+M 0  2314   5  2311   The GITHYANKI lord (Bank of Loftwick)
+E 1  2314   3     5     a suit of githyanki chainmail
+*E 1 2317 15 16
+M 0  2316   1  2312   A Priest (Chapel)
+E 1  2309   4    17     a staff with arcane symbols
+E 1  2320   2     2     a black crystal ring
+M 0  2313  10  2313   A Githyanki Royal Guard (Hokar Ave.)
+*E 1 2314 30 5
+E 1  2315   3    16     a wicked-looking silver blade
+M 0  2313  10  2313   A Githyanki Royal Guard (Hokar Ave.)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2305   3  2315   The shadow dragon (Arena Entrance)
+M 0  2305   3  2316   The shadow dragon (Concession Stand)
+M 0  2309  15  2317   A Githyanki Child (Hall of Victors)
+M 0  2305   3  2318   The shadow dragon (Arena Hallway)
+M 0  2306   4  2320   The shadow dragon hatchling (Arena Grounds)
+M 0  2306   4  2320   The shadow dragon hatchling (Arena Grounds)
+M 0  2306   4  2320   The shadow dragon hatchling (Arena Grounds)
+M 0  2307   1  2320   The ancient shadow dragon (Arena Grounds)
+E 1  2301   3    16     a huge, heavy, black pike
+E 1  2308   3    13     a black leather belt with dangling skulls
+M 0  2313  15  2322   A Githyanki Royal Guard (Royal Guard Headquarters)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2313  15  2322   A Githyanki Royal Guard (Royal Guard Headquarters)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2313  15  2322   A Githyanki Royal Guard (Royal Guard Headquarters)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2313  15  2322   A Githyanki Royal Guard (Royal Guard Headquarters)
+E 1  2314   2     5     a suit of githyanki chainmail
+E 1  2315   3    16     a wicked-looking silver blade
+M 0  2313  15  2322   A Githyanki Royal Guard (Royal Guard Headquarters)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2314   3  2323   The GITHYANKI lord (Jail)
+*E 1 2314 30 5
+*E 1 2317 15 16
+M 0  2302  15  2324   A Human Slave (Jail Cell)
+M 0  2302  15  2324   A Human Slave (Jail Cell)
+M 0  2302  15  2324   A Human Slave (Jail Cell)
+M 0  2309  15  2324   A Githyanki Child (Jail Cell)
+M 0  2304   6  2325   A shadowy figure (Death Row)
+E 1  2323   5    17     a dark black wand
+M 0  2302  25  2326   A Human Slave (Jalpa Drive)
+M 0  2302  25  2326   A Human Slave (Jalpa Drive)
+M 0  2309  15  2327   A Githyanki Child (Jalpa Drive)
+M 0  2309  15  2328   A Githyanki Child (Jalpa Drive)
+M 0  2310  10  2329   A Githyanki Citizen (Farmer's Row)
+M 0  2301   7  2330   A spectral minion (Small Shop)
+M 0  2311  45  2331   The Githyanki warrior (Farmer's Row)
+M 0  2311  20  2331   The Githyanki warrior (Farmer's Row)
+M 0  2301   7  2332   A spectral minion (Small Shop)
+M 0  2301   7  2334   A spectral minion (Small Shop)
+M 0  2319   5  2335   A Dark Creeper (Dark Alley)
+M 0  2319   5  2335   A Dark Creeper (Dark Alley)
+M 0  2319   5  2335   A Dark Creeper (Dark Alley)
+M 0  2310  10  2336   A Githyanki Citizen (MoonMurg Bar)
+M 0  2310  10  2336   A Githyanki Citizen (MoonMurg Bar)
+M 0  2310  10  2336   A Githyanki Citizen (MoonMurg Bar)
+M 0  2311  20  2336   The Githyanki warrior (MoonMurg Bar)
+M 0  2313  10  2336   A Githyanki Royal Guard (MoonMurg Bar)
+M 0  2313  10  2337   A Githyanki Royal Guard (Sleazy Inn)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2313  10  2337   A Githyanki Royal Guard (Sleazy Inn)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2310  10  2338   A Githyanki Citizen (A Brothel)
+M 0  2309  15  2338   A Githyanki Child (A Brothel)
+M 0  2302  25  2338   A Human Slave (A Brothel)
+M 0  2302  25  2338   A Human Slave (A Brothel)
+M 0  2314   5  2339   The GITHYANKI lord (Lords Room)
+*E 1 2314 30 5
+*E 1 2317 15 16
+M 0  2310  10  2340   A Githyanki Citizen (Farmer's Row)
+M 0  2310  10  2340   A Githyanki Citizen (Farmer's Row)
+M 0  2301   7  2341   A spectral minion (Small Shop)
+M 0  2315   1  2342   A Warlock (Mage's Private Lab)
+E 1  2321   1     5     an arcane runed robe
+E 1  2320   2     2     a black crystal ring
+G 1  2311  30             a blood red vial
+G 1  2312  99             a swirling blue potion
+M 0  2310  10  2343   A Githyanki Citizen (Bastro Road)
+M 0  2310  10  2343   A Githyanki Citizen (Bastro Road)
+M 0  2311  20  2343   The Githyanki warrior (Bastro Road)
+M 0  2311  20  2343   The Githyanki warrior (Bastro Road)
+M 0  2303   5  2344   An Acolyte of Yunin (Bastro Road)
+G 1  2322  99             a stick of meat
+M 0  2303   5  2344   An Acolyte of Yunin (Bastro Road)
+G 1  2322  99             a stick of meat
+M 0  2314   5  2339   The GITHYANKI lord (Lords Room)
+*E 1 2314 30 5
+*E 1 2317 15 16
+M 0  2314   5  2339   The GITHYANKI lord (Lords Room)
+E 1  2314  30     5     a suit of githyanki chainmail
+*E 1 2317 15 16
+M 0  2301   7  2347   A spectral minion (Library of Loftwick)
+M 0  2311  20  2347   The Githyanki warrior (Library of Loftwick)
+M 0  2311  20  2347   The Githyanki warrior (Library of Loftwick)
+M 0  2313  10  2350   A Githyanki Royal Guard (Palace)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2313  10  2350   A Githyanki Royal Guard (Palace)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2313  10  2350   A Githyanki Royal Guard (Palace)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2318   1  2351   Mirissa Redferne (The Bedchamber)
+E 1  2310   1    17     the black pearl of power
+M 0  2311  20  2352   The Githyanki warrior (The Catacombs)
+M 0  2311  20  2352   The Githyanki warrior (The Catacombs)
+M 0  2311  20  2352   The Githyanki warrior (The Catacombs)
+M 0  2312   4  2353   A Githyanki Sergeant (The Catacombs)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2312   4  2353   A Githyanki Sergeant (The Catacombs)
+*E 1 2314 30 5
+*E 1 2315 30 16
+M 0  2304   2  2356   A shadowy figure (A Damp tunnel)
+E 1  2323   5    17     a dark black wand
+M 0  2308   1  2360   The Dark Stalker (A Grand Hall)
+E 1  2318   1     3     a cloak of darkness
+E 1  2319   1     0     a rod of darklight
+M 0  2304   3  2363   A shadowy figure (The Pantry)
+E 1  2323   5    17     a dark black wand
+M 0  2314   5  2365   The GITHYANKI lord (A hallway)
+*E 1 2314 30 5
+*E 1 2317 15 16
+M 0  2317   1  2366   Loftwick (The Grand Cathedral of Evil)
+E 1  2302   3    10     a pair of chaos sleeves
+E 1  2303   3     7     a pair of chaos leggings
+E 1  2304   3     6     a pitch-black helm of darkness
+E 1  2305   3     8     a pair of blackened flesh boots
+E 1  2306   3     9     a pair of blackened gauntlets
+E 1  2307   3    11     gold dragon shield
+E 1  2316   3     2     a signet ring
+G 1  2313  20             a bloody chalice
+G 1  6115  10             a Powerful potion
+*E 1 2317 15 16
+E 1  2324   1     1     a demonic ring of posession
+S
+
+#SHOPS
+$
+#END of Muncie, Loftwick City.

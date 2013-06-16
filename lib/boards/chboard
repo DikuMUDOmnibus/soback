@@ -1,0 +1,10 @@
+#!/bin/csh
+
+set tmp = /tmp/chext.tmp.out
+
+foreach f( 3070.* )
+	echo $f > $tmp
+	set out = `sed -e s/3070/3076/g < $tmp`
+	echo "$f ===> $out"
+	/bin/cp $f $out
+end

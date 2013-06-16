@@ -1,0 +1,8 @@
+음.. insurance에 관해선데요..
+사실 이건 예상못한 reboot에 대비하는 거죠?
+그러니까 정상 reboot될 때는요
+insurance한 key가 모두 사라져야 된다고 생각이 드는군요..
+그러니까 auto reboot할때 insurance key를 없애는 code
+를 추가하면 될거 같은데..
+한번 생각해 보세요 :)
+

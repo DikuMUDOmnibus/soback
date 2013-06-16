@@ -1,0 +1,15 @@
+call lightning 이 문제를 많이 일으켰군요... 첫째 제 잘못은
+날씨와 관계없이 call li 이 터지게 했었던 미련이고.. 
+둘째는 call li 이 cleric 전용이라는 착각이었습니다..
+
+첫째 문제는 수정되었고... 둘째문제는 skill rate 를 내리는
+문제는 올리는 것보다 훨씬 까다롭고 복잡한 관계로..
+일단 call li 의 damage dice 를 내리기로 했습니다..
+sunburst 보다 두배의 세기.. 하지만 saves_spell 이 불리지
+않는 magic 으로.. 그 쎄기는 sunburst 와 비교할 수는
+없겠죠..
+
+다음 리부팅(1 일)부터 바뀝니다.. 
+
+*Nuis*
+

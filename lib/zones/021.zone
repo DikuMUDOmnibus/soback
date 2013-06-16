@@ -1,0 +1,2418 @@
+#21 Zone.
+NAME       : The Wasteland~
+INFO       : Hyena 와 Marauder 가 거니는 황량한 벌판..~
+PATH       : Levee 에서 s.9e.5n~
+ALIGN      : 1
+AGGRESSIVE : 1
+LEVEL      : 15 ~ 27
+MAX        : 2199
+LIFESPAN   : 35
+RESET      : 2
+
+#MOBILES
+#2101
+marauder~
+A marauder~
+A marauder is here.
+~
+The marauder looks desceptively human.  But there is no hint of
+intelligence - he is just a rapacious beast.
+~
+104 8 -999 S
+19 3 0 1d30+290 3d6+5
+3000 45000
+8 8 1
+#2102
+hyena~
+A hyena~
+A snarling hyena is here.
+~
+The hyena is pack animal.  She is rather helpless alone, but can
+be trouble in a large group.
+~
+108 0 -999 S
+12 8 2 2d60+100 2d6+4
+600 17000
+8 8 2
+#2103
+Aello harpy~
+Aello, the First Harpy~
+Aello, the First Harpy, is here.
+~
+A harpy has the head and body of a woman, with the wings, legs, and
+talons of a bird of prey.
+~
+298 144 -999 S
+25 -5 -4 1d100+500 3d4+7
+50000 120000
+8 8 2
+#2104
+Ocypete harpy~
+Ocypete, the Second Harpy~
+Ocypete, the Second Harpy, is here.
+~
+A harpy has the head and body of a woman, with the wings, legs, and
+talons of a bird of prey.
+~
+554 144 -999 S
+25 -5 -4 1d100+500 3d4+7
+50000 120000
+8 8 2
+#2105
+Celeno harpy~
+Celeno, the Third Harpy~
+Celeno, the Third Harpy, is here.
+~
+A harpy has the head and body of a woman, with the wings, legs, and
+talons of a bird of prey.
+~
+524330 144 -999 S
+25 -5 -4 1d100+500 3d4+7
+50000 120000
+8 8 2
+#2106
+statue hades~
+The Statue of Hades~
+A lifelike statue of Hades, the ruler of the underworld, is here.
+~
+~
+10 0 -999 S
+26 -5 -5 2d10+4300 2d8+16
+10000 150000
+8 8 1
+#2107
+Stheno gorgon~
+Stheno, the First Gorgon~
+Stheno, the First Gorgon, is here.
+~
+A gorgon is a creature with snakes for hair, and that is not the end
+of her charms.
+~
+554 24 -999 S
+30 -5 -8 1d100+1000 3d6+7
+50000 170000
+8 8 2
+#2108
+Euryale gorgon~
+Euryale, the Second Gorgon~
+Euryale, the Second Gorgon, is here.
+~
+A gorgon is a creature with snakes for hair, and that is not the end
+of her charms.
+~
+524330 24 -999 S
+30 -5 -8 1d100+1000 3d6+7
+60000 170000
+8 8 2
+#2109
+Medusa gorgon~
+Medusa, the Third Gorgon~
+Medusa, the Third Gorgon, is here.
+~
+A gorgon is a creature with snakes for hair, and that is not the end
+of her charms.
+~
+298 152 -999 S
+30 -5 -8 1d100+1100 3d6+7
+70000 200000
+8 8 2
+#2110
+monoceros~
+the monoceros~
+The monoceros is here.
+~
+The monoceros is a close relative to the unicorn, and is a noble
+beast.
+~
+8 10 999 S
+20 1 -3 3d6+410 2d8+5
+1000 50000
+8 8 1
+#2111
+Alecto fury~
+Alecto, the First Fury~
+Alecto, the First Fury, is here.
+~
+The furies where born of the blood of the wounded Uranus, attendants
+of Proserpina.  Their heads are wreathed with serpents.
+~
+298 24 -999 S
+28 -5 -8 1d400+800 3d6+5
+50000 120000
+8 8 2
+#2112
+Tisiphone fury~
+Tisiphone, the Second Fury~
+Tisiphone, the Second Fury, is here.
+~
+The furies where born of the blood of the wounded Uranus, attendants
+of Proserpina.  Their heads are wreathed with serpents.
+~
+554 24 -999 S
+28 -5 -8 1d400+800 3d6+5
+50000 120000
+8 8 2
+#2113
+Megaera fury~
+Megaera, the Third Fury~
+Megaera, the Third Fury, is here.
+~
+The furies where born of the blood of the wounded Uranus, attendants
+of Proserpina.  Their heads are wreathed with serpents.
+~
+524330 24 -999 S
+28 -5 -8 1d400+800 3d6+5
+50000 120000
+8 8 2
+#2114
+Aeacus~
+The Lesser God Aeacus~
+Aeacus, a lesser god of the underworld, is here.
+~
+During his earthly life, Aeacus was King of Aegina.
+~
+298 152 -999 S
+30 -5 -9 9d90+1380 3d6+8
+70000 250000
+8 8 1
+#2115
+Radamanthus~
+The Lesser God Radamanthus~
+Radamanthus, a lesser god of the underworld, is here.
+~
+Radamanthus is a mystery.
+~
+554 152 -999 S
+30 -5 -9 9d90+1380 3d6+8
+70000 250000
+8 8 1
+#2116
+Minos~
+The Lesser God Minos~
+Minos, a lesser god of the underworld, is here.
+~
+During his earthly life, Minos was the King of Crete.
+~
+524330 152 -999 S
+30 -5 -9 9d90+1380 3d6+8
+70000 250000
+8 8 1
+#2117
+hound~
+a hound of Hades~
+One of the hounds of Hades is here, howling.
+~
+The hound is fearsome, with large teeth, and eyes that glow yellow.
+~
+40 0 -999 S
+10 10 2 2d10+110 1d9+7
+0 12000
+8 8 0
+#2118
+Hecate~
+Hecate~
+Hecate, the Goddess of Sorcery and Witchcraft, is here.
+~
+Hecate was rumored to be visible only to dogs.
+~
+554 26 -999 S
+38 -5 -9 8d80+3980 3d8+18
+100000 200000
+8 8 2
+#2119
+Proserpina~
+Proserpina~
+Proserpina, the Queen of the Underworld, is wandering about.
+~
+Proserpina looks unhappy.  Perhaps because Hades abducted her from
+her garden and brought her to the Underworld?
+~
+1573418 1048728 500 S
+40 -10 -15 2d10+17500 4d6+45
+25000 4000000
+8 8 2
+#2120
+Hades King~
+Hades~
+Hades, the King of the Underworld, is standing here.
+~
+Hades fears nobody, save perhaps Zeus.
+~
+1065002 1048728 -999 S
+44 -10 -40 4d4+18000 10d10+104
+10 6000000
+8 8 1
+#2121
+eunuch~
+a eunuch~
+A eunuch is milling about.
+~
+The eunuch was brought here to help (guard?) Proserpina.
+~
+524334 0 0 S
+15 6 1 1d1+185 2d8+2
+100 21000
+8 8 0
+#2122
+Hypnos~
+Hypnos~
+Hypnos, the God of Dreams, is here.
+~
+Hypnos may be kindest of the gods of the underworld.
+~
+586 10 600 S
+27 0 -6 1d50+600 4d6+4
+10000 100000
+8 8 1
+#2123
+hound larger~
+a larger hound of Hades~
+One of the larger hounds of Hades is here, howling loudly.
+~
+The hound is fearsome, with huge teeth, and eyes that glow.
+~
+40 16 -999 S
+12 8 0 2d10+210 2d9+6
+0 17500
+8 8 0
+#2124
+hydra~
+The 50 Headed Hydra~
+The 50 Headed Hydra is here, gyrating, screaming, snorting, salivating...
+~
+It's a lot to look at.
+~
+8238 24 -999 S
+44 -5 -20 1d1+9999 5d5+65
+0 1000000
+8 8 0
+#2125
+kong kongdori kongdorius~
+KongDoRius~
+KongDoRius, the King Of KIT-MUD, is standing here, MERONG YOU!!
+~
+KongDoRius look unhappy. Perhaps because So slow Terminal made him Crazy..:(
+How can He do that?
+~
+1065002 1192960 -180 S
+44 -5 -40 4d4+7000 10d10+69
+500000 4000000
+8 8 1
+#99999
+
+#OBJECTS
+#2100
+oak stick~
+an oak stick~
+An oak stick lies here.~
+~
+8 0 16385
+0 0 0 0
+1 100 0 0
+A
+1 1
+#2101
+maple stick~
+a maple stick~
+A maple stick lies here.~
+~
+8 0 16385
+0 0 0 0
+1 100 0 0
+A
+2 1
+#2102
+pine stick~
+a pine stick~
+A pine stick lies here.~
+~
+8 0 16385
+0 0 0 0
+1 100 0 0
+A
+3 1
+#2103
+birch stick~
+a birch stick~
+A birch stick lies here.~
+~
+8 0 16385
+0 0 0 0
+1 100 0 0
+A
+4 1
+#2104
+walnut stick~
+a walnut stick~
+A walnut stick lies here.~
+~
+8 0 16385
+0 0 0 0
+1 100 0 0
+A
+5 1
+#2105
+beech stick~
+a beech stick~
+A beech stick lies here.~
+~
+8 0 16385
+0 0 0 0
+1 100 0 0
+A
+18 1
+#2106
+fruitwood stick~
+a fruitwood stick~
+A fruitwood stick lies here.~
+~
+8 0 16385
+0 0 0 0
+1 100 0 0
+A
+19 1
+#2107
+ash stick~
+an ash stick~
+An ash stick lies here.~
+~
+8 0 16385
+0 0 0 0
+1 100 0 0
+A
+13 3
+#2108
+fir stick~
+a fir stick~
+A fir stick lies here.~
+~
+8 128 16385
+0 0 0 0
+1 100 0 0
+A
+13 -10
+#2109
+elm stick~
+an elm stick~
+An elm stick lies here.~
+~
+8 128 16385
+0 0 0 0
+1 100 0 0
+A
+1 -2
+#2110
+poplar stick~
+a poplar stick~
+A poplar stick lies here.~
+~
+8 128 16385
+0 0 0 0
+1 100 0 0
+A
+2 -2
+#2111
+balsa stick~
+a balsa stick~
+A balsa stick lies here.~
+~
+8 128 16385
+0 0 0 0
+1 100 0 0
+A
+18 -5
+#2112
+cherry stick~
+a cherry stick~
+A cherry stick lies here.~
+~
+8 128 16385
+0 0 0 0
+1 100 0 0
+A
+14 10
+#2120
+fork~
+a two-pronged fork~
+The two-pronged fork of Hades has been left here.~
+pierce~
+5 4674 8193
+0 4 3 11
+16 120000 14 0
+A
+18 3
+A
+19 3
+#2121
+cloak brown browncloak~
+a brown cloak~
+A brown cloak has been dropped here.~
+~
+9 4161 1025
+5 0 0 0
+12 24500 0 0
+A
+13 5
+#2122
+emerald ring emeraldring~
+A emerald ring~
+A emerald ring was foolishly dropped here.~
+~
+11 4160 3
+0 0 0 0
+1 120000 0 0
+A
+13 50
+#2123
+amulet~
+an amulet~
+A tear shaped amulet lies on the ground.~
+~
+9 4160 5
+0 0 0 0
+2 150000 14 0
+A
+18 1
+A
+19 1
+#2124
+whip medusa~
+The whip of Medusa~
+The whip of Medusa has been tossed aside here.~
+slash~
+5 4161 8193
+0 2 8 3
+0 10000 0 0
+A
+18 2
+A
+19 2
+#2125
+black pendant blackpandant~
+A black pendant~
+A black pendant is on the ground here.~
+~
+9 193 5
+5 0 0 0
+11 2500 0 0
+A
+1 -10
+A
+2 -8
+#2126
+medallion ceres~
+The medallion of Ceres~
+The medallion of Ceres has been dropped here.~
+~
+9 514 5
+4 0 0 0
+1 25000 0 0
+A
+12 10
+A
+4 -1
+#2127
+shield pallas~
+The shield of Pallas~
+The shield of Pallas has been dropped here.~
+~
+9 4610 513
+10 0 0 0
+8 95000 13 0
+#2128
+elixir strange~
+A strange elixir~
+A strange elixir has been set here.~
+~
+10 96 1
+16 4 36 39
+5 6000 0 0
+#2129
+fury boots~
+the boots of a fury~
+A pair of boots once worn by a fury have been dropped here.~
+~
+9 4160 65
+3 0 0 0
+1 80000 10 0
+A
+14 25
+A
+2 2
+#2130
+bracelet serpentine~
+A serpentine bracelet~
+A bracelet made from the petrified body of a small serpent lies here.~
+~
+9 4097 4097
+4 0 0 0
+2 75000 15 0
+A
+18 2
+A
+19 1
+#2131
+bracelet serpentine~
+A serpentine bracelet~
+A bracelet made from the petrified body of a small serpent lies here.~
+~
+9 4226 4097
+1 0 0 0
+2 25 16 0
+A
+18 -2
+A
+19 -2
+#2132
+staff hades~
+The staff of Hades~
+The heavy staff of Hades has been foolishly dropped here.~
+smash~
+5 4674 8193
+1 5 5 7
+30 25000 16 2
+#2133
+vulcan mail~
+A glowing suit of vulcan mail~
+A glowing suit of vulcan mail lies on the ground.~
+~
+9 4161 9
+8 0 0 0
+0 125000 18 0
+A
+2 2
+A
+17 -4
+#2134
+cloak red~
+a firey red cloak~
+A firey red cloak lies lifeless on the ground.~
+~
+3 4192 1025
+0 0 0 0
+2 100000 0 0
+A
+12 40
+#2135
+ring jeweled jeweledring~
+a jeweled ring~
+The jeweled ring of Hecate has been dropped here.~
+~
+9 192 3
+1 0 0 0
+8 80000 16 0
+A
+3 2
+A
+4 2
+#2136
+crown dreams~
+a crown of dreams~
+A crown of dreams has been dropped here?~
+~
+9 2 17
+4 0 0 0
+12 10000 11 0
+A
+13 10
+A
+18 -1
+#2137
+potion herbal~
+An herbal potion~
+A herbal potion has been set here.~
+~
+10 96 1
+20 44 -1 -1
+10 7500 0 0
+#2138
+staff rosewood~
+A rosewood staff~
+A rosewood staff has been left here.~
+~
+4 96 16385
+15 2 2 23
+12 6600 0 0
+#2139
+candlestick~
+A candlestick~
+A candlestick has been carelessly discarded here.~
+~
+1 64 16385
+0 0 90 0
+20 3000 0 0
+#2140
+scroll flowered~
+A flowered scroll~
+A flowered scroll has been left here.~
+~
+2 64 1
+24 24 -1 -1
+15 11000 0 0
+#2141
+oboe golden~
+A golden oboe~
+A brilliant golden oboe catches your eye.~
+~
+4 65 16385
+17 1 1 7
+6 10000 0 0
+#2142
+helmet cyclopes~
+The Helmet of Hades~
+The Helmet of Hades, given hhim by the Cyclopes, was foolishly left here.~
+~
+9 4162 17
+13 0 0 0
+12 50000 0 0
+#2143
+staff larger~
+The Larger Staff of Hades~
+The Larger Staff of Hades is here.~
+smash~
+5 4674 8193
+1 2 15 6
+30 1750000 35 3
+A
+17 10
+A
+31 10
+#2144
+gloves magic~
+A pair of Magic Gloves~
+A strange useless Gloves is here.~
+~
+9 4097 129
+9 0 0 0
+2 200000 32 0
+A
+18 1
+A
+19 2
+#2145
+potion green~
+A green potion~
+A green potion has been discarded here.~
+~
+10 0 16385
+20 28 16 15
+2 10000 0 0
+#2146
+grapes~
+a bunch of grapes~
+A bunch of fresh grapes is here.~
+~
+19 0 1
+5 0 0 0
+1 10 0 0
+#2147
+skirt muslin~
+a skirt made of muslin~
+A simple muslin skirt has been left here.~
+~
+9 4160 33
+6 0 0 0
+7 150000 27 0
+A
+14 10
+A
+18 3
+#2148
+shirt muslin~
+a shirt made of muslin~
+A simple muslin shirt has been left here.~
+~
+9 4160 9
+6 0 0 0
+10 100000 22 0
+A
+14 10
+A
+18 3
+#2149
+sandals~
+a pair of sandals~
+A pair of plain sandals has been left here.~
+~
+9 64 65
+4 0 0 0
+8 5000 31 0
+A
+2 2
+A
+18 2
+#2150
+pike forged~
+A forged pike~
+A forged pike has been carelessly left here~
+slash~
+5 4161 8193
+0 2 9 3
+0 10250 0 0
+A
+18 2
+A
+19 2
+#2151
+rope~
+a rope~
+A rope has been left here.~
+~
+9 4160 2049
+5 0 0 0
+4 10000 0 0
+A
+13 1
+#2152
+key black~
+a black key~
+A black key has been set here.~
+~
+18 0 1
+0 0 0 0
+5 1000 0 0
+#2153
+goblet wine~
+a golden goblet~
+A golden goblet shines brightly on the ground here.~
+~
+17 321 1
+200 200 2 0
+200 10000 0 0
+#2154
+brassard hydra~
+the brassard of the hydra~
+A small brassard, with the number 50 engraved upon it, is here.~
+~
+9 4096 257
+10 0 0 0
+5 180000 35 0
+#2155
+wrist band~
+A heavy metal wrist band~
+A heavy metal wrist band has been dropped here.~
+~
+9 4097 4097
+3 0 0 0
+2 550000 36 0
+A
+18 2
+A
+19 2
+#2156
+white potion~
+a white potion~
+A small white potion has been left here.~
+~
+10 64 1
+20 43 -1 -1
+1 25000 0 0
+#2157
+seed unknown~
+a seed of unknown origin~
+The seed of an unknown plant lies here.~
+~
+19 4098 16385
+1 0 0 1
+1 1000000 1 0
+E
+seed~
+Eating the seed will probably have serious consequences.
+~
+#2158
+kong ring kongring~
+A kong ring~
+A kong ring was foolishly dropped here.~
+~
+11 4160 3
+0 0 0 0
+1 20000 26 0
+A
+18 1
+A
+19 2
+#2159
+skirt baji~
+a Baji made of KongJoolGi~
+A simple KongJoolGi Baji has been left here.~
+~
+9 4160 33
+6 0 0 0
+7 350000 22 0
+A
+19 1
+#2160
+sinbal~
+a pair of sinbal~
+A pair of plain sinbal has been left here.~
+~
+9 64 65
+6 0 0 0
+8 85000 18 0
+A
+18 1
+#2161
+wooden Kal~
+a ruined wooden Kal~
+a ruined harmless Kal is here.~
+pound~
+5 4419 8193
+0 4 7 7
+20 150000 22 0
+A
+18 2
+A
+19 2
+#99999
+
+#ROOMS
+#2100
+The Landing~
+  You are on a weather-beaten dock.  It appears ready to collapse.
+Evidently nobody has been around to take care of things.
+~
+21 4 2
+D0
+~
+~
+0 -1 2101
+D2
+~
+~
+0 -1 3212
+S
+#2101
+An Old Path~
+  You are on a north-south path.
+~
+21 0 4
+D0
+~
+~
+0 -1 2102
+D2
+~
+~
+0 -1 2100
+S
+#2102
+An Old Path~
+  You are on a north-south path.
+~
+21 0 4
+D0
+~
+~
+0 -1 2103
+D2
+~
+~
+0 -1 2101
+S
+#2103
+An Old Path~
+  You are on a north-south path in a very desolate area.
+~
+21 0 4
+D0
+~
+~
+0 -1 2104
+D2
+~
+~
+0 -1 2102
+S
+#2104
+An Old Path~
+  You are on a north-south path in an extremely barren part of the world.
+~
+21 4 4
+D0
+~
+~
+0 -1 2105
+D2
+~
+~
+0 -1 2103
+S
+#2105
+The Wasteland~
+  You are on a dry, barren wasteland.  There is little evidence of life
+here.  The ground is littered with bones, sticks, rocks, and other debris.
+Further north of here it looks even worse.  There is a SIGN here.
+~
+21 0 4
+E
+sign~
+The sign says:
+
+  BEWARE.  The Wasteland is a Dangerous Area.  It is controlled
+  by gangs of marauders and packs of hyenas.  Enter at your own
+  risk.  Nearly everything here is aggressive.  There is more
+  here than meets the eye.
+
+~
+D0
+~
+~
+0 -1 2110
+D2
+~
+~
+0 -1 2104
+S
+#2110
+The Wasteland~
+  You are in a bleak, desolate wasteland.
+~
+21 0 4
+D1
+~
+~
+0 -1 2111
+D2
+~
+~
+0 -1 2105
+D3
+~
+~
+0 -1 2114
+S
+#2111
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2118
+D1
+~
+~
+0 -1 2112
+D3
+~
+~
+0 -1 2110
+S
+#2112
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2119
+D1
+~
+~
+0 -1 2117
+D3
+~
+~
+0 -1 2111
+S
+#2113
+The Wasteland~
+  You are on a bleak, desolate wasteland.  Barely covered by the dirt are
+the outlines of an old well.
+~
+21 0 4
+D0
+~
+~
+0 -1 2122
+D1
+~
+~
+0 -1 2118
+D3
+~
+~
+0 -1 2116
+D5
+The cover is heavy, but can be moved.
+~
+cover~
+1 0 2141
+S
+#2114
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2116
+D1
+~
+~
+0 -1 2110
+D3
+~
+~
+0 -1 2115
+S
+#2115
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2117
+D1
+~
+~
+0 -1 2114
+D3
+~
+~
+0 -1 2119
+S
+#2116
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2121
+D1
+~
+~
+0 -1 2113
+D2
+~
+~
+0 -1 2114
+D3
+~
+~
+0 -1 2117
+S
+#2117
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2120
+D1
+~
+~
+0 -1 2116
+D2
+~
+~
+0 -1 2115
+D3
+~
+~
+0 -1 2112
+S
+#2118
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2123
+D1
+~
+~
+0 -1 2119
+D2
+~
+~
+0 -1 2111
+D3
+~
+~
+0 -1 2113
+S
+#2119
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2124
+D1
+~
+~
+0 -1 2115
+D2
+~
+~
+0 -1 2112
+D3
+~
+~
+0 -1 2118
+S
+#2120
+The Wasteland~
+  You are on a bleak, desolate wasteland.  To the west, a stone structure
+appears to be intact.
+~
+21 0 4
+D0
+~
+~
+0 -1 2131
+D1
+~
+~
+0 -1 2121
+D2
+~
+~
+0 -1 2117
+D3
+~
+door~
+1 0 2140
+S
+#2121
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2125
+D1
+~
+~
+0 -1 2122
+D2
+~
+~
+0 -1 2116
+D3
+~
+~
+0 -1 2120
+S
+#2122
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2126
+D1
+~
+~
+0 -1 2123
+D2
+~
+~
+0 -1 2113
+D3
+~
+~
+0 -1 2121
+S
+#2123
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2127
+D1
+~
+~
+0 -1 2124
+D2
+~
+~
+0 -1 2118
+D3
+~
+~
+0 -1 2122
+S
+#2124
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2132
+D2
+~
+~
+0 -1 2119
+D3
+~
+~
+0 -1 2123
+S
+#2125
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2128
+D1
+~
+~
+0 -1 2126
+D2
+~
+~
+0 -1 2121
+D3
+~
+~
+0 -1 2131
+S
+#2126
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D1
+~
+~
+0 -1 2127
+D2
+~
+~
+0 -1 2122
+D3
+~
+~
+0 -1 2125
+S
+#2127
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2129
+D1
+~
+~
+0 -1 2132
+D2
+~
+~
+0 -1 2123
+D3
+~
+~
+0 -1 2126
+S
+#2128
+The Wasteland~
+  You are on a bleak, desolate wasteland.  There is a building to the
+north.  To each side of the door is a plain Doric column.  You might
+want to think twice about entering.
+~
+21 0 4
+D0
+~
+door~
+1 0 2145
+D1
+~
+~
+0 -1 2129
+D3
+~
+~
+0 -1 2130
+S
+#2129
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2133
+D1
+~
+~
+0 -1 2134
+D2
+~
+~
+0 -1 2127
+D3
+~
+~
+0 -1 2128
+S
+#2130
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2134
+D1
+~
+~
+0 -1 2128
+D2
+~
+~
+0 -1 2125
+D3
+~
+~
+0 -1 2133
+D5
+~
+plate~
+1 0 2165
+S
+#2131
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2133
+D1
+~
+~
+0 -1 2125
+D2
+~
+~
+0 -1 2120
+D3
+~
+~
+0 -1 2134
+S
+#2132
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2134
+D1
+~
+~
+0 -1 2133
+D2
+~
+~
+0 -1 2124
+D3
+~
+~
+0 -1 2127
+S
+#2133
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2129
+D1
+~
+~
+0 -1 2130
+D2
+~
+~
+0 -1 2131
+D3
+~
+~
+0 -1 2132
+S
+#2134
+The Wasteland~
+  You are on a bleak, desolate wasteland.
+~
+21 0 4
+D0
+~
+~
+0 -1 2130
+D1
+~
+~
+0 -1 2131
+D2
+~
+~
+0 -1 2132
+D3
+~
+~
+0 -1 2129
+S
+#2135
+A Cavern~
+  You are in an underground cavern that extends west from here.  There
+is barely enough room to stand up straight.
+~
+21 9 3
+D3
+~
+~
+0 -1 2136
+D4
+~
+grate~
+1 0 2140
+S
+#2136
+A Cavern~
+  You are in an underground cavern.
+~
+21 9 3
+D1
+~
+~
+0 -1 2135
+D3
+~
+~
+0 -1 2137
+S
+#2137
+A Cavern~
+  You are in an underground cavern.
+~
+21 9 3
+D0
+~
+~
+0 -1 2138
+D1
+~
+~
+0 -1 2136
+D2
+~
+~
+0 -1 2139
+S
+#2138
+A Cavern~
+  You are in an underground cavern.
+~
+21 9 3
+D0
+~
+~
+0 -1 2139
+D2
+~
+~
+0 -1 2137
+S
+#2139
+A Cavern~
+  You are in an underground cavern.
+~
+21 4105 3
+D0
+~
+~
+0 -1 2137
+D2
+~
+~
+0 -1 2138
+S
+#2140
+A Stone Shelter~
+  You are inside a stone shelter.  It may not protect you against the
+elements, but it should keep your enemies out.
+~
+21 12 0
+D1
+~
+door~
+1 0 2120
+D5
+~
+grate~
+1 0 2135
+S
+#2141
+On A Ledge In A Dry Well~
+  You are halfway down (or is it halfway up?) an old dry well.  The
+ledge here is big enough to hold several people.  There are a few
+greek letters carved in the stone.
+~
+21 1 0
+E
+letters~
+You see: chi alpha delta epsilon sigma ..
+~
+D4
+~
+cover~
+1 0 2113
+D5
+~
+~
+0 -1 2142
+S
+#2142
+At The Bottom~
+  You are at the bottom of an old dry well.
+~
+21 4097 0
+D4
+~
+~
+0 -1 2141
+S
+#2145
+In the Main Hall~
+   You are in the main hall of a large building.  There is a stairway
+leading down.  To the north you hear a dissonant screeching.   You feel a
+chill.
+~
+21 12 0
+D0
+~
+~
+0 -1 2149
+D2
+~
+door~
+1 0 2128
+D4
+~
+~
+0 -1 2180
+D5
+~
+~
+0 -1 2146
+S
+#2146
+The Tunnel~
+   You are at the northern extremity of a large north-south tunnel.
+~
+21 8 0
+D1
+~
+~
+0 -1 2170
+D2
+~
+~
+0 -1 2147
+D3
+~
+~
+0 -1 2161
+D4
+~
+~
+0 -1 2145
+S
+#2147
+The Tunnel~
+   You are in an extremely large north-south tunnel.
+There is a small opening to the east.
+~
+21 8 0
+D0
+~
+~
+0 -1 2146
+D1
+~
+~
+0 -1 2155
+D2
+~
+~
+0 -1 2148
+S
+#2148
+The Tunnel~
+   You are at the southern end of a huge north-south tunnel.
+~
+21 8 0
+D0
+~
+~
+0 -1 2147
+D2
+~
+door~
+1 0 2150
+D3
+~
+~
+0 -1 2195
+S
+#2149
+The Amphitheater~
+   You are in a large amphitheatre.  It might have been used for
+performances of some kind, a long time ago.
+~
+21 8 0
+D2
+~
+~
+0 -1 2145
+S
+#2150
+Where the Gorgons Dwell~
+   You are in a large, cold, damp room.  This is the room where the
+three Gorgons are usually found.
+~
+21 9 0
+D0
+~
+door~
+1 0 2148
+S
+#2151
+The Bath~
+   You are in the bath of Proserpina.  The floor and walls are made of
+marble.
+~
+21 4104 0
+D2
+~
+curtain~
+1 0 2160
+S
+#2155
+A Peculiar Chamber~
+   You are in a chamber that is lit by an amber light.  There is a cage
+at the north end of the room.
+~
+21 8 0
+D0
+~
+cage~
+1 0 2156
+D1
+~
+~
+0 -1 2157
+D3
+~
+~
+0 -1 2147
+S
+#2156
+The Cage~
+   You are in a very sturdy cage.  The cage was obviously built to
+contain a powerful beast.
+~
+21 6152 0
+D2
+~
+cage~
+1 0 2155
+S
+#2157
+Yet Another Hallway~
+   You're in yet another hallway.
+~
+21 8 0
+D2
+~
+~
+0 -1 2158
+D3
+~
+~
+0 -1 2155
+S
+#2158
+The Large Laboratory~
+   You're in a large laboratory.  The lab appears to have been the
+workplace of a primitive practioner of the chemical arts.  You sense
+that this place is a portal to other realms.  A strange looking
+curtain is to the south.
+~
+21 8 0
+D0
+~
+~
+0 -1 2157
+D2
+You see a shimmering wall of energized particles.
+~
+curtain~
+0 -1 -1
+S
+#2159
+Ante-chamber~
+   This is the waiting room that might have once been used by
+Proserpina, queen of the underworld, wife of Hades.
+~
+21 8 0
+D2
+~
+~
+0 -1 2163
+D3
+~
+door~
+1 0 2160
+S
+#2160
+The Parlor of Proserpina~
+   This room was the waiting room of mighty Proserpina, the wife of
+Hades, and the Queen of the Underworld.
+~
+21 8 0
+D0
+~
+curtain~
+1 0 2151
+D1
+~
+door~
+1 0 2159
+S
+#2161
+Another Large Hallway~
+   This is another large hallway.
+~
+21 8 0
+D1
+~
+~
+0 -1 2149
+D3
+~
+~
+0 -1 2162
+S
+#2162
+Another Large Hallway~
+   This is another large hallway.
+~
+21 8 0
+D1
+~
+~
+0 -1 2161
+D3
+~
+~
+0 -1 2163
+S
+#2163
+Another Large Hallway~
+   This is another large hallway.
+~
+21 8 0
+D0
+~
+~
+0 -1 2159
+D1
+~
+~
+0 -1 2162
+D3
+~
+~
+0 -1 2164
+S
+#2164
+The End of Hallway~
+   You are at the western end of a large hallway.
+~
+21 8 0
+D1
+~
+~
+0 -1 2163
+D2
+~
+door~
+1 0 2165
+S
+#2165
+A Small Chamber~
+   You are in a very small chamber.
+~
+21 14 0
+D0
+~
+door~
+1 0 2164
+D4
+There appears to be a moveable plate covering a hole in the ceiling.
+~
+plate~
+1 0 2130
+S
+#2170
+The East Wing~
+   You are in the main corridor of the east wing.
+~
+21 8 0
+D1
+~
+~
+0 -1 2171
+D3
+~
+~
+0 -1 2146
+S
+#2171
+The East Wing~
+   You are in the main corridor of the east wing.
+~
+21 8 0
+D1
+~
+~
+0 -1 2172
+D3
+~
+~
+0 -1 2170
+S
+#2172
+The East Wing~
+   You are in the main corridor of the east wing.
+~
+21 8 0
+D0
+~
+~
+0 -1 766
+D1
+~
+~
+0 -1 2173
+D3
+~
+~
+0 -1 2171
+S
+#2173
+The East Wing~
+   You are in the main corridor of the east wing.
+~
+21 8 0
+D1
+~
+~
+0 -1 2172
+D2
+~
+door~
+0 -1 2175
+S
+#2175
+Sanctuary of the Lesser Gods~
+   You are in the room used by the lesser gods of the underworld,
+Aeacus, Radamanthus, and Minos.  You can almost hear them plotting
+against Hades...
+~
+21 8 0
+D0
+~
+~
+0 -1 2173
+D2
+~
+door~
+1 0 2176
+S
+#2176
+The Library~
+   You are in the library.  There are no books here.  Perhaps the Lesser Gods
+who sit in judgement on poor souls are here?
+~
+21 8 0
+D0
+~
+door~
+1 0 2175
+S
+#2180
+On a Winding Stairway~
+   You are near the bottom of a long, winding stairway.
+~
+21 8 5
+D4
+~
+~
+0 -1 2181
+D5
+~
+~
+0 -1 2145
+S
+#2181
+On a Winding Stairway~
+   You are very near the bottom of a long, winding stairway.
+~
+21 8 5
+D4
+~
+~
+0 -1 2182
+D5
+~
+~
+0 -1 2180
+S
+#2182
+On a Winding Stairway~
+   You are near the bottom of a long, winding stairway.
+~
+21 8 5
+D4
+~
+~
+0 -1 2183
+D5
+~
+~
+0 -1 2181
+S
+#2183
+On a Winding Stairway~
+   You are on a long, winding stairway.  The stairway gets narrower
+as you approach the top.
+~
+21 8 5
+D4
+~
+~
+0 -1 2184
+D5
+~
+~
+0 -1 2182
+S
+#2184
+On a Winding Stairway~
+   You are near the top of a long, narrowing, winding stairway.
+~
+21 8 5
+D4
+~
+~
+0 -1 2185
+D5
+~
+~
+0 -1 2183
+S
+#2185
+On a Winding Stairway~
+   You are very near the top of a long, winding stairway.
+~
+21 8 5
+D4
+~
+~
+0 -1 2186
+D5
+~
+~
+0 -1 2184
+S
+#2186
+On a Winding Stairway~
+   You are very very near the top of a long, winding stairway.  The
+stairway is very narrow here.
+~
+21 8 5
+D4
+~
+~
+0 -1 2187
+D5
+~
+~
+0 -1 2185
+S
+#2187
+On a Winding Stairway~
+   You are at the top of a long, winding stairway.  You see a door.
+~
+21 8 5
+D0
+~
+door~
+1 0 2188
+D5
+~
+~
+0 -1 2186
+S
+#2188
+On the Ramparts~
+   You are out in the open, high above the surrounding wasteland, which
+stretches for as for as the eye can see.  The wind is very strong up here.
+Perhaps not all of the howling you hear is due to the wind?
+~
+21 0 4
+D2
+~
+door~
+1 0 2187
+S
+#2189
+The Throne~
+   You are at the massive throne of Hades.  You might not have much
+time to read this.
+~
+21 0 4
+D2
+~
+~
+0 -1 2190
+S
+#2190
+An Underground Field~
+   You are in an expansive underground field.  There is a depression
+running through the field that might once have been a river.
+~
+21 0 2
+D0
+~
+~
+0 -1 2189
+D1
+~
+~
+0 -1 2191
+D2
+~
+~
+0 -1 2193
+S
+#2191
+An Underground Field~
+   You are in an expansive underground field.  There is a depression
+running through the field that might once have been a river.
+~
+21 0 2
+D0
+~
+~
+0 -1 2194
+D2
+~
+~
+0 -1 2192
+D3
+~
+~
+0 -1 2190
+S
+#2192
+An Underground Field~
+   You are in an expansive underground field.  There is a depression
+running through the field that might once have been a river.
+~
+21 0 2
+D0
+~
+~
+0 -1 2191
+D3
+~
+~
+0 -1 2193
+S
+#2193
+An Underground Field~
+   You are in an expansive underground field.  There is a depression
+running through the field that might once have been a river.
+~
+21 0 2
+D0
+~
+~
+0 -1 2190
+D1
+~
+~
+0 -1 2192
+D5
+You look into what seems to be a deep pit.
+~
+grate~
+4 2152 2196
+S
+#2194
+A Wider Passage~
+   You are in another one of those passages.
+~
+21 0 3
+D0
+~
+door~
+1 0 2195
+D2
+~
+~
+0 -1 2191
+S
+#2195
+An Alcove~
+   You have stepped into a small alcove, west of the large north-south
+tunnel.
+~
+21 0 3
+D1
+~
+~
+0 -1 2148
+D2
+~
+door~
+1 0 2194
+S
+#2196
+The Pit~
+   You are in a deep dark pit.  This place seems to be inhabited by a
+disgusting creature of some sort.
+~
+21 4105 3
+D4
+It is a long way up, but you can make it.
+~
+grate~
+2 2152 2193
+S
+#99999
+
+#RESET
+*
+D 0  2120   3     1    The Wasteland
+D 0  2140   1     1    A Stone Shelter
+*
+D 0  2140   5     1    A Stone Shelter
+D 0  2135   4     1    A Cavern
+*
+D 0  2113   5     1    The Wasteland
+D 0  2141   4     1    On A Ledge In A Dry Well
+*
+D 0  2128   0     1    The Wasteland
+D 0  2145   2     1    In the Main Hall
+*
+D 0  2148   2     1    The Tunnel
+D 0  2150   0     1    Where the Gorgons Dwell
+*
+D 0  2155   0     1    A Peculiar Chamber
+D 0  2156   2     1    The Cage
+*
+D 0  2130   5     1    The Wasteland
+D 0  2165   4     1    A Small Chamber
+*
+D 0  2175   2     1    Sanctuary of the Lesser Gods
+D 0  2176   0     1    The Library
+*
+D 0  2187   0     1    On a Winding Stairway
+D 0  2188   2     1    On the Ramparts
+*
+D 0  2195   2     1    An Alcove
+D 0  2194   0     1    A Wider Passage
+*
+D 0  2151   2     1    The Bath
+D 0  2160   0     1    The Parlor of Proserpina
+*
+D 0  2193   5     2    An Underground Field
+D 0  2196   4     2    The Pit
+*
+M 0  2102  30  2126   A hyena (The Wasteland)
+M 0  2102  30  2126   A hyena (The Wasteland)
+G 1  2101   1             a maple stick
+M 0  2102  30  2126   A hyena (The Wasteland)
+G 1  2103   1             a birch stick
+M 0  2102  30  2126   A hyena (The Wasteland)
+G 1  2105   1             a beech stick
+M 0  2102  30  2126   A hyena (The Wasteland)
+G 1  2102   1             a pine stick
+M 0  2102  30  2126   A hyena (The Wasteland)
+G 1  2104   1             a walnut stick
+M 0  2102  30  2126   A hyena (The Wasteland)
+G 1  2108   1             a fir stick
+M 0  2102  30  2126   A hyena (The Wasteland)
+G 1  2106   1             a fruitwood stick
+*
+M 0  2102  30  2115   A hyena (The Wasteland)
+G 1  2109   1             an elm stick
+M 0  2102  30  2115   A hyena (The Wasteland)
+G 1  2112   1             a cherry stick
+M 0  2102  30  2115   A hyena (The Wasteland)
+G 1  2110   1             a poplar stick
+M 0  2102  30  2115   A hyena (The Wasteland)
+*
+M 0  2102  30  2112   A hyena (The Wasteland)
+G 1  2107   1             an ash stick
+M 0  2102  30  2112   A hyena (The Wasteland)
+G 1  2111   1             a balsa stick
+M 0  2102  30  2112   A hyena (The Wasteland)
+G 1  2100   1             an oak stick
+M 0  2102  30  2112   A hyena (The Wasteland)
+*
+M 0  2101  15  2128   A marauder (The Wasteland)
+M 0  2101  15  2128   A marauder (The Wasteland)
+M 0  2101  15  2128   A marauder (The Wasteland)
+M 0  2101  15  2129   A marauder (The Wasteland)
+M 0  2101  15  2129   A marauder (The Wasteland)
+M 0  2101  15  2129   A marauder (The Wasteland)
+M 0  2101  15  2130   A marauder (The Wasteland)
+M 0  2101  15  2130   A marauder (The Wasteland)
+M 0  2101  15  2130   A marauder (The Wasteland)
+*
+M 0  2105   1  2149   Celeno, the Third Harpy (The Amphitheater)
+E 1  2123   1     3     an amulet
+M 0  2104   1  2149   Ocypete, the Second Harpy (The Amphitheater)
+G 1  2139   1             A candlestick
+M 0  2103   1  2149   Aello, the First Harpy (The Amphitheater)
+E 1  2121   1    12     a brown cloak
+*
+M 0  2106   1  2142   The Statue of Hades (At The Bottom)
+E 1  2120   1    16     a two-pronged fork
+*
+M 0  2109   1  2150   Medusa, the Third Gorgon (Where the Gorgons Dwell)
+E 1  2124   1    16     The whip of Medusa
+E 1  2127   1    11     The shield of Pallas
+M 0  2108   1  2150   Euryale, the Second Gorgon (Where the Gorgons Dwell)
+E 1  2125   1     3     A black pendant
+M 0  2107   1  2150   Stheno, the First Gorgon (Where the Gorgons Dwell)
+E 1  2126   1     3     The medallion of Ceres
+*
+M 0  2110   1  2156   the monoceros (The Cage)
+G 1  2128   6             A strange elixir
+*
+M 0  2113   1  2188   Megaera, the Third Fury (On the Ramparts)
+E 1  2131   1    14     A serpentine bracelet
+M 0  2112   1  2188   Tisiphone, the Second Fury (On the Ramparts)
+E 1  2130   1    14     A serpentine bracelet
+M 0  2111   1  2188   Alecto, the First Fury (On the Ramparts)
+E 1  2129   1     8     the boots of a fury
+*
+M 0  2114   1  2176   The Lesser God Aeacus (The Library)
+E 1  2133   1     5     A glowing suit of vulcan mail
+M 0  2115   1  2176   The Lesser God Radamanthus (The Library)
+E 1  2132   1    16     The staff of Hades
+M 0  2116   1  2176   The Lesser God Minos (The Library)
+E 1  2134   1    12     a firey red cloak
+*
+M 0  2117   8  2170   a hound of Hades (The East Wing)
+M 0  2117   8  2162   a hound of Hades (Another Large Hallway)
+M 0  2117   8  2158   a hound of Hades (The Large Laboratory)
+M 0  2117   8  2158   a hound of Hades (The Large Laboratory)
+M 0  2117   8  2158   a hound of Hades (The Large Laboratory)
+M 0  2117   8  2158   a hound of Hades (The Large Laboratory)
+M 0  2117   8  2158   a hound of Hades (The Large Laboratory)
+M 0  2117   8  2158   a hound of Hades (The Large Laboratory)
+*
+M 0  2118   1  2158   Hecate (The Large Laboratory)
+E 1  2135   1     1     a jeweled ring
+E 1  2150   1    16     A forged pike
+G 1  2138   1             A rosewood staff
+G 1  2141   1             A golden oboe
+M 0  2121   6  2151   a eunuch (The Bath)
+G 1  2137   4             An herbal potion
+M 0  2121   6  2151   a eunuch (The Bath)
+G 1  2140   4             A flowered scroll
+M 0  2121   6  2151   a eunuch (The Bath)
+M 0  2121   6  2151   a eunuch (The Bath)
+*
+M 0  2122   1  2139   Hypnos (A Cavern)
+E 1  2136   6     6     a crown of dreams
+G 1  2145   5             A green potion
+G 1  2156   6             a white potion
+G 1  2156   6             a white potion
+*
+M 0  2120   1  2189   Hades (The Throne)
+E 1  2142   1     6     The Helmet of Hades
+E 1  2143   1    16     The Larger Staff of Hades
+E 1  2144   1     9     A pair of Magic Gloves
+E 1  2155   2    14     A heavy metal wrist band
+E 1  2152   1    17     a black key
+E 1  2155   2    15     A heavy metal wrist band
+G 1  1311   1             a totem
+*
+M 0  2119   1  2189   Proserpina (The Throne)
+E 1  2147   1     7     a skirt made of muslin
+E 1  2148   1     5     a shirt made of muslin
+E 1  2149   1     8     a pair of sandals
+E 1  2151   1    13     a rope
+E 1  2122   1     1     A emerald ring
+G 1  2153   2             a golden goblet
+*
+M 0  2123   9  2189   a larger hound of Hades (The Throne)
+M 0  2123   9  2189   a larger hound of Hades (The Throne)
+M 0  2123   9  2189   a larger hound of Hades (The Throne)
+M 0  2123   9  2189   a larger hound of Hades (The Throne)
+M 0  2123   9  2189   a larger hound of Hades (The Throne)
+M 0  2123   9  2189   a larger hound of Hades (The Throne)
+*
+M 0  2124   1  2196   The 50 Headed Hydra (The Pit)
+E 1  2157   1    17     a seed of unknown origin
+E 1  2154   1    10     the brassard of the hydra
+E 1  2161   1    16     a ruined wooden Kal
+*
+O 0  2146   6  2160    a bunch of grapes (The Parlor of Proserpina)
+*
+M 0  2125   1  2151   KongDoRius (The Bath)
+E 1  2158   1     1     A kong ring
+E 1  2159   1     7     a Baji made of KongJoolGi
+E 1  2160   1     8     a pair of sinbal
+*
+S
+
+#SHOPS
+$
+#END of The Wasteland.

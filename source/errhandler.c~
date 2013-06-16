@@ -1,0 +1,303 @@
+/*#define __useLogFile__
+#define __useTraceFile__ */
+#define __retryAlloc__
+#define __maxRetryAlloc__ 1000
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdarg.h>
+#include <string.h>
+#include <errno.h>
+#include <sys/types.h>
+#include <time.h>
+
+#include "defines.h"
+#include "comm.h"
+
+/*
+typedef char *va_list;
+
+#define __va_promote(type) \
+    (((sizeof(type) + sizeof(int) - 1) / sizeof(int)) * sizeof(int))
+
+#define va_start(ap, last) \
+    (ap = ((va_list)&(last) + __va_promote(last)))
+*/
+
+static FILE * logfile = 0;
+static FILE * dbgfile = 0;
+static FILE * trcfile = 0;
+static FILE * errfile = 1;
+
+static void initLogFile( void )
+{
+#ifdef __useLogFile__
+	time_t	t;
+	char 	buf[128], name[256];
+	char *  logDir = "log/";
+
+	time( &t );
+	strftime( buf, 127, "%y-%m-%d--%H-%M", localtime( &t ) );
+
+	strcpy( name, logDir ); strcat( name, buf );	
+
+	logfile = fopen( name, "w+" );
+
+	if( !logfile )	
+	{
+		logfile = stderr;
+		fprintf( logfile, "initLogFile> LogFile == stderr\n" );
+	}
+	else
+	{
+		fprintf( stdout, "initLogFile> LogFile == %s\n", name);
+	}
+#else
+	logfile = stderr;
+	fprintf( logfile, "initLogFile> LogFile == stderr\n" );
+#endif
+
+#ifdef __useTraceFile__
+	dbgfile = fopen( "log/debug", "w" );
+	trcfile = fopen( "log/trace", "w" );
+	errfile = fopen( "log/error", "w" );
+
+	dbgfile = dbgfile == 0 ? stdout : dbgfile;
+	trcfile = trcfile == 0 ? stdout : trcfile;
+	errfile = errfile == 0 ? stderr : errfile;
+#endif
+}
+
+static void printFmt( FILE * fp, int logtogod, const char * fmt, va_list args )
+{
+	char buf[4096], * cp;
+
+	if( !logfile ) initLogFile();
+
+	if( !fp ) fp = logfile;
+
+	vsprintf( buf, fmt, args );
+
+	if( logtogod ) senddf( 0, 44, "%s", buf );
+
+	for( cp = buf; *cp; cp++ ) fputc( *cp, fp );
+	fputc( '\n', fp );
+}
+
+FILE * errOpen( const char * fname, char * mode )
+{
+	FILE * rval;
+
+	rval = fopen( fname, mode );
+
+	if( !rval )
+	{
+		ERROR( "errOpen> can't open %s with mode %s.", fname, mode );
+	}
+	return rval;
+}
+
+void errClose( FILE * fp )
+{
+	int rval;
+
+	rval = fclose( fp );
+
+	if( rval == EOF )
+	{
+		clearerr( fp );
+		ERROR( "errClose> can't close %d desc.", fileno( fp ) );
+	}
+}
+
+__DEBUG( unsigned long allocCount = 0 ); 
+__DEBUG( unsigned long allocAmount = 0 );
+__DEBUG( unsigned long freeCount = 0 );
+
+void * errMalloc( size_t s )
+{
+#ifdef __retryAlloc__
+	int		i = 0;
+#endif
+	void * 	rval;
+
+	rval = malloc( s );
+
+	if( !rval )
+	{
+		DEBUG( "errMalloc> alloc failure (%d bytes).", s );
+
+#ifdef __retryAlloc__
+		while( i++ < __maxRetryAlloc__ && !rval )
+			rval = malloc( s );
+
+		if( !rval )
+		{
+			FATAL( "errMalloc> %d times ratry failed.", i );
+		}
+		else
+		{
+			DEBUG( "errMalloc> success after %d retry.", i );
+		}
+#endif __retryAlloc__
+	}
+	__DEBUG( allocCount++ );
+ 	__DEBUG( allocAmount += s );
+
+	return rval;
+}
+
+void * errCalloc( size_t s )
+{
+#ifdef __retryAlloc__
+	int		i = 0;
+#endif
+	void * 	rval;
+
+	rval = calloc( s, 1 );
+
+	if( !rval )
+	{
+		ERROR( "errCalloc> alloc failure (%d bytes).", s );
+
+#ifdef __retryAlloc__
+
+		while( i++ < __maxRetryAlloc__ && !rval )
+			rval = calloc( s, 1 );
+
+		if( !rval )
+		{
+			FATAL( "errCalloc> %d times ratry failed.", i );
+		}
+		else
+		{
+			DEBUG( "errCalloc> success after %d retry.", i );
+		}
+#endif __retryAlloc__
+	}
+	__DEBUG( allocCount++ ); 
+	__DEBUG( allocAmount += s );
+
+	return rval;
+}
+
+void * errRealloc( void * ptr, size_t s )
+{
+#ifdef __retryAlloc__
+	int		i = 0;
+#endif
+	void * 	rval;
+
+	rval = realloc( ptr, s );
+
+	if( !rval )
+	{
+		ERROR( "errRealloc> alloc failure (%d bytes).", s );
+
+#ifdef __retryAlloc__
+
+		while( i++ < __maxRetryAlloc__ && !rval )
+			rval = realloc( ptr, s );
+
+		if( !rval )
+		{
+			FATAL( "errRealloc> %d times ratry failed.", i );
+		}
+		else
+		{
+			DEBUG( "errRealloc> success after %d retry.", i );
+		}
+#endif __retryAlloc__
+	}
+	return rval;
+}
+
+void errFree( void * ptr )
+{
+	free( ptr );
+	__DEBUG( freeCount++ );
+}
+
+void trace( const char * fmt, ... )
+{
+	va_list		args;
+	char		buf[4096];
+
+	va_start( args, fmt );
+
+	strcpy( buf, "TRACE: " ); strcat( buf, fmt );
+
+	printFmt( trcfile, 0, buf, args );
+}	
+
+void debug( const char * fmt, ... )
+{
+	va_list		args;
+	char		buf[4096];
+
+	va_start( args, fmt );
+
+	strcpy( buf, "DEBUG: " ); strcat( buf, fmt );
+
+	printFmt( dbgfile, 1, buf, args );
+}
+
+void error( const char * fmt, ... )
+{
+	va_list		args;
+	char		buf[4096];
+
+	va_start( args, fmt );
+
+	strcpy( buf, "ERROR: " ); strcat( buf, fmt ); 	
+	strcat( buf, "\nerrno: ");
+	strcat( buf, strerror( errno ) );
+
+	printFmt( errfile, 1, buf, args );
+
+	fflush( errfile );
+
+	if( exitWhenError ) exit( 2 );
+}
+
+void fatal( const char * fmt, ... )
+{
+	va_list		args;
+	char		buf[4096];
+
+	va_start( args, fmt );
+
+	strcpy( buf, "FATAL: " ); strcat( buf, fmt ); 	
+
+	if( errno )
+	{
+		strcat( buf, "\nerrno: ");
+		strcat( buf, strerror( errno ) );
+	}
+
+	printFmt( errfile, 1, buf, args );
+
+	fflush( errfile );
+
+	exit( 1 );
+}
+
+void log( const char * fmt, ... )
+{
+	va_list 	args;
+	char		buf[4096];
+	time_t		t;
+
+	va_start( args, fmt );
+
+	time( &t );
+	strftime( buf, 127, "%H:%M", localtime( &t ) );
+	
+	strcat( buf, "> " ); strcat( buf, fmt );
+
+	printFmt( logfile, 0, buf, args );
+}
+
+void null_func( void )
+{
+}

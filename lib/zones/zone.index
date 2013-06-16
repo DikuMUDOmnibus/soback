@@ -1,0 +1,73 @@
+  1.zone LIMBO
+  2.zone The castle
+  3.zone Plains
+  4.zone Kerofk
+  6.zone New Ofcol town
+  7.zone Rome
+ 13.zone Mel's Doghouse
+ 14.zone Houses
+ 15.zone Gnome Villiage
+ 16.zone Dirk's Castle
+ 17.zone SHIRE
+ 19.zone The lands
+ 20.zone Catacomb
+ 21.zone The Wasteland
+ 22.zone Dragon Tower
+ 23.zone Muncie, Loftwick City
+ 25.zone The Corporation
+ 27.zone The Never Land
+ 28.zone Kingdom Of Chok
+ 29.zone KIT-MUD school
+ 30.zone Midgaard Main City
+ 31.zone Southern part of Midgaard
+ 32.zone River of Midgaard
+ 33.zone Northern part of Midgaard
+ 34.zone Graveyard
+ 40.zone Moria level 1-2
+ 41.zone Moria level 3-4
+ 42.zone The Wamphyri Aerie
+ 50.zone The Great Eastern Desert
+ 51.zone drow city
+ 52.zone The City of Thalos
+ 53.zone The Old City of Thalos
+ 55.zone Ofcol Village
+ 60.zone HAON-DOR-LIGHT, Light forest
+ 61.zone HAON-DOR-DARK, Dark forest
+ 65.zone The Dwarven Kingdom
+ 66.zone Sundhaven
+ 70.zone Sewer
+ 71.zone SecondSewer
+ 72.zone Sewermaze
+ 74.zone The Tunnels
+ 78.zone Hatchet Valley of the Elves
+ 79.zone Redferne's Residence
+ 90.zone Arachnos
+ 93.zone Mob Factory
+ 94.zone Arena
+ 95.zone DeathKingdom
+ 97.zone Galaxy
+ 98.zone The Death Star
+ 99.zone Ghenna
+100.zone City of Darclan
+110.zone Yangriver
+113.zone High tower of Sorsery
+120.zone Easy zone
+134.zone Ciquala's Lair
+137.zone Mount Olympus
+146.zone South castle
+150.zone Robot city
+160.zone Kingdom of Wee
+170.zone o-kingdom
+180.zone Mahn-tor
+181.zone Trade Road
+182.zone Pyramid
+183.zone Oceania
+184.zone Vice Island
+185.zone Vice Island (Temple of Terror)
+186.zone Three of Swords
+187.zone Spitfire The Isle of Quake
+200.zone Elemental Temple
+201.zone Plain of Fire
+202.zone Plain of Earth
+203.zone Antkingdom
+999.zone End of index file.

@@ -1,0 +1,1028 @@
+#202 Zone.
+NAME       : Plain of Earth~
+INFO       : 아직 미완성이다..~
+PATH       : ~
+ALIGN      : 2
+AGGRESSIVE : 1
+LEVEL      : 1 ~ 40
+MAX        : 20299
+LIFESPAN   : 40
+RESET      : 1
+
+#MOBILES
+#99999
+
+#OBJECTS
+#99999
+
+#ROOMS
+#20201
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is coverd with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20247
+D1
+~
+~
+0 -1 20202
+S
+#20202
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D2
+~
+~
+0 -1 20203
+D3
+~
+~
+0 -1 20201
+S
+#20203
+Narrow Bend~
+   You are in a narrow bend in the canyon path. The high cliffs towering above
+you look very unstable. Rock slides have partialy blocked the path, and you 
+feel very uneasy. The ground is covered with stones and rocks, making it very
+difficult to climb.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20202
+D1
+~
+~
+0 -1 20204
+S
+#20204
+Narrow Canyon~
+   You are in a narrow canyon of a large mountain range. High cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by large rocks and stones. A loud rumbling sound echoes through the
+canyon as huge boulders roll off the cliff in the distance.
+~
+202 4098 5
+D3
+~
+~
+0 -1 20203
+D4
+~
+~
+0 -1 20207
+S
+#20205
+Narrow Canyon~
+    You are in a narrow canyon of a large mountain range high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20206
+D2
+~
+~
+0 -1 20209
+S
+#20206
+Narrow Canyon~
+    You are in a narrow canyon of a large mountain range, high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D2
+~
+~
+0 -1 20210
+D3
+~
+~
+0 -1 20205
+S
+#20207
+Narrow Canyon~
+   You are in a narrow canyon of a large mountain range, high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D2
+~
+~
+0 -1 20211
+D5
+~
+~
+0 -1 20204
+S
+#20208
+Narrow Canyon~
+    You are in a small narrow path connecting two larger canyons. The cliff
+walls are very close here, and you feel a little nervous, as some of the rocks
+overhead look very unstable. The path curves here and leads east and south.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20209
+D2
+~
+~
+0 -1 20213
+S
+#20209
+Narrow Canyon~
+    The canyon seems to get wider here. In the distance, you see a majestic 
+mountain rising above the horizon. There are many rocks and stones covering 
+the path, and climbig is difficult. Many large boulders which have fallen
+from the rocky cliff walls partially block the path.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20205
+D4
+~
+~
+0 -1 20214
+S
+#20210
+Narrow Canyon~
+    You are in a narrow canyon of a large mountain range, high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20206
+D1
+~
+~
+0 -1 20211
+S
+#20211
+Narrow Canyon~
+    You are in a narrow canyon of a large mountain range, high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20207
+D3
+~
+~
+0 -1 20210
+S
+#20212
+Wide Mountain Canyon~
+    You are standing in a wide mountain canyon that stretches out for miles
+across. You gaze briefly at the many rock layers of the cliff walls, and notice
+that frequent rock slides have partially blocked the canyon. To the west, you 
+see a large mountain rising above the canyon walls.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20213
+D2
+~
+~
+0 -1 20221
+S
+#20213
+Wide Mountain Canyon~
+   You are standind on a path which leads through a huge mountainous canyon.
+The path is covered with rochs and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20208
+D4
+~
+~
+0 -1 20222
+S
+#20214
+Narrow Canyon~
+    You are in a narrow canyon of a large mountain range, high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20215
+D5
+~
+~
+0 -1 20209
+S
+#20215
+Wide Mountain Canyon~
+    You are standing in a narrow mountain canyon. To your relief, the walls are
+a little wider here, but a large rock slide blocks the path. You will have to 
+climb up and over the huge stones and boulders. To the south, you see the peak 
+of a large mountain rising high in the distance.
+~
+202 4098 5
+D3
+~
+~
+0 -1 20214
+D4
+~
+~
+0 -1 20224
+S
+#20216
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20217
+D2
+~
+~
+0 -1 20225
+D3
+~
+~
+0 -1 20211
+S
+#20217
+Wide Mountain Canyon~
+    You are standind on a path which leads through a huge mountainous canyon.
+The path is covered with rochs and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D2
+~
+~
+0 -1 20226
+D3
+~
+~
+0 -1 20216
+S
+#20218
+Wide Mountain Canyon~
+    You are standind on a path which leads through a huge mountainous canyon.
+The path is covered with rochs and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D2
+~
+~
+0 -1 20228
+D5
+~
+~
+0 -1 20219
+S
+#20219
+Wide Mountain Canyon~
+    You are standind on a path which leads through a huge mountainous canyon.
+The path is covered with rochs and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20220
+D4
+~
+~
+0 -1 20218
+S
+#20220
+Wide Mountain Canyon~
+   You are standind on a path which leads through a huge mountainous canyon.
+The path is covered with rochs and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20221
+D3
+~
+~
+0 -1 20219
+S
+#20221
+Narrow Canyon~
+    You are in a narrow canyon of a large mountain range, high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20212
+D2
+~
+~
+0 -1 20229
+D3
+~
+~
+0 -1 20220
+S
+#20222
+Wide Mountain Canyon~
+    You are standind on a path which leads through a huge mountainous canyon.
+You are standind on a path which leads through a huge mountainous canyon.
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20223
+D5
+~
+~
+0 -1 20213
+S
+#20223
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D2
+~
+~
+0 -1 20230
+D3
+~
+~
+0 -1 20222
+S
+#20224
+Nort Of The Peak~
+    You are standing on a path which leads out of the narrow canyon. From here,
+you see that you are very close to the top of the mountain, and hopefully, the
+end of your climb. The air is crisp and fresh here, and you pause to admire the
+majestic canyons you have just crossed.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20215
+D4
+~
+~
+0 -1 20253
+S
+#20225
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20216
+D2
+~
+~
+0 -1 20232
+S
+#20226
+Wide Mountain Canyon~
+    You are standind on a path which leads through a huge mountainous canyon.
+The path is covered with rochs and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20217
+D1
+~
+~
+0 -1 20227
+S
+#20227
+Wide Mountain Canyon~
+    You are standind on a path which leads through a huge mountainous canyon.
+The path is covered with rochs and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20228
+D2
+~
+~
+0 -1 20238
+D3
+~
+~
+0 -1 20226
+S
+#20228
+Wide Mountain Canyon~
+    You are standind on a path which leads through a huge mountainous canyon.
+The path is covered with rochs and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20218
+D3
+~
+~
+0 -1 20227
+S
+#20229
+Canyon Path~
+    You are satanding in a path which connects two large canyons. The high 
+cliff walls towering above you look very unstable, and  In the distance, you 
+hear the loud echo of huge boulders crashing down to the canyon floor. There
+are many large boulders and stones covering the path, making climbing very 
+difficult.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20221
+D2
+~
+~
+0 -1 20233
+S
+#20230
+West Of The Peak~
+    You are staning on a path which leads out of the wide canyon. To the east
+you see that you are close to the mountain peak. You look around and admire
+the vast canyons you have just conquered. There are large rock formations here
+which will make reaching to top of the mountain difficult.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20223
+D4
+~
+~
+0 -1 20253
+S
+#20231
+East Of The Peak~
+    You are standing near the peak of a large mountain. You look out over the
+horizon, and are enchanted by the view. To the east, a rocky path leads down 
+into one of the huge canyons surrounding the mountain. High above you, the 
+peak soars into the sky.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20232
+D4
+~
+~
+0 -1 20253
+S
+#20232
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20225
+D3
+~
+~
+0 -1 20231
+S
+#20233
+Canyon Path~
+    You are walking along a narrow path between two large canyons. To the
+north, the path widens some, and to the east, the path dissappears into a
+narrow canyon. It the distance, you hear the loud echo of a rockslide crashing
+to the canyon floor.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20229
+D1
+~
+~
+0 -1 20242
+S
+#20234
+South-West Of The Peak~
+    You are very near to the mountain peak. You stand high above the canyons
+which surround the mountain, and enjoy the great view. There is a path which 
+leads down, and slowly disapears between two high cliff walls. Above you, the 
+peak of the mountain soars high into the sky.
+~
+202 4098 5
+D4
+~
+~
+0 -1 20253
+D5
+~
+~
+0 -1 20236
+S
+#20235
+South-East Of The Peak~
+    You are standing at the base of the mountain peak. Far below you, a rocky
+path winds it's way between the cliff walls of a huge canyon. The ground is 
+very rocky, and there are no plants or animals. You look out over the horizon,
+and as far as you can see, there is only rocks and stone. High above you, the
+mountain peak rises above the horizon.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20236
+D4
+~
+~
+0 -1 20253
+S
+#20236
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20237
+D3
+~
+~
+0 -1 20235
+S
+#20237
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20239
+D2
+~
+~
+0 -1 20241
+D3
+~
+~
+0 -1 20236
+S
+#20238
+Wide Mountain Canyon~
+   You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20227
+D2
+~
+~
+0 -1 20239
+S
+#20239
+Wide Mountain Canyon~
+   You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20238
+D3
+~
+~
+0 -1 20237
+S
+#20240
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20234
+D2
+~
+~
+0 -1 20242
+S
+#20241
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20237
+D5
+~
+~
+0 -1 20245
+S
+#20242
+Narrow Canyon~
+    You are in a narrow canyon of a large mountain range, high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20240
+D1
+~
+~
+0 -1 20243
+D3
+~
+~
+0 -1 20233
+S
+#20243
+Narrow Canyon~
+    You are in a narrow canyon of a large mountain range, high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20244
+D2
+~
+~
+0 -1 20249
+D3
+~
+~
+0 -1 20242
+S
+#20244
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20245
+D2
+~
+~
+0 -1 20250
+D3
+~
+~
+0 -1 20243
+S
+#20245
+Wide Mountain Canyon~
+   You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D3
+~
+~
+0 -1 20244
+D4
+~
+~
+0 -1 20241
+S
+#20246
+Narrow Canyon~
+    You are in a narrow canyon of a large mountain range, high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20247
+D3
+~
+~
+0 -1 20252
+S
+#20247
+Narrow Canyon~
+    You are in a narrow canyon of a large mountain range, high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D1
+~
+~
+0 -1 20248
+D2
+~
+~
+0 -1 20201
+D3
+~
+~
+0 -1 20246
+S
+#20248
+Narrow Canyon~
+    You are in a narrow canyon of a large mountain range, high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D3
+~
+~
+0 -1 20247
+D4
+~
+~
+0 -1 20249
+S
+#20249
+Narrow Canyon~
+   You are in a narrow canyon of a large mountain range, high cliffs surround
+you on all sides. There have been many rock slides, and the path is partially
+blocked by stones. A loud rumbling sound echoes through the canyon as huge
+boulders roll from the high cliffs in the distance.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20243
+D5
+~
+~
+0 -1 20248
+S
+#20250
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20244
+D1
+~
+~
+0 -1 20251
+S
+#20251
+Wide Mountain Canyon~
+   You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D2
+~
+~
+0 -1 20252
+D3
+~
+~
+0 -1 20250
+S
+#20252
+Wide Mountain Canyon~
+    You are standing on a path which leads through a huge mountainous canyon.
+The path is covered with rocks and stones, and climbing is difficult. Overhead,
+the cliff walls are very unstable, and you feel the need to hurry on, fearing
+that a rock slide could occur at any moment.
+~
+202 4098 5
+D0
+~
+~
+0 -1 20251
+D1
+~
+~
+0 -1 20246
+S
+#20253
+Top Of The Mountain~
+    You have reached the peak of a mighty mountain range. From here, you pause
+and look out over the horizon. The landscape is barren and wasted. There is no
+life at all, only rock and stone. Here at the mountain peak, you notice many
+large craters, and the rock is burned and cracked. There seems to have been a
+great battle here long ago.
+~
+202 4102 5
+D0
+~
+~
+0 -1 20224
+D1
+~
+~
+0 -1 20231
+D2
+~
+~
+0 -1 20234
+D3
+~
+~
+0 -1 20230
+D5
+~
+~
+0 -1 20235
+S
+#99999
+
+#RESET
+M 0 20014   1 20253   Drijen (Top Of The Mountain)
+E 0 20005   1    17     some rubble from a demolished mountain
+M 0 20010  21 20203   a pebble (Narrow Bend)
+M 0 20010  21 20205   a pebble (Narrow Canyon)
+M 0 20010  21 20207   a pebble (Narrow Canyon)
+M 0 20010  21 20211   a pebble (Narrow Canyon)
+M 0 20010  21 20213   a pebble (Wide Mountain Canyon)
+M 0 20010  21 20215   a pebble (Wide Mountain Canyon)
+M 0 20010  21 20216   a pebble (Wide Mountain Canyon)
+M 0 20010  21 20223   a pebble (Wide Mountain Canyon)
+M 0 20010  21 20224   a pebble (Nort Of The Peak)
+M 0 20010  21 20225   a pebble (Wide Mountain Canyon)
+M 0 20010  21 20229   a pebble (Canyon Path)
+M 0 20010  21 20230   a pebble (West Of The Peak)
+M 0 20010  21 20233   a pebble (Canyon Path)
+M 0 20010  21 20234   a pebble (South-West Of The Peak)
+M 0 20010  21 20237   a pebble (Wide Mountain Canyon)
+M 0 20010  21 20239   a pebble (Wide Mountain Canyon)
+M 0 20010  21 20240   a pebble (Wide Mountain Canyon)
+M 0 20010  21 20245   a pebble (Wide Mountain Canyon)
+M 0 20010  21 20247   a pebble (Narrow Canyon)
+M 0 20010  21 20251   a pebble (Wide Mountain Canyon)
+M 0 20011  21 20203   a large rock (Narrow Bend)
+M 0 20011  21 20204   a large rock (Narrow Canyon)
+M 0 20011  21 20206   a large rock (Narrow Canyon)
+M 0 20011  21 20207   a large rock (Narrow Canyon)
+M 0 20011  21 20210   a large rock (Narrow Canyon)
+M 0 20011  21 20214   a large rock (Narrow Canyon)
+M 0 20011  21 20215   a large rock (Wide Mountain Canyon)
+M 0 20011  21 20221   a large rock (Narrow Canyon)
+M 0 20011  21 20222   a large rock (Wide Mountain Canyon)
+M 0 20011  21 20224   a large rock (Nort Of The Peak)
+M 0 20011  21 20227   a large rock (Wide Mountain Canyon)
+M 0 20011  21 20229   a large rock (Canyon Path)
+M 0 20011  21 20233   a large rock (Canyon Path)
+M 0 20011  21 20231   a large rock (East Of The Peak)
+M 0 20011  21 20236   a large rock (Wide Mountain Canyon)
+M 0 20011  21 20237   a large rock (Wide Mountain Canyon)
+M 0 20011  21 20239   a large rock (Wide Mountain Canyon)
+M 0 20011  21 20243   a large rock (Narrow Canyon)
+M 0 20011  21 20247   a large rock (Narrow Canyon)
+M 0 20011  21 20249   a large rock (Narrow Canyon)
+M 0 20011  21 20251   a large rock (Wide Mountain Canyon)
+M 0 20012  15 20210   a boulder (Narrow Canyon)
+M 0 20012  15 20213   a boulder (Wide Mountain Canyon)
+M 0 20012  15 20216   a boulder (Wide Mountain Canyon)
+M 0 20012  15 20231   a boulder (East Of The Peak)
+M 0 20012  15 20233   a boulder (Canyon Path)
+M 0 20012  15 20237   a boulder (Wide Mountain Canyon)
+M 0 20012  15 20248   a boulder (Narrow Canyon)
+M 0 20012  15 20250   a boulder (Wide Mountain Canyon)
+M 0 20012  15 20224   a boulder (Nort Of The Peak)
+M 0 20012  15 20243   a boulder (Narrow Canyon)
+M 0 20013   1 20243   Elemental Stone (Narrow Canyon)
+E 1 20016   1    17     a strange metal ore
+S
+
+#SHOPS
+$
+#END of Plain of Earth.

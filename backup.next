@@ -1,0 +1,5 @@
+tmsBase=/var/tmp/MUD/diku
+
+cd $tmsBase
+
+cp soback.tar.gz diku.backup/`date +%d.%H`.soback.tar.gz

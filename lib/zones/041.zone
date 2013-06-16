@@ -1,0 +1,652 @@
+#41 Zone.
+NAME       : Moria level 3-4~
+INFO       : 반지의 전쟁 후반부의 격돌 장소에서 따온 존.~
+PATH       : Turnning 에서 8n.w.w.n.w.w + w.d or n.w.w.e~
+ALIGN      : 2
+AGGRESSIVE : 2
+LEVEL      : 10 ~ 15
+MAX        : 4199
+LIFESPAN   : 40
+RESET      : 2
+
+#MOBILES
+#4100
+mage~
+the Mage~
+A small intelligent looking mage is standing here. It looks like he
+knows his way with the magic. 
+~
+His IQ makes almost any dikumud player look stupid..
+~
+558 24 -100 S
+13 10 2 3d20+100 2d6+0
+1500 17000
+8 8 1
+#4101
+troll~
+the troll~
+A large mean-looking troll is here.
+~
+Well looks dangerous.!
+~
+46 16 -800 S
+12 8 1 2d10+100 2d7+1
+500 15000
+8 8 1
+#4102
+snake~
+the snake~
+A large green snake, looks like a guardian for an evil force.
+~
+You see a evil creature.
+~
+47 0 -700 S
+10 8 5 2d30+50 3d5+2
+0 9000
+8 8 1
+#4103
+thief~
+the Thief~
+A thief, all dressed in black.
+~
+Well COUNT you money..!
+~
+2124 0 100 S
+8 13 3 1d10+100 2d5+1
+100 4000
+8 8 1
+#4104
+orc~
+the orc~
+A ugly orc is standing here.
+~
+Yrkk..
+~
+236 0 -200 S
+7 14 4 1d5+90 2d4+1
+200 2250
+8 8 1
+#4105
+centipede~
+a centipede~
+A small harmless centipede is here.
+~
+Well it doesn't seem to pay any attention towards you.
+~
+10 0 300 S
+6 15 4 3d10+50 1d8+1
+0 1500
+8 8 0
+#4106
+warrior~
+the Warrior~
+A human warrior is here. He has a evil grin in his face.
+~
+He doesn't look friendly at all...
+~
+364 16 -300 S
+9 10 3 3d10+100 2d6+1
+500 9000
+8 8 1
+#4107
+kobold~
+the kobold~
+A green kobold is here.
+~
+It looks slimy..
+~
+108 0 -100 S
+7 14 4 2d10+20 1d10+0
+20 3000
+8 8 1
+#99999
+
+#OBJECTS
+#4100
+blade black demon~
+a black demon blade.~
+A black demon blade is here, you sense the forces of evil
+controling the weapon.~
+~
+5 2560 8193
+0 3 4 11
+8 10000 0 0
+E
+blade~
+You'll become as evil as the weapon, if you use it!
+~
+#4101
+gloves~
+a swordmans gloves~
+Some gloves is here. They look like the right kind of
+equipment to use when fighting.~
+~
+9 512 129
+0 0 0 0
+1 35000 3 0
+E
+gloves~
+Looks very usefull in combat.
+~
+A
+18 2
+A
+19 1
+#4102
+scroll ysafg~
+a scroll which reads "ysafg"~
+A scroll which reads "ysafg", it looks very fragile and quite old.~
+~
+2 0 1
+1 53 0 0
+1 1500 0 0
+E
+scroll~
+It looks informative.
+~
+#4103
+slime mold~
+a green slime mold~
+A green slime mold is here. Stinks like sh**.~
+~
+19 0 1
+24 0 0 0
+1 20 8 0
+E
+smile mold~
+It wasn't mend to be food, - Certainly not for humans.
+~
+#4104
+slime mold~
+a green slime mold~
+A green slime mold is here. Stinks like sh**.~
+~
+19 0 1
+24 0 0 1
+1 20 8 0
+E
+smile mold~
+It wasn't mend to be food, - Certainly not for humans.
+~
+#99999
+
+#ROOMS
+#4100
+The tunnel~
+   Suddenly you feel that the tunnel leads slightly down.. The only 
+exit is to the west, and it leads down..
+~
+41 13 3
+D3
+~
+~
+0 0 4101
+S
+#4101
+The long tunnel~
+   You are in a long east-west leading tunnel. The tunnel is quite
+wide at this point.
+~
+41 9 3
+D1
+~
+~
+0 0 4100
+D3
+~
+~
+0 0 4102
+S
+#4102
+The long tunnel~
+   You are in a long east-west leading tunnel. The tunnel becomes
+narrow to the west.
+~
+41 9 3
+D1
+~
+~
+0 0 4101
+D3
+~
+~
+0 0 4103
+S
+#4103
+The long tunnel~
+   You are in a long east-west leading tunnel. The tunnel is quite
+narrow at this point. You notice a small hole leading south.
+~
+41 9 3
+D1
+~
+~
+0 0 4102
+D2
+~
+~
+0 0 4106
+D3
+~
+~
+0 0 4104
+S
+#4104
+The long tunnel~
+   You are in a long east-west leading tunnel. The tunnel starts sloping
+down towards the west.
+~
+41 9 3
+D1
+~
+~
+0 0 4103
+D3
+~
+~
+0 0 -1
+S
+#4105
+The golden cave~
+   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the south and west.
+~
+41 8 1
+E
+light gold golden~
+It looks good, but as you look closely you notice that it has no value.
+~
+D2
+~
+~
+0 0 4108
+D3
+~
+~
+0 0 4106
+S
+#4106
+The golden cave~
+   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the south and east, to the north i a narrow
+tunnel.
+~
+41 8 1
+E
+light gold golden~
+It looks good, but as you look closely you notice that it has no value.
+~
+D0
+~
+~
+0 0 4103
+D1
+~
+~
+0 0 4105
+D2
+~
+~
+0 0 4109
+S
+#4107
+The passage~
+   You are in a small passage, it leads south, to the east is a golden
+cave.
+~
+41 9 3
+D2
+~
+~
+0 0 4113
+D3
+~
+~
+0 0 4108
+S
+#4108
+The golden cave~
+   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the north and west, east from you there is
+a small passage.
+~
+41 8 1
+E
+light gold golden~
+It looks good, but as you look closely you notice that it has no value.
+~
+D0
+~
+~
+0 0 4105
+D1
+~
+~
+0 0 4107
+D3
+~
+~
+0 0 4109
+S
+#4109
+The golden cave~
+   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the south, east and north.
+~
+41 8 1
+E
+light gold golden~
+It looks good, but as you look closely you notice that it has no value.
+~
+D0
+~
+~
+0 0 4106
+D1
+~
+~
+0 0 4108
+D2
+~
+~
+0 0 4114
+S
+#4110
+The hole~
+   You are standing by a large hole in the floor, when you looks down
+into the darkness you feel frightened.
+~
+41 13 3
+D3
+~
+~
+0 0 4111
+D5
+~
+~
+0 0 -1
+S
+#4111
+The tunnel~
+   You are in a small tunnel, it leads from east to the west.
+~
+41 9 3
+D1
+~
+~
+0 0 4110
+D3
+~
+~
+0 0 4112
+S
+#4112
+The tunnel~
+   You are in a larger tunnel, it leads from west to east.
+~
+41 9 3
+D1
+~
+~
+0 0 4111
+D3
+~
+~
+0 0 4113
+S
+#4113
+The passage~
+   You are in a passage that leads towards the south. To the east 
+you see a tunnel.
+~
+41 9 3
+D0
+~
+~
+0 0 4107
+D1
+~
+~
+0 0 4112
+D2
+~
+~
+0 0 4116
+S
+#4114
+The golden cave~
+   You are in a giant cave, all the walls are shining with a soft golden
+light. The cave continues to the north, to the west you see a dark 
+passsage.
+~
+41 8 1
+E
+light gold golden~
+It looks good, but as you look closely you notice that it has no value.
+~
+D0
+~
+~
+0 0 4109
+D3
+~
+~
+0 0 4115
+S
+#4115
+The dark passage.~
+   You are in a dark passage, that leads east. In the ceiling you notice
+a small hole, just big enough to pass through.
+~
+41 9 3
+D1
+~
+~
+0 0 4114
+D4
+~
+~
+0 0 4021
+S
+#4116
+The passage~
+   You are in a passage that leads north-south. You notice a small
+light to the south.
+~
+41 9 3
+E
+light~
+Well you can't see where it comes from..
+~
+D0
+~
+~
+0 0 4113
+D2
+~
+~
+0 0 4120
+S
+#4117
+The secret tunnel~
+   You are in a secret tunnel that leads north, to the south you see
+a small chamber.
+~
+41 9 3
+D0
+~
+~
+0 0 4114
+D2
+~
+~
+0 0 4122
+S
+#4118
+The cave~
+   You are in a light cave, from torches several feets abouve your
+head fire lights the room. The cave continues to the west and south.
+To the north a small hole leads to a tunnel.
+~
+41 8 1
+D0
+~
+~
+0 0 4111
+D2
+~
+~
+0 0 4123
+D3
+~
+~
+0 0 4119
+S
+#4119
+The cave~
+   You are in a light cave, from torches several feets abouve your
+head fire lights the room. The cave continues to the east and south.
+~
+41 8 1
+D1
+~
+~
+0 0 4118
+D2
+~
+~
+0 0 4124
+D3
+~
+~
+0 0 4121
+S
+#4120
+The passage~
+   You are in a north-south leading passage. To the south you see
+light.
+~
+41 9 3
+E
+light~
+It nearly is enough to light the passage.
+~
+D0
+~
+~
+0 0 4116
+D2
+~
+~
+0 0 4125
+S
+#4121
+The secret tunnel~
+   You are in a secret tunnel that leads west, you feel evilness
+approaching you as you continue west.
+~
+41 9 3
+D3
+~
+~
+0 0 4122
+S
+#4122
+The secret chamber~
+   You are in a secret chamber, the room is filled with an evil
+feeling.
+~
+41 9 3
+D0
+~
+~
+0 0 4117
+S
+#4123
+The cave~
+   You are in a light cave, from torches several feets abouve your
+head fire lights the room. The cave continues to the north and west.
+~
+41 8 1
+D0
+~
+~
+0 0 4118
+D3
+~
+~
+0 0 4124
+S
+#4124
+The cave~
+   You are in a light cave, from torches several feets abouve your
+head fire lights the room. The cave continues to the east and north.
+To the west a passage leads north.
+~
+41 8 1
+D0
+~
+~
+0 0 4119
+D1
+~
+~
+0 0 4123
+D3
+~
+~
+0 0 4125
+S
+#4125
+The passage~
+   You are in a passage, to the east you see a cave. Light from the
+cave lights up the passage. To the north the passage leads into
+the darkness..
+~
+41 8 3
+D0
+~
+~
+0 0 4120
+D1
+~
+~
+0 0 4124
+S
+#99999
+
+#RESET
+*
+* Level 1
+*
+M 0  4100   1  4114   the Mage (The golden cave)
+G 1  4102   2             a scroll which reads "ysafg"
+*
+M 0  4101   1  4122   the troll (The secret chamber)
+G 1  4100   2             a black demon blade.
+*
+M 0  4102   3  4111   the snake (The tunnel)
+G 1  4103  10             a green slime mold
+M 0  4102   3  4111   the snake (The tunnel)
+G 1  4104   3             a green slime mold
+*
+M 0  4102   3  4103   the snake (The long tunnel)
+G 1  4103  10             a green slime mold
+G 1  4104   3             a green slime mold
+*
+M 0  4103   3  4124   the Thief (The cave)
+G 1  4104  10             a green slime mold
+*
+M 0  4105   3  4108   a centipede (The golden cave)
+*
+M 0  4106   2  4113   the Warrior (The passage)
+G 1  4101   1             a swordmans gloves
+*
+M 0  4107   1  4119   the kobold (The cave)
+G 1  4104  10             a green slime mold
+*
+S
+
+#SHOPS
+$
+#END of Moria level 3-4.

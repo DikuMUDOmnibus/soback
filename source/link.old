@@ -1,0 +1,11 @@
+dmsBase=/var/tmp/teof
+
+cd $dmsBase/diku/obj
+
+if test "x$1" = "xtest"; then
+    echo "ld -L/usr/ucblib -lc -lsocket -lnsl -lucb -o $dmsBase/diku/dms.tmp *.o"
+    ld -L/usr/ucblib -lc -lsocket -lnsl -lucb -o $dmsBase/diku/dms.tmp *.o
+else
+    echo "ld -L/usr/ucblib -lc -lsocket -lnsl -lucb -o $dmsBase/dms.tmp *.o"
+    ld -L/usr/ucblib -lc -lsocket -lnsl -lucb -o $dmsBase/dms.tmp *.o
+fi

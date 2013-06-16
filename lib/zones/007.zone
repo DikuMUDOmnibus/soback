@@ -1,0 +1,2781 @@
+#7 Zone.
+NAME       : Rome~
+INFO       : Jupiter, Venus 등 정상급의 mob 과 20 레벨대의 exp mob 이 공존.~
+PATH       : Wasteland 의 mainhall 에서 d.4e.n~
+ALIGN      : 2
+AGGRESSIVE : 2
+LEVEL      : 20 ~ 40
+MAX        : 799
+LIFESPAN   : 45
+RESET      : 2
+
+#MOBILES
+#700
+judge adjudicator~
+the adjudicator~
+An adjudicator is watching the games intently.
+~
+The adjudicator is a retired gladiator and scars cover all exposed parts of his
+body.  Although he is getting on in years, he remains healthy and fit.
+~
+10 128 100 S
+15 5 3 3d7+180 2d7+3
+2000 19000
+8 8 1
+#701
+scorekeeper~
+the Scorekeeper~
+A scorekeeper has one eye on his stopwatch and the other on a clipboard.
+~
+The scorekeeper is a young man of about 25 years of age and is very intently
+studying his clipboard.
+~
+10 0 100 S
+7 14 4 3d5+80 1d4+3
+500 6500
+8 8 1
+#703
+spectator fan~
+a spectator~
+A spectator is here watching the games.
+~
+The spectator is filthy, half drunk and screaming his head off.
+~
+10 0 -100 S
+15 3 3 2d6+160 2d4+7
+100 17000
+6 6 0
+#704
+noble nobleman~
+the Nobleman~
+A nobleman stands here looking aloof.
+~
+The nobleman is dressed in fine clothes and jewelry and has a very snobbish
+attitude.  While he is getting old and his hair and beard are streaked with
+gray, he is by no means an easy target.
+~
+138 8 500 S
+18 3 0 4d6+250 2d7+10
+3500 24000
+8 8 1
+#705
+slave~
+the slave~
+A slave stands here, wishing that he was free.
+~
+A very pretty young woman who was captured instead of being killed when the
+Roman legions subjugated her land.
+~
+10 0 0 S
+3 18 7 3d6+30 1d7+0
+10 350
+8 8 2
+#706
+gladiator~
+the gladiator~
+There is a gladiator standing here.
+~
+A well muscled man who is very heavily armored and armed to the teeth.  He
+lives for combat.
+~
+10 0 -250 S
+20 0 -3 4d7+500 3d8+0
+700 40000
+8 8 1
+#707
+driver~
+the chariot driver~
+There is a chariot driver here.
+~
+You see a very slight and small individual whose whole life is centered around
+nothing but horses and speed.
+~
+10 0 100 S
+20 0 0 3d7+450 3d6+3
+1200 35000
+8 8 1
+#708
+coach trainer~
+the Coach~
+There is a coach standing here, going over last minute strategy.
+~
+~
+10 0 0 S
+25 0 -4 4d5+1100 5d6+12
+500 130000
+8 8 1
+#709
+healer~
+the healer~
+A healer is standing here.
+~
+You see a young man, still learning about magickal healing, wearing a white 
+coat and using a stethoscope.
+~
+524298 8 900 S
+15 5 3 2d7+190 1d7+6
+1500 17000
+8 8 1
+#710
+herbalist young lady beautiful~
+the herbalist~
+There is a beautiful young lady here, carrying herbs to help the healer with.
+~
+The herbalist is a very beautiful young lady who is about 22 years old.  She 
+has deep brown eyes and shoulder-length chestnut hair.  Her body is perfectly 
+proportioned and she stands about 5' 5" tall.
+~
+138 8 1000 S
+15 3 2 3d4+190 2d7+4
+500 19000
+8 8 2
+#711
+shopkeeper~
+Titus's shopkeeper~
+Titus's shopkeeper is here, minding the store.
+~
+The shopkeeper is an older man in his middle to late fifties and looks like
+he enjoys the quiet life.  There is a long scar running from the edge of his
+mouth to his right ear, making it look like he is always smiling.
+~
+10 136 750 S
+28 -3 -2 4d10+2000 3d8+12
+100000 250000
+8 8 1
+#712
+peddler~
+the peddler~
+A poor peddler is standing here, trying to support his meager existence.
+~
+You see a small, dirty man who doesn't look very healthy.  
+~
+200 0 250 S
+9 8 6 3d4+120 2d8+0
+100 6000
+8 8 1
+#713
+page~
+the page~
+A page stands here, waiting to run an errand.
+~
+You see a young boy who looks very strong and very fast.  He has the look of
+a scholar about him.
+~
+10 0 0 S
+14 7 3 3d6+170 2d4+6
+1 12000
+8 8 1
+#714
+plaintiff~
+the plaintiff~
+The plaintiff stands here, pleading his case.
+~
+~
+10 0 0 S
+17 4 6 3d6+240 2d6+7
+1000 23000
+8 8 1
+#715
+master~
+the ticket master~
+A ticket master is here, looking at you expectantly.
+~
+~
+10 0 100 S
+25 0 -3 4d8+1300 4d6+11
+140000 60000
+8 8 1
+#716
+vendor~
+the stadium vendor~
+A stadium vendor is walking here, selling overpriced hotdogs and beer.
+~
+The vendor is a scruffy looking man who isn't afraid of a fight and looks like
+he's had just about enough of smart-mouthed spectators.  
+~
+72 0 -150 S
+16 0 -3 3d4+350 3d5+1
+500 32000
+8 8 1
+#717
+citizen~
+the citizen~
+A citizen of Rome is standing here.
+~
+~
+72 0 900 S
+12 8 2 1d4+150 2d8+1
+100 12000
+8 8 1
+#718
+gateguard guard~
+the gateguard~
+A gateguard stands here, tending the gate.
+~
+You see a strong, loyal public defender.
+~
+142 0 1000 S
+17 5 1 3d6+300 2d6+5
+500 25000
+8 8 1
+#719
+soldier~
+the soldier~
+A soldier on leave is walking around looking for entertainment.
+~
+You see a member of one of the emperor's elite legions.  He looks VERY strong.
+You have this vague feeling that his entertainment isn't going to be a very
+wholesome activity.
+~
+72 0 300 S
+17 4 -1 3d5+220 2d6+9
+1281 28000
+8 8 1
+#720
+emperor caesar~
+Caesar~
+Julius Caesar, the Emperor of Rome, is sitting here.
+~
+You see a man who is dressed in the finest of clothes, has eaten the best of
+foods and lived in the most opulent palace that Rome has ever known. 
+~
+1048874 136 990 S
+40 -6 -10 10d5+12000 5d7+60
+24763 1200000
+8 8 1
+#721
+guard royal bodyguard~
+the royal bodyguard~
+There is a royal bodyguard here, ready to die for the emperor, if necessary.
+~
+The bodyguard is dressed in the finest of armor and wields only the deadliest 
+of weapons.  He is very strong and would put up one hell of a fight.  He has
+been trained to be suspicious of all but the most innocent visitors, and likely
+to take offense of anyone with less than pure intentions.
+~
+1049898 8 990 S
+28 -4 -3 3d6+2500 1d6+42
+5000 400000
+8 8 1
+#722
+judge justice~
+the judge~
+A judge is standing here, reading a case.
+~
+~
+10 0 990 S
+27 -3 -8 20d5+2200 1d7+35
+5000 350000
+6 6 1
+#723
+master scheduler~
+the master scheduler~
+The master scheduler is here, writing in an appointment book.
+~
+~
+10 0 900 S
+23 -2 -3 4d4+1500 5d6+2
+28000 280000
+8 8 1
+#724
+slimeball slime ball green~
+the slimeball~
+A green ball of slime is hanging over you, oozing downward.
+~
+There is a green "ball" of slime oozing from the coating on the walls.
+~
+46 40 -500 S
+12 9 2 3d4+145 2d6+2
+0 13000
+8 8 0
+#725
+Froboz~
+Froboz~
+Froboz the wizard is standing here, working on a new spell.
+~
+You see a middle-aged man who's knowledge of magic, both offensive and 
+defensive, is legendary.  He literally glows with a pink aura.
+~
+10 136 300 S
+28 -2 -3 5d10+1000 4d8+14
+32000 200000
+8 8 1
+#726
+Titus~
+Titus Andronicus~
+Titus Andronicus is standing here, polishing a few swords.
+~
+~
+42 136 500 S
+32 -4 -9 1d5+2500 5d8+14
+31000 450000
+8 8 1
+#727
+senator~
+the senator~
+A senator is here, waiting for debate to begin.
+~
+~
+10 0 350 S
+25 -1 -10 3d5+1200 6d6+1
+500 150000
+8 8 1
+#728
+bailiff~
+the bailiff~
+The bailiff stands here, keeping order in the courtroom.
+~
+~
+10 8 900 S
+23 1 -2 1d5+800 3d7+4
+1000 100000
+8 8 1
+#729
+defendant~
+the defendant~
+The defendant stands here, pleading her case.
+~
+~
+10 0 200 S
+16 5 3 4d6+240 2d7+8
+500 25000
+8 8 2
+#730
+jupiter~
+Jupiter~
+Jupiter, King of the Gods, is resting here.
+~
+He is the strongest of the Gods, and certainly no easy mark!  His powers
+transcend the plane of the physical, and could easily kill an unprepared
+mortal.
+~
+1056586 136 1000 S
+45 -30 -23 10d10+30000 6d6+83
+100000 7000000
+8 8 1
+#731
+Venus~
+Venus~
+Venus, the Goddess of Beauty and Knowledge, is resting here.
+~
+~
+5198 2184 1000 S
+42 -25 -21 10d10+22000 3d10+75
+100000 3000000
+8 8 2
+#732
+Mars~
+Mars~
+Mars, the God of War and State, is resting here.
+~
+~
+4394 2184 0 S
+42 -30 -23 10d10+24000 5d3+88
+100000 3500000
+8 8 1
+#733
+Mercury~
+Mercury~
+Mercury, the messenger of the Gods, is standing here.
+~
+~
+4362 2184 1000 S
+40 -20 -23 10d10+22000 3d6+63
+100000 350000
+8 8 1
+#734
+shopkeeper~
+Froboz's shopkeeper~
+Froboz's shopkeeper is here, minding the store.
+~
+The shopkeeper is an older man in his middle to late fifties and looks like
+he enjoys the quiet life.  There is a long scar running from the edge of his
+mouth to his right ear, making it look like he is always smiling.
+~
+10 8 650 S
+23 0 -2 4d10+400 1d8+14
+5000 80000
+8 8 1
+#735
+executioner~
+The executioner~
+The executioner stands here, waiting to torture some sorry soul.
+~
+You see a burly man who is wearing a black hood that obscures his face.  He
+has a very sadistic attitude and clearly loves his work.
+~
+46 8 -1000 S
+20 0 0 3d6+350 5d3+10
+1000 80000
+8 8 1
+#736
+baker~
+the Baker~
+The Baker looks at you calmly, wiping flour from his face with one hand.
+~
+A fat, nice looking baker. But you can see that he has many scars on his
+body.
+~
+10 8 900 S
+33 0 -10 6d10+3500 2d8+22
+2000 300000
+8 8 1
+#737
+grocer~
+the Grocer~
+A grocer stands at the counter, with a slightly impatient look on his face.
+~
+A tall grocer, who moves two 200 pounds bag of flour around on his shoulders.
+~
+10 8 900 S
+33 -2 -10 1d1+3000 2d8+22
+20000 240000
+8 8 1
+#99999
+
+#OBJECTS
+#700
+ring pewter~
+a pewter ring~
+There is a pewter ring lying here.~
+~
+11 96 3
+0 0 0 0
+5 15000 0 0
+A
+13 30
+A
+2 1
+#701
+bronze belt~
+a bronze belt~
+There is a bronze belt on the ground here.~
+~
+9 32 2049
+4 0 0 0
+5 15000 0 0
+A
+1 1
+A
+18 1
+#702
+helmet roman combat~
+a Roman combat helmet~
+A Roman combat helmet has been left here.~
+~
+9 1 17
+8 0 0 0
+25 12000 0 0
+A
+2 1
+A
+18 1
+#703
+whistle~
+a coach's whistle~
+A coach's whistle has been left here.~
+~
+8 128 5
+0 0 0 0
+1 1000 0 0
+#704
+stethoscope~
+a stethoscope~
+There is an odd object laying on the ground here.~
+~
+11 0 5
+0 0 0 0
+1 15000 0 0
+A
+18 4
+A
+19 -2
+#705
+hairpin~
+a hairpin~
+A woman's hairpin is lying here.~
+~
+11 256 17
+0 0 0 0
+1 12000 0 0
+A
+1 1
+A
+3 1
+#706
+apple~
+an apple~
+A delicious looking apple has been left here.~
+~
+19 0 1
+4 0 0 0
+1 5 5 10
+#707
+orange~
+an orange~
+A sun-ripened orange has been left here.~
+~
+19 0 1
+6 0 0 0
+1 6 6 10
+#708
+sandals~
+a pair of leather sandals~
+A pair of leather sandals has been dropped here.~
+~
+9 0 65
+2 0 0 0
+2 250 0 0
+#710
+frank dog hotdog~
+a hotdog~
+A hotdog loaded with chili and onions has been left here.~
+~
+19 0 1
+8 0 0 0
+1 11 11 10
+#711
+bracelet silver gold~
+a silver and gold bracelet~
+A bracelet, made from silver and gold, has been carelessly left here.~
+~
+11 130 4097
+0 0 0 0
+14 10000 0 0
+A
+12 25
+A
+19 -1
+#712
+sapphire ring~
+a sapphire ring~
+A sapphire ring has been left here.~
+~
+9 0 3
+0 0 0 0
+20 35000 0 0
+A
+18 2
+A
+17 -9
+#713
+pendant jade~
+a jade pendant~
+A beautiful jade pendant has been left here.~
+~
+11 0 5
+0 0 0 0
+30 16500 0 0
+A
+3 2
+A
+4 2
+#714
+robe~
+Froboz's robe~
+Froboz's robe has been dropped here.~
+~
+9 0 5
+10 0 0 0
+5 15000 0 0
+A
+3 1
+A
+24 -5
+#715
+tempered sword~
+a tempered sword~
+A nasty looking tempered sword is lying here.~
+~
+5 2 8193
+0 3 8 3
+16 15000 0 0
+A
+18 -2
+#716
+quenched sword~
+a quenched sword~
+A very bloody, but quenched, sword has been left here.~
+~
+5 32 8193
+0 3 5 3
+14 10000 0 0
+#717
+bracers moorish~
+a pair of Moorish bracers~
+A pair of Moorish bracers has been dropped here.~
+~
+9 1 257
+8 0 0 0
+15 250000 0 0
+A
+2 2
+A
+19 2
+#718
+plate breast roman combat~
+a Roman combat breast plate~
+A piece of military combat plate has been left here.~
+~
+9 1 9
+8 0 0 0
+135 50000 0 0
+A
+2 1
+A
+18 -2
+#719
+boots combat~
+a pair of Roman combat boots~
+A pair of combat boots have been left here.~
+~
+9 1 65
+8 0 0 0
+45 8750 0 0
+A
+1 2
+A
+19 -1
+#720
+thunderbolt~
+Jupiter's Thunderbolt~
+Jupiter's Thunderbolt has been left here.~
+~
+5 66 8193
+13 5 5 6
+22 900000 31 1
+A
+18 3
+A
+19 3
+#721
+loincloth~
+a red loincloth~
+Mar's red loincloth is resting here.~
+~
+9 1026 2049
+12 0 0 0
+30 500000 29 0
+A
+31 5
+A
+2 2
+#722
+crystal necklace~
+a crystal necklace~
+Someone has left the crystal necklace of knowledge here.~
+~
+9 2 5
+12 0 0 0
+35 250000 26 0
+A
+17 -12
+A
+4 2
+#723
+winged sandals~
+a pair of winged sandals~
+Mercury's winged sandals have been left here.~
+~
+9 2049 65
+8 0 0 0
+14 180000 24 0
+A
+2 2
+A
+14 100
+#724
+dark grey scroll~
+a dark grey scroll~
+A scroll has been carelessly left here.~
+~
+2 32 16385
+20 4 15 1
+2 5000 1 10
+#725
+ornate scroll~
+an ornate scroll~
+An ornate scroll has been left here.~
+~
+2 0 16385
+18 -1 -1 16
+2 7000 1 0
+#726
+plain scroll~
+a plain scroll~
+A plain scroll is lying on the ground.~
+~
+2 0 16385
+15 -1 15 1
+2 8000 1 0
+#727
+bag herbs~
+a bag of herbs~
+There is a small, sweet-smelling bag here on the ground.~
+~
+3 2 16385
+30 4 4 43
+5 15000 1 10
+#728
+staff kodarta~
+a Kodarta staff~
+A Kodarta staff has been carelessly left here.~
+~
+4 0 16385
+17 3 3 81
+6 35000 1 0
+#729
+wand prototype~
+a prototype wand~
+There is a prototype of a new magical wand lying here.~
+~
+3 672 16385
+30 4 3 26
+26 20000 10 0
+A
+18 -3
+A
+24 8
+#730
+blaze orange flask potion~
+a flask~
+There is a flask, containing a blaze orange potion, resting here.~
+~
+10 0 1
+9 4 17 33
+8 1000 0 0
+#731
+mace~
+an executioner's mace~
+An executioner's mace is lying here.~
+~
+5 128 8193
+0 5 7 7
+13 30000 18 0
+A
+2 -2
+A
+1 -2
+#740
+rusted key~
+a rusted key~
+There is a rusted key here.~
+~
+18 4096 1
+1 0 0 0
+1 0 0 10
+#741
+double key~
+a double sided key~
+A double sided key has been left here.~
+~
+18 4096 1
+2 0 0 0
+10 0 0 10
+#742
+diamond key~
+a diamond studded key~
+A diamond studded key is sitting on the ground.~
+~
+18 4096 1
+2 0 0 0
+30 0 0 10
+#743
+pearl key~
+a key with a pearl handle~
+A key with a peral handle is sitting on the ground.~
+~
+18 4096 1
+1 0 0 0
+10 0 0 10
+#744
+aquamarine key~
+an aquamarine key~
+There is an aquamarine colored key here.~
+~
+18 4096 1
+1 0 0 0
+10 0 0 10
+#745
+opal key~
+an opal key~
+An opal key has been left here.~
+~
+18 4096 1
+2 0 0 0
+20 0 0 10
+#746
+steel key~
+a steel key~
+A steel key is lying on the ground.~
+~
+18 4096 1
+1 0 0 0
+1 0 0 10
+#99999
+
+#ROOMS
+#701
+The Judging Booth~
+   You stand in the midst of a small room with windows on the east and south
+walls.  These windows provide a complete view of the competition fields.
+There are several scorecards, pencils and other items that are used by the
+judges sitting on a table.  The only exit is a trapdoor leading down.
+~
+7 8 0
+E
+scorecards~
+The cards all have been filled in with the judges evaluations of today's 
+combatants.  It seems that Sparticus is having a good day.
+~
+E
+pencils pencil~
+An ordinary #2 lead pencil.  Judging by the teeth marks on the shaft, the
+user should see a dentist very soon!
+~
+D5
+There is a rickety ladder leading down.
+~
+trapdoor~
+1 740 702
+S
+#702
+Caesar's Private Box~
+   This is the best view in the house!  You can see gladiators fighting or the
+chariot races with an unobstructed view.  The seats are upholstered in red
+velvet and are in top-notch condition.  There is a rickety ladder leading 
+up and a marble staircase leading down.
+~
+7 8 0
+D4
+You see a rickety ladder with a trapdoor leading up.
+~
+trapdoor~
+1 740 701
+D5
+There is a marble staircase leading down.
+~
+~
+0 -1 703
+S
+#703
+West Side Commoner's Seating Area~
+   This is the western side commoner's seating area.  There are row upon row of
+rough wooden benches bolted to the floor.  There is stadium garbage every-
+where and the smell makes you want to puke.  Stairs lead up to Caesar's 
+private box, a small ramp leads down to the playing field and a hallway 
+leads south.
+~
+7 0 1
+E
+seats benches~
+The benches are made of rough cut lumber that has dried and split over time.
+You would probably get splinters if sat on them.  The words "BURT WAS HERE"
+have been carved into one of the benches with exquisite care.
+~
+D2
+You see a small hallway that leads to a larger area.
+~
+~
+0 -1 704
+D4
+Watch your step!
+~
+stairs stairway~
+0 -1 702
+D5
+Watch your step!
+~
+ramp~
+0 -1 710
+S
+#704
+Southern Commoner's Seats~
+This is the southeastern part of the common seating areas.  The benches here
+are made of stone and are probably centuries old.  A few scratches on one of
+the benches catch your eye.  An acrid smell is coming from the east and a
+tunnel leads off to the north.
+~
+7 0 1
+E
+marks scratches~
+They look like they form the words "Onivel Cinemod Semaj"  But you could be
+mistaken.
+~
+D0
+The tunnel looks like it leads to another seating area.
+~
+~
+0 -1 703
+D1
+There is an acrid smell coming from that direction.
+~
+~
+0 -1 711
+S
+#705
+The Abandoned Gate~
+This used to be a gateway to and from western Rome.  There is an iron gate
+blocking your way and judging by the amount of rust and foliage growing on the
+bars, it hasn't been open for years.  Looking through the gate at the barren
+landscape that lies beyond, you can see why.  A dirt road leads off to the 
+east, and a store is directly south.
+~
+7 0 1
+E
+gate~
+The gate has been permanently rusted shut and is further secured by a large 
+chain and padlock.  Don't even bother THINKING about trying to open it.
+~
+D1
+Through the clouds of dust, you can make out a passable road.
+~
+road~
+0 -1 712
+D2
+You can barely make out a storefront through the foliage.
+~
+store~
+0 -1 706
+S
+#706
+Swords 'R  Us~
+Welcome to the weaponshop of Titus Andronicus!!  Rare halberds, whips, swords
+and other instruments of death are proudly displayed on the walls and in
+gleaming glass cases.  More common weapons are stacked like wood on the floor.  
+To the north you can barely make out a gate.  There is a very secure looking 
+door to the south.
+~
+7 136 0
+E
+swords weapons armor halberds whips~
+Titus has enough hardware in here to outfit a large army.  Maybe that's why
+he has a lucrative contract to sell weapons to the emperor's armies for 
+outrageous prices.
+~
+D0
+You can see a city gate to the north.
+~
+~
+0 -1 705
+D2
+There is a very secure looking door blocking your progress.  
+~
+door~
+2 741 707
+S
+#707
+The Back Room~
+If you thought that there were a lot of weapons in the front of the store,
+you haven't seen anything yet!!  There is barely enough room to walk amongst
+the crates of armor and swords.  No wonder Rome will stand for a thousand
+years.  The only exit is through a door to the north.
+~
+7 9 0
+E
+weapons swords crates armor weapon sword crate~
+There are literally thousands of each.  Take your pick.
+~
+D0
+Through the piles of weapons, you can see a door leading north to the rest of 
+the store.
+~
+door~
+2 741 706
+S
+#708
+Peanut Heaven~
+You are now so high up that you begin to feel lightheaded and your nose feels 
+like it is going to start bleeding.  There aren't even benches to sit on here; 
+just bare dirty stone.  The view of the surrounding country is spectacular.  
+Unfortunately you can barely see the playing field.  There is a set of steps 
+here, leading down.
+~
+7 0 1
+E
+landscape country~
+You can see the entire city of Rome from here.  The buildings housing the 
+Roman government are to the east.  To the south east, off in the distance, is
+the massive aqueduct and further in that direction lies the Mountain of the 
+Gods.
+~
+D5
+Watch your step!
+~
+stairs stairway~
+0 -1 715
+S
+#709
+The Practice and Warm-up Area~
+There are many gladiators, chariot drivers and their coaches here, warming up 
+in preparation for the games.  The dust rising from the parched earth makes 
+you want to sneeze.  A short tunnel leads east and the thunder of pounding 
+hooves and the clash of weapons can be heard coming from the south.
+~
+7 0 2
+E
+gladiator~
+He is a big muscular man with lots of armor.  He sizes you up and decides that 
+you aren't worth his time or trouble.
+~
+E
+driver~
+The driver is too busy changing a wheel on his chariot to notice you.
+~
+E
+chariot~
+You see a two wheeled open cart which is obviously meant to be pulled by 
+horses.  The flaming paint-job and the large "01" stenciled on the side 
+identify the chariot as belonging to Drucilis "Lightning-whip" Octavious,
+a favorite driver of the masses.
+~
+E
+coach trainer~
+The coach tell you "Stop bothering my athletes and get lost!"
+~
+D1
+There is a large oval dirt-track in that direction.
+~
+~
+0 -1 716
+D2
+You can hear the clash of weapons and the thunder of hooves in that direction.
+~
+~
+0 -1 710
+S
+#710
+The Jousting Arena~
+This is a wide open grassy plane....LOOK OUT!!!!  You are almost skewered by a 
+gladiator's lance as he makes his charge.  A practicing area is due north.
+~
+7 0 2
+E
+gladiator~
+He is in the final stages of a charge against his opponent....THUD!  CLANG!
+CRASH!!!!....judging from the blood and the amount of distance that now 
+separates the gladiators head from the rest of his body, you can safely assume 
+that this was the final combat of his life.
+~
+D0
+Through a small tunnel you can see athletes stretching and warming up for the 
+games.
+~
+~
+0 -1 709
+D4
+You see a set of steps leading up into the spectator stands.  
+~
+~
+0 -1 703
+S
+#711
+The First-Aid Station~
+This is the place to come to if one is overcome by the heat and gore.  (Or if 
+a lion gets loose)  You see a jar of live leeches and other barbaric medical 
+apparatus lying about here.  From the west comes the roar of the crowd, and a 
+hall leads east.  The healer will be with you shortly.
+~
+7 8 0
+E
+leech leeches~
+DISGUSTING!  Each is about the size of matchbox and very slimy.  You are VERY
+glad that you have access to a cleric!
+~
+D1
+You see hundreds, perhaps thousands of people.
+~
+~
+0 -1 718
+D3
+Rows of stone bleachers lie to the west.
+~
+~
+0 -1 704
+S
+#712
+A Dirt Road~
+You are on a parched and dusty rural road which runs east and west.  There is 
+a structure lying to the south.
+~
+7 0 2
+D1
+Through the dust, you see a paved road.
+~
+~
+0 -1 719
+D2
+It is difficult to see through the haze and dust.
+~
+~
+0 -1 713
+D3
+It is difficult to see through the haze and dust.
+~
+~
+0 -1 705
+S
+#713
+The Commoner's House~
+You are standing in the main living quarters of a common Roman citizen.  The
+furnishings are sparse and it is warm here.  A putrid odor is coming from the 
+east and passages lead north and south.
+~
+7 8 0
+E
+furnishings furniture~
+The furniture that you see is very simple and plain.  It is made of rough hewn
+wood and fastened together with nails.  It looks very uncomfortable.
+~
+D0
+A dusty road lies to the north.
+~
+~
+0 -1 712
+D1
+What is that smell??!!!  It's enough to make a yak gag!!!
+~
+~
+0 -1 720
+D2
+You hazard a guess that a bedroom lies in that direction.
+~
+~
+0 -1 714
+S
+#714
+The Bedchamber~
+This is the bedroom.  There is a hard and lumpy bed in the far corner.  It
+looks like the commoner's wife has been shirking her duties lately, as there
+is a big pile of soiled laundry here.  The only way out is from where you 
+came.
+~
+7 12 0
+E
+laundry wash clothing~
+It smells of sweat and is covered with mud.
+~
+D0
+You see the living quarters to the north.
+~
+~
+0 -1 713
+S
+#715
+The Noblemans' Box~
+These are the "better" seats used primarily by the upper class of Rome.  There 
+is a large seating area to the east and a staircase leading up here.  The view 
+of the chariot track is pretty good. 
+~
+7 0 0
+D1
+Rows upon rows of bleachers lie to the east.
+~
+~
+0 -1 722
+D4
+The stairs look safe enough.
+~
+stairs staircase~
+0 -1 708
+S
+#716
+Race Track~
+This is a hard dirt track about a quarter of a mile long.  There are hoof 
+prints everywhere, and you see a large cloud of dust approaching.  You had
+better move before you get run over.  A small tunnel leads west, you can see 
+the crowd to the east.  You can hear loud snarls and roars coming from below.
+~
+7 0 2
+D3
+You see athletes warming up and stretching.
+~
+~
+0 -1 709
+D4
+~
+~
+0 -1 723
+D5
+Do you like lots of live lions that haven't been fed for a few days?
+~
+~
+0 -1 717
+S
+#717
+The Lion Pit~
+   As you land at the bottom of this dirt-walled pit, the realization that a 
+pit full of lions is NOT a good thing to be hanging around in.  Several of the
+gladiators gather around the edge of the pit to watch your demise.  You look
+around you, and all you see is tawny fur and gaping jaws...it's too late to
+run, too late to hide.
+   Twelve lions rip you and your belongings into a gory mass of bloodied
+leather, bronze, and bone.
+
+   What's that old saying? 
+   Cats killed the curious?  Something like that, I'm sure...
+
+~
+7 2 0
+D4
+~
+~
+0 -1 710
+D5
+~
+~
+0 -1 716
+S
+#718
+South Entrance to the Coliseum~
+   You are standing at the south entrance to the Coliseum.  There are citizens 
+of Rome everywhere, apparently in a mad rush to get in.  A statue of Caligula
+the Mad Emperor overlooks the area.  There are long lines standing to the east, 
+and an acrid smell is coming from the west.  A busy road lies to the south.
+~
+7 4 1
+E
+statue caligula~
+A larger than life stone statue of Caligula, the Mad Emperor, looks at you. It
+looks like it is holding a phallus.  He's got a grin on his face that seems to
+say 'My horse would like you, I bet...'
+~
+D1
+The lines are very long and people look impatient.
+~
+line lines~
+0 -1 725
+D2
+A road lies in that direction.
+~
+~
+0 -1 719
+D3
+An acrid, almost medicinal smell is coming from that direction.
+~
+~
+0 -1 711
+S
+#719
+The Main Highway~
+This is a well built and heavily traveled road running from east to west and 
+there is a large structure built entirely of stone to the north.
+~
+7 0 1
+D0
+You can hear the roar of a large crowd of people coming from that direction.
+~
+structure~
+0 -1 718
+D1
+The highway continues to the east.
+~
+~
+0 -1 726
+D3
+The highway continues to the west.
+~
+~
+0 -1 712
+S
+#720
+The Outhouse~
+PEEEEEEEEEEEEEEEE-YEEEEEWWWWWWWW!!!!!  Boy does it stink in here!!!  You taste 
+bile in your mouth and your eyes begin to water.  As you wipe away your tears, 
+you see that this is a small room, in the far corner of which a hole is dug.  
+The odor intensifies as you move closer and there is a roll of toilet paper 
+sitting on the ground.  The only exit is to the west and your nose and stomach 
+are strongly suggesting that you use it.
+~
+7 8 0
+E
+hole toilet~
+You walk over to the hole and see that there is a large turd floating in a 
+pool black water about 2 feet below the surface of the ground.  As you lean
+closer to get a better look, your nose catches a concentrated dose of the 
+fragrant aroma wafting upwards.  Your stomach decides that it has had enough
+of this shoddy treatment and you puke until it is empty.
+~
+E
+roll paper~
+Hey!!  This is first-class stuff!! - White Cloud brand with lotion.  The roll
+is about half-used.
+~
+D3
+The living quarters lie in that direction.  Why don't you stop pussyfooting 
+around and go that way??!!  Please?
+~
+~
+0 -1 713
+S
+#721
+The Slave Quarters~
+This is where the slaves sleep.  There are hard boards set out for use as beds
+and not much else.  The only exit is to the north.
+~
+7 8 0
+D0
+To the north, a well manicured path winds through the nobleman's estate.
+~
+~
+0 -1 727
+S
+#722
+Common Seating~
+This is where many of the common Roman citizens are seated during the games.
+These are the cheapest seats in the house, as glare from the sun is usually a 
+problem during the afternoon.  Like the other common seating areas, this place 
+could stand extensive renovation and a thorough cleaning.  This area extends 
+to the south and a much more elegant seating area can be seen to the west.
+~
+7 0 1
+D2
+The common seating area continues.
+~
+~
+0 -1 723
+D3
+The seating gets much fancier and elegant in that direction.
+~
+elegant~
+0 -1 715
+S
+#723
+Common Seating~
+This is where many of the common Roman citizens are seated during the games.
+Like the other commoners' areas in the coliseum, it could use extensive 
+renovation and cleaning.  This area extends to the north and lots of noise can 
+be heard coming from the south.
+~
+7 0 1
+D0
+The common seating area continues.
+~
+~
+0 -1 722
+D2
+You see hundreds, perhaps thousands of people.
+~
+~
+0 -1 724
+S
+#724
+East Entrance to Coliseum~
+You are standing at the east entrance to the Coliseum.  There are people 
+everywhere, apparently in a mad rush to get in.  A statue of Tiberius, an 
+emperor of a time long since passed, stands here looking out over the crowd.  
+There is a passage to the north, the ticket booth is to the south and a gate 
+opening to the city lies to the east.
+~
+7 4 1
+E
+statue tiberius~
+The statue of Tiberius, made of iron, stands here.
+~
+D0
+You see rows upon rows of dilapidated wooden bleachers.
+~
+~
+0 -1 723
+D1
+Nero Drive lies in that direction.
+~
+~
+0 -1 731
+D2
+There are VERY long lines standing outside the ticket booth.
+~
+booth~
+0 -1 725
+S
+#725
+Ticket Booth~
+Long lines are standing here, waiting to buy tickets.  There are 3 vendors 
+working furiously.  Ticket stubs litter the ground and you can see that the
+people are getting very impatient.  There is a large, open cashbox here.  Main 
+entrances to the Coliseum are to the north and west.  
+~
+7 8 0
+E
+cashbox~
+It's a shame that the exchange rate for Roman money is so low.  What amounts
+to a fortune in Rome isn't even worth one gold coin.  The contents of the box
+add up to about .... well forget it.  It isn't worth your time or trouble to
+carry it around.
+~
+D0
+You see hundreds, if not thousands of people.
+~
+~
+0 -1 724
+D3
+You see hundreds, if not thousands of people.
+~
+~
+0 -1 718
+S
+#726
+Paved Road~
+You are on a paved road that runs east to west.  You can see an elaborate
+looking estate to the south and to the north-west, off in the distance, you
+can see a very large stone structure.
+~
+7 0 1
+E
+structure~
+That would probably be the Coliseum.  There are a few good matches scheduled
+for today.
+~
+D1
+The road leads off to the east.
+~
+~
+0 -1 733
+D2
+It looks like a Nobleman's estate.  We are talking RICH nobleman's estate.
+~
+estate house~
+0 -1 727
+D3
+The road leads west towards the highway.
+~
+~
+0 -1 719
+S
+#727
+Noble Estate~
+You are on the grounds of a nobleman's estate which is hundreds of times the
+size and splendor of anything that a common citizen of Rome would ever hope
+to own.  Everything is lush and green.  The grass is perfectly manicured and 
+the trees are all bearing fruit.  Ornamental plants are in perfectly situated 
+to enhance and adorn the three statues of dedicated to gods Jupiter, Venus and 
+Neptune.  A tranquil path leads east and west, there is a paved road to the 
+north and an extravagant house lies to the south.
+~
+7 0 2
+E
+Venus~
+Venus, the Roman goddess of beauty and knowledge is displayed in a all of her
+splendor.
+~
+E
+Jupiter~
+A statue made of pure gold depicts Zeus sitting on his throne.  The throne
+looks like it is made of silver.
+~
+E
+Neptune~
+The statue of Neptune is made of pure jade and is holding a crystal trident.
+It is sitting in the center of a small pond which has hundreds of beautiful
+fish swimming in it.
+~
+E
+trees tree shrubs shrub plants plant~
+All of the plants, trees and shrubs are perfectly trimmed, without so much as 
+a dead leaf anywhere to be seen.  You welcome the shade that they give from 
+the harsh sun above.
+~
+D0
+You see a paved road in the distance.
+~
+~
+0 -1 726
+D1
+The path leads east through the estate.
+~
+~
+0 -1 734
+D2
+You see an incredible house off in the distance.
+~~
+~
+0 -1 728
+D3
+Off through the trees, you see a small, plain hut.
+~
+~
+0 -1 721
+S
+#728
+An Opulent House~
+You stand in a house, the size and splendor of which almost defies the 
+imagination.  The floor is done with hand crafted marble tile with silver 
+and jeweled inlays.  The light coming through the exquisitely crafted stained 
+glass windows bathes the room in splendor and the furniture looks as though it  
+was made by master craftsmen from all over the empire.  A path through the 
+estate is north of here.
+~
+7 12 0
+E
+floor tile~
+Very expensive!  A lot of master craftsmen labored long and hard to produce
+such a work of art.
+~
+E
+windows~
+They are intricate and the scenes that they depict cast honor on several of
+the gods.
+~
+E
+furniture~
+You hope to eventually be able to own a piece of furniture just like these 
+someday.  These are only dreams, of course.
+~
+D0
+You see a well manicured path that winds through the estate.
+~
+~
+0 -1 727
+S
+#729
+The Great North Gate~
+This is the northern gateway to the city of Rome.  The huge gate appears to be
+closed and locked against intrusion.  A large road muddy road runs through the 
+gate and into the countryside.  Nero Drive runs south from here.
+~
+7 0 1
+E
+gate~
+The gate is made of solid iron and is well maintained.
+~
+E
+road~
+The road is wide and very muddy.
+~
+D2
+Nero Drive continues in that direction.
+~
+~
+0 -1 730
+S
+#730
+Nero Drive~
+You are walking on a paved road that runs south through the city of Rome.  A
+great gate is directly north of here.  The Roman citizens are very friendly 
+and tip their hats or say hello as you pass.
+~
+7 0 1
+D0
+To the north, you can see a gate leading out of the city.
+~
+gate~
+0 -1 729
+D2
+Nero Drive continues in that direction.
+~
+~
+0 -1 731
+D3
+You see the bakery of Rome.
+~
+~
+0 -1 762
+S
+#731
+Nero Drive~
+You are walking on a great paved road that runs north and south through the
+city.  People are hurrying from one place to another, but always stop to say
+hello.  Most of the people are either coming from or going to the town square
+Nero Drive continues to the north, and you can see a large open area to the 
+south.
+~
+7 0 1
+D0
+Nero drive continues in that direction.
+~
+~
+0 -1 730
+D2
+It looks like the town square.
+~
+~
+0 -1 732
+D3
+You see the an opulent estate.
+~
+~
+0 -1 724
+S
+#732
+Town Square~
+You are standing in the middle of a large open area which is the common area
+of Rome.  During the day, this place is alive with the hustle and bustle of
+all of the citizens of Rome and everyone in the city is sure to stop by at
+some time or another.  There are several street vendors peddling their wares
+and the overall atmosphere is carnival-like in nature.  To the southeast, off
+in the distance, you can see the aqueduct and the buildings of the Roman 
+government lie to the northwest.  Nero Drive leads north and south from here 
+and Clay Avenue runs east.
+~
+7 0 1
+E
+vendor vendors~
+There are several sidewalk vendors here, selling fresh fruits and vegetables,
+home baked goods, fine jewelry and other items.  Most of the items for sale are 
+of very high quality.
+~
+E
+aqueduct~
+To the southeast, off in the distance, stands a large stone structure that is
+used to channel water into the city.
+~
+D0
+Nero Drive heads in the direction of the northern gate.
+~
+~
+0 -1 731
+D1
+Nero Drive heads in the direction of the south gate.
+~
+~
+0 -1 739
+D2
+A street made of hard packed clay runs in that direction towards the aqueduct
+and buildings of the Roman government.
+~
+~
+0 -1 733
+S
+#733
+Nero Drive~
+You are walking on a paved road that runs north and south through the city of
+Rome.  There are many people here, as polite as always.  Most of them are 
+either coming from or going to the town square which lies to the north.  Nero 
+Drive continues to the south.  There is an observation area overlooking the 
+aqueduct to the east and a paved road leads west.
+~
+7 0 1
+D0
+The town square lies in that direction.
+~
+~
+0 -1 732
+D1
+The aqueduct and mountain of the gods are in that direction.
+~
+~
+0 -1 740
+D2
+Nero Drive continues toward the South Gate.
+~
+~
+0 -1 734
+D3
+A paved road runs west through the city.
+~
+~
+0 -1 726
+S
+#734
+Nero Drive~
+This is a busy paved road that runs north through the city.  The people of 
+Rome are very friendly and say hello as you pass.  A gate leading out of the 
+city lies to the south and a small path goes west towards a nobleman's estate.
+To the east, off in the distance, lies the great mountain.  It is rumored that
+the gods watch over and protect the empire from there.
+~
+7 0 1
+D0
+Nero Drive leads in that direction.
+~
+~
+0 -1 733
+D2
+You see many people entering and leaving the city through a large gate in the
+walls protecting the city.
+~
+~
+0 -1 735
+D3
+It looks like a nobleman's estate.  We are talking RICH nobleman's estate.
+~
+~
+0 -1 727
+S
+#735
+The South Gate~
+This is the southern gateway to the city of Rome.  The bronze gate is closed 
+and locked.  Looking through the bars, you see a heavily traveled road leading 
+out of the city.  Nero Drive starts here and runs north and a wizard's shop 
+lies to the east.
+~
+7 0 1
+D0
+Nero Drive leads towards the center of town.
+~
+~
+0 -1 734
+D1
+A small store, from which an occasional detonation can be heard, lies off in 
+that direction.  It appears to be surrounded by a rolling pink mist.
+~
+~
+0 -1 742
+D2
+The gate appears to be closed and locked against intruders.
+~
+gate~
+0 -1 -1
+S
+#736
+The Emperor's Private Office~
+You are standing in the emperor's private office.  The room is richly
+furnished with the finest of the loot brought back from conquests of far 
+away lands.  There is a massive, intricately carved desk here, upon which 
+are important documents, decrees and other paperwork involved in running the 
+empire.  On the far wall, there is a marble bookcase that is well stocked 
+with the works of Homer, Plato, Socrates and other wise men.  Further, it 
+seems that the current emperor likes flowers as there are many potted and cut 
+specimens throughout the room.  There is a french door leading to the waiting
+room and a wooden door to the south.
+~
+7 8 0
+E
+desk~
+The desk is made of solid walnut and gold inlay.  It is exquisitely carved 
+with superior craftsmanship, the likes of which has rarely been seen.  It was
+probably brought to Rome from Gaul.
+~
+E
+documents decrees paperwork document decree papers paper~
+The documents are all written on reed scrolls made in Egypt and have been 
+sealed with wax.  
+~
+E
+bookcase books~
+The books are very old and contain the wisdom of wise men from throughout the
+entire Roman empire.  They appear to be collecting dust.
+~
+E
+flowers plants flower plant~
+The plants contribute to a very relaxing atmosphere.  
+~
+D1
+Through the door, you see a waiting room.
+~
+french~
+2 742 743
+D2
+The south door leads directly to the senate chambers.
+~
+wooden~
+2 743 737
+S
+#737
+The Senate Chambers~
+This is the working room where elected senators from all over the empire 
+gather to advise the emperor.  An official seal of the emperor is hanging on 
+the far wall.  There is a wooden door to the north and a bronze door to the
+east and doublehung door to the south.
+~
+7 8 0
+D0
+The door is made of thick walnut.
+~
+wooden~
+2 742 736
+D1
+The door leads to the foyer.
+~
+bronze~
+1 743 744
+D2
+~
+doublehung~
+1 744 738
+S
+#738
+The House of Commons~
+This is the lower house of the advising body to the emperor.  Common men from
+all parts of Rome work here to further assist the senators in advising the
+emperor on critical matters of state.  The seal of the emperor is painted on
+the far wall.  The only exit is to the north.
+~
+7 8 0
+D0
+You see that the doublehung door leads to the senate chambers.
+~
+doublehung~
+1 744 737
+S
+#739
+Clay Avenue~
+You are on a wide well traveled road running east and west through the heart
+of Rome.  There are large crowds of people to the west and the road continues
+to the east.  The aqueduct is directly south of here.
+~
+7 0 1
+E
+crowds people~
+It looks like some kind of bizarre or festival is occurring to the west.  There
+are hundreds of people of all classes shopping, talking or eating.
+~
+D1
+Clay Avenue continues in that direction.
+~
+~
+0 -1 746
+D2
+You see an entrance to the aqueduct.
+~
+~
+0 -1 741
+D3
+There are large crowds of people in that direction.
+~
+~
+0 -1 732
+S
+#740
+Observation Lookout~
+You are on a platform overlooking a massive aqueduct.  There is a telescope 
+mounted to the railing that surrounds the area and you can hear the gurgle of
+water as it is channeled into the city.  Off in the distance, you can see the
+Mountain of the Gods.  There is a sign mounted to the railing and a ramp leads
+west.
+~
+7 0 1
+E
+telescope~
+If it were operational, it would offer a spectacular view of the Mountain of 
+the Gods.  Unfortunately, it appears to have been vandalized.
+~
+E
+aqueduct~
+The aqueduct is a massive stone structure that channels water into Rome from
+the Mountain of the Gods.  During the rainy season, it is filled to the top.
+However, due to recent drought, the water level appears to be very low.
+~
+E
+sign~
+     
+         ********************************************
+         *                                          *
+         *      The Roman Aquarian and Mountain     *
+         *           Observation Platform           *
+         *                                          *
+         *       Designed and built by the Froboz   *
+         *            Magic Platform Company        *
+         *                                          *
+         ********************************************
+
+~
+D3
+You can see a busy street in that direction.
+~
+~
+0 -1 733
+S
+#741
+The Aqueduct~
+You are in a massive stone structure that has been designed to channel water
+into the city of Rome.  Due to the recent drought, the water level is low, 
+allowing passage without a boat.  The walls and floor are covered with algae 
+and slime producing treacherous footing conditions.  There are exits to the 
+north, south and east.
+~
+7 12 6
+E
+slime algae~
+Due to the availability of moisture and nutrients, a green, viscous slime has 
+grown and covered everything with a slippery coating.  It seems to go out of
+its way to drip on you.
+~
+D0
+You can see a wide street to the north.
+~
+~
+0 -1 739
+D1
+You see more aqueduct.
+~
+~
+0 -1 748
+D2
+You see more aqueduct.
+~
+~
+0 -1 741
+D3
+You see more aqueduct.
+~
+~
+0 -1 754
+S
+#742
+The Mage's Shop~
+You are standing in the mage's shop.  Magical ointments, charms and potions
+are sitting on shelves and behind a glass counter.  There is a dense neon
+blue fog hugging the floor here, making it impossible to see below your knees.
+You suddenly hear mutterings coming from the back room, possibly from .... 
+KKKKKAAAAAAAABBBBOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOMMMMMMMMMMMMMMMMMM!!!!!!
+You are deafened by the noise from a tremendous explosion and the concussion 
+from the blast staggers you!  The shopkeeper seems to pay no heed to this.  
+The door to the back room opens and an older man, wearing a pointed hat, whose 
+face is smudged with soot sticks his head out.  "Is everyone alright?  Sorry 
+about that.  I was testing a new mages spell.  I'll try to give advance notice 
+next time.", he says.  The door then closes.
+~
+7 8 0
+E
+fog mist~
+This is some really strange stuff!  You have never seen anything this color
+before.  Your legs are totally obscured from the knee down.
+~
+D1
+The door is reinforced with steel and looks VERY sturdy.  Considering the 
+"test" that you just witnessed, you are glad that it stands between you and 
+whatever is going on in the back room.
+~
+door~
+2 745 749
+D3
+You see the south gate through the door.
+~
+~
+0 -1 735
+S
+#743
+The Waiting Room~
+You are standing in a very large room with a high ceiling and there are a few
+people waiting here to see the emperor on urgent matters. The master scheduler 
+tells you to have a seat and sends a page to inform the his highness of your 
+arrival.  There are large doors to the east and west and an exit leads south 
+to the foyer.
+~
+7 8 0
+D1
+There is a sign on the door that says:  MUNICIPAL COURT OF ROME.  It appears 
+to be open.
+~
+~
+0 -1 750
+D2
+The foyer is directly to the south.
+~
+~
+0 -1 744
+D3
+There is a large door to the west.
+~
+door~
+2 742 736
+S
+#744
+The Entrance Foyer~
+You have just entered the main government building of the Roman Empire and are 
+standing in a massive room with an elaborately decorated domed roof.  There 
+are many people here; messengers and senators being the most numerous.  There 
+is a large, ornate door to the west, a hallway leads north and marble stairs 
+that lead out of the building  are to the south.
+~
+7 8 0
+D0
+You see a hallway leading north to what looks like a waiting room.
+~
+~
+0 -1 743
+D3
+There is a large door to the west that blocks your path.
+~
+door~
+1 743 737
+D5
+You see a stairway leading out of the building.
+~
+~
+0 -1 745
+S
+#745
+Outside the Capitol~
+You stand on white marble steps that lead up and into the Capitol Building.
+There are several statues, none of any real significance, at the entrance to
+the building.  The main entrance to the building is at the top of the steps.
+~
+7 0 1
+E
+stairs stairway steps~
+The stairs are immaculately polished and made of white marble.
+~
+E
+statue statues~
+There is really nothing noteworthy about them.
+~
+D4
+The steps lead into the Capitol Building.
+~
+~
+0 -1 744
+D5
+The steps terminate onto Clay Avenue.
+~
+~
+0 -1 746
+S
+#746
+Clay Avenue~
+You are standing on a wide, heavily traveled road that runs east and west 
+through the heart of the city.  There are marble steps leading up.  To the 
+south, off in the distance, you can see a large stone structure and a mountain
+that is partially obscured by the haze.  There is a general store to the north.
+~
+7 0 1
+E
+stone structure aqueduct~
+You see a massive stone structure, built several centuries ago, that is used
+to channel water into the city.
+~
+E
+mountain~
+Off to the southwest, you can see  a huge mountain that is partially obscured
+by the haze.  It is rumored that the gods reside there and protect the city.
+~
+D0
+The general store lies in that direction.
+~
+~
+0 -1 763
+D1
+There is what appears to be a large gate in that direction.
+~
+~
+0 -1 751
+D3
+Clay Avenue continues.
+~
+~
+0 -1 739
+D4
+There are some white marble steps leading up.
+~
+~
+0 -1 745
+S
+#747
+The Summit of The Mountain of the Gods~
+You are at the summit of a very high mountain and are standing above the 
+clouds.  The sun is shining brilliantly here and the clouds below look like
+balls of cotton.  The path that you have been walking on is damp and the scent
+of lilac is in the air.
+~
+7 0 5
+D5
+You see a damp path leading back down the mountain.
+~
+path~
+0 -1 752
+S
+#748
+The Aqueduct~
+You are in a massive stone structure that has been designed to channel water
+into the city of Rome.  Due to the recent drought, the water level is low, 
+allowing passage without a boat.  The walls and floor are covered with algae
+and slime, producing treacherous footing conditions.  There are exits in all
+four cardinal directions.
+~
+7 8 6
+E
+slime algae~
+Due to the availability of moisture and nutrients, a green viscous slime has
+grown and covered everything with a slippery coating.  It seems to go out of
+its way to drip on you.
+~
+D0
+The aqueduct continues.
+~
+~
+0 -1 757
+D1
+The aqueduct continues.
+~
+~
+0 -1 741
+D2
+The aqueduct continues.
+~
+~
+0 -1 741
+D3
+The aqueduct continues.
+~
+~
+0 -1 748
+S
+#749
+Froboz's Workshop~
+You are standing in the workshop of Froboz the Great, the most powerful and 
+famous mage that Rome has ever known.  Workbenches line the walls and are
+covered with various test tubes, beakers, petri dishes and crucibles and there
+is an odor in here that can best be described as a combination of old sweat
+socks and burning tires.  The only exit is back through the door through which
+you came.  In the middle of the room, you see a pile of ashes that looks like 
+it once was a body and Froboz is is busy making adjustments on a new type of 
+magic wand .... possibly the one responsible for the explosion a few minutes 
+ago.  He removes a jeweler's loupe from his eye as he turns around.  "How in 
+the name of Merlin did you get in here??!!" he asks.  "Oh, nevermind!  Since 
+you are here, you can serve as witnesses to the final test of the new mage's 
+spell:  'ectowatt'."  With this he makes a magical gesture and the Paladin 
+Knight appears.  Crossing his fingers, Froboz waves the wand his direction and 
+what happens next is incredible!  The Paladin is enveloped in what appears to 
+be a small, well contained, thermonuclear explosion.  When the smoke clears 
+you can see that the Paladin and all of equipment has been reduced to a large 
+pile of flaming cinders.  Froboz throws his head back and cackles with insane 
+glee.  "Now, my young friends, what can I do for you?" he asks.
+~
+7 8 0
+E
+workbench workbenches tubes beakers crucibles dishes~
+These are all tools of great power.  You cannot even begin to understand what
+any of this stuff does.
+~
+E
+cinders ashes pile~
+The ashes are a very fine grayish white powder that seems to be the only 
+worldly remains of Froboz's "test specimens". 
+~
+D3
+There is a door, reinforced with steel, in that direction.
+~
+door~
+2 745 742
+S
+#750
+The Courtroom~
+You stand inside of a large courtroom in which common civil disputes and 
+criminal matters are decided.  There is a judge's bench and a witness stand
+on the far side of the room and a jury's box along side.  The emperor's seal
+is prominently displayed on the wall behind the judge's stand, reminding all
+who enter that he is an extension of his highness.  There is a door, possibly 
+leading to the judge's chambers, to the east and the waiting room is to the 
+west.
+~
+7 8 0
+E
+bench stand box jury~
+You see large wooden structures that are designed to separate the judge, jury
+and witnesses from the rest of the courtroom.  They are made of polished  
+oak and are strictly functional.
+~
+E
+seal~
+The seal of the emperor is mounted above the judge's stand.  
+~
+D1
+The door might lead into the judge's private chambers.
+~
+door~
+1 746 755
+D2
+The holding cells lie in that direction.
+~
+~
+0 -1 760
+D3
+The waiting room lies in that direction.
+~
+~
+0 -1 743
+S
+#751
+The East Gate of Rome~
+You are standing inside of the eastern gate of Rome.  There are two tall 
+spires built into the city wall, from which the guards can see the whole 
+eastern side of the city.  The gate is currently open and to the east, 
+there is a heavily used road, made of packed clay, that leads out of Rome. 
+Another road leads westward into the city.
+~
+7 0 1
+E
+spires towers~
+There are two tall spires on either side of the gate and are constantly manned
+by the city guards.  They are made of stone and stand about 40 feet tall. 
+~
+E
+gate~
+The gate is fabricated from iron and has been designed to keep intruders out 
+of the city.
+~
+D1
+~
+~
+0 -1 764
+D3
+The clay street leads into the city.
+~
+~
+0 -1 746
+S
+#752
+A Mountain Path~
+You stand on a small trail that leads up and down.  It has recently been 
+raining and there are small puddles everywhere.  You are just below the
+clouds and the view of the surrounding countryside is breathtaking.  
+~
+7 0 5
+E
+trail~
+The mountain trail is a little muddy, due to the recent rains.  
+~
+D4
+The trail leads up and enters the clouds.
+~
+~
+0 -1 747
+D5
+The trail leads down.
+~
+~
+0 -1 756
+S
+#754
+The Aqueduct~
+You are in a massive stone structure that has been designed to channel water 
+into the city of Rome.  Due to the recent drought, the water level is low, 
+allowing passage without a boat.  The walls and floor are covered with algae 
+and slime, producing treacherous footing conditions.  There are exits in all 
+four cardinal directions.
+~
+7 8 6
+E
+slime algae~
+Due to the availability of moisture and nutrients, a green, viscous slime has
+grown and covered the everything with a slippery coating.  It seems to go out
+of its way to drip on you.
+~
+D0
+The aqueduct continues.
+~
+~
+0 -1 741
+D1
+The aqueduct continues.
+~
+~
+0 -1 754
+D2
+The aqueduct continues.
+~
+~
+0 -1 757
+D3
+The aqueduct continues.
+~
+~
+0 -1 748
+S
+#755
+Judge's Chambers~
+You are in a small room that is filled with legal tombs.  There is a small
+desk here, literally buried under legal documents.  There is also a small 
+window overlooking the northern part of the city.
+~
+7 8 0
+E
+tombs books~
+The books are very large and filled with Roman legal precedent.
+~
+E
+papers documents~
+There are hundreds of pages of petitions, lawsuits and court orders sitting
+on the desk.  One particularly interesting case involves a nobleman, a slave
+and a roll of toilet paper.
+~
+D3
+The courtroom lies in that direction.
+~
+door~
+1 746 750
+S
+#756
+A Mountain Path~
+You are standing on a small trail that leads through a grove of trees.  Every
+thing is lush and green here and it appears to have been raining recently.
+"This would be an ideal place for a picnic." , you think to yourself.
+~
+7 0 5
+E
+tree trees vegetation~
+All of the vegetation is lush, green and in full bloom.  You wish that you 
+could take the time to stop and enjoy it properly.
+~
+E
+trail path~
+The path is a little muddy, possibly due to a recent thundershower.
+~
+D4
+You see a small trail leading further up the mountain.
+~
+~
+0 -1 752
+D5
+You see a small trail, leading down.
+~
+~
+0 -1 759
+S
+#757
+The Aqueduct~
+You are in a massive stone structure that has been designed to channel water
+into the city of Rome.  Due to a recent drought, the water level is low, 
+allowing passage without a boat.  The walls and floor are covered with algae
+and slime, producing treacherous footing conditions.  A valley lies to the 
+south and the other cardinal directions lead further into the aqueduct.
+~
+7 8 6
+E
+slime algae~
+Due to the availability of moisture and nutrients, a green, viscous slime has
+grown and covered everything with a slippery coating.  It seems to go out of
+its way to drip on you.
+~
+D0
+The aqueduct continues.
+~
+~
+0 -1 754
+D1
+The aqueduct continues.
+~
+~
+0 -1 754
+D2
+You see a gorgeous valley.
+~
+~
+0 -1 758
+D3
+The aqueduct continues....
+~
+~
+0 -1 741
+S
+#758
+The Valley of the Gods~
+   You stand in a tranquil valley at the base of a large mountain.  A quiet 
+stream, with fruit trees growing along its banks, winds its way peacefully
+through the valley and enters a large stone structure that lies to the west.
+There are birds singing and every now and then a ripple breaks the surface
+of the stream.  You can see a path leading through the trees to the up.
+~
+7 0 4
+E
+stream brook~
+A stream of the clearest, cleanest water that you have ever seen winds its way 
+through the valley.
+~
+E
+fish~
+A variety of species swims peacefully in the cool, clear water.  
+~
+E
+trees fruit~
+The fruit trees, nourished by the fertile ground at the edge of the stream and 
+sustained by the brilliant sunshine, line the banks of the stream and are 
+laden with fruit.
+~
+D0
+A small path winds its way through the trees.
+~
+~
+0 -1 757
+D4
+You see a path leading up the mountain.
+~
+~
+0 -1 759
+S
+#759
+A Mountain Path~
+You are standing on a path that leads up through a stand of large trees.  
+Everything is green and it seems like eternal spring - this is Mother Nature
+at her finest.  It is possible to descend into a tranquil valley from here.
+~
+7 0 5
+E
+trees~
+The trees are old and tower hundreds of feet above the ground.  If you stand
+still and listen carefully, you can hear the birds singing.
+~
+D4
+The path leads further up the mountain.
+~
+~
+0 -1 756
+D5
+The path widens out into a tranquil valley.
+~
+~
+0 -1 758
+S
+#760
+The Holding Cells~
+You are standing in the holding cell area, just off of the cortroom.  Those
+who are recently convicted of serious crimes are brought here, pending torture
+and execution.  The courtroom lies to the north and another exit goes east.
+~
+7 8 0
+E
+cells cell~
+You can see small and very cramped cells which are filthy.  You shiver and 
+vow to never do anything that would cause you to become a resident.
+~
+D0
+The courtroom lies to the north.
+~
+~
+0 -1 750
+D1
+~
+~
+0 -1 761
+S
+#761
+The Torture Chamber~
+You are standing in a very small room in which there are many tools designed
+specifically for inflicting pain and suffering.  Some of them are familiar,
+such as the rack and the iron maidens.  Others, you have never seen before
+and they make you wonder about the kind of sadistic mind that dreamt them up.
+The only exit is to the west.
+~
+7 8 0
+D3
+The holding cells lie in that direction.
+~
+~
+0 -1 760
+S
+#762
+The Roman Bakery~
+You are standing in the bakery of Rome and your mouth waters at the delicious
+aromas wafting from the kitchen.  The only exit is to the east.
+~
+7 8 0
+D1
+~
+~
+0 -1 730
+S
+#763
+The General Store~
+You are standing in the only general store of Rome.  The walls and shelves 
+are covered with all of the various items required by Roman citizens and 
+stalwart mudders.  Clay Avenue lies to the south.
+~
+7 8 0
+D2
+Clay Avenue lies in that direction.
+~
+~
+0 -1 746
+S
+#764
+Before Rome~
+You travel upon an East-West road wide enough for 30 men to march
+abreast.  It is packed hard through heavy use.  To the west stands the
+Gates of Rome inviting you to enter and partake of all the glory and
+splendor that is Rome.
+~
+7 8 1
+D1
+~
+~
+0 -1 765
+D3
+~
+~
+0 -1 751
+S
+#765
+Clay Road~
+You travel upon an East-West road wide enough for 30 men to march
+abreast.  It is packed hard through heavy use.  To the west, you eyes
+catch the splendors of a mighty city.
+~
+7 8 1
+D1
+~
+~
+0 -1 766
+D3
+~
+~
+0 -1 764
+S
+#766
+Clay Road~
+You travel upon an East-West road wide enough for 30 men to march
+abreast.  A small path leads off through a field to the south.
+~
+7 8 1
+D1
+~
+~
+0 -1 767
+D2
+~
+~
+0 -1 2172
+D3
+~
+~
+0 -1 765
+S
+#767
+End of the Clay Road~
+The mighty clay road turns into lesser, but still well traveled roads
+here.  You feel a surge run through your body as you look East into the
+lands that turned Rome into its mighty empire.
+~
+7 8 1
+D3
+The might clay road leads off in this direction.
+~
+~
+0 -1 766
+S
+#99999
+
+#RESET
+*
+M 0   700   3   701   the adjudicator (The Judging Booth)
+M 0   700   3   701   the adjudicator (The Judging Booth)
+M 0   700   3   701   the adjudicator (The Judging Booth)
+*
+M 0   701   1   701   the Scorekeeper (The Judging Booth)
+*
+M 0   703  10   703   a spectator (West Side Commoner's Seating Area)
+M 0   703  10   704   a spectator (Southern Commoner's Seats)
+M 0   703  10   708   a spectator (Peanut Heaven)
+M 0   703  10   722   a spectator (Common Seating)
+M 0   703  10   723   a spectator (Common Seating)
+M 0   703  10   703   a spectator (West Side Commoner's Seating Area)
+M 0   703  10   704   a spectator (Southern Commoner's Seats)
+M 0   703  10   708   a spectator (Peanut Heaven)
+M 0   703  10   722   a spectator (Common Seating)
+M 0   703  10   723   a spectator (Common Seating)
+*
+M 0   704   3   702   the Nobleman (Caesar's Private Box)
+G 1   740   2             a rusted key
+M 0   704   3   728   the Nobleman (An Opulent House)
+E 1   701   3    13     a bronze belt
+M 0   704   3   743   the Nobleman (The Waiting Room)
+E 1   700   5     1     a pewter ring
+*
+M 0   705   5   721   the slave (The Slave Quarters)
+M 0   705   5   721   the slave (The Slave Quarters)
+M 0   705   5   721   the slave (The Slave Quarters)
+M 0   705   5   706   the slave (Swords 'R  Us)
+M 0   705   5   749   the slave (Froboz's Workshop)
+*
+M 0   706   5   710   the gladiator (The Jousting Arena)
+M 0   706   5   710   the gladiator (The Jousting Arena)
+M 0   706   5   710   the gladiator (The Jousting Arena)
+M 0   706   5   709   the gladiator (The Practice and Warm-up Area)
+M 0   706   5   709   the gladiator (The Practice and Warm-up Area)
+E 1   702   2     6     a Roman combat helmet
+*
+M 0   707   4   716   the chariot driver (Race Track)
+E 1   708 100     8     a pair of leather sandals
+M 0   707   4   709   the chariot driver (The Practice and Warm-up Area)
+E 1   708 100     8     a pair of leather sandals
+M 0   707   4   716   the chariot driver (Race Track)
+E 1   708 100     8     a pair of leather sandals
+M 0   707   4   716   the chariot driver (Race Track)
+E 1   708 100     8     a pair of leather sandals
+*
+M 0   708   1   709   the Coach (The Practice and Warm-up Area)
+G 1   703  10             a coach's whistle
+*
+M 0   709   1   711   the healer (The First-Aid Station)
+E 1   704   6     3     a stethoscope
+G 1   728   3             a Kodarta staff
+*
+M 0   710   1   711   the herbalist (The First-Aid Station)
+E 1   705   3     6     a hairpin
+G 1   727   5             a bag of herbs
+*
+M 0   711   1   706   Titus's shopkeeper (Swords 'R  Us)
+G 1  3020 100             a dagger
+G 1  3021 100             a small sword
+G 1  3022 100             a long sword
+G 1  3023 100             a wooden club
+G 1  3024 100             a warhammer
+G 1  3052 100             a scroll of recall
+G 1   708 100             a pair of leather sandals
+E 1   708 100     8     a pair of leather sandals
+G 1   741   1             a double sided key
+*
+M 0   712   2   732   the peddler (Town Square)
+E 1   708 100     8     a pair of leather sandals
+G 1   706  25             an apple
+G 1   706  25             an apple
+G 1   706  25             an apple
+G 1   707  25             an orange
+G 1   707  25             an orange
+M 0   712   2   732   the peddler (Town Square)
+E 1   708 100     8     a pair of leather sandals
+G 1   706  25             an apple
+G 1   706  25             an apple
+G 1   707  25             an orange
+G 1   707  25             an orange
+*
+M 0   713   2   743   the page (The Waiting Room)
+E 1   708 100     8     a pair of leather sandals
+M 0   713   2   737   the page (The Senate Chambers)
+E 1   708 100     8     a pair of leather sandals
+*
+M 0   714   1   750   the plaintiff (The Courtroom)
+E 1   711   2    15     a silver and gold bracelet
+*
+M 0   715   3   725   the ticket master (Ticket Booth)
+M 0   715   3   725   the ticket master (Ticket Booth)
+M 0   715   3   725   the ticket master (Ticket Booth)
+E 1   715   1    16     a tempered sword
+*
+M 0   716   3   704   the stadium vendor (Southern Commoner's Seats)
+G 1   710  25             a hotdog
+G 1   710  25             a hotdog
+G 1   710  25             a hotdog
+M 0   716   3   708   the stadium vendor (Peanut Heaven)
+G 1   710  25             a hotdog
+G 1   710  25             a hotdog
+G 1   710  25             a hotdog
+M 0   716   3   723   the stadium vendor (Common Seating)
+G 1   710  25             a hotdog
+G 1   710  25             a hotdog
+G 1   710  25             a hotdog
+*
+M 0   717  15   712   the citizen (A Dirt Road)
+M 0   717  15   732   the citizen (Town Square)
+M 0   717  15   721   the citizen (The Slave Quarters)
+M 0   717  15   731   the citizen (Nero Drive)
+M 0   717  15   718   the citizen (South Entrance to the Coliseum)
+M 0   717  15   732   the citizen (Town Square)
+M 0   717  15   745   the citizen (Outside the Capitol)
+M 0   717  15   734   the citizen (Nero Drive)
+M 0   717  15   739   the citizen (Clay Avenue)
+M 0   717  15   740   the citizen (Observation Lookout)
+M 0   717  15   746   the citizen (Clay Avenue)
+M 0   717  15   733   the citizen (Nero Drive)
+M 0   717  15   719   the citizen (The Main Highway)
+M 0   717  15   724   the citizen (East Entrance to Coliseum)
+M 0   717  15   713   the citizen (The Commoner's House)
+*
+M 0   718   5   751   the gateguard (The East Gate of Rome)
+M 0   718   5   729   the gateguard (The Great North Gate)
+M 0   718   5   735   the gateguard (The South Gate)
+M 0   718   5   751   the gateguard (The East Gate of Rome)
+M 0   718   5   705   the gateguard (The Abandoned Gate)
+*
+M 0   719   3   706   the soldier (Swords 'R  Us)
+E 1   708 100     8     a pair of leather sandals
+M 0   719   3   742   the soldier (The Mage's Shop)
+E 1   719   2     8     a pair of Roman combat boots
+M 0   719   3   745   the soldier (Outside the Capitol)
+E 1   708 100     8     a pair of leather sandals
+E 1   718   2     5     a Roman combat breast plate
+*
+M 0   720   1   736   Caesar (The Emperor's Private Office)
+E 1   717   1    10     a pair of Moorish bracers
+G 1   724   7             a dark grey scroll
+*
+M 0   721   2   736   the royal bodyguard (The Emperor's Private Office)
+M 0   721   2   736   the royal bodyguard (The Emperor's Private Office)
+*
+M 0   722   1   755   the judge (Judge's Chambers)
+E 1   712   1     2     a sapphire ring
+*
+M 0   723   1   743   the master scheduler (The Waiting Room)
+E 1   708 100     8     a pair of leather sandals
+E 1   713   1     4     a jade pendant
+G 1   742   1             a diamond studded key
+G 1   743   1             a key with a pearl handle
+*
+M 0   724   6   741   the slimeball (The Aqueduct)
+M 0   724   6   748   the slimeball (The Aqueduct)
+M 0   724   6   754   the slimeball (The Aqueduct)
+M 0   724   6   757   the slimeball (The Aqueduct)
+M 0   724   6   754   the slimeball (The Aqueduct)
+M 0   724   6   757   the slimeball (The Aqueduct)
+G 1   730 500             a flask
+*
+M 0   725   1   749   Froboz (Froboz's Workshop)
+E 1   714  10     5     Froboz's robe
+G 1   725  10             an ornate scroll
+G 1   726  10             a plain scroll
+G 1   729  10             a prototype wand
+*
+M 0   726   1   707   Titus Andronicus (The Back Room)
+E 1   716   3    17     a quenched sword
+E 1   708 100     8     a pair of leather sandals
+*
+M 0   727   2   737   the senator (The Senate Chambers)
+G 1   744   1             an aquamarine key
+M 0   727   2   737   the senator (The Senate Chambers)
+M 0   728   1   750   the bailiff (The Courtroom)
+G 1   746   1             a steel key
+*
+M 0   729   1   750   the defendant (The Courtroom)
+*
+M 0   730   1   747   Jupiter (The Summit of The Mountain of the Gods)
+E 1   720   1    16     Jupiter's Thunderbolt
+*
+M 0   731   1   752   Venus (A Mountain Path)
+E 1   722   1     3     a crystal necklace
+*
+M 0   732   1   756   Mars (A Mountain Path)
+E 1   721   1    13     a red loincloth
+*
+M 0   733   1   759   Mercury (A Mountain Path)
+E 1   723   1     8     a pair of winged sandals
+*
+M 0   734   1   742   Froboz's shopkeeper (The Mage's Shop)
+G 1  3051 500             a yellow potion of see invisible
+G 1  3052 500             a scroll of recall
+G 1  3053 500             a wand of invisibility
+G 1  3054 500             a staff of sleep
+G 1   730  10             a flask
+E 1   708 100     8     a pair of leather sandals
+G 1   745   1             an opal key
+*
+M 0   735   1   761   The executioner (The Torture Chamber)
+G 1   731  10             an executioner's mace
+*
+M 0   736   1   762   the Baker (The Roman Bakery)
+G 1  3010 100             a bread
+G 1  3011 100             a danish pastry
+G 1  3000 100             a barrel
+G 1  3001 100             a bottle
+E 1  3022  16     0     a long sword
+*
+M 0   737   1   763   the Grocer (The General Store)
+G 1  3030 100             a torch
+G 1  3031 100             a lantern
+G 1  3032 100             a bag
+E 1  3022  16     0     a long sword
+*
+D 0   701   5     2    The Judging Booth
+D 0   702   4     2    Caesar's Private Box
+*
+D 0   706   2     2    Swords 'R  Us
+D 0   707   0     2    The Back Room
+*
+D 0   736   1     2    The Emperor's Private Office
+D 0   743   3     2    The Waiting Room
+D 0   736   2     2    The Emperor's Private Office
+D 0   737   0     2    The Senate Chambers
+D 0   737   1     2    The Senate Chambers
+D 0   744   3     2    The Entrance Foyer
+D 0   737   2     2    The Senate Chambers
+* 
+D 0   742   1     2    The Mage's Shop
+D 0   749   3     2    Froboz's Workshop
+*
+D 0   750   1     2    The Courtroom
+D 0   755   3     2    Judge's Chambers
+*
+S
+
+#SHOPS
+$
+#END of Rome.

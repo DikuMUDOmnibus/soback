@@ -1,0 +1,1116 @@
+#40 Zone.
+NAME       : Moria level 1-2~
+INFO       : 반지의 전쟁 후반부의 격돌 장소에서 따온 존.~
+PATH       : Turning 에서 10n.2e.s.d~
+ALIGN      : 2
+AGGRESSIVE : 2
+LEVEL      : 3 ~ 10
+MAX        : 4099
+LIFESPAN   : 20
+RESET      : 2
+
+#MOBILES
+#4000
+snake~
+the snake~
+A large dreadful snake.
+~
+It looks hungry.
+~
+43 8 -200 S
+11 7 4 5d10+50 3d6+0
+0 12000
+8 8 0
+#4001
+snake~
+the green snake~
+A small green snake.
+~
+It looks harmless.
+~
+11 0 -100 S
+7 12 4 3d10+30 2d6+1
+0 2500
+8 8 0
+#4002
+centipede~
+the centipede~
+A small centipede.
+~
+It looks complete harmless.
+~
+10 0 100 S
+3 20 6 2d10+20 1d6+0
+0 500
+8 8 0
+#4003
+kobold~
+the kobold~
+A ugly kobold.
+~
+It looks ugly.
+~
+76 0 -100 S
+4 16 5 2d10+40 1d8+1
+50 1000
+8 8 0
+#4004
+orc~
+the orc~
+The orc walks around, looking for someone to kill.
+~
+You notice an evil look in his eyes
+~
+108 0 -400 S
+5 15 5 2d10+60 2d4+0
+100 1300
+8 8 1
+#4005
+orc~
+the orc~
+A large orc, really mean.
+~
+He looks dreadful.
+~
+76 0 -500 S
+7 11 2 3d20+50 2d6+2
+200 4000
+8 8 1
+#4050
+warrior~
+the warrior~
+A tall dangerous warrior. He has more scares than anyone you have
+seen before.
+~
+Well surely a strong, brainless fighter.
+~
+366 16 -300 S
+12 8 4 10d10+50 2d8+1
+1000 12000
+8 8 1
+#4051
+warrior~
+the warrior~
+A tall warrior.
+~
+He seems to know his way with weapons.
+~
+364 16 -400 S
+7 13 5 3d10+80 2d5+0
+200 3500
+8 8 1
+#4052
+hobgoblin~
+the hobgoblin~
+A small hobgoblin stands here.
+~
+The hobgoblin looks quite lost.
+~
+76 0 -300 S
+6 12 6 3d8+70 2d4+0
+100 2000
+8 8 1
+#4053
+snake~
+the snake~
+A brown snake watches you.
+~
+The snake looks quite mean.
+~
+43 0 -600 S
+10 10 4 3d10+50 3d5+1
+0 10000
+8 8 0
+#4054
+centipede~
+the centipede~
+A white centipede is here.
+~
+The centipede doesn't really seem to notice you.
+~
+10 0 -100 S
+5 17 5 1d10+50 1d7+0
+0 1300
+8 8 0
+#4055
+hobgoblin~
+the hobgoblin~
+A large hobgoblin is here.
+~
+The hobgoblin looks quite dangerous.
+~
+76 0 -500 S
+10 11 2 1d10+120 2d6+1
+300 10000
+8 8 1
+#4056
+orc~
+the orc~
+An orc is here, looking for something (or perhaps someone ? ) to eat.
+~
+Well he doesn't seem to be friendly.
+~
+108 16 -800 S
+8 13 2 3d10+100 2d5+2
+150 7000
+8 8 1
+#99999
+
+#OBJECTS
+#4000
+ring yellow green yellowgreenring~
+a yellow and green ring~
+A ring, with yellow and green ornamentation. It looks very old.~
+~
+9 0 16387
+0 0 0 0
+1 50 20 0
+E
+ring~
+It feels heavy.
+~
+A
+1 -2
+#4001
+corpse~
+a corpse~
+A halfways decayed corpse of a goblin.~
+~
+15 0 1
+1 0 -1 0
+10 0 0 0
+#4002
+coins~
+some coins~
+A small pile of coins.~
+~
+20 0 1
+500 0 0 0
+0 0 0 0
+#4050
+potion purple~
+a purple potion~
+A purple potion is here.~
+~
+10 0 16385
+17 14 36 33
+1 500 0 0
+E
+potion purple~
+It looks rather strange!
+~
+#4051
+helmet metal~
+a metal helmet~
+A metal helmet in here.~
+~
+9 0 16401
+0 0 0 0
+4 3000 3 0
+E
+helmet metal~
+It looks somehow magical!.
+~
+A
+24 -2
+A
+23 -2
+#4052
+mushroom~
+a mushroom~
+A small mushroom is here.~
+~
+19 0 16385
+2 0 0 1
+1 9 3 0
+E
+mushroom~
+Let's put it this way - I wouldn't eat it !
+~
+#99999
+
+#ROOMS
+#4000
+The hills~
+   You are on a path leading north, small hills surrounds you. You feel
+the forces of evil approach you from the north. 
+~
+40 4 4
+D0
+~
+~
+0 0 4001
+D1
+~
+~
+0 0 1650
+D2
+~
+~
+0 0 3500
+S
+#4001
+The hills~
+   You are on a small path leading north, dark threatening hills
+surrounds you to almost all sides.
+~
+40 4 4
+D0
+~
+~
+0 0 4002
+D1
+~
+~
+0 0 18600
+D2
+~
+~
+0 0 4000
+D3
+~
+~
+0 0 6760
+S
+#4002
+End of the path~
+   The path stops here, to the north is a single mountain and around you
+are some threatening hills. There is a dark cave to the north. You see a
+large sign on the mountain.
+~
+40 4 4
+E
+sign~
+The sign says:
+***********************************************************************
+*                                                                     *
+* ******************************************************************* *
+* *                                                                 * *
+* *                    The Mines of Moria                           * *
+* *                                                                 * *
+* *                  Enter at your own risk.                        * *
+* *                                                                 * *
+* *     Welcome to the mines of Moria.. At present there are only   * *
+* *           3 levels. Later the plan is to build 20...            * *
+* *                                                                 * *
+* *     Are you below level 3 Don't enter..                         * *
+* *     Are you below level 8 Don't enter alone..                   * *
+* *                                                                 * *
+* ******************************************************************* *
+*                                                                     *
+***********************************************************************
+~
+D0
+~
+~
+0 0 4010
+D2
+~
+~
+0 0 4001
+S
+#4010
+The cave~
+   You are in a cave, to the south you sense fresh air. To the north a
+small tunnel continues into the mountain.
+~
+40 9 2
+D0
+~
+~
+0 0 4011
+D2
+~
+~
+0 0 4002
+S
+#4011
+The tunnel~
+   You force your way through a small tunnel, to you south you sense 
+a little fresh air, and to the north the tunnel continues.
+~
+40 9 3
+D0
+~
+~
+0 0 4014
+D2
+~
+~
+0 0 4010
+S
+#4012
+The tunnel~
+   You are in a small tunnel, to the north there is a cave. The tunnel
+continues to the east.
+~
+40 9 3
+D0
+~
+~
+0 0 4016
+D1
+~
+~
+0 0 4013
+S
+#4013
+The tunnel~
+   You are in a small tunnel leading east-west. The floor is covered by
+dust.
+~
+40 9 3
+D1
+~
+~
+0 0 4014
+D3
+~
+~
+0 0 4012
+S
+#4014
+The tunnel~
+   You are in a tunnel, the tunnel continues to the south and to the 
+west, to the north there is a cave.
+~
+40 9 3
+D0
+~
+~
+0 0 4018
+D2
+~
+~
+0 0 4011
+D3
+~
+~
+0 0 4013
+S
+#4015
+The tunnel~
+   You are in a small tunnel, the tunnel continues west.
+~
+40 9 3
+D0
+~
+~
+0 0 4019
+D3
+~
+~
+0 0 4014
+S
+#4016
+The large cave~
+   You are in a large cave, the cave continues east and west, to the south
+you notice a small tunnel.
+~
+40 9 2
+D1
+~
+~
+0 0 4017
+D2
+~
+~
+0 0 4012
+D3
+~
+~
+0 0 4023
+S
+#4017
+The large cave~
+   You are in the east end of the large cave.
+~
+40 9 2
+D3
+~
+~
+0 0 4016
+S
+#4018
+The cave~
+   You are in the south end of a cave, to the south you see a tunnel. You
+notice a large pile of bones in the corner.
+~
+40 9 2
+E
+pile bones~
+Well you better watch out - some of the bones are human !
+~
+D0
+~
+~
+0 0 4025
+D2
+~
+~
+0 0 4014
+S
+#4019
+The tunnel~
+   You are in a north-south leading tunnel.
+~
+40 9 3
+D0
+~
+~
+0 0 4026
+D2
+~
+~
+0 0 4015
+S
+#4020
+The hole~
+   You are by a hole in the floor, you can leave down, or north.
+~
+40 13 3
+D0
+~
+~
+0 0 4027
+D5
+~
+~
+0 0 4064
+S
+#4021
+The hole~
+   You are by a hole in the floor, exits are down or east.
+~
+40 13 3
+D1
+~
+~
+0 0 4022
+D5
+~
+~
+0 0 4115
+S
+#4022
+The damp tunnel~
+   You are in a damp tunnel, your clothes feel wet. The tunnel continues
+to the north, to the west you see a hole in the floor and to the east
+there is a large cave.
+~
+40 9 3
+D0
+~
+~
+0 0 4024
+D1
+~
+~
+0 0 4023
+D3
+~
+~
+0 0 4021
+S
+#4023
+The large cave~
+   You are in the western part of the large cave, to the west you see
+a damp tunnel.
+~
+40 9 2
+D1
+~
+~
+0 0 4016
+D3
+~
+~
+0 0 4022
+S
+#4024
+The damp tunnel~
+   You are in a damp tunnel, that leads west.
+~
+40 9 3
+D2
+~
+~
+0 0 4022
+D3
+~
+~
+0 0 4059
+S
+#4025
+The cave~
+   You are in the north end of a cave. To the east you see some tunnels
+which leads in many directions.
+~
+40 9 2
+D1
+~
+~
+0 0 4026
+D2
+~
+~
+0 0 4018
+S
+#4026
+The many tunnels~
+   You are in a tunnel, that leads of in all directions.
+~
+40 9 3
+D0
+~
+~
+0 0 4028
+D1
+~
+~
+0 0 4027
+D2
+~
+~
+0 0 4019
+D3
+~
+~
+0 0 4025
+S
+#4027
+The tunnel~
+   You are in a north-south leading tunnel, you also notice a tunnel to
+the west. From the north you sense the fresh air!
+~
+40 9 3
+D0
+~
+~
+0 0 4029
+D2
+~
+~
+0 0 4020
+D3
+~
+~
+0 0 4026
+S
+#4028
+The smelly tunnel~
+   You are in a north-south leading tunnel, you see a small light
+to the north. You notice a strange smell from the north..
+~
+40 9 3
+D0
+~
+~
+0 0 4030
+D2
+~
+~
+0 0 4026
+S
+#4029
+The cave~
+   You are in a cave that is filled with fresh air, you sense the
+wind blowing from the north. To the south you see a small tunnel
+continue into the mountain.
+~
+40 9 2
+D0
+~
+~
+0 0 4031
+D2
+~
+~
+0 0 4027
+S
+#4030
+The light cave~
+   You are in a light cave, through a hole large above you, you see 
+the sky. A small tunnel to the south is the only way out.
+~
+40 0 2
+D2
+~
+~
+0 0 4028
+S
+#4031
+The valley~
+   You are in a small valley, surrounded by hills and a mountain to 
+the south. In the mountain there is a cave.  A river runs north from
+here.
+~
+40 0 2
+E
+cave~
+Well it doesn't look nice, but it's the only way out..
+~
+D2
+~
+~
+0 0 4029
+D3
+~
+~
+0 -1 2201
+S
+#4050
+The tunnel~
+   You are in a tunnel, which turns here. The tunnel continues to the
+east and the south.
+~
+40 9 3
+D1
+~
+~
+0 0 4051
+D2
+~
+~
+0 0 4053
+S
+#4051
+The tunnel~
+   You are in an east-west leading tunnel. The tunnel is very narrow
+here.
+~
+40 9 3
+D1
+~
+~
+0 0 4052
+D3
+~
+~
+0 0 4050
+S
+#4052
+The tunnel~
+   You are in an east-west leading tunnel.
+~
+40 9 3
+D1
+~
+~
+0 0 4100
+D3
+~
+~
+0 0 4051
+S
+#4053
+The tunnel~
+   You are at a turn, the tunnel continues north and east.
+~
+40 9 3
+D0
+~
+~
+0 0 4050
+D1
+~
+~
+0 0 4054
+S
+#4054
+The light cave~
+   You are in a cave, to south from you there is a large fire that lights
+the entire cave, to the east and west tunnels leads off.
+~
+40 8 2
+D1
+~
+~
+0 0 4055
+D2
+~
+~
+0 0 4056
+D3
+~
+~
+0 0 4053
+S
+#4055
+The maze~
+   You are in a maze of small damp tunnels. Only exit is west to a 
+light cave.
+~
+40 9 3
+D3
+~
+~
+0 0 4054
+S
+#4056
+The light cave~
+   You are in a light cave, a large fire in front of you lights the room.
+The cave continues to the north and south.
+~
+40 8 2
+E
+fire~
+Well, errh - It looks somehow quite warm..!
+~
+D0
+~
+~
+0 0 4054
+D2
+~
+~
+0 0 4061
+S
+#4057
+The maze~
+   You are in a maze of small damp tunnels. Exits leads both north
+and south.
+~
+40 9 3
+D0
+~
+~
+0 0 4055
+D2
+~
+~
+0 0 4062
+S
+#4058
+The maze~
+   You are in a maze of small damp tunnels. Exits leads west and south.
+~
+40 9 3
+D2
+~
+~
+0 0 4063
+D3
+~
+~
+0 0 4057
+S
+#4059
+The tunnel~
+   You are in a tunnel, only exit is to the east. You sense that the
+tunnel leads slightly down.
+~
+40 13 3
+D1
+~
+~
+0 0 4060
+S
+#4060
+The tunnel~
+   You are in a small tunnel, to the west the tunnel continues and 
+to the east you see some light.
+~
+40 9 3
+D1
+~
+~
+0 0 4061
+D3
+~
+~
+0 0 4059
+S
+#4061
+The light cave~
+   You are in the south end of a light cave, tunnels leads of to the
+south and west.
+~
+40 8 2
+D0
+~
+~
+0 0 4056
+D2
+~
+~
+0 0 4065
+D3
+~
+~
+0 0 4060
+S
+#4062
+The maze~
+   You are in a maze of small damp tunnels. Exits leads east and west.
+~
+40 9 3
+D1
+~
+~
+0 0 4063
+D3
+~
+~
+0 0 4061
+S
+#4063
+The maze~
+   You are in a maze of small damp tunnels. Exits leads north and east.
+~
+40 9 3
+D0
+~
+~
+0 0 4054
+D1
+~
+~
+0 0 4064
+S
+#4064
+The tunnel~
+   You are in a tunnel, only exit is west - Only exit, well there is 
+also a hole in the ceiling.
+~
+40 9 3
+D3
+~
+~
+0 0 4063
+D4
+~
+~
+0 0 4020
+S
+#4065
+The maze~
+   You are in a maze of small damp tunnels. The tunnel continues east.
+To the north there is a light cave.
+~
+40 9 3
+D0
+~
+~
+0 0 4061
+D1
+~
+~
+0 0 4066
+S
+#4066
+The maze~
+   You are in a maze of small damp tunnels. Exits leads east and
+north. To the south is a large cave.
+~
+40 9 3
+D0
+~
+~
+0 0 4062
+D1
+~
+~
+0 0 4067
+D2
+~
+~
+0 0 4069
+S
+#4067
+The maze~
+   You are in a maze of small damp tunnels. Exits leads west and
+north.
+~
+40 9 3
+D0
+~
+~
+0 0 4063
+D3
+~
+~
+0 0 4066
+S
+#4068
+The large cave~
+   You are in the northwest end of a large cave.
+~
+40 9 2
+D1
+~
+~
+0 0 4069
+D2
+~
+~
+0 0 4070
+S
+#4069
+The large cave~
+   You are in the northeast end of a large cave. To the north the
+is a small damp tunnel.
+~
+40 9 2
+D0
+~
+~
+0 0 4066
+D2
+~
+~
+0 0 4071
+D3
+~
+~
+0 0 4068
+S
+#4070
+The large cave~
+   You are in the southwest end of a large cave.
+~
+40 9 2
+D0
+~
+~
+0 0 4068
+D1
+~
+~
+0 0 4071
+S
+#4071
+The large cave~
+   You are in the southeast end of a large cave. To the east you
+notice a small tunnel.
+~
+40 9 2
+D0
+~
+~
+0 0 4069
+D1
+~
+~
+0 0 4072
+D3
+~
+~
+0 0 4070
+S
+#4072
+The tunnel~
+   You are in a narrow tunnel, which leads both to the east and the
+south. There is also an exit towards the west, where you see a large
+cave.
+~
+40 9 3
+D1
+~
+~
+0 0 4073
+D2
+~
+~
+0 0 4074
+D3
+~
+~
+0 0 4071
+S
+#4073
+End of tunnel~
+   The tunnel stops here. There is no other exits than the one you
+came from.
+~
+40 9 3
+D3
+~
+~
+0 0 4072
+S
+#4074
+The hole~
+   You are at a small hole in the floor, you can either leave north
+or try your luck and leave down into the unknown!
+~
+40 9 3
+D0
+~
+~
+0 0 4072
+D5
+~
+~
+0 0 -1
+S
+#99999
+
+#RESET
+*
+* Level 1
+*
+M 0  4000   1  4030   the snake (The light cave)
+G 1  4001   1             a corpse
+P 1  4002   1  4001       some coins (corpse)
+*
+M 0  4001   2  4025   the green snake (The cave)
+M 0  4001   2  4015   the green snake (The tunnel)
+*
+M 0  4002   3  4023   the centipede (The large cave)
+M 0  4002   3  4017   the centipede (The large cave)
+M 0  4002   3  4020   the centipede (The hole)
+*
+M 0  4003   6  4021   the kobold (The hole)
+M 0  4003   6  4021   the kobold (The hole)
+M 0  4003   6  4013   the kobold (The tunnel)
+M 0  4003   6  4013   the kobold (The tunnel)
+M 0  4003   6  4027   the kobold (The tunnel)
+M 0  4003   6  4027   the kobold (The tunnel)
+*
+M 0  4004   3  4015   the orc (The tunnel)
+M 0  4004   3  4028   the orc (The smelly tunnel)
+M 0  4004   3  4028   the orc (The smelly tunnel)
+*
+M 0  4005   1  4022   the orc (The damp tunnel)
+E 1  4000   5     1     a yellow and green ring
+*
+* Moria level 2
+*
+M 0  4050   1  4062   the warrior (The maze)
+G 1  4051   3             a metal helmet
+*
+M 0  4051   4  4070   the warrior (The large cave)
+M 0  4051   4  4050   the warrior (The tunnel)
+M 0  4051   4  4073   the warrior (End of tunnel)
+M 0  4051   4  4055   the warrior (The maze)
+*
+M 0  4052   3  4056   the hobgoblin (The light cave)
+M 0  4052   3  4065   the hobgoblin (The maze)
+M 0  4052   3  4059   the hobgoblin (The tunnel)
+*
+M 0  4053   2  4058   the snake (The maze)
+M 0  4053   2  4068   the snake (The large cave)
+*
+M 0  4054   3  4060   the centipede (The tunnel)
+M 0  4054   3  4053   the centipede (The tunnel)
+M 0  4054   3  4052   the centipede (The tunnel)
+*
+M 0  4055   2  4064   the hobgoblin (The tunnel)
+G 1  4050 100             a purple potion
+M 0  4055   2  4071   the hobgoblin (The large cave)
+G 1  4050 100             a purple potion
+*
+M 0  4056   2  4067   the orc (The maze)
+M 0  4056   2  4057   the orc (The maze)
+*
+O 0  4052   8  4068    a mushroom (The large cave)
+O 0  4052   8  4069    a mushroom (The large cave)
+O 0  4052   8  4070    a mushroom (The large cave)
+O 0  4052   8  4071    a mushroom (The large cave)
+*
+S
+
+#SHOPS
+$
+#END of Moria level 1-2.

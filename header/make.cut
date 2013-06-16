@@ -1,0 +1,2 @@
+CFLAGS="-D__STDC__=0 -Wall -ansi -ggdb -pipe -nostdinc -DIMO=41 -I. -I/usr/include -O"
+gcc $CFLAGS -lcrypt -o ../lib/cut cutout.c

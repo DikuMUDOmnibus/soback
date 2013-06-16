@@ -1,0 +1,43 @@
+#ifndef __ROOMS_H
+#define __ROOMS_H
+
+/* in shop.c */
+void boot_shops( FILE * );
+void write_shops( FILE *, int );
+void assign_the_shopkeepers( void );
+
+/* in mail.c */
+void init_mbox( void );
+
+/* in board.c */
+void init_board( void );
+
+/* in locker.c */ 
+void char_to_locker( charType * );
+void char_from_locker( charType * ); 
+void init_locker( void );
+void wipe_locker( char * );
+void move_locker( char *, char * );
+
+/* in pawn.c */
+void init_pawn( void );
+
+/* in bank.c */
+
+#define	BANK_NO_ACCOUNT	 -1
+#define BANK_NO_MEMBER	 -2
+#define BANK_NEGATIVE    -3
+#define BANK_NO_AMOUNT   -4
+#define BANK_OK           0
+
+void init_bank( void );
+int  cost_from_player( charType *, charType *, char * account, int amount );
+int  coins_from_char ( charType *, int amount );
+int  coins_to_char   ( charType *, int amount );
+
+/* in insurance.c */
+
+void init_insurance( void );
+void clear_insurance( void );
+
+#endif/*__ROOMS_H*/

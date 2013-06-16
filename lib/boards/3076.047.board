@@ -1,0 +1,31 @@
+Dragon Breath Bug report
+다음과 같은 log를 잡는데 성공했습니다. 참조하시고 debugging하는데
+도움이 되길 바랍니다.
+
+----------------------------- 시작 --------------------------
+The brass dragon hits you v-hard.
+The brass dragon hits you v-hard.
+You wish that your wounds would stop BLEEDING that much!
+PANIC! You couldn't escape!
+The brass dragon hit you ex-hard.
+You wish that your wounds would stop BLEEDING that much!
+You are too exhausted.
+<41,203,0> You recite a scroll of recall which dissolves.
+The Temple Of Midgaard
+[ Up     West   North  South  East   Down  ]
+A mysterious liquid bubbles from the ground.
+Satch the Archmage of Fire (invisible) is sleeping here.
+Waf the Powerful Knight is standing here.
+<41,203,-50> You cannot do that here.
+<41,203,-50> You are too exhausted.
+<41,203,-50> You cannot do that here.
+<41,203,-50> ** Lin ** ' /// RECALLED ///'
+Ok.
+<41,203,-50> You get a scroll of recall from A Bag of Holding.
+Ok.
+<41,203,-50>
+Bread breaks.
+
+
+수고하세요.                     Lin.
+

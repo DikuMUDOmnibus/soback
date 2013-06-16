@@ -1,0 +1,30 @@
+#!/bin/sh
+
+dmsBase=/var/tmp/teof/diku/lib/stash
+backup=/var/tmp/teof/diku/diku.backup/lib/stash
+
+option=$1
+name=$2
+path=`expr $name : '\(.\).*'`/$name
+pathx=$path.x
+pathy=$path.x.y
+
+if [ $option = 'l' ]
+then 
+	ls -al $backup/$path.*
+	ls -al $dmsBase/$path.*
+elif [ $option = 'x' ]
+then
+	cp $backup/$pathx $dmsBase/$pathx
+	ls -al $dmsBase/$pathx
+elif [ $option = 'y' ]
+then
+	cp $backup/$pathy $dmsBase/$pathy
+	ls -al $dmsBase/$pathy
+elif [ $option = "dx" ]
+then
+	/bin/rm -f $dmsBase/$pathx
+elif [ $option = "dy" ]
+then
+	/bin/rm -f $dmsBase/$pathy
+fi

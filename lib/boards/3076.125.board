@@ -1,0 +1,29 @@
+Temple 에서 d.4s.w.2s 에 reboot, reset, shutdown
+이란 색다른 mobile 들이 생겼습니다..
+
+이 mobile 들은 각기 기능을 가지고 있습니다..
+
+Reset 을 잡으면 존 몇개가 무작위로 선택되어 강제 리셋되게 됩니다.
+이 때 그 존에 있는 mobile 들이 모두 사라지고 아이템도 모두 사라
+지게 됩니다.. 주의하실 점은 senior 등 charmie 도 사라지게
+된다는 점입니다. 또 누가 바닥에 가방을 잠시 떨어뜨려놨다면
+그 것도 사라지게 됩니다.. 
+
+shutdown 을 잡으면 머드가 shutdown 을 향한 count down 에
+들어가게 됩니다.. 이 count down 은 reboot mobile 이 하게 되고
+count down 중에 reboot 를 잡게되면 count down 은 중지됩니다.
+
+또, reboot 는 평소에 잡으면 아무 효과가 없고, reboot mobile
+이 count down 을 시작하거나 할무렵에 잡게되면 count down
+이 10 정도 지연되게 됩니다...
+
+Auto-shutdown 을 mobile 이 외치는 것이 옳은 듯이 보여서
+이런 mobile 들을 도입했습니다.. 여전히 20:00 running time 에
+reboot 가 count down 에 들어가게됩니다..
+
+*Nuis*
+
+PS) Detect good 마법이 제데로 돌아갑니다.. Detect evil 도 좀
+변해서 전과는 틀리게 evil, good char 를 display 하게 됩니다.
+
+

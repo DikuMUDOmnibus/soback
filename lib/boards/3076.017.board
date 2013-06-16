@@ -1,0 +1,33 @@
+음.. dragon's breath에 문제가 좀 있는거 같아서 적어봅니다.
+다음은 제가 capture받은거구요..
+
+Arion looks at The red dragon.
+<216,76,238> The burned room
+You are in a room, which once had been quite burned.
+There is writing on the wall.
+[ West          South               ]
+You flee head over heels.
+Taeyun> 와~~ uck님 대단..
+<216,76,236> #TICK!!!
+WD> 그럼 나땜시 다운된건 아닌디..
+<216,76,236>
+<216,76,236> sl
+You go to sleep.
+<216,76,236> sl
+i
+<244,100,238> You are carrying:
+[ 6] a bread
+[ 1] a yellow potion of see invisible
+[ 2] a scroll of recall
+[ 1] an iron ring
+[ 1] the thain girth..sound!
+[ 1] the One Ring
+[ 1] a bag
+[ 1] a canoe
+
+
+어때요..bread다음에 potion 이 있음에도 불구하고 recall이 탔다는게 문제죠?
+
+또한 틀림없이 들어가기 전에 put all.bread bag
+get all.bread bag 을 했거든요? 한번 참고삼아 봐주세요
+

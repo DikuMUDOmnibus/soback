@@ -1,0 +1,17 @@
+gt == ARMOR OFF ==
+.아이템에 state가 잘못 돼있는 것 같네요...
+ofcol의 brass plate를 identify해보면 
+Object 'plate brass', Item type: ARMOR, Item Status: Excellent
+Item is: MAGIC 
+Weight: 10, Value: 30000, Level limit: 100
+AC-apply is 6
+Can affect you as :
+level limit가 100으로 돼있어요...
+그럼.
+그럼.
+.
+.
+
+
+quit
+

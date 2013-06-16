@@ -1,0 +1,17 @@
+
+put, get 명령이 바뀌었습니다..
+
+get all.wand bag, get all all.bag, get gold all.corpse
+put all altar, put all 2.bag 등이 됩니다.
+
+중요한 점은 get 과 put 이 container 를 찾는 순서가 
+틀리다는 점입니다.. 예를 들어 바닥에 bag 이 하나 있고
+inventory 에 또 하나 있다면 .. get xx 2.bag 은 inventory
+의 bag 이.. put xx 2.bag 은 바닥의 bag 이 참조됩니다..
+
+이 점을 주의하시기 바랍니다..
+
+바닥에 bag 이 있다고 get xxx bag 이 안되는 일이 없어진거죠.
+
+*Nuis*
+

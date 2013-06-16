@@ -1,0 +1,342 @@
+#33 Zone.
+NAME       : Northern part of Midgaard~
+INFO       : Midgaard 의 북부로서 북쪽 산악지형의 존들로 이어진다.~
+PATH       : Temple 에서 d.n~
+ALIGN      : 2
+AGGRESSIVE : 0
+LEVEL      : 1 ~ 40
+MAX        : 3399
+LIFESPAN   : 40
+RESET      : 2
+
+#MOBILES
+#3300
+Jenny smith~
+Jenny Smith~
+Jenny, the blacksmith, bids you welcome to his humble store.
+~
+Jenny looks ugly. But, She knows well about all the object in this
+world. She likes to talk with stranger like you about the greatest
+weapon in this world. She is polishing her new boots.
+~
+267 33554568 900 S
+43 -10 -20 9d90+18000 1d8+70
+200000 2000000
+8 8 2
+#3301
+Suzan smith~
+Suzan Smith~
+Suzan is here, writing something on her board.
+~
+Suzan looks very busy. She is writing something on her board. You
+see the board has somewhat useful infomation to you.
+~
+267 33554568 900 S
+43 -10 -20 9d90+18000 6d8+70
+200000 2000000
+8 8 2
+#3302
+kid clerk~
+A insurance kid~
+A insurance kid is ridding on a bycicle is here.
+~
+~
+11 0 600 S
+23 -5 2 6d10+890 3d8+32
+2000 800
+8 8 1
+#99999
+
+#OBJECTS
+#3300
+key metal~
+a metal key~
+A small metal key has been dropped here.~
+~
+18 0 1
+0 0 0 0
+1 10 0 0
+E
+key metal~
+You notice 'My Cottage' has been inscribed on the key.
+~
+#3301
+key brass~
+a brass key~
+An old brass key has been dropped here.~
+~
+18 0 1
+0 0 0 0
+1 10 0 0
+E
+key brass~
+It looks as if it is very old.  There are some small marks on it as if
+somebody with tiny (but strong!) teeth has been biting a lot in it.
+~
+#99999
+
+#ROOMS
+#3300
+Northern Market Square~
+   You are standing on the market square, the famous Square of Midgaard.
+A large, pecualiar looking statue is standing in the middle of the square.
+Roads lead in every direction, south to the temple square, north to the
+common square, east and westbound is the main street.
+~
+33 0 1
+D0
+~
+~
+0 0 3305
+D1
+~
+~
+0 -1 3301
+D2
+~
+~
+0 -1 3005
+D3
+~
+~
+0 -1 3303
+S
+#3301
+The Main Street~
+   You are on the main street crossing through town.
+~
+33 0 1
+D1
+~
+~
+0 -1 3302
+D3
+~
+~
+0 -1 3300
+S
+#3302
+The Main Street~
+   You are on the main street crossing through town.
+~
+33 0 1
+D1
+~
+~
+0 -1 3306
+D3
+~
+~
+0 -1 3301
+S
+#3303
+The Main Street~
+   You are on the main street crossing through town.
+~
+33 0 1
+D1
+~
+~
+0 -1 3300
+D3
+~
+~
+0 -1 3304
+S
+#3304
+The Main Street~
+   You are on the main street crossing through town.
+~
+33 0 1
+D1
+~
+~
+0 -1 3303
+D3
+~
+~
+0 -1 3307
+S
+#3305
+The Northern Common Square~
+   The common square, people pass you, talking to each other.
+~
+33 0 1
+D0
+~
+~
+0 -1 3309
+D2
+~
+~
+0 -1 3300
+S
+#3306
+The Main Street~
+   You are on the main street crossing through town.
+~
+33 0 1
+D1
+~
+~
+0 0 3312
+D2
+~
+~
+0 0 3041
+D3
+~
+~
+0 -1 3302
+S
+#3307
+The Main Street~
+   You are on the main street crossing through town.
+~
+33 0 1
+D1
+~
+~
+0 -1 3304
+D2
+~
+~
+0 0 3040
+D3
+~
+~
+0 -1 3308
+S
+#3308
+The Pawn Shop~
+You are inside the pawn shop. There is a small note on the counter.
+~
+33 12 0
+E
+note~
+The note reads:
+
+  List    - You will see lists of items in this shop.
+  Value   - The shopkeeper will tell how much you will pay for item.
+  Examine - You wiil get infomation about items for selling.
+  Buy     - Buy a item.
+  Sell    - Sell your item.
+~
+D1
+You see the main street.
+~
+~
+0 -1 3307
+S
+#3309
+The Residential Plaza~
+You are in large plaza of nothern midgaard. At here, you can see many buil
+dings and apartments where the citizens of midgaard lives.
+~
+33 0 1
+D0
+~
+~
+0 -1 3310
+D2
+~
+~
+0 -1 3305
+S
+#3310
+Inside the North Gate of Midgaard~
+   You are by two small towers that have been built into the city wall and
+connected with a footbridge across the heavy wooden gate.
+~
+33 0 1
+D0
+The city gate is to the north.
+~          ~
+gate~
+1 3133 3311
+D2
+~
+~
+0 -1 3309
+S
+#3311
+Outside the North Gate of Midgaard~
+   You are by two small towers that have been built into the city wall and
+connected with a footbridge across the heavy wooden gate.  To the north you
+can see a huge plains.
+~
+33 4 1
+E
+gate~
+It is a set of very big double doors made from hard wood.  They have been
+reinforced with large iron bands to make them even more sturdy.  One of the
+doors is equipped with a very big lock.
+~
+D0
+~~
+~~
+0 -1 300
+D2
+The city gate is to the south.
+~
+gate~
+1 3133 3310
+S
+#3312
+The Insurance Office~
+You are inside the inusrance office. There is a small note on the counter.
+And there is a big board on the wall.
+~~
+33 12 0
+E
+note~
+The note reads:
+
+    Insurance : check your insurance status.
+    Insure    : insure a key against sudden reboot.
+    Retrieve  : retrieve a key.
+
+    look board to read the current insurance status.
+~
+D3
+You see the main street.
+~~
+~
+0 -1 3306
+S
+#99999
+
+#RESET
+*
+M 0  3300   1  3308   Jenny Smith (The Pawn Shop)
+M 0  3301   1  3312   Suzan Smith (The Insurance Office)
+M 0  3302   1  3312   A insurance kid (The Insurance Office)
+M 0  3128   1  3304   The Hit Hard (The Main Street)
+E 1  3025   7    16     a particle of bombard sword
+M 0  3129   1  3305   The Hit (The Northern Common Square)
+E 1  3025   7    16     a particle of bombard sword
+M 0  3060  20  3303   the Cityguard (The Main Street)
+*
+M 0  3060  20  3304   the Cityguard (The Main Street)
+*
+M 0  3060  20  3307   the Cityguard (The Main Street)
+*
+M 0  3060  20  3305   the Cityguard (The Northern Common Square)
+*
+M 0  3060  20  3306   the Cityguard (The Main Street)
+M 0  3063   5  3026   the Mercenary (The Dark Alley)
+E 1  3021  10    16     a small sword
+G 1  1322  10             A align Keywords by Great SuperSundew's NOGADA !!
+*
+M 0  3064   5  3307   the Drunk 주정뱅이 (The Main Street)
+M 0  3065   5  3304   the Beggar 거지 (The Main Street)
+M 0  3062  25  3303   the Beastly Ddaeng-7 (The Main Street)
+M 0  3066   5  3306   the Odif Yltsaeb (The Main Street)
+*
+M 0  3061  10  3006   the Janitor named 영구 (Entrance to the Grunting Boar Inn)
+*
+S
+
+#SHOPS
+$
+#END of Northern part of Midgaard.

@@ -1,0 +1,47 @@
+#!/usr/bin/ksh 
+tmsBase=/var/tmp/MUD/diku
+objdir=$tmsBase/obj
+RM='/usr/bin/rm -f'
+CC=gcc
+incdir=../header
+CFLAGS="-D__STDC__=0 -Wall -ggdb -pipe -DIMO=41 -I$incdir -O -c"
+
+if [ ! -d $objdir ]
+then
+	/usr/bin/mkdir $objdir
+fi
+
+if test "x$1" = "xclean"; then
+	rm -rf $objdir
+fi
+
+for f in `ls *.c` 
+do
+	echo "=====> $f" 
+	printf "$f\n" > temp.out
+	o="$objdir/`sed -e 's/\.c$/\.o/g' temp.out`"
+	if [ -f "$o" ]
+	then
+		if [ $o -ot $f ]
+		then
+			echo "$RM $o"
+			$RM $o
+			echo "$CC $CFLAGS -o $o $f"
+			$CC $CFLAGS -o $o $f
+		fi
+	else
+		echo "$CC $CFLAGS -o $o $f"
+		$CC $CFLAGS -o $o $f
+	fi
+done
+
+cd $objdir
+echo "=====>< $objdir >"
+
+if test "x$1" = "xtest"; then
+	echo "/usr/ccs/bin/ld -lc -lsocket -lnsl -lucb -o $tmsBase/diku.backup/tms.test *.o"
+	gcc -lsocket -lnsl -o $tmsBase/diku.backup/tms.test *.o
+else
+	echo "/usr/ccs/bin/ld -lc -lsocket -lnsl -lucb -o $tmsBase/tms.tmp *.o"
+	gcc -lsocket -lnsl -o $tmsBase/tms.tmp *.o
+fi

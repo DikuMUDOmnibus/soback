@@ -1,0 +1,4486 @@
+#187 Zone.
+NAME       : Spitfire The Isle of Quake~
+INFO       : ~
+PATH       : Oceania 에서 해맨다.~
+ALIGN      : 0
+AGGRESSIVE : 1
+LEVEL      : 20 ~ 40
+MAX        : 18899
+LIFESPAN   : 30
+RESET      : -1
+
+#MOBILES
+#18701
+snake~
+the snake~
+A small snake slithers along the floor.
+~
+It looks harmless enough.
+~
+9 32 -500 S
+5 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18702
+snake huge~
+the huge snake~
+A huge snake lies on the floor waiting for someone to bite.
+~
+It's huge and scary.
+~
+43 32 -750 S
+20 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18703
+parrot~
+the parrot~
+A parrot is here sitting on a branch.
+~
+It's big and colourfull.
+~
+13 524288 500 S
+8 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18704
+cockatoo~
+the cockatoo~
+A white cockatoo is here sitting on a branch.
+~
+It's big and white.
+~
+13 524288 500 S
+9 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18705
+ant black~
+the black ant~
+A black ant runs on the ground carrying something.
+~
+It looks busy.
+~
+13 0 0 S
+5 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18706
+ant red~
+the red ant~
+A red ant runs on the ground carrying something.
+~
+It looks busy.
+~
+13 0 0 S
+5 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18707
+ant giant~
+the giant ant~
+A giant ant stands before you.
+~
+It looks absent-minded.
+~
+9 0 0 S
+15 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18708
+shark~
+the shark~
+A shark swims before you.
+~
+It looks strong and dangerous.
+~
+11 0 -250 S
+12 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18709
+whale~
+the whale~
+A whale is swimming towards you.
+~
+It looks strong.
+~
+11 0 250 S
+18 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18710
+fish jelly jelly-fish~
+the jelly-fish~
+A jelly-fish is swimming here.
+~
+It looks weak and slithery.
+~
+11 0 500 S
+4 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18711
+fish~
+the fish~
+A fish is swimming here.
+~
+It looks weak.
+~
+11 0 500 S
+4 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18712
+dragon silver~
+the silver dragon~
+A silver dragon is standing here.
+~
+It's very beautiful but also very dangerous.
+~
+43 8232 -250 S
+30 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18713
+cannibal~
+the cannibal~
+A cannibal is standing here waiting for fresh meat.
+~
+He looks very hungry.
+~
+73 0 0 S
+22 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18714
+cannibal chief~
+the chief cannibal~
+The chief cannibal is sitting here.
+~
+He's very fat.  He must have had a lot to eat.
+~
+11 0 0 S
+30 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18715
+bat~
+the bat~
+A bat hangs upside down from the ceiling.
+~
+It looks like it's sleeping.
+~
+137 524288 -250 S
+8 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18716
+thief~
+the thief~
+A sneaky thief appears and disappears within the shadows.
+~
+He definitely knows what he's doing.  Trust him.
+~
+73 32770 0 S
+14 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18717
+cannibal~
+the cannibal~
+A cannibal is standing here selling rubbish.
+~
+He looks very happy.
+~
+11 0 500 S
+25 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18718
+fish jelly jelly-fish~
+the jelly-fish~
+A jelly-fish is lying here.  You better not step on it.
+~
+It looks weak and slithery.
+~
+11 0 500 S
+3 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18719
+monkey~
+the monkey~
+A monkey is sitting here.
+~
+She looks very pretty but has sharp teeth so watch out.
+~
+13 0 500 S
+10 0 0 1d1+1 1d1+1
+0 0
+0 0 2
+#18720
+gorilla aggressive~
+the aggressive gorilla~
+A aggressive gorilla is here attacking you !.
+~
+He's very big and looks very strong.  You can better run away.
+~
+43 0 -500 S
+20 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18721
+crab~
+the crab~
+A crab crawls here on the beach.
+~
+It isn't big but has some dangerous looking pincers.
+~
+11 0 0 S
+8 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18722
+dragon baby silver~
+the silver baby dragon~
+A silver baby dragon is standing here.
+~
+It's very beautiful but also very dangerous.
+~
+11 0 0 S
+15 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18723
+lion mountain~
+the mountain lion~
+A mountain lion bears its teeth at the sight of more food.
+~
+He has huge claws and big teeth.
+~
+73 0 -100 S
+21 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18724
+bear~
+the bear~
+A bear stands before you, looking very hungry.
+~
+He has huge claws.
+~
+11 0 0 S
+25 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18725
+cow~
+the cow~
+A cow is grazing here.
+~
+She looks very peaceful.
+~
+11 0 0 S
+10 0 0 1d1+1 1d1+1
+0 0
+0 0 2
+#18726
+wood cutter wood-cutter pete~
+Pete the wood-cutter~
+Pete the wood-cutter is standing here.
+~
+He is very big and very strong.  He has been cutting trees all his live.
+~
+73 0 0 S
+25 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18727
+eagle~
+the eagle~
+An eagle is here protecting her children.
+~
+She's very large and beautiful.
+~
+43 0 0 S
+15 0 0 1d1+1 1d1+1
+0 0
+0 0 2
+#18728
+baby eagle~
+the baby eagle~
+A baby eagle is here.
+~
+He's very beautiful.  One day he'll be as big as his mother.
+~
+11 0 0 S
+7 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18729
+druggist frances~
+Frances the druggist~
+Frances the druggist stands behind the counter.
+~
+She's very friendly, she will never harm a living thing.
+~
+11 0 900 S
+40 0 0 1d1+1 1d1+1
+0 0
+0 0 2
+#18730
+green-grocer green grocer patrick~
+Patrick the green-grocer~
+Patrick the green-grocer stands behind the counter.
+~
+He looks like the average guy.
+~
+11 0 900 S
+45 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18731
+tailor paul~
+Paul the tailor~
+Paul the tailor stands here looking at you.
+~
+He's very nicely dressed.
+~
+11 0 900 S
+43 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18732
+tavern-keeper keeper yves~
+Yves the tavern-keeper~
+Yves the tavern-keeper stands behind the bar.
+~
+A very tall and strong man.  I shouldn't mess with him.
+~
+11 0 900 S
+50 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18733
+coroner william~
+William the coroner~
+William the coroner stands here.
+~
+A small, skinny guy.  He has a very pale skin, just like his corpses.
+~
+11 0 900 S
+38 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18734
+armourer julian~
+Julian the armourer~
+Julian the armourer stands here.
+~
+An young but strong armourer.
+~
+11 0 900 S
+48 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18735
+weaponsmith smith steve~
+Steve the weaponsmith~
+Steve the weaponsmith stands here.
+~
+An old but strong weaponsmith.
+~
+11 0 900 S
+46 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18736
+cityguard guard westreen~
+the Westreen cityguard~
+A Westreen cityguard stands here.
+~
+A big, strong, helpful, trustworthy guard.
+~
+77 8192 1000 S
+35 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18737
+cityguard guard westreen~
+the Westreen cityguard~
+A Westreen cityguard stands here garding the city gate.
+~
+A big, strong, helpful, trustworthy guard.
+~
+11 8192 1000 S
+37 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18738
+judge belinda~
+Belinda the judge~
+Belinda the judge stands here.
+~
+She's a very wise judge.
+~
+73 0 1000 S
+42 0 0 1d1+1 1d1+1
+0 0
+0 0 2
+#18739
+housewife wife bea~
+Bea the housewife~
+Bea the housewife is here cleaning the house.
+~
+She likes to make everything clean.
+~
+15 0 750 S
+34 0 0 1d1+1 1d1+1
+0 0
+0 0 2
+#18740
+housewife wife jannet~
+Jannet the housewife~
+Jannet the housewife is here cleaning the house.
+~
+She likes to make everything clean.
+~
+15 0 750 S
+34 0 0 1d1+1 1d1+1
+0 0
+0 0 2
+#18741
+citizen~
+a citizen of Westreen~
+A citizen of Westreen is standing here.
+~
+She looks like an ordinary woman.
+~
+77 0 0 S
+30 0 0 1d1+1 1d1+1
+0 0
+0 0 2
+#18742
+citizen~
+a citizen of Westreen~
+A citizen of Westreen is standing here.
+~
+He looks like an ordinary guy.
+~
+77 0 0 S
+32 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#18743
+mouse sorcerer~
+the great sorcerer~
+A harmless little white mouse is running around here.
+~
+A little and white mouse.  It can't harm you.
+~
+11 0 0 S
+50 0 0 1d1+1 1d1+1
+0 0
+0 0 0
+#18744
+healer albertus~
+Albertus the healer~
+Albertus the healer is here.
+~
+A tall and powerfull man.
+~
+11 136 1000 S
+55 0 0 1d1+1 1d1+1
+0 0
+0 0 1
+#99999
+
+#OBJECTS
+#18701
+potion cyan~
+a cyan potion~
+A cyan potion has been left here.~
+~
+10 0 1
+50 1 3 34
+1 0 0 10
+#18702
+claw dragon silver~
+a silver dragon claw~
+A silver dragon claw rests on the floor.~
+~
+5 1027 8193
+0 0 0 5
+18 0 0 10
+A
+18 4
+A
+19 6
+A
+2 -2
+#18703
+torch~
+a torch~
+A large torch hangs on the wall.~
+~
+1 0 65537
+0 0 100 0
+2 0 0 10
+#18704
+spear~
+a sharp spear~
+A sharp spear lies here.~
+~
+5 65 8193
+0 0 0 11
+5 0 0 10
+#18705
+coins gold pile~
+a pile of gold coins~
+A pile of gold coins lies here.~
+~
+20 0 1
+1000 0 0 0
+1 0 0 10
+#18706
+dagger steel~
+a steel dagger~
+A steel dagger with a long blade lies here.~
+~
+5 0 8193
+0 0 0 11
+3 0 0 10
+A
+18 2
+#18707
+vest~
+a steel vest~
+You see a steel vest here.~
+~
+9 0 9
+0 0 0 0
+5 0 0 10
+A
+12 10
+A
+13 10
+#18708
+shield steel~
+a steel shield~
+A steel shield is lying on the ground.~
+~
+9 0 513
+0 0 0 0
+5 0 0 10
+A
+12 10
+A
+13 10
+#18709
+spear~
+a huge spear~
+A huge spear lies here.~
+~
+5 67 8193
+0 0 0 11
+6 0 0 10
+A
+18 4
+A
+19 4
+#18710
+crown diamond~
+a diamond crown~
+You see a diamond crown here.~
+~
+9 0 17
+0 0 0 0
+5 0 0 10
+A
+3 2
+A
+4 2
+#18711
+key steel~
+a steel key~
+A steel key has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 0 10
+#18712
+diamond red~
+a red diamond~
+A red diamond has been left here.~
+~
+8 1 1
+0 0 0 0
+1 0 0 10
+#18713
+glass shiny~
+a shiny piece of glass~
+A shiny piece of glass has been left here.~
+~
+13 1 1
+0 0 0 0
+1 0 0 10
+#18714
+pot cooking~
+a big cooking pot~
+A big cooking pot stands before you, big enough for you to fit in.~
+~
+15 0 1
+400 0 0 0
+40 0 0 10
+#18715
+chest~
+a big chest~
+A big chest stands here.~
+~
+15 0 1
+100 15 18721 0
+20 0 0 10
+#18716
+skirt rush rush-skirt~
+a rush-skirt~
+You see a rush-skirt here.~
+~
+9 0 2049
+0 0 0 0
+3 0 0 10
+A
+2 2
+A
+4 1
+#18717
+ring diamond~
+a diamond ring~
+You see a diamond ring here.~
+~
+9 0 3
+0 0 0 0
+2 0 0 10
+A
+1 2
+A
+19 4
+#18718
+leggings bronze~
+a pair of bronze leggings~
+You see a pair of bronze leggings here.~
+~
+9 0 33
+0 0 0 0
+5 0 0 10
+A
+5 2
+A
+19 2
+#18719
+boots leather~
+a pair of leather boots~
+You see a pair of leather boots here.~
+~
+9 0 65
+0 0 0 0
+5 0 0 10
+A
+14 50
+A
+12 25
+#18720
+axe~
+a wood-cutter's axe~
+A wood-cutter's axe is lying here.~
+~
+5 1024 8193
+0 0 0 1
+12 0 0 10
+A
+18 6
+A
+19 4
+A
+1 1
+#18721
+key silver~
+a silver key~
+A silver key has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 0 10
+#18722
+necklace diamond~
+a diamond necklace~
+You see diamond necklace here.~
+~
+9 0 5
+0 0 0 0
+4 0 0 10
+A
+3 2
+A
+5 -1
+A
+12 10
+#18723
+gloves black~
+a pair of black gloves~
+You see a pair of black gloves here.~
+~
+9 2052 129
+0 0 0 0
+3 0 0 10
+A
+1 1
+A
+19 4
+A
+3 -1
+#18724
+claw dragon silver small~
+a small silver dragon claw~
+A small silver dragon claw rests on the floor.~
+~
+5 1027 8193
+0 0 0 5
+9 0 0 10
+A
+18 2
+A
+19 3
+A
+2 -1
+#18725
+canoe small~
+a small canoe~
+A small canoe has been left here.~
+~
+22 0 1
+0 0 0 0
+8 0 0 10
+#18726
+bottle beer~
+a bottle of beer~
+A beer bottle has been left here.~
+~
+17 0 1
+8 8 1 0
+8 0 0 10
+#18727
+bottle firebreather~
+a bottle of firebreather~
+A firebreather has been left here.~
+~
+17 0 1
+8 8 7 0
+8 0 0 10
+#18728
+sword silver small~
+a small silver sword~
+A small silver sword lies here.~
+~
+5 0 8193
+0 0 0 11
+3 0 0 10
+A
+18 2
+#18729
+sword silver long~
+a long silver sword~
+A long silver sword has been left here.~
+~
+5 0 8193
+0 0 0 3
+8 0 0 10
+A
+18 4
+A
+19 2
+#18730
+potion blue light~
+a light blue potion~
+A light blue potion has carelessly been left here.~
+~
+10 0 1
+20 28 18 77
+1 0 0 10
+#18731
+pill green~
+a green pill~
+A green pill has carelessly been left here.~
+~
+26 0 1
+10 2 0 0
+1 0 0 10
+#18732
+pants fashionable~
+a pair of fashionable pants~
+A pair of fashionable pants is lying on the ground.~
+~
+9 0 33
+0 0 0 0
+4 0 0 10
+A
+4 3
+#18733
+jacket fashionable~
+a fashionable jacket~
+A fashionable jacket lies on the ground.~
+~
+9 0 9
+0 0 0 0
+5 0 0 10
+A
+3 3
+#18734
+gloves heavy~
+a pair of heavy gloves~
+A pair of heavy gloves is lying on the ground.~
+~
+9 0 129
+0 0 0 0
+5 0 0 10
+A
+1 2
+#18735
+sleeves linnen~
+a pair of linnen sleeves~
+A pair of linnen sleeves is lying on the ground.~
+~
+9 0 257
+0 0 0 0
+3 0 0 10
+A
+2 2
+#18736
+apple green~
+a green apple~
+A green apple has been left here.~
+~
+19 0 1
+20 0 0 0
+2 0 0 10
+#18737
+orange~
+an orange~
+An orange has been left here.~
+~
+19 0 1
+20 0 0 0
+2 0 0 10
+#18738
+carrot~
+a carrot~
+A carrot has been left here.~
+~
+19 0 1
+15 0 0 0
+2 0 0 10
+#18739
+claymore sword silver~
+a silver claymore~
+A silver claymore has been left here.~
+~
+5 0 8193
+0 0 0 3
+10 0 0 10
+A
+19 5
+A
+5 1
+#18740
+plate~
+a steel plate~
+You see a steel plate lying here.~
+~
+9 0 9
+0 0 0 0
+5 0 0 10
+A
+12 10
+A
+13 25
+#18741
+steel helm~
+a steel helm~
+You see a steel helm lying here.~
+~
+9 0 17
+0 0 0 0
+5 0 0 10
+A
+1 2
+A
+3 2
+#18742
+wig~
+a judge's wig~
+You see a judge's wig lying here.~
+~
+9 0 17
+0 0 0 0
+3 0 0 10
+A
+4 3
+#18743
+carpet-beater beater~
+a carpet-beater~
+A carpet-beater has been left here.~
+~
+5 0 8193
+0 0 0 0
+6 0 0 10
+A
+18 1
+A
+19 1
+#18744
+coffin~
+a wooden coffin~
+A wooden coffin lies here.~
+~
+15 0 1
+100 5 0 0
+20 0 0 10
+#18745
+corpse~
+The corpse of a citizen of Westreen.~
+The corpse of a citizen of Westreen lies here.~
+~
+23 0 1
+0 0 0 0
+10 0 0 10
+#18746
+fountain water~
+a fountain~
+A purple fountain gushes forth here.~
+~
+25 0 0
+0 0 0 0
+500 0 0 10
+E
+fountain~
+It is very nice.  Made from fine purple marble.
+~
+#99999
+
+#ROOMS
+#18701
+The beach~
+   You are standing on the beach in the very hot sand.  In the distance you
+can see a beautiful island.
+~
+187 0 2
+D0
+You see the sea.
+~
+~
+0 -1 18702
+S
+#18702
+In the sea~
+   You are in the sea surrounded by tons of salt water.
+~
+187 0 7
+D0
+You see water.
+~
+~
+0 -1 18706
+D1
+You see water.
+~
+~
+0 -1 18703
+D2
+You see the beach.
+~
+~
+0 -1 18701
+D3
+You see water.
+~
+~
+0 -1 18706
+S
+#18703
+In the sea~
+   You are in the sea surrounded by tons of salt water.
+~
+187 0 7
+D1
+You see water.
+~
+~
+0 -1 18704
+D2
+You see water.
+~
+~
+0 -1 18707
+D3
+You see water.
+~
+~
+0 -1 18702
+S
+#18704
+In the sea~
+   You are in the sea surrounded by tons of salt water.
+~
+187 0 7
+D0
+You see water.
+~
+~
+0 -1 18705
+D1
+You see water.
+~
+~
+0 -1 18708
+D3
+You see water.
+~
+~
+0 -1 18703
+S
+#18705
+In the sea~
+   You are in the sea surrounded by tons of salt water.
+~
+187 0 7
+D0
+You see water.
+~
+~
+0 -1 18707
+D1
+You see water.
+~
+~
+0 -1 18797
+D2
+You see water.
+~
+~
+0 -1 18704
+D3
+You see water.
+~
+~
+0 -1 18772
+S
+#18706
+In the sea~
+   You are in the sea surrounded by tons of salt water.
+~
+187 0 7
+D1
+You see water.
+~
+~
+0 -1 18702
+D2
+You see water.
+~
+~
+0 -1 18702
+D3
+You see water.
+~
+~
+0 -1 18707
+S
+#18707
+In the sea~
+   You are in the sea surrounded by tons of salt water.
+~
+187 0 7
+D0
+You see water.
+~
+~
+0 -1 18703
+D1
+You see water.
+~
+~
+0 -1 18706
+D2
+You see water.
+~
+~
+0 -1 18705
+D3
+You see water.
+~
+~
+0 -1 18708
+S
+#18708
+In the sea~
+   You are in the sea surrounded by tons of salt water.  You see the island to
+the north.
+~
+187 0 7
+D0
+You see the beach.
+~
+~
+0 -1 18709
+D1
+You see water.
+~
+~
+0 -1 18707
+D3
+You see water.
+~
+~
+0 -1 18704
+S
+#18709
+The southern beach~
+   You are on the southern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D0
+You see the edge of the forest.
+~
+~
+0 -1 18783
+D1
+You see the beach.
+~
+~
+0 -1 18712
+D2
+You see the sea.
+~
+~
+0 -1 18708
+D3
+You see the beach.
+~
+~
+0 -1 18710
+S
+#18710
+The south-western beach~
+   You are on the south-western beach of the Isle of Quake.  There's a sign
+standing here.  The sand is so hot that you burn your feet.
+~
+187 0 2
+E
+sign~
+To the north lies Westreen.  To get there you have to go through the forest of
+delusion.
+~
+D0
+You see the forest.
+~
+~
+0 -1 18857
+D1
+You see the beach.
+~
+~
+0 -1 18709
+D3
+You see the beach.
+~
+~
+0 -1 18711
+S
+#18711
+The south-western beach~
+   You are on the south-western beach of the Isle of Quake.  The sand is so
+hot that you burn your feet.
+~
+187 0 2
+D0
+You see the edge of the forest.
+~
+~
+0 -1 18782
+D1
+You see the beach.
+~
+~
+0 -1 18710
+S
+#18712
+The southern beach~
+   You are on the southern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.  To the north you see the house of Albertus.
+~
+187 0 2
+D0
+You see the house of Albertus.
+~
+door~
+1 -1 18798
+D1
+You see the beach.
+~
+~
+0 -1 18713
+D3
+You see the beach.
+~
+~
+0 -1 18709
+S
+#18713
+The southern beach~
+   You are on the southern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D1
+You see the beach.
+~
+~
+0 -1 18714
+D3
+You see the beach.
+~
+~
+0 -1 18712
+S
+#18714
+The southern beach~
+   You are on the southern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D0
+You see the edge of the forest.
+~
+~
+0 -1 18716
+D3
+You see the beach.
+~
+~
+0 -1 18713
+S
+#18715
+The dense forest~
+   You are in a very dark part of the forest.  You can hear the sound of drums
+to
+the north.
+~
+187 1 3
+D1
+You see the edge of the forest.
+~
+~
+0 -1 18716
+S
+#18716
+The edge of the forest~
+   You are at the edge of the forest.
+~
+187 1 3
+D1
+You see the beach.
+~
+~
+0 -1 18717
+D2
+You see the beach.
+~
+~
+0 -1 18714
+D3
+~
+~
+0 -1 18715
+S
+#18717
+The south-eastern beach~
+   You are on the south-eastern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D0
+~
+~
+0 -1 18719
+D1
+You see the beach.
+~
+~
+0 -1 18718
+D3
+You see the edge of the forest.
+~
+~
+0 -1 18716
+S
+#18718
+The south-eastern beach~
+   You are on the south-eastern beach of the Isle of Quake.  You see a stream
+running from north to south into the sea.
+~
+187 0 2
+D0
+You see the stream.
+~
+~
+0 -1 18720
+D3
+You see the beach.
+~
+~
+0 -1 18717
+S
+#18719
+The forest~
+   You are in a light part of the forest.
+~
+187 0 3
+D0
+~
+~
+0 -1 18722
+D2
+You see the beach.
+~
+~
+0 -1 18717
+S
+#18720
+By the stream~
+   You are in the forest by a little stream running southward to the sea.
+~
+187 1 3
+D0
+You see the stream.
+~
+~
+0 -1 18723
+D1
+You see the beach.
+~
+~
+0 -1 18721
+D2
+You see the beach.
+~
+~
+0 -1 18718
+S
+#18721
+The south-eastern beach~
+   You are on the south-eastern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D0
+You see the beach.
+~
+~
+0 -1 18724
+D3
+You see the stream.
+~
+~
+0 -1 18720
+S
+#18722
+The forest~
+   You are in a light part of the forest.  You can hear the sound of drums to
+the west.
+~
+187 0 3
+D1
+You see the stream.
+~
+~
+0 -1 18723
+D2
+~
+~
+0 -1 18719
+S
+#18723
+By the stream~
+   You are in the forest by a little stream running southward to the sea.
+~
+187 1 3
+D0
+You see the stream.
+~
+~
+0 -1 18728
+D2
+You see the stream.
+~
+~
+0 -1 18720
+S
+#18724
+The south-eastern beach~
+   You are on the south-eastern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D1
+You see the sea.
+~
+~
+0 -1 18725
+D2
+You see the beach.
+~
+~
+0 -1 18721
+S
+#18725
+In the sea~
+   You are in the sea surrounded by tons of salt water.
+~
+187 0 7
+D0
+You see the beach.
+~
+~
+0 -1 18726
+D1
+You see water.
+~
+~
+0 -1 18772
+D2
+You see water.
+~
+~
+0 -1 18797
+D3
+You see the beach.
+~
+~
+0 -1 18724
+S
+#18726
+The eastern beach~
+   You are on the eastern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D0
+You see the beach.
+~
+~
+0 -1 18731
+D2
+You see the sea.
+~
+~
+0 -1 18725
+D3
+~
+~
+0 -1 18727
+S
+#18727
+The forest~
+   You are in a light part of the forest.
+~
+187 0 3
+D1
+You see the beach.
+~
+~
+0 -1 18726
+D3
+You see the stream.
+~
+~
+0 -1 18728
+S
+#18728
+By the stream~
+   You are in the forest by a little stream running southward to the sea.
+~
+187 1 3
+D0
+You see the stream.
+~
+~
+0 -1 18729
+D1
+~
+~
+0 -1 18727
+D2
+You see the stream.
+~
+~
+0 -1 18723
+S
+#18729
+By the stream~
+   You are in the forest by a little stream running southward to the sea.
+~
+187 1 3
+D0
+You see the stream.
+~
+~
+0 -1 18734
+D1
+~
+~
+0 -1 18730
+D2
+You see the stream.
+~
+~
+0 -1 18728
+S
+#18730
+The forest~
+   You are in the forest.
+~
+187 1 3
+D0
+~
+~
+0 -1 18733
+D1
+You see the beach.
+~
+~
+0 -1 18731
+D3
+You see the stream.
+~
+~
+0 -1 18729
+S
+#18731
+The eastern beach~
+   You are on the eastern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D0
+You see the beach.
+~
+~
+0 -1 18732
+D2
+You see the beach.
+~
+~
+0 -1 18726
+D3
+~
+~
+0 -1 18730
+S
+#18732
+The eastern beach~
+   You are on the eastern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D2
+You see the beach.
+~
+~
+0 -1 18731
+D3
+~
+~
+0 -1 18733
+S
+#18733
+The forest~
+   You are in a light part of the forest.
+~
+187 0 3
+D0
+You see the beach.
+~
+~
+0 -1 18743
+D1
+You see the beach.
+~
+~
+0 -1 18732
+D2
+~
+~
+0 -1 18730
+S
+#18734
+By the stream~
+   You are in the forest by a little stream running southward to the sea.
+~
+187 1 3
+D0
+You see the waterfall.
+~
+~
+0 -1 18744
+D2
+You see the stream.
+~
+~
+0 -1 18729
+D3
+~
+~
+0 -1 18736
+S
+#18735
+The forest~
+   You are in a dark part of the forest.  You can hear the sound of drums to
+the west.
+~
+187 1 3
+D0
+~
+~
+0 -1 18736
+D3
+You see a village.
+~
+~
+0 -1 18788
+S
+#18736
+The forest~
+   You are in a dark part of the forest.
+~
+187 1 3
+D0
+~
+~
+0 -1 18737
+D1
+You see the stream.
+~
+~
+0 -1 18734
+D2
+~
+~
+0 -1 18735
+S
+#18737
+The forest~
+   You are in a dark part of the forest.
+~
+187 1 3
+D2
+~
+~
+0 -1 18736
+D3
+~
+~
+0 -1 18738
+S
+#18738
+The forest~
+   You are in a part of the forest.
+~
+187 1 3
+D0
+You see the beach.
+~
+~
+0 -1 18739
+D1
+~
+~
+0 -1 18737
+S
+#18739
+The northern beach~
+   You are on the northern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D1
+You see the beach.
+~
+~
+0 -1 18740
+D2
+~
+~
+0 -1 18738
+D3
+You see the beach.
+~
+~
+0 -1 18747
+S
+#18740
+The north-eastern beach~
+   You are on the north-eastern beach of the Isle of Quake.  The sand is so
+hot that you burn your feet.
+~
+187 0 2
+D1
+You see the beach.
+~
+~
+0 -1 18741
+D3
+You see the beach.
+~
+~
+0 -1 18739
+S
+#18741
+The north-eastern beach~
+   You are on the north-eastern beach of the Isle of Quake.  The sand is so
+hot that you burn your feet.
+~
+187 0 2
+D1
+You see the beach.
+~
+~
+0 -1 18742
+D3
+You see the beach.
+~
+~
+0 -1 18740
+S
+#18742
+The north-eastern beach~
+   You are on the north-eastern beach of the Isle of Quake.  The sand is so
+hot that you burn your feet.
+~
+187 0 2
+D2
+You see the beach.
+~
+~
+0 -1 18743
+D3
+You see the beach.
+~
+~
+0 -1 18741
+S
+#18743
+The north-eastern beach~
+   You are on the north-eastern beach of the Isle of Quake.  The sand is so
+hot that you burn your feet.
+~
+187 0 2
+D0
+You see the beach.
+~
+~
+0 -1 18742
+D2
+~
+~
+0 -1 18733
+S
+#18744
+By the waterfall~
+   You are in the forest by a beautiful waterfall.  The falling water has many
+different colours, it's the most beautiful waterfall you've ever seen.
+~
+187 1 3
+D0
+~
+door~
+1 -1 18801
+D2
+You see the stream.
+~
+~
+0 -1 18734
+S
+#18745
+In the sea~
+   You are in the sea surrounded by tons of salt water.
+~
+187 0 7
+D1
+You see water.
+~
+~
+0 -1 18746
+D3
+You see water.
+~
+~
+0 -1 18746
+S
+#18746
+In the sea~
+   You are in the sea surrounded by tons of salt water.
+~
+187 0 7
+D0
+You see water.
+~
+~
+0 -1 18797
+D1
+You see water.
+~
+~
+0 -1 18745
+D2
+You see the beach.
+~
+~
+0 -1 18747
+D3
+You see water.
+~
+~
+0 -1 18745
+S
+#18747
+The northern beach~
+   You are on the northern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D0
+You see the sea.
+~
+~
+0 -1 18746
+D1
+You see the beach.
+~
+~
+0 -1 18739
+D3
+You see the beach.
+~
+~
+0 -1 18748
+S
+#18748
+The northern beach~
+   You are on the northern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D1
+You see the beach.
+~
+~
+0 -1 18747
+D2
+You see the edge of the forest.
+~
+~
+0 -1 18749
+D3
+You see the beach.
+~
+~
+0 -1 18754
+S
+#18749
+The edge of the forest~
+   You are at the edge of the forest.
+~
+187 1 3
+D0
+You see the beach.
+~
+~
+0 -1 18748
+D3
+~
+~
+0 -1 18753
+S
+#18750
+The forest~
+   You are in a dark part of the forest.  You can hear the sound of drums to
+the south.
+~
+187 1 3
+D2
+You see a village.
+~
+~
+0 -1 18790
+D3
+~
+~
+0 -1 18751
+S
+#18751
+The forest~
+   You are in a dark part of the forest.
+~
+187 1 3
+D0
+~
+~
+0 -1 18753
+D1
+~
+~
+0 -1 18750
+D2
+~
+~
+0 -1 18752
+D3
+~
+~
+0 -1 18764
+S
+#18752
+The forest~
+   You are in a dark part of the forest.  You can hear the sound of drums to
+the east.
+~
+187 1 3
+D0
+~
+~
+0 -1 18751
+S
+#18753
+The forest~
+   You are in a part of the forest.
+~
+187 1 3
+D1
+~
+~
+0 -1 18749
+D2
+~
+~
+0 -1 18751
+S
+#18754
+The northern beach~
+   You are on the northern beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D1
+You see the beach.
+~
+~
+0 -1 18748
+D3
+You see the beach.
+~
+~
+0 -1 18755
+S
+#18755
+The north-western beach~
+   You are on the north-western beach of the Isle of Quake.  The sand is so
+hot that you burn your feet.
+~
+187 0 2
+D1
+You see the beach.
+~
+~
+0 -1 18754
+D3
+You see the beach.
+~
+~
+0 -1 18756
+S
+#18756
+The north-western beach~
+   You are on the north-western beach of the Isle of Quake.  The sand is so
+hot that you burn your feet.
+~
+187 0 2
+D1
+You see the beach.
+~
+~
+0 -1 18755
+D2
+~
+~
+0 -1 18760
+D3
+You see the beach.
+~
+~
+0 -1 18757
+S
+#18757
+The north-western beach~
+   You are on the north-western beach of the Isle of Quake.  The sand is so
+hot that you burn your feet.
+~
+187 0 2
+D1
+You see the beach.
+~
+~
+0 -1 18756
+D2
+~
+~
+0 -1 18759
+S
+#18758
+The north-western beach~
+   You are on the north-western beach of the Isle of Quake.  The sand is so
+hot that you burn your feet.
+~
+187 0 2
+D1
+~
+~
+0 -1 18759
+D2
+You see the beach.
+~
+~
+0 -1 18761
+S
+#18759
+The forest~
+   You are in a light part of the forest.
+~
+187 0 3
+D0
+You see the beach.
+~
+~
+0 -1 18757
+D3
+You see the beach.
+~
+~
+0 -1 18758
+S
+#18760
+The forest~
+   You are in a light part of the forest.
+~
+187 0 3
+D0
+You see the beach.
+~
+~
+0 -1 18756
+D2
+~
+~
+0 -1 18763
+S
+#18761
+The north-western beach~
+   You are on the north-western beach of the Isle of Quake.  The sand is so
+hot that you burn your feet.
+~
+187 0 2
+D0
+You see the beach.
+~
+~
+0 -1 18758
+D1
+~
+~
+0 -1 18762
+D2
+You see the beach.
+~
+~
+0 -1 18770
+S
+#18762
+The forest~
+   You are in a light part of the forest.
+~
+187 0 3
+D1
+~
+~
+0 -1 18763
+D2
+You see a path.
+~
+~
+0 -1 18836
+D3
+You see the beach.
+~
+~
+0 -1 18761
+S
+#18763
+The forest~
+   You are in a dark part of the forest.
+~
+187 1 3
+D0
+~
+~
+0 -1 18760
+D1
+~
+~
+0 -1 18764
+D3
+~
+~
+0 -1 18762
+S
+#18764
+The forest~
+   You are in a dark part of the forest.
+~
+187 1 3
+D1
+~
+~
+0 -1 18751
+D2
+~
+~
+0 -1 18765
+D3
+~
+~
+0 -1 18763
+S
+#18765
+The forest~
+   You are in a dark part of the forest.
+~
+187 1 3
+D0
+~
+~
+0 -1 18764
+D2
+~
+~
+0 -1 18766
+D3
+You see a path.
+~
+~
+0 -1 18845
+S
+#18766
+The forest~
+   You are in a dark part of the forest.
+~
+187 1 3
+D0
+~
+~
+0 -1 18765
+D2
+~
+~
+0 -1 18775
+D3
+~
+~
+0 -1 18767
+S
+#18767
+The forest~
+   You are in a dark part of the forest.
+~
+187 1 3
+D1
+~
+~
+0 -1 18766
+D2
+~
+~
+0 -1 18774
+S
+#18768
+The forest~
+   You are in a light part of the forest.
+~
+187 0 3
+D2
+You see the beach.
+~
+~
+0 -1 18773
+D3
+You see the beach.
+~
+~
+0 -1 18769
+S
+#18769
+The western beach~
+   You are on the western beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D0
+You see the beach.
+~
+~
+0 -1 18770
+D1
+~
+~
+0 -1 18768
+S
+#18770
+The western beach~
+   You are on the western beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D0
+You see the beach.
+~
+~
+0 -1 18761
+D2
+You see the beach.
+~
+~
+0 -1 18769
+D3
+You see the sea.
+~
+~
+0 -1 18771
+S
+#18771
+In the sea~
+   You are in the sea surrounded by tons of salt water.
+~
+187 0 7
+D0
+You see water.
+~
+~
+0 -1 18772
+D1
+You see the beach.
+~
+~
+0 -1 18770
+D2
+You see water.
+~
+~
+0 -1 18772
+D3
+You see water.
+~
+~
+0 -1 18797
+S
+#18772
+In the sea~
+   You are in the sea surrounded by tons of salt water.
+~
+187 0 7
+D0
+You see water.
+~
+~
+0 -1 18771
+D1
+You see water.
+~
+~
+0 -1 18705
+D2
+You see water.
+~
+~
+0 -1 18771
+D3
+You see water.
+~
+~
+0 -1 18725
+S
+#18773
+The western beach~
+   You are on the western beach of the Isle of Quake.  The sand is so hot
+that you burn your feet.
+~
+187 0 2
+D0
+~
+~
+0 -1 18768
+D1
+~
+~
+0 -1 18774
+D2
+You see the beach.
+~
+~
+0 -1 18780
+S
+#18774
+The forest~
+   You are in a part of the forest.
+~
+187 1 3
+D0
+~
+~
+0 -1 18767
+D3
+You see the beach.
+~
+~
+0 -1 18773
+S
+#18775
+The forest~
+   You are in a very dark part of the forest.
+~
+187 1 3
+D0
+~
+~
+0 -1 18766
+D1
+~
+~
+0 -1 18776
+S
+#18776
+The forest~
+   You are in a dark part of the forest.  You can hear the sound of drums to
+the east.
+~
+187 1 3
+D1
+You see a village.
+~
+~
+0 -1 18784
+D2
+~
+~
+0 -1 18777
+D3
+~
+~
+0 -1 18775
+S
+#18777
+The forest~
+   You are in a dark part of the forest.
+~
+187 1 3
+D0
+~
+~
+0 -1 18776
+D2
+~
+~
+0 -1 18783
+D3
+~
+~
+0 -1 18778
+S
+#18778
+The forest~
+   You are in a dark part of the forest.
+~
+187 1 3
+D1
+~
+~
+0 -1 18777
+D3
+~
+~
+0 -1 18779
+S
+#18779
+The forest~
+   You are in a dark part of the forest.
+~
+187 1 3
+D1
+~
+~
+0 -1 18778
+D2
+~
+~
+0 -1 18782
+D3
+You see the beach.
+~
+~
+0 -1 18780
+S
+#18780
+The south-western beach~
+   You are on the south-western beach of the Isle of Quake.  The sand is so
+hot that you burn your feet.
+~
+187 0 2
+D1
+~
+~
+0 -1 18779
+D2
+You see the beach.
+~
+~
+0 -1 18781
+S
+#18781
+The south-western beach~
+   You are on the south-western beach of the Isle of Quake.  The sand is so
+hot that you burn your feet.
+~
+187 0 2
+D1
+~
+~
+0 -1 18782
+S
+#18782
+The forest~
+   You are in a light part of the forest.
+~
+187 0 3
+D0
+~
+~
+0 -1 18779
+D2
+You see the beach.
+~
+~
+0 -1 18711
+D3
+You see the beach.
+~
+~
+0 -1 18781
+S
+#18783
+The forest~
+   You are in a light part of the forest.
+~
+187 0 3
+D0
+~
+~
+0 -1 18777
+D2
+You see the beach.
+~
+~
+0 -1 18709
+S
+#18784
+Small path in the village~
+   You are walking along a small path in the village.  The path continues north
+and east.
+~
+187 0 1
+D0
+You see a small path.
+~
+~
+0 -1 18791
+D1
+You see a small path.
+~
+~
+0 -1 18785
+D3
+~
+~
+0 -1 18776
+S
+#18785
+Small path in the village~
+   You are walking along a small path in the village.  The path continues east
+and west.
+~
+187 0 1
+D0
+You see the centre of the village.
+~
+~
+0 -1 18792
+D1
+You see a small path.
+~
+~
+0 -1 18786
+D2
+You see a cottage.
+~
+~
+1 18711 18796
+D3
+You see a small path.
+~
+~
+0 -1 18784
+S
+#18786
+Small path in the village~
+   You are walking along a small path in the village.  The path continues north
+and west.
+~
+187 0 1
+D0
+You see a small path.
+~
+~
+0 -1 18787
+D3
+You see a small path.
+~
+~
+0 -1 18785
+S
+#18787
+Small path in the village~
+   You are walking along a small path in the village.  The path continues north
+and south.
+~
+187 0 1
+D0
+You see a small path.
+~
+~
+0 -1 18788
+D1
+You see a cottage.
+~
+~
+0 -1 18795
+D2
+You see a small path.
+~
+~
+0 -1 18786
+D3
+You see the centre of the village.
+~
+~
+0 -1 18792
+S
+#18788
+Small path in the village~
+   You are walking along a small path in the village.  The path continues west
+and south.
+~
+187 0 1
+D1
+~
+~
+0 -1 18735
+D2
+You see a small path.
+~
+~
+0 -1 18787
+D3
+You see a small path.
+~
+~
+0 -1 18789
+S
+#18789
+Small path in the village~
+   You are walking along a small path in the village.  The path continues east
+and west.
+~
+187 0 1
+D0
+You see a cottage.
+~
+~
+0 -1 18793
+D1
+You see a small path.
+~
+~
+0 -1 18788
+D2
+You see the centre of the village.
+~
+~
+0 -1 18792
+D3
+You see a small path.
+~
+~
+0 -1 18790
+S
+#18790
+Small path in the village~
+   You are walking along a small path in the village.  The path continues east
+and south.
+~
+187 0 1
+D0
+~
+~
+0 -1 18750
+D1
+You see a small path.
+~
+~
+0 -1 18789
+D2
+You see a small path.
+~
+~
+0 -1 18791
+S
+#18791
+Small path in the village~
+   You are walking along a small path in the village.  The path continues north
+and south.
+~
+187 0 1
+D0
+You see a small path.
+~
+~
+0 -1 18790
+D1
+You see the centre of the village.
+~
+~
+0 -1 18792
+D2
+You see a small path.
+~
+~
+0 -1 18784
+D3
+You see a cottage.
+~
+~
+0 -1 18794
+S
+#18792
+The centre of the village~
+   You are in the centre of the village.  This is the place where the cannibals
+do the cooking and eating.  A small path goes in every direction.
+~
+187 0 1
+D0
+You see a small path.
+~
+~
+0 -1 18789
+D1
+You see a small path.
+~
+~
+0 -1 18787
+D2
+You see a small path.
+~
+~
+0 -1 18785
+D3
+You see a small path.
+~
+~
+0 -1 18791
+S
+#18793
+In a cottage~
+   You are in a cosy little cottage.
+~
+187 0 0
+D2
+You see a small path.
+~
+~
+0 -1 18789
+S
+#18794
+In a cottage~
+   You are in a cosy little cottage.
+~
+187 0 0
+D1
+You see a small path.
+~
+~
+0 -1 18791
+S
+#18795
+In a cottage~
+   You are in a cosy little cottage.
+~
+187 0 0
+D3
+You see a small path.
+~
+~
+0 -1 18787
+D5
+~
+door~
+1 -1 18835
+S
+#18796
+In a big cottage~
+   You are in a big cottage.
+~
+187 0 0
+D0
+You see a small path.
+~
+~
+1 18711 18785
+S
+#18797
+In the sea~
+   You are in the sea surrounded by tons of salt water.
+~
+187 0 7
+D0
+You see water.
+~
+~
+0 -1 18725
+D1
+You see water.
+~
+~
+0 -1 18771
+D2
+You see water.
+~
+~
+0 -1 18746
+D3
+You see water.
+~
+~
+0 -1 18705
+S
+#18798
+The house of Albertus~
+   You are in the house of Albertus.  It's not a very big place.
+~
+187 8 0
+D2
+You see the beach.
+~
+door~
+1 -1 18712
+S
+#18801
+The large cave~
+   You are in a large cave, the cave continues down, to the south you notice
+some light.
+~
+187 9 2
+D2
+~
+door~
+1 -1 18744
+D5
+~
+~
+0 -1 18802
+S
+#18802
+The large cave~
+   You are in a large cave, the cave continues east, west and up.  You notice
+a pile of bones in the corner.
+~
+187 9 2
+E
+pile bones~
+The bones are human!
+~
+D1
+~
+~
+0 -1 18803
+D3
+~
+~
+0 -1 18804
+D4
+~
+~
+0 -1 18801
+S
+#18803
+The large cave~
+   You are in the eastern end of the large cave.
+~
+187 9 2
+D3
+~
+~
+0 -1 18802
+S
+#18804
+The large cave~
+   You are in the western end of the large cave.  To the south you see a tunnel
+.
+~
+187 9 2
+D1
+~
+~
+0 -1 18802
+D2
+~
+~
+0 -1 18805
+S
+#18805
+The damp tunnel~
+   You are in a damp tunnel.  Your clothes feel wet.  The tunnel continues to t
+he
+south and west.
+~
+187 9 2
+D0
+~
+~
+0 -1 18804
+D2
+~
+~
+0 -1 18811
+D3
+~
+~
+0 -1 18806
+S
+#18806
+The damp tunnel~
+   You are in a damp tunnel.  Your clothes feel wet.  The tunnel continues to t
+he
+east and west.
+~
+187 9 2
+D1
+~
+~
+0 -1 18805
+D3
+~
+~
+0 -1 18807
+S
+#18807
+The damp tunnel~
+   You are in a damp tunnel.  Your clothes feel wet.  The tunnel continues to t
+he
+east and west.
+~
+187 9 2
+D1
+~
+~
+0 -1 18806
+D3
+~
+~
+0 -1 18808
+S
+#18808
+The damp tunnel~
+   You are in a damp tunnel.  Your clothes feel wet.  The tunnel continues to t
+he
+east and west.  To the south you see a cave.
+~
+187 9 2
+D1
+~
+~
+0 -1 18807
+D2
+~
+~
+0 -1 18814
+D3
+~
+~
+0 -1 18809
+S
+#18810
+The cave~
+   You are in a cave.  To the west you see a tunnel.
+~
+187 9 2
+D3
+~
+~
+0 -1 18811
+S
+#18813
+The small cave~
+   You are in a small cave.  The cave continues to the west.
+~
+187 9 2
+D3
+~
+~
+0 -1 18814
+S
+#18814
+The small cave~
+   You are in a small cave.  The cave continues to the east. To the north you
+see a tunnel.
+~
+187 9 2
+D0
+~
+~
+0 -1 18808
+D1
+~
+~
+0 -1 18813
+S
+#18822
+The smelly cave~
+   You are in a smelly cave.  To the east you see a small tunnel.
+~
+187 9 2
+D1
+~
+~
+0 -1 18821
+S
+#18824
+The cave~
+   You are in a cave.  To the west you see a small tunnel.
+~
+187 9 2
+D3
+~
+~
+0 -1 18823
+S
+#18825
+The huge cave~
+   You are in a huge cave.  There are bones lying all over the place.  To the
+north you see a cave and to the south you see a small tunnel.
+~
+187 9 2
+E
+bones~
+The bones are human!
+~
+D0
+~
+~
+0 -1 18826
+D2
+~
+~
+0 -1 18823
+S
+#18826
+The light cave~
+   You are in a light cave.  To the south you see a huge cave.
+~
+187 9 2
+D2
+~
+~
+0 -1 18825
+S
+#18830
+The dark cave~
+   You are in a dark cave.  To the north you see a small tunnel.
+~
+187 9 2
+D0
+~
+~
+0 -1 18827
+S
+#18835
+The dark cave~
+   You are in a dark cave.  To the west you see a tunnel.
+~
+187 9 2
+D3
+~
+~
+0 -1 18834
+D4
+~
+door~
+1 -1 18795
+S
+#18836
+A path~
+   This path leads up the side of the mountain.  To the north you see the fores
+t.
+The path continues up the mountain.
+~
+187 0 2
+D0
+You see the forest.
+~
+~
+0 -1 18762
+D4
+You see a path.
+~
+~
+0 -1 18837
+S
+#18837
+A path~
+   This path leads up the side of the mountain.  To the south you see a small
+path.  The path continues up the mountain.
+~
+187 0 4
+D2
+You see a small path.
+~
+~
+0 -1 18846
+D4
+You see a path.
+~
+~
+0 -1 18838
+D5
+You see a path.
+~
+~
+0 -1 18836
+S
+#18838
+A path~
+   This path leads up the side of the mountain.  The path continues up the
+mountain.
+~
+187 0 4
+D0
+You see the eagle's nest.
+~
+~
+0 -1 18855
+D4
+You see the top of the mountain.
+~
+~
+0 -1 18839
+D5
+You see a path.
+~
+~
+0 -1 18837
+S
+#18839
+The top of the mountain~
+   You are standing at the top of the mountain.  It feels more like the top of
+the world.
+~
+187 0 4
+D1
+~
+~
+0 -1 18840
+D5
+You see a path.
+~
+~
+0 -1 18838
+S
+#18840
+The top of the mountain~
+   You are standing at the top of the mountain.  It feels more like the top of
+the world.  A small path is below you.
+~
+187 0 4
+D0
+~
+~
+0 -1 18841
+D3
+~
+~
+0 -1 18839
+D5
+You see a small path.
+~
+~
+0 -1 18848
+S
+#18841
+The top of the mountain~
+   You are standing at the top of the mountain.  It feels more like the top of
+the world.
+~
+187 0 4
+D2
+~
+~
+0 -1 18840
+D5
+You see a path.
+~
+~
+0 -1 18842
+S
+#18842
+A path~
+   This path leads up the side of the mountain.  The path continues up the
+mountain.
+~
+187 0 4
+D4
+You see the top of the mountain.
+~
+~
+0 -1 18841
+D5
+You see a path.
+~
+~
+0 -1 18843
+S
+#18843
+A path~
+   This path leads up the side of the mountain.  To the east and north you see
+grassy plains.  The path continues south.
+~
+187 0 4
+D0
+You see a grassy plain.
+~
+~
+0 -1 18852
+D1
+You see a grassy plain.
+~
+~
+0 -1 18854
+D2
+You see a path.
+~
+~
+0 -1 18844
+D4
+You see a path.
+~
+~
+0 -1 18842
+S
+#18844
+A path~
+   This path leads up the side of the mountain.  The path continues north.
+~
+187 0 4
+D0
+You see a small path.
+~
+~
+0 -1 18843
+D5
+You see a path.
+~
+~
+0 -1 18845
+S
+#18845
+A path~
+   This path leads up the side of the mountain.  To the east you see the forest
+.
+The path continues up the mountain.
+~
+187 0 2
+D1
+You see the forest.
+~
+~
+0 -1 18765
+D4
+You see a path.
+~
+~
+0 -1 18844
+S
+#18846
+A small path~
+   This path leads to a little hut.  To the north you see a path.  You see a
+little hut to your east.
+~
+187 0 2
+D0
+You see a path.
+~
+~
+0 -1 18837
+D1
+You see a little hut.
+~
+door~
+1 -1 18847
+S
+#18847
+Inside a little hut~
+   You are in a little hut.  It looks like someone is living in this ruin.
+~
+187 8 0
+D3
+You see a small path.
+~
+door~
+1 -1 18846
+S
+#18848
+A small path~
+   This path leads to a dark cave.  You see the top of the mountain above you.
+To your west you see a very dark cave.
+~
+187 0 2
+D3
+You see a dark cave.
+~
+~
+0 -1 18849
+D4
+You see a path.
+~
+~
+0 -1 18840
+S
+#18849
+The dark cave~
+   You are in a dark cave, the cave continues west.  To the east you notice som
+e
+light.
+~
+187 9 2
+D1
+~
+~
+0 -1 18848
+D3
+~
+~
+0 -1 18850
+S
+#18850
+The dark cave~
+   You are in a dark cave, the cave continues south.
+~
+187 9 2
+D1
+~
+~
+0 -1 18849
+D2
+~
+~
+0 -1 18851
+S
+#18851
+The dark cave~
+   You are in a dark cave.  There are lying bones all over the place.
+~
+187 9 2
+E
+pile bones~
+The bones are completely picked.
+~
+D0
+~
+~
+0 -1 18850
+S
+#18852
+The grassy plains~
+   You are on a grassy plain.  To south you see a path.
+~
+187 0 2
+D1
+You see a grassy plain.
+~
+~
+0 -1 18853
+D2
+You see a path.
+~
+~
+0 -1 18843
+S
+#18853
+The grassy plains~
+   You are on a grassy plain.
+~
+187 0 2
+D2
+You see a grassy plain.
+~
+~
+0 -1 18854
+D3
+You see a grassy plain.
+~
+~
+0 -1 18852
+S
+#18854
+The grassy plains~
+   You are on a grassy plain.  To the east you see a path.
+~
+187 0 2
+D0
+You see a grassy plain.
+~
+~
+0 -1 18853
+D3
+You see a path.
+~
+~
+0 -1 18843
+S
+#18855
+In the eagle's nest~
+   You are in the eagle's nest.  To the south you see a path.
+~
+187 2048 2
+D2
+You see a path.
+~
+~
+0 -1 18838
+S
+#18856
+The forest of delusion~
+   You are in the forest of delusion.  Everything here isn't what it seems to b
+e.
+~
+187 1 3
+D0
+~
+~
+0 -1 18859
+D1
+~
+~
+0 -1 18857
+D2
+~
+~
+0 -1 18862
+D3
+~
+~
+0 -1 18858
+S
+#18857
+The forest of delusion~
+   You are in the forest of delusion.  Everything here isn't what it seems to b
+e.
+~
+187 1 3
+D0
+~
+~
+0 -1 18860
+D1
+~
+~
+0 -1 18858
+D2
+~
+~
+0 -1 18710
+D3
+~
+~
+0 -1 18856
+S
+#18858
+The forest of delusion~
+   You are in the forest of delusion.  Everything here isn't what it seems to b
+e.
+~
+187 1 3
+D0
+~
+~
+0 -1 18861
+D1
+~
+~
+0 -1 18856
+D2
+~
+~
+0 -1 18864
+D3
+~
+~
+0 -1 18857
+S
+#18859
+The forest of delusion~
+   You are in the forest of delusion.  Everything here isn't what it seems to b
+e.
+~
+187 1 3
+D0
+~
+~
+0 -1 18862
+D1
+~
+~
+0 -1 18860
+D2
+~
+~
+0 -1 18856
+D3
+~
+~
+0 -1 18861
+S
+#18860
+The forest of delusion~
+   You are in the forest of delusion.  Everything here isn't what it seems to b
+e.
+A beautiful naked woman stands before you.
+~
+187 1 3
+D0
+~
+~
+0 -1 18863
+D1
+~
+~
+0 -1 18861
+D2
+~
+~
+0 -1 18857
+D3
+~
+~
+0 -1 18859
+S
+#18861
+The forest of delusion~
+   You are in the forest of delusion.  Everything here isn't what it seems to b
+e.
+~
+187 1 3
+D0
+~
+~
+0 -1 18864
+D1
+~
+~
+0 -1 18859
+D2
+~
+~
+0 -1 18858
+D3
+~
+~
+0 -1 18860
+S
+#18862
+The forest of delusion~
+   You are in the forest of delusion.  Everything here isn't what it seems to b
+e.
+~
+187 1 3
+D0
+~
+~
+0 -1 18856
+D1
+~
+~
+0 -1 18863
+D2
+~
+~
+0 -1 18859
+D3
+~
+~
+0 -1 18864
+S
+#18863
+The forest of delusion~
+   You are in the forest of delusion.  Everything here isn't what it seems to b
+e.
+~
+187 1 3
+D0
+You see the entrance to Westreen.
+~
+~
+0 -1 18865
+D1
+~
+~
+0 -1 18864
+D2
+~
+~
+0 -1 18860
+D3
+~
+~
+0 -1 18862
+S
+#18864
+The forest of delusion~
+   You are in the forest of delusion.  Everything here isn't what it seems to b
+e.
+~
+187 1 3
+D0
+~
+~
+0 -1 18858
+D1
+~
+~
+0 -1 18862
+D2
+~
+~
+0 -1 18861
+D3
+~
+~
+0 -1 18863
+S
+#18865
+The entrance to Westreen~
+   You stand before the gate of Westreen.  To the south lies the forest of
+delusion.
+~
+187 0 1
+E
+gate~
+It is a set of very big double doors made from hard wood.  They have been
+reinforced with large iron bands to make them even more sturdy.  One of the
+doors is equipped with a very big lock.
+~
+D0
+You see the city gate.
+~
+gate~
+1 -1 18866
+D2
+You see the forest.
+~
+~
+0 -1 18863
+S
+#18866
+Inside the gate of Westreen~
+   You stand before the gate of Westreen.  To the north you see the Road Crossi
+ng.
+~
+187 0 1
+E
+gate~
+It is a set of very big double doors made from hard wood.  They have been
+reinforced with large iron bands to make them even more sturdy.  One of the
+doors is equipped with a very big lock.
+~
+D0
+You see the Road Crossing.
+~
+~
+0 -1 18867
+D2
+You see the city gate.
+~
+gate~
+1 -1 18865
+S
+#18867
+Road Crossing~
+   You are at the road crossing.  In the middle you see a statue.  Blackbird St
+reet
+lies north from here and Merchant Road lies east and west.
+~
+187 0 1
+E
+statue~
+What you see is the Westreender Keapman.
+~
+D0
+You see Blackbird Street.
+~
+~
+0 -1 18868
+D1
+You see Merchant Road.
+~
+~
+0 -1 18872
+D2
+You see Blackbird Street.
+~
+~
+0 -1 18866
+D3
+You see Merchant Road.
+~
+~
+0 -1 18875
+S
+#18868
+Blackbird Street~
+   You are on Blackbird Street.  To south you can see the Road Crossing.  The
+tavern lies east from here.  Blackbird Street continues north.
+~
+187 0 1
+D0
+You see Blackbird Street.
+~
+~
+0 -1 18869
+D1
+You see the tavern.
+~
+door~
+1 -1 18886
+D2
+You see the Road Crossing.
+~
+~
+0 -1 18867
+S
+#18869
+Blackbird Street~
+   You are on Blackbird Street.  Blackbird Street continues north and south.
+~
+187 0 1
+D0
+You see Blackbird Street.
+~
+~
+0 -1 18870
+D1
+You see a house.
+~
+door~
+1 -1 18892
+D2
+You see Blackbird Street.
+~
+~
+0 -1 18868
+D3
+You see a house.
+~
+door~
+1 -1 18895
+S
+#18870
+Blackbird Street~
+   You are on Blackbird Street.  Blackbird Street continues north and south.
+~
+187 0 1
+D0
+You see the end of Blackbird Street.
+~
+~
+0 -1 18871
+D2
+You see Blackbird Street.
+~
+~
+0 -1 18869
+D3
+You see a house.
+~
+door~
+1 -1 18894
+S
+#18871
+Northern end of Blackbird Street~
+   You are on Blackbird Street.  Blackbird Street continues south.
+~
+187 0 1
+D1
+You see a house.
+~
+door~
+1 -1 18893
+D2
+You see Blackbird Street.
+~
+~
+0 -1 18870
+S
+#18872
+Merchant Road~
+   You are on Merchant Road.  To the west you can see the Road Crossing.  South
+is the greengrocer's shop.  Merchant Road continues east.
+~
+187 0 1
+D1
+You see Merchant Road.
+~
+~
+0 -1 18873
+D2
+You see the greengrocer's shop.
+~
+door~
+1 -1 18889
+D3
+You see the Road Crossing.
+~
+~
+0 -1 18867
+S
+#18873
+Merchant Road~
+   You are on Merchant Road.  To the north you see the druggist's shop.  Mercha
+nt
+Road continues east and west.
+~
+187 0 1
+D0
+You see the druggist's shop.
+~
+door~
+1 -1 18887
+D1
+You see the eastern end of Merchant Road.
+~
+~
+0 -1 18874
+D2
+You see a house.
+~
+door~
+1 -1 18890
+D3
+You see Merchant Road.
+~
+~
+0 -1 18872
+S
+#18874
+Eastern end of Merchant Road~
+   You are at the eastern end of Merchant Road.  To the south you see the
+tailoring.  Merchant Road continues west.
+~
+187 0 1
+D0
+You see a house.
+~
+door~
+1 -1 18888
+D2
+You see the tailoring.
+~
+door~
+1 -1 18891
+D3
+You see Merchant Road.
+~
+~
+0 -1 18873
+S
+#18875
+Merchant Road~
+   You are on Merchant Road.  To the east you can see the Road Crossing.  North
+you see the weaponshop and south you see the armoury.  Merchant Road continues
+west.
+~
+187 0 1
+D0
+You see the weaponshop.
+~
+door~
+1 -1 18883
+D1
+You see the Road Crossing.
+~
+~
+0 -1 18867
+D2
+You see the armoury.
+~
+door~
+1 -1 18885
+D3
+You see Merchant Road.
+~
+~
+0 -1 18876
+S
+#18876
+Merchant Road~
+   You are on Merchant Road.  To the south you see the auditorium.  Merchant Ro
+ad
+continues east and west.
+~
+187 0 1
+D0
+You see a house.
+~
+door~
+1 -1 18882
+D1
+You see Merchant Road.
+~
+~
+0 -1 18875
+D2
+You see the auditorium.
+~
+door~
+1 -1 18884
+D3
+You see the western end of Merchant Road.
+~
+~
+0 -1 18877
+S
+#18877
+Western end of Merchant Road~
+   You are at the western end of Merchant Road.  Thrush Street lies north.
+Merchant Road continues east.
+~
+187 0 1
+D0
+You see Thrush Street.
+~
+~
+0 -1 18878
+D1
+You see Merchant Road.
+~
+~
+0 -1 18876
+S
+#18878
+Thrush Street~
+   You are on Thrush Street.  To the south you can the western end of Merchant
+Road.  Thrush Street continues north.
+~
+187 0 1
+D0
+You see Thrush Street.
+~
+~
+0 -1 18879
+D2
+You see the western end of Merchant Road.
+~
+~
+0 -1 18877
+D3
+You see a house.
+~
+door~
+1 -1 18896
+S
+#18879
+Thrush Street~
+   You are on Thrush Street.  Thrush Street continues north and south.
+~
+187 0 1
+D0
+You see Thrush Street.
+~
+~
+0 -1 18880
+D1
+You see a big house.
+~
+door~
+1 -1 18899
+D2
+You see Thrush Street.
+~
+~
+0 -1 18878
+S
+#18880
+Thrush Street~
+   You are on Thrush Street.  Thrush Street continues north and south.
+~
+187 0 1
+D0
+You see the northern end of Thrush Street.
+~
+~
+0 -1 18881
+D2
+You see Thrush Street.
+~
+~
+0 -1 18879
+D3
+You see a house.
+~
+door~
+1 -1 18897
+S
+#18881
+Northern end of Thrush Street~
+   You are on the northern end of Thrush Street.  Thrush Street continues south
+.
+~
+187 0 1
+D2
+You see Thrush Street.
+~
+~
+0 -1 18880
+D3
+You see a house.
+~
+door~
+1 -1 18898
+S
+#18882
+Inside a house~
+   You are inside a little house.  To the south you see Merchant Road.
+~
+187 8 0
+D2
+You see Merchant Road.
+~
+door~
+1 -1 18876
+S
+#18883
+The weaponshop~
+   You are inside the weaponshop.  They're selling all sorts of weapons here.
+There is a small note on the counter.
+~
+187 8 0
+E
+note~
+The note reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+  Value - The shopkeeper will tell how much he will pay for your item.
+  Sell  - Sell an item.
+~
+D2
+You see Merchant Road.
+~
+door~
+1 -1 18875
+S
+#18884
+The auditorium~
+   You are inside the auditorium.  The smell of corpses fills the room.
+You don't like this place at all.
+~
+187 8 0
+D0
+You see Merchant Road.
+~
+door~
+1 -1 18876
+S
+#18885
+The armoury~
+   You are inside the armoury.  There are all kinds of armours on the walls and
+ in
+the window.
+On the wall is a small note.
+~
+187 8 0
+E
+note~
+The note reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+  Value - The shopkeeper will (free of charge) tell how much he will
+          pay for your item.
+  Sell  - Sell an item.
+~
+D0
+You see Merchant Road.
+~
+door~
+1 -1 18875
+S
+#18886
+The tavern~
+   You are standing in the tavern.  The bar is set against the northern wall, o
+ld
+archaic writing, carvings and symbols cover its top.  A fireplace is built into
+the southern wall.
+A small sign with big letters is fastened to the bar.
+~
+187 8 0
+E
+sign~
+The sign reads:
+Free instructions.
+
+   Buy  - Buy something (drinkable) from the tavern-keeper.
+   List - The tavern-keeper will show you all the different drinks, and
+          tell the price of each.
+~
+E
+writing carving carvings symbols symbol~
+Although it is very hard to understand, you think it looks a lot like beer,
+poems about beer, and small beer-mugs.
+~
+D3
+You see Blackbird Street.
+~
+door~
+1 -1 18868
+S
+#18887
+The druggist's shop~
+   You are inside the druggist's shop.  On the counter is a small note.
+~
+187 8 0
+E
+note~
+The note reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+  Value - The shopkeeper will (free of charge) tell how much he will
+          pay for your item.
+  Sell  - Sell an item.
+~
+D2
+You see Merchant Road.
+~
+door~
+1 -1 18873
+S
+#18888
+Inside a house~
+   You are inside a little house.  To the south you see Merchant Road.
+~
+187 8 0
+D2
+You see Merchant Road.
+~
+door~
+1 -1 18874
+S
+#18889
+The greengrocer's shop~
+   You are inside the greengrocer's shop.  A scent of fresh fruit and vegetable
+s
+fills the room.
+On the counter is a small note.
+~
+187 8 0
+E
+note~
+The note reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+~
+D0
+You see Merchant Road.
+~
+door~
+1 -1 18872
+S
+#18890
+Inside a house~
+   You are inside a little house.  To the north you see Merchant Road.
+~
+187 8 0
+D0
+You see Merchant Road.
+~
+door~
+1 -1 18873
+S
+#18891
+The tailoring~
+   You are inside the taloring.  This is the place to be if you want modern and
+fashionable clothing.
+On the door is a small note.
+~
+187 8 0
+E
+note~
+The note reads:
+
+  List  - Show which various items are in the store.
+  Buy   - Buy an item.
+~
+D0
+You see Merchant Road.
+~
+door~
+1 -1 18874
+S
+#18892
+Inside a house~
+   You are inside a little house.  To the west you see Blackbird Street.
+~
+187 8 0
+D3
+You see Blackbird Street.
+~
+door~
+1 -1 18869
+S
+#18893
+Inside a house~
+   You are inside a little house.  To the west you see Blackbird Street.
+~
+187 8 0
+D3
+You see the northern end of Blackbird Street.
+~
+door~
+1 -1 18871
+S
+#18894
+Inside a house~
+   You are inside a little house.  To the east you see Blackbird Street.
+~
+187 8 0
+D1
+You see Blackbird Street.
+~
+door~
+1 -1 18870
+S
+#18895
+Inside a house~
+   You are inside Jannet's home.  The place is very clean.  To the east you see
+Blackbird Street.
+~
+187 8 0
+D1
+You see Blackbird Street.
+~
+door~
+1 -1 18869
+S
+#18896
+Inside a house~
+   You are inside a little house.  To the east you see Thrush Street.
+~
+187 8 0
+D1
+You see Thrush Street.
+~
+door~
+1 -1 18878
+S
+#18897
+Inside a house~
+   You are inside Bea's home.  The place is very clean.  To the east you see
+Thrush Street.
+~
+187 8 0
+D1
+You see Thrush Street.
+~
+door~
+1 -1 18880
+S
+#18898
+Inside a house~
+   You are inside a little house.  To the east you see Thrush Street.
+~
+187 8 0
+D1
+You see the northern end of Thrush Street.
+~
+door~
+1 -1 18881
+S
+#18899
+Inside judge Belinda's house~
+   You are inside a big house.  The house is beautifully furnished, just like y
+ou
+would your home te be.  To the west you see Thrush Street.
+~
+187 8 0
+D3
+You see Thrush Street.
+~
+door~
+1 -1 18879
+S
+#99999
+
+#RESET
+D 0 18744   0     1    By the waterfall
+D 0 18801   2     1    The large cave
+*
+D 0 18795   5     1    In a cottage
+D 0 18835   4     1    The dark cave
+*
+D 0 18785   2     2    Small path in the village
+D 0 18796   0     2    In a big cottage
+*
+D 0 18846   1     1    A small path
+D 0 18847   3     1    Inside a little hut
+*
+D 0 18865   0     1    The entrance to Westreen
+D 0 18866   2     1    Inside the gate of Westreen
+*
+M 0 18708   1 18705   the shark (In the sea)
+G 1 18705   0             a pile of gold coins
+M 0 18709   1 18745   the whale (In the sea)
+G 1 18705   0             a pile of gold coins
+M 0 18710   2 18703   the jelly-fish (In the sea)
+M 0 18710   2 18772   the jelly-fish (In the sea)
+M 0 18711   2 18707   the fish (In the sea)
+M 0 18711   2 18797   the fish (In the sea)
+M 0 18718   4 18712   the jelly-fish (The southern beach)
+M 0 18718   4 18731   the jelly-fish (The eastern beach)
+M 0 18718   4 18740   the jelly-fish (The north-eastern beach)
+M 0 18718   4 18761   the jelly-fish (The north-western beach)
+O 0 18725   0 18701    a small canoe (The beach)
+M 0 18721   4 18711   the crab (The south-western beach)
+M 0 18721   4 18718   the crab (The south-eastern beach)
+M 0 18721   4 18754   the crab (The northern beach)
+M 0 18721   4 18769   the crab (The western beach)
+*
+M 0 18701   3 18728   the snake (By the stream)
+M 0 18701   3 18778   the snake (The forest)
+M 0 18702   1 18752   the huge snake (The forest)
+G 1 18701   0             a cyan potion
+M 0 18703   3 18736   the parrot (The forest)
+M 0 18703   3 18766   the parrot (The forest)
+M 0 18704   3 18760   the cockatoo (The forest)
+M 0 18704   3 18716   the cockatoo (The edge of the forest)
+M 0 18705   4 18722   the black ant (The forest)
+M 0 18706   4 18753   the red ant (The forest)
+M 0 18719   3 18764   the monkey (The forest)
+M 0 18719   3 18735   the monkey (The forest)
+M 0 18720   1 18715   the aggressive gorilla (The dense forest)
+*
+M 0 18712   1 18825   the silver dragon (The huge cave)
+E 1 18702   0    16     a silver dragon claw
+G 1 18721   0             a silver key
+O 0 18715   0 18826    a big chest (The light cave)
+P 1 18717   0 18715       a diamond ring (chest)
+P 1 18718   0 18715       a pair of bronze leggings (chest)
+P 1 18719   0 18715       a pair of leather boots (chest)
+P 1 18723   0 18715       a pair of black gloves (chest)
+M 0 18722   1 18830   the silver baby dragon (The dark cave)
+E 1 18724   0    16     a small silver dragon claw
+M 0 18705   4 18806   the black ant (The damp tunnel)
+M 0 18705   4 18831   the black ant (The tunnel)
+M 0 18706   4 18820   the red ant (The small tunnel)
+M 0 18706   4 18816   the red ant (The tunnel)
+O 0 18703   0 18802    a torch (The large cave)
+O 0 18703   0 18834    a torch (The tunnel)
+O 0 18703   0 18809    a torch (The damp tunnel)
+M 0 18707   1 18810   the giant ant (The cave)
+G 1 18705   0             a pile of gold coins
+M 0 18715   4 18803   the bat (The large cave)
+M 0 18715   4 18818   the bat (The tunnel)
+*
+M 0 18714   1 18796   the chief cannibal (In a big cottage)
+E 1 18709   0    16     a huge spear
+E 1 18707   0     5     a steel vest
+E 1 18708   0    11     a steel shield
+E 1 18710   0     6     a diamond crown
+E 1 18722   0     4     a diamond necklace
+E 1 18716   0    13     a rush-skirt
+M 0 18717   1 18794   the cannibal (In a cottage)
+E 1 18716   0    13     a rush-skirt
+G 1 18712   0             a red diamond
+G 1 18713   0             a shiny piece of glass
+M 0 18713   5 18792   the cannibal (The centre of the village)
+E 1 18704   0    16     a sharp spear
+E 1 18716   0    13     a rush-skirt
+G 1 18711   0             a steel key
+G 1 18705   0             a pile of gold coins
+M 0 18713   5 18795   the cannibal (In a cottage)
+E 1 18704   0    16     a sharp spear
+E 1 18716   0    13     a rush-skirt
+G 1 18705   0             a pile of gold coins
+M 0 18713   5 18786   the cannibal (Small path in the village)
+E 1 18704   0    16     a sharp spear
+E 1 18716   0    13     a rush-skirt
+G 1 18705   0             a pile of gold coins
+M 0 18716   1 18789   the thief (Small path in the village)
+E 1 18706   0    16     a steel dagger
+M 0 18744   1 18798   Albertus the healer (The house of Albertus)
+*
+O 0 18714   0 18792    a big cooking pot (The centre of the village)
+*
+M 0 18726   1 18847   Pete the wood-cutter (Inside a little hut)
+E 1 18720   0    16     a wood-cutter's axe
+G 1 18705   0             a pile of gold coins
+M 0 18724   1 18851   the bear (The dark cave)
+M 0 18723   2 18840   the mountain lion (The top of the mountain)
+M 0 18723   2 18842   the mountain lion (A path)
+M 0 18725   2 18853   the cow (The grassy plains)
+M 0 18725   2 18854   the cow (The grassy plains)
+M 0 18727   1 18855   the eagle (In the eagle's nest)
+M 0 18728   1 18855   the baby eagle (In the eagle's nest)
+*
+R 0 18856   4          The forest of delusion
+R 0 18857   4          The forest of delusion
+R 0 18858   4          The forest of delusion
+R 0 18859   4          The forest of delusion
+R 0 18860   4          The forest of delusion
+R 0 18861   4          The forest of delusion
+R 0 18862   4          The forest of delusion
+R 0 18863   4          The forest of delusion
+R 0 18864   4          The forest of delusion
+*
+M 0 18729   1 18887   Frances the druggist (The druggist's shop)
+E 1 18729   0    16     a long silver sword
+G 1 18701   0             a cyan potion
+G 1 18730   0             a light blue potion
+G 1 18731   0             a green pill
+M 0 18730   1 18889   Patrick the green-grocer (The greengrocer's shop)
+E 1 18729   0    16     a long silver sword
+G 1 18736   0             a green apple
+G 1 18737   0             an orange
+G 1 18738   0             a carrot
+M 0 18731   1 18891   Paul the tailor (The tailoring)
+E 1 18729   0    16     a long silver sword
+E 1 18732   0     7     a pair of fashionable pants
+E 1 18733   0     5     a fashionable jacket
+G 1 18732   0             a pair of fashionable pants
+G 1 18733   0             a fashionable jacket
+M 0 18732   1 18886   Yves the tavern-keeper (The tavern)
+E 1 18729   0    16     a long silver sword
+G 1 18726   0             a bottle of beer
+G 1 18727   0             a bottle of firebreather
+M 0 18733   1 18884   William the coroner (The auditorium)
+E 1 18729   0    16     a long silver sword
+O 0 18744   0 18884    a wooden coffin (The auditorium)
+P 1 18745   0 18744       The corpse of a citizen of Westreen. (coffin)
+M 0 18734   1 18885   Julian the armourer (The armoury)
+E 1 18729   0    16     a long silver sword
+G 1 18734   0             a pair of heavy gloves
+G 1 18735   0             a pair of linnen sleeves
+M 0 18735   1 18883   Steve the weaponsmith (The weaponshop)
+E 1 18729   0    16     a long silver sword
+G 1 18728   0             a small silver sword
+G 1 18729   0             a long silver sword
+M 0 18737   2 18866   the Westreen cityguard (Inside the gate of Westreen)
+E 1 18739   0    16     a silver claymore
+E 1 18740   0     5     a steel plate
+E 1 18741   0     6     a steel helm
+E 1 18708   0    11     a steel shield
+M 0 18737   2 18866   the Westreen cityguard (Inside the gate of Westreen)
+E 1 18739   0    16     a silver claymore
+E 1 18740   0     5     a steel plate
+E 1 18741   0     6     a steel helm
+E 1 18708   0    11     a steel shield
+M 0 18736   4 18877   the Westreen cityguard (Western end of Merchant Road)
+E 1 18739   0    16     a silver claymore
+E 1 18740   0     5     a steel plate
+E 1 18741   0     6     a steel helm
+M 0 18736   4 18874   the Westreen cityguard (Eastern end of Merchant Road)
+E 1 18739   0    16     a silver claymore
+E 1 18740   0     5     a steel plate
+E 1 18708   0    11     a steel shield
+M 0 18736   4 18881   the Westreen cityguard (Northern end of Thrush Street)
+E 1 18739   0    16     a silver claymore
+E 1 18740   0     5     a steel plate
+E 1 18708   0    11     a steel shield
+M 0 18736   4 18871   the Westreen cityguard (Northern end of Blackbird Street)
+E 1 18739   0    16     a silver claymore
+E 1 18740   0     5     a steel plate
+E 1 18741   0     6     a steel helm
+M 0 18738   1 18899   Belinda the judge (Inside judge Belinda's house)
+E 1 18742   0     6     a judge's wig
+G 1 18705   0             a pile of gold coins
+M 0 18739   1 18897   Bea the housewife (Inside a house)
+E 1 18743   0    16     a carpet-beater
+G 1 18705   0             a pile of gold coins
+M 0 18740   1 18895   Jannet the housewife (Inside a house)
+E 1 18743   0    16     a carpet-beater
+G 1 18705   0             a pile of gold coins
+M 0 18741   4 18898   a citizen of Westreen (Inside a house)
+G 1 18705   0             a pile of gold coins
+M 0 18742   4 18896   a citizen of Westreen (Inside a house)
+G 1 18705   0             a pile of gold coins
+M 0 18741   4 18882   a citizen of Westreen (Inside a house)
+G 1 18705   0             a pile of gold coins
+M 0 18742   4 18888   a citizen of Westreen (Inside a house)
+G 1 18705   0             a pile of gold coins
+M 0 18741   4 18890   a citizen of Westreen (Inside a house)
+G 1 18705   0             a pile of gold coins
+M 0 18742   4 18894   a citizen of Westreen (Inside a house)
+G 1 18705   0             a pile of gold coins
+M 0 18741   4 18892   a citizen of Westreen (Inside a house)
+G 1 18705   0             a pile of gold coins
+M 0 18742   4 18893   a citizen of Westreen (Inside a house)
+G 1 18705   0             a pile of gold coins
+M 0 18743   1 18859   the great sorcerer (The forest of delusion)
+O 0 18746   0 18867    a fountain (Road Crossing)
+*#SHOPS
+*18717    8  12  13  0  0         100 10   0 23  The cannibal
+*18729    8  10  26  0  0         110 25   6 22  Frances the druggist
+*18730    8   0   0  0  0         100 10   6 22  Patrick the green-grocer
+*18731    8   0   0  0  0         100 10   6 22  Paul the tailor
+*18732    8   0   0  0  0         100 10   0 23  Yves the tavern-keeper
+*18734    8   9   0  0  0         125 50   6 22  Julian the armourer
+*18735    8   5   0  0  0         125 50   6 22  Steve the weaponsmith
+S
+
+#SHOPS
+$
+#END of Spitfire The Isle of Quake.

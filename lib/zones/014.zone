@@ -1,0 +1,489 @@
+#14 Zone.
+NAME       : Houses~
+INFO       : Safari club 과 Diku MUD 창조자들의 방이 있는 존.~
+PATH       : Temple 에서 d.2s.2w.s 또는 d.2s.2w.n~
+ALIGN      : 2
+AGGRESSIVE : 0
+LEVEL      : 12 ~ 40
+MAX        : 1499
+LIFESPAN   : 22
+RESET      : 2
+
+#MOBILES
+#1400
+Cinnamon~
+Cinnamon~
+The Soft-coated Wheaten Terrier, Cinnamon, is here.
+~
+Roo is VERY fond of Cinnamon.  You'd best leave her alone.
+~
+10 0 1000 S
+22 0 0 1d1+1000 1d1+10
+0 1
+5 5 2
+#1450
+bouncer~
+A Big Brawny Bouncer~
+The Big Brawny Bouncer regards you with suspicion.
+~
+~
+65610 8 700 S
+35 -15 -15 1d1+2999 5d5+18
+1000 100000
+8 8 1
+#1454
+tootoo bartender~
+Tootoo the Bartender~
+Tootoo the Bartender is waiting for your order.
+~
+he seems very greedy and rude. he has infinite power.
+~
+74 136 1000 S
+45 -15 -25 1d1+29999 1d1+99
+1000 50000
+8 8 1
+#1455
+Bob Dylan~
+Bob Dylan~
+Bob Dylan is here.
+~
+Bob frowns.
+~
+75 136 0 S
+20 0 -10 1d1+499 2d4+6
+100 30000
+8 8 1
+#1460
+Grandma~
+Grandma~
+Grandma is here, knitting or something.
+~
+Grandma smiles at you.
+~
+1038 50331656 -100 S
+30 -5 -10 1d10+1490 2d8+20
+100 130000
+8 8 2
+#1470
+labbie~
+The Labbie~
+The dumb looking Labbie is here, trying to kick you off the MUD.
+~
+The Labbie is a low-level lifeform found in the Computer Labs
+near Muncie, Indiana.
+~
+110 0 -999 S
+9 12 3 1d10+120 2d5+1
+1500 7500
+8 8 1
+#99999
+
+#OBJECTS
+#1450
+brass knuckles~
+some brass knuckles~
+A set of brass knuckles is here.~
+~
+9 2048 129
+2 0 0 0
+4 90000 25 0
+A
+19 3
+#1451
+dockers levis~
+A pair of Levi Dockers~
+A pair of light blue Levi Dockers has been left here.~
+~
+9 2048 33
+6 0 0 0
+5 10000 0 0
+A
+3 -1
+#1452
+shirt chambray~
+A striped chambray Bugle Boy shirt~
+A striped chambray Bugle Boy shirt has been dropped here.~
+~
+9 2048 9
+6 0 0 0
+5 5000 0 0
+A
+4 -1
+#1453
+reebok pumps~
+A pair of Reebok Pumps~
+A new pair of Reebok Pumps has been left here.~
+~
+9 2049 65
+5 0 0 0
+6 5000 0 0
+A
+14 50
+#1454
+scroll iron-banded~
+A iron-banded scroll~
+A iron-banded scroll has been left here.~
+~
+2 64 1
+40 24 90 -1
+15 2000000 0 0
+#1455
+boddari~
+a boddari~
+A little boddari.~
+~
+15 0 16385
+169 0 0 0
+2 50000 1 0
+#1460
+nectar glass~
+a yellow glass~
+A small nectar glass has been left here.~
+~
+17 0 1
+15 15 16 0
+15 3000 0 0
+#1461
+flare solar~
+a Solar Flare~
+A Solar Flare has carelessly been left here.~
+~
+10 4160 16385
+20 1 36 39
+1 30000 1 0
+E
+solar flare~
+This is actually a potion.
+~
+#1462
+potion red~
+a red potion~
+A red potion has carelessly been left here.~
+~
+10 4160 16385
+20 92 -1 -1
+1 3000 1 0
+#99999
+
+#ROOMS
+#1400
+Toot's Dwelling~
+  Toot's is a simple, yet exquisite abode.  The walls are painted a light
+gray, with one square window on the far wall.  Photos of her friends are
+neatly tacked up.  The delightful sounds of Rush echo through the room.
+A Golden Retriever, named Steph, lies curled up in a corner.  There is a
+pile of black hair under the bed where another dog obviously once lay.
+~
+14 2568 0
+D5
+~
+~
+0 -1 3031
+S
+#1402
+A House~
+  This house, being built by Norton, is under construction.
+~
+14 2568 0
+D5
+~
+~
+0 -1 3001
+S
+#1403
+A Southern Mansion~
+   You are in the main room of a Southern mansion.  There is a huge roaring
+fire, a huge rug, simple country furniture, wine by the fire, old books
+in a bookcase, and Roo's dog Cinnamon is by the fire.
+~
+14 2568 0
+S
+#1404
+Elbo's House~
+  This is a modified A-frame Ranch House with immaculate rugs
+and solid wooden frame furniture built by her husband.
+You are most welcome here, you are our guest!
+~
+14 2568 0
+S
+#1407
+Pokerthief's hideout~
+  You are now standing on the roof top of the Grunting Boar.
+Around you are piles and piles of broken beer bottles and
+cigarette butts. As you can see, this place is where Poker
+spends most of his spare time.
+~
+14 2568 0
+D5
+~
+~
+0 -1 3007
+S
+#1416
+Syn's House~
+  This house is under construction.
+~
+14 2568 0
+D5
+~
+~
+0 -1 3001
+S
+#1417
+Dave's House~
+  This house is done.
+~
+14 2568 0
+D5
+~
+~
+0 -1 3001
+S
+#1419
+God's House~
+  This house is God's House.  I guess that says it all.
+~
+14 2568 0
+D5
+~
+~
+0 -1 3001
+S
+#1425
+A Large Tree~
+  You have climbed up into a large tree.  There are big branches and
+lots of leaves here (hell, it's a tree...).
+~
+14 4 4
+D2
+~
+knothole~
+1 0 13400
+D4
+~
+branch~
+1 0 1426
+D5
+~
+~
+0 -1 3112
+S
+#1426
+A Large Nest~
+  You are in a large nest, high atop a large tree.  Some large
+bird probably lives here.
+~
+14 2052 4
+D5
+~
+branch~
+1 0 1425
+S
+#1450
+The Office~
+  You see a large messy desk, papers scattered about, photos of second-rate
+singers, dancers, and low-life comedians cover the wall behind the desk.  It
+is here that the manager of the Club Safari, affectionately known south of
+the border as "El Tigre", does his work.
+~
+14 524 0
+D2
+~
+~
+0 -1 1419
+D5
+~
+~
+0 -1 1451
+S
+#1451
+Club Safari~
+   You hear dance music in the air, it makes you want to get loose
+and dance your head off.  The dancefloor is brought to life with
+dancing light that ricochets of the surrounding mirrors. You are in
+the Club lounge, get comfortable, and let your problems drift away.
+There is a long bar east of here, stocked with the finest liquors.
+~
+14 520 0
+D0
+~
+~
+0 -1 1453
+D2
+~
+~
+0 -1 1452
+D3
+~
+~
+0 -1 1454
+D4
+~
+~
+0 -1 1450
+S
+#1452
+Some Small Rooms~
+   There are a few cheaply furnished rooms here.  The accomodations are
+not Park Avenue quality, but customers who drink too much at the Club
+usually don't mind.
+~
+14 2568 0
+D0
+~
+~
+0 -1 1451
+S
+#1453
+The Entrance to the Club Safari~
+  You are in the lobby of the Club Safari.  It is decorated in a style
+that is vaguely art-deco, with a little glitz thrown in for good measure.
+There is a sign here.
+~
+14 524 0
+E
+sign~
+ You can enter here from 12 level
+      - TooToo
+~
+D0
+~
+~
+0 -1 3044
+D2
+~
+~
+0 -1 1451
+S
+#1454
+The Bar in the Club Safari~
+  You are at the bar.  There is a large mirror behind the bar.  In front
+of the mirror is an assortment of bottles containing various wonderful
+elixers.  You can probably buy things here.
+~
+14 520 0
+D1
+~
+~
+0 -1 1451
+S
+#1470
+The Robert Bell Building~
+  This is the Robert Bell Building.  How nice.  You ask
+yourself, 'Who's Robert Bell?'
+  Beware of AGGRESSIVE Labbies in Room 134.
+~
+14 524 0
+D1
+~
+~
+0 -1 1471
+D2
+~
+~
+0 -1 3044
+D3
+~
+~
+0 -1 1472
+S
+#1471
+Room 134~
+  This is one of the Labs in the famous Robert Bell Building.  There
+are lots of terminals around here.  Looks like some DEC salesman made
+a real killing.
+~
+14 520 0
+D3
+~
+~
+0 -1 1470
+D4
+You see a dark room.~
+~
+0 -1 3034
+S
+#1472
+A BSU Dorm~
+  This is Ball State dorm room.  It's a mess, it stinks, it's full
+of junk.  It's like any dorm room anywhere.
+~
+14 2568 0
+D1
+~
+~
+0 -1 1470
+S
+#99999
+
+#RESET
+*
+D 0  1425   4     1    A Large Tree
+D 0  1426   5     1    A Large Nest
+*
+M 0  1400   1  1403   Cinnamon (A Southern Mansion)
+O 0  1327   1  1403    A garland of beautiful magnolias (A Southern Mansion)
+*
+M 0  1450   2  1453   A Big Brawny Bouncer (The Entrance to the Club Safari)
+E 1  1450   8     9     some brass knuckles
+E 1  1451   8     7     A pair of Levi Dockers
+E 1  1452   8     5     A striped chambray Bugle Boy shirt
+E 1  1453   8     8     A pair of Reebok Pumps
+M 0  1450   8  1454   A Big Brawny Bouncer (The Bar in the Club Safari)
+E 1  1450   8     9     some brass knuckles
+E 1  1451   8     7     A pair of Levi Dockers
+E 1  1452   8     5     A striped chambray Bugle Boy shirt
+E 1  1453   8     8     A pair of Reebok Pumps
+M 0  1450   8  1454   A Big Brawny Bouncer (The Bar in the Club Safari)
+E 1  1450   8     9     some brass knuckles
+E 1  1451   8     7     A pair of Levi Dockers
+E 1  1452   8     5     A striped chambray Bugle Boy shirt
+E 1  1453   8     8     A pair of Reebok Pumps
+M 0  1450   8  1454   A Big Brawny Bouncer (The Bar in the Club Safari)
+E 1  1450   8     9     some brass knuckles
+E 1  1451   8     7     A pair of Levi Dockers
+E 1  1452   8     5     A striped chambray Bugle Boy shirt
+E 1  1453   8     8     A pair of Reebok Pumps
+M 0  1455   1  1451   Bob Dylan (Club Safari)
+M 0  1450   8  1451   A Big Brawny Bouncer (Club Safari)
+M 0  1454   1  1454   Tootoo the Bartender (The Bar in the Club Safari)
+G 1  1454   1             A iron-banded scroll
+G 1  1455 100             a boddari
+G 1  1460 100             a yellow glass
+G 1  1461  10             a Solar Flare
+G 1  1351  10             some bullets for a Colt 45
+G 1  1353  10             two shotgun shells
+*
+M 0  1470   2  1471   The Labbie (Room 134)
+*
+S
+
+#SHOPS
+#7 tootoo bartender (The Bar in the Club Safari)
+1455
+1460
+1461
+1351
+1353
+-1
+1.000000
+0.800000
+-1
+%s Not here - try list!~
+%s You selling what?~
+%s I don't buy that.~
+%s I can't afford that.~
+%s No credit given, none taken.~
+%s That'll be %d coins, meathead.~
+%s Here's your %d coins, bozo.~
+0
+0
+1454
+0
+1454
+0
+28
+0
+0
+$
+#END of Houses.

@@ -1,0 +1,1985 @@
+#203 Zone.
+NAME       : Antkingdom~
+INFO       : 개미들의 왕국.. 25~35 레벨들에게 단순한 exp 를 준다.~
+PATH       : Temple 에서 d.7n.e.e.e~
+ALIGN      : 3
+AGGRESSIVE : 1
+LEVEL      : 25 ~ 35
+MAX        : 20499
+LIFESPAN   : 45
+RESET      : 2
+
+#MOBILES
+#99999
+
+#OBJECTS
+#99999
+
+#ROOMS
+#20301
+A Dead End~
+    Because of budget cuts in the Ant Kingdom, construction on this tunnel has
+been suspended. The only exit leads north.
+~
+203 9 1
+D0
+~
+~
+0 -1 20302
+S
+#20302
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20303
+D2
+~
+~
+0 -1 20301
+S
+#20303
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20304
+D2
+~
+~
+0 -1 20302
+S
+#20304
+Entrance To The Ant Kingdom~
+    You are standing in a five way intersection of a giant ant mound. The hive
+is made of huge caverns which connect to form a network of tunnels. The ants 
+rush about, performing their tasks. There are tunnels which lead north, south,
+east, and west. An opening above you leads up to the surface.
+~
+203 4110 1
+D0
+~
+~
+0 -1 20369
+D1
+~
+~
+0 -1 20305
+D2
+~
+~
+0 -1 20303
+D3
+~
+~
+0 -1 20371
+D4
+~
+~
+0 -1 20407
+D5
+~
+~
+0 0 338
+S
+#20305
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20306
+D3
+~
+~
+0 -1 20304
+S
+#20306
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D2
+~
+~
+0 -1 20307
+D3
+~
+~
+0 -1 20305
+S
+#20307
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20306
+D2
+~
+~
+0 -1 20308
+S
+#20308
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20307
+D1
+~
+~
+0 -1 20309
+S
+#20309
+Three Way Intersection~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20310
+D2
+~
+~
+0 -1 20389
+D3
+~
+~
+0 -1 20308
+S
+#20310
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20311
+D2
+~
+~
+0 -1 20309
+S
+#20311
+The Caverns of The Ant Kingdom~
+   You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20312
+D3
+~
+~
+0 -1 20310
+S
+#20312
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20313
+D2
+~
+~
+0 -1 20311
+S
+#20313
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20314
+D2
+~
+~
+0 -1 20312
+S
+#20314
+Three Way Intersection~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20373
+D2
+~
+~
+0 -1 20313
+D3
+~
+~
+0 -1 20315
+S
+#20315
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20314
+D3
+~
+~
+0 -1 20316
+S
+#20316
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20315
+D3
+~
+~
+0 -1 20317
+S
+#20317
+A Dead End~
+    The tunnel comes to an end here, but there is an opening which leads down,
+further into the maze.
+~
+203 9 1
+D1
+~
+~
+0 -1 20316
+D5
+~
+~
+0 -1 20318
+S
+#20318
+A Vertical Tunnel~
+    You are in a large tunnel leading up and down. The walls are very steep, 
+and look difficult to climb. It is very dark, and you can't see where the
+tunnel ends.
+~
+203 9 1
+D4
+~
+~
+0 -1 20317
+D5
+~
+~
+0 -1 20319
+S
+#20319
+A Vertical Tunnel~
+    You are in a large tunnel leading up and down. The walls are very steep,
+and look difficult to climb. It is very dark, and you can't see where the 
+tunnel ends.
+~
+203 9 1
+D4
+~
+~
+0 -1 20318
+D5
+~
+~
+0 -1 20320
+S
+#20320
+A Vertical Tunnel~
+    You are in a large tunnel leading up and down. The walls are very steep,
+and look dirricult to climb. It is very dark, and you can't see where the
+tunnel ends.
+~
+203 9 1
+D4
+~
+~
+0 -1 20319
+D5
+~
+~
+0 -1 20321
+S
+#20321
+A Dead End~
+    You are at the end of a huge cavern. There is a tunnel which leads upward
+into the maze, and the cavern continues south.
+~
+203 9 1
+D2
+~
+~
+0 -1 20322
+D4
+~
+~
+0 -1 20320
+S
+#20322
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20321
+D2
+~
+~
+0 -1 20323
+S
+#20323
+A Four Way Intersection~
+   You are at the intersection of four large caverns. There is much activity,
+and you are lucky to not get stepped on! Exits lead north, south, east, and
+west.
+~
+203 9 1
+D0
+~
+~
+0 -1 20322
+D1
+~
+~
+0 -1 20324
+D2
+~
+~
+0 -1 20378
+D3
+~
+~
+0 -1 20376
+S
+#20324
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20325
+D3
+~
+~
+0 -1 20323
+S
+#20325
+A Four Way Intersection~
+    Four large tunnels meet and form an intersection. It is very busy as ants
+enter from all parts of the mound. Exits lead north, south, east, and west.
+~
+203 9 1
+D0
+~
+~
+0 -1 20380
+D1
+~
+~
+0 -1 20379
+D2
+~
+~
+0 -1 20326
+D3
+~
+~
+0 -1 20324
+S
+#20326
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20325
+D2
+~
+~
+0 -1 20327
+S
+#20327
+A Dead End~
+    A Large cavern comes to an end here, but there is a tunnel which continues
+downward and further into the mound.
+~
+203 9 1
+D0
+~
+~
+0 -1 20326
+D5
+~
+~
+0 -1 20328
+S
+#20328
+A Vertical Tunnel~
+    You are at the top of a large tunnel leading down. As you look down into
+the hole, you see the walls are very steep. It is completely dark in the hole
+and you can not see the bottom.
+~
+203 9 1
+D4
+~
+~
+0 -1 20327
+D5
+~
+~
+0 -1 20329
+S
+#20329
+A Vertical Tunnel~
+    You are climbing in a steep tunnel leading up and down. The walls are hard
+to climb, and you almost fall of many times. The tunnel is very dark, and you 
+can not see where it ends.
+~
+203 9 1
+D4
+~
+~
+0 -1 20328
+D5
+~
+~
+0 -1 20330
+S
+#20330
+A Vertical Tunnel~
+    You are in a very long vertical cavern. The climbing here is a bit easier,
+but the ants rushing past almost push you off! It is very dark and you can not
+see where the tunnel leads.
+~
+203 9 1
+D4
+~
+~
+0 -1 20329
+D5
+~
+~
+0 -1 20331
+S
+#20331
+A Vertical Tunnel~
+    You are in a very long tunnel leading up and down. It seems that you have
+been climbing for hours, and the tunnel has no end. You stop and rest on a 
+ledge here, and watch the ants arrive and disappear back into the darkness.
+~
+203 9 1
+D4
+~
+~
+0 -1 20331
+D5
+~
+~
+0 -1 20332
+S
+#20332
+A Vertical Tunnel~
+    You are at the end of a long carvern leading up. The tunnel is very dark,
+and you can not see where it leads. The walls look steep, and difficult to 
+climb. Below you, the tunnels of the mound are filled with activity.
+~
+203 9 1
+D4
+~
+~
+0 -1 20331
+D5
+~
+~
+0 -1 20333
+S
+#20333
+A Three Way Intersection~
+    You are in an intersetion fromed by two huge caverns. It is very busy from
+all the ants coming in different directions. Above you, a tunnel leads up into
+to mound, and a long tunnel continues north and south from here.
+~
+203 9 1
+D0
+~
+~
+0 -1 20383
+D2
+~
+~
+0 -1 20334
+S
+#20334
+A North-South Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20333
+D2
+~
+~
+0 -1 20335
+S
+#20335
+A North-South Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20334
+D2
+~
+~
+0 -1 20336
+S
+#20336
+A North-South Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20335
+D3
+~
+~
+0 -1 20337
+S
+#20337
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20336
+D3
+~
+~
+0 -1 20338
+S
+#20338
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20339
+D1
+~
+~
+0 -1 20337
+S
+#20339
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20340
+D2
+~
+~
+0 -1 20338
+S
+#20340
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20341
+D3
+~
+~
+0 -1 20339
+S
+#20341
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D2
+~
+~
+0 -1 20340
+D3
+~
+~
+0 -1 20342
+S
+#20342
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20341
+D3
+~
+~
+0 -1 20343
+S
+#20343
+A Three Way Intersection~
+    You are standing in the intersection of two huge caverns. A tunnel leads
+east from here, and a lond cavern continues north and south. It is very busy
+here from all the ants coming and going.
+~
+203 9 1
+D0
+~
+~
+0 -1 20386
+D1
+~
+~
+0 -1 20342
+D2
+~
+~
+0 -1 20344
+S
+#20344
+A North-South Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20343
+D2
+~
+~
+0 -1 20345
+S
+#20345
+A North-South Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20344
+D2
+~
+~
+0 -1 20346
+D4
+~
+~
+0 -1 20364
+S
+#20346
+A North-South Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20345
+D2
+~
+~
+0 -1 20347
+S
+#20347
+A Four Way Intersection~
+    Four tunnels meet here and form a large intersection. There are many ants 
+here from all over the mound. It is very busy and hard to avoid being squished!
+Exits lead north, south, east, and west from here.
+~
+203 9 1
+D0
+~
+~
+0 -1 20346
+D1
+~
+~
+0 -1 20348
+D2
+~
+~
+0 -1 20391
+D3
+~
+~
+0 -1 20394
+S
+#20348
+A Dead End~
+    You are in the end of a huge cavern. The cavern leads west from here, and
+a tunnel continues up into the mound.
+~
+203 9 1
+D3
+~
+~
+0 -1 20347
+D4
+~
+~
+0 -1 20349
+S
+#20349
+A Vertical Tunnel~
+   You are at the bottom of a huge vertical cavern. The walls look difficult to
+climb, and you can not see where the cavern leads. Below you is the ant mound.
+~
+203 9 1
+D4
+~
+~
+0 -1 20350
+D5
+~
+~
+0 -1 20348
+S
+#20350
+A Vertical Tunnel~
+    You are in a huge vertical cavern. It is difficult to climb the walls, but
+you gradually make your way. It is very dark in here, and looking down you see
+ants emerge ffrom the darkness. Looking up, you can not see where the tunnel
+leads.
+~
+203 9 1
+D4
+~
+~
+0 -1 20351
+D5
+~
+~
+0 -1 20349
+S
+#20351
+A Dead End~
+    You are standing at the bottom of a large vertical tunnel. Looking up, you
+see that the walls are difficult to climb. A large carvern leads north from 
+here.
+~
+203 9 1
+D0
+~
+~
+0 -1 20352
+D4
+~
+~
+0 -1 20350
+S
+#20352
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20353
+D2
+~
+~
+0 -1 20351
+S
+#20353
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20354
+D2
+~
+~
+0 -1 20352
+S
+#20354
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20355
+D3
+~
+~
+0 -1 20353
+S
+#20355
+An East-West Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D2
+~
+~
+0 -1 20354
+D3
+~
+~
+0 -1 20356
+S
+#20356
+An East-West Tunnel~
+   You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20355
+D3
+~
+~
+0 -1 20357
+S
+#20357
+An East-West Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20356
+D3
+~
+~
+0 -1 20358
+S
+#20358
+A Four Way Intersection~
+    You are standing at the intersection of four large caverns. It is very busy
+from all the ants. Extis lead north, south, east, and west form here.
+~
+203 9 1
+D0
+~
+~
+0 -1 20401
+D1
+~
+~
+0 -1 20357
+D2
+~
+~
+0 -1 20359
+D3
+~
+~
+0 -1 20397
+S
+#20359
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20358
+D2
+~
+~
+0 -1 20360
+S
+#20360
+A Three Way Intersection~
+    Two large caverns form an intersection here. A tunnel continues north and
+south frome here, and to the west there is a small cave.
+~
+203 9 1
+D0
+~
+~
+0 -1 20359
+D2
+~
+~
+0 -1 20361
+S
+#20361
+A Dead End~
+    You have reached the end of a huge cavern. The cavern continues north, and
+a small opening leads up, but it looks like once you get up there, you might
+not be able to climb back down.
+~
+203 9 1
+D0
+~
+~
+0 -1 20360
+D4
+~
+~
+0 -1 20301
+S
+#20362
+A Small Cave~
+    You are standing in a small cave west of the caverns. There is a shimering
+pool of water here, which glows with a mysterious light.
+~
+203 4111 1
+E
+pool~
+The water is dark and muddy, you can't see below the surface.
+~
+D1
+~
+~
+0 -1 20360
+D5
+~
+The water is dark and muddy, you can't see below the surface.
+~
+1 -1 20363
+S
+#20363
+Below The Water~
+~
+203 0 0
+S
+#20364
+Entrance To Queen's Chanbers~
+    You are standing in a room leading to the Queen's chambers. There are many
+hatching eggs here, and nurse ants care for the new baby ants. Exits lead down
+and south.
+~
+203 4111 4
+D2
+~
+~
+0 -1 20365
+D5
+~
+~
+0 -1 20345
+S
+#20365
+First Guard Chanber~
+    This chamber is very large. It is like a big cave. The only ants allowed 
+to enter are the nurse ants that care for the queen and the eggs. Two very
+large ants stand on guard, protecting the queen from intruders.
+~
+203 9 4
+D0
+~
+~
+0 -1 20364
+D2
+~
+~
+0 -1 20366
+S
+#20366
+Second Guard Chamber~
+    Few people have ever made it this far! You are in second chamber to guard 
+the Queen Ant. There is much activity from nurse ants and hatchlings here. 
+There are two ver large ants here to guard from intruders. As luxury here, 
+there are glowing bug on cieling and walls as light.
+~
+203 4106 4
+D0
+~
+~
+0 -1 20365
+D3
+~
+~
+0 -1 20367
+S
+#20367
+Queen's Chambers~
+    This is the chamber of the Giant Queen Ant. It is lighted from glowing
+bugs that fly in the room. The queen is tended by her nurse ants. The Queen is
+very giagantic, and she looks to crush you in one bite! The nurse ants take
+the valuable eggs and place them in the egg chamber. They get no rest there
+are so many!
+~
+203 4106 4
+D0
+~
+chamber~
+1 20011 20368
+D1
+~
+~
+0 -1 20366
+S
+#20368
+Egg Chamber~
+    Here is where all the eggs are stored and taken care of until they hatch.
+The nurse ants work busily because there are so many eggs!
+~
+203 9 4
+D2
+~
+chamber~
+1 20011 20367
+S
+#20369
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20370
+D2
+~
+~
+0 -1 20304
+S
+#20370
+A Dead End~
+    There is a large cave in here, blocking your way. The only exit is west.
+~
+203 9 1
+D3
+~
+~
+0 -1 20369
+S
+#20371
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20304
+D3
+~
+~
+0 -1 20372
+S
+#20372
+A Dead End~
+    You are at the end of a large cavern. The only exit is to the east.
+~
+203 9 1
+D1
+~
+~
+0 -1 20371
+S
+#20373
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20374
+D3
+~
+~
+0 -1 20314
+S
+#20374
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20375
+D2
+~
+~
+0 -1 20373
+S
+#20375
+A Dead End~
+    You are at the end of a large cavern. A huge boulder blocks your way. The
+only exit is to the south.
+~
+203 9 1
+D2
+~
+~
+0 -1 20374
+S
+#20376
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20323
+D2
+~
+~
+0 -1 20377
+S
+#20377
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20376
+D1
+~
+~
+0 -1 20378
+S
+#20378
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20323
+D3
+~
+~
+0 -1 20377
+S
+#20379
+A Dead End~
+     The large cavern ends here. The only exit leads west.
+~
+203 9 1
+D3
+~
+~
+0 -1 20325
+S
+#20380
+The Caverns of The Ant Kingdom~
+   You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20381
+D2
+~
+~
+0 -1 20325
+S
+#20381
+The Caverns of The Ant Kingdom~
+   You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20382
+D3
+~
+~
+0 -1 20380
+S
+#20382
+A Dead End~
+    Although this part of the tunnel is under construction, the ants here are
+taking a break. If you want to continue in this direction, you might have to 
+wait a while. An exit leads south from here.
+~
+203 9 1
+D2
+~
+~
+0 -1 20381
+S
+#20383
+A North-South Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20384
+D2
+~
+~
+0 -1 20333
+S
+#20384
+A North-South Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20385
+D2
+~
+~
+0 -1 20383
+S
+#20385
+A Dead End~
+    A huge rock slide has collapse this tunnel. The only exit is to the south.
+~
+203 9 1
+D2
+~
+~
+0 -1 20384
+S
+#20386
+A North-South Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20387
+D2
+~
+~
+0 -1 20343
+S
+#20387
+A North-South Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20388
+D2
+~
+~
+0 -1 20386
+S
+#20388
+A Dead End~
+    This area of the mound is still under construction. The only exit is west.
+~
+203 9 1
+D3
+~
+~
+0 -1 20387
+S
+#20389
+The Caverns Of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20309
+S
+#20390
+A Dead End~
+    This portion of the tunnels is still under construction. You will have to
+turn back and go another path.
+~
+203 9 1
+D0
+~
+~
+0 -1 20389
+S
+#20391
+A North-South Tunnel~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20347
+D1
+~
+~
+0 -1 20392
+S
+#20392
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D2
+~
+~
+0 -1 20393
+D3
+~
+~
+0 -1 20391
+S
+#20393
+A Dead End~
+    A huge earthquake has collapsed this tunnel. The only exit is north.
+~
+203 9 1
+D0
+~
+~
+0 -1 20392
+S
+#20394
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20347
+D3
+~
+~
+0 -1 20395
+S
+#20395
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20396
+S
+#20396
+A Dead End~
+    Because of budget overruns in the Ant Kingdom, construction on this tunnel
+has been suspended. The only exit is to the south.
+~
+203 9 1
+D2
+~
+~
+0 -1 20395
+S
+#20397
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20358
+D3
+~
+~
+0 -1 20398
+S
+#20398
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D0
+~
+~
+0 -1 20399
+D1
+~
+~
+0 -1 20397
+S
+#20399
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20400
+D2
+~
+~
+0 -1 20398
+S
+#20400
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D1
+~
+~
+0 -1 20401
+D3
+~
+~
+0 -1 20399
+S
+#20401
+The Caverns of The Ant Kingdom~
+    You are in a series of huge caverns which make the tunnels of the giant
+ant mound. All around, the ants scurry by, faithfully performing their duties.
+You have little time to rest because you are constantly avoiding being stepped
+on!
+~
+203 9 1
+D2
+~
+~
+0 -1 20358
+D3
+~
+~
+0 -1 20400
+S
+#20402
+A Path In The Desert~
+    You are on a stone path in an uncharted desert. There is nothing here but
+sand. The dunes are barren and silent. The path continues north over a sand
+dune, and goes west around a hill.
+~
+203 4098 4
+D0
+~
+~
+0 -1 20403
+D1
+~
+~
+0 -1 20411
+D2
+~
+~
+0 -1 20411
+D3
+~
+~
+0 -1 20409
+S
+#20403
+A Path In The Desert~
+    You are standin on top of a large sand dune. The path leads downward to
+the south and north. From here you see some activitiy to the north. A vast
+uncharted desert streches out to the horizon.
+~
+203 4098 4
+D0
+~
+~
+0 -1 20404
+D1
+~
+~
+0 -1 20411
+D2
+~
+~
+0 -1 20402
+D3
+~
+~
+0 -1 20411
+S
+#20404
+A Path In The Desert~
+    You are standing at the foot of a large sand dune. The path intersects at
+three directions here. All around you there is only the desert. You are very
+tired from climbing sand dunes, and stop to empty sand from your boots.
+~
+203 4098 4
+D0
+~
+~
+0 -1 20411
+D1
+~
+~
+0 -1 20405
+D2
+~
+~
+0 -1 20403
+D3
+~
+~
+0 -1 20408
+S
+#20405
+A Path In The Desert~
+    You are standing at the bottom of a large sand dune. You are on a path of
+large stones in the desert. The path disappears around the corner of a large
+sand dune to the east, and also leads north from here.
+~
+203 4098 4
+D0
+~
+~
+0 -1 20406
+D1
+~
+~
+0 -1 20411
+D2
+~
+~
+0 -1 20411
+D3
+~
+~
+0 -1 20404
+S
+#20406
+A Path In The Desert~
+    You are staning on a sloping sand dune. It leads down and to the west to
+a huge crater in the desert. All around you there is the desert.
+~
+203 4098 4
+D0
+~
+~
+0 -1 20411
+D1
+~
+~
+0 -1 20407
+D2
+~
+~
+0 -1 20405
+D3
+~
+~
+0 -1 20411
+S
+#20407
+Edge Of The Crater~
+    You are standing at the edge of a large crater in the desert. If looks as
+if the crater was made by a large meteor. It is size of a stadium! It is all 
+~
+203 4098 4
+D0
+~
+~
+0 -1 20411
+D1
+~
+~
+0 -1 20411
+D2
+~
+~
+0 -1 20411
+D3
+~
+~
+0 -1 20406
+D5
+~
+~
+0 -1 20304
+S
+#20408
+A Path In The Desert~
+   You are standing on top of a sand dune in the desert. The stone path reaches
+a dead end here. All around is desert.
+~
+203 4098 4
+D0
+~
+~
+0 -1 20411
+D1
+~
+~
+0 -1 20404
+D2
+~
+~
+0 -1 20411
+D3
+~
+~
+0 -1 20411
+S
+#20409
+A Path In The Desert~
+    You are standing on a path in an uncharted desert. All around you, the sand
+is lifeless. The path is made of large stones placed here, and it leads east 
+around a sand dune. To the south, the path continues and disappears over the 
+horizon.
+~
+203 4098 4
+D0
+~
+~
+0 -1 20411
+D1
+~
+~
+0 -1 20408
+D2
+~
+~
+0 -1 20410
+D3
+~
+~
+0 -1 20411
+S
+#20410
+A Path In The Desert~
+    The path you are on reaches a dead end here. You stop and empty the sand
+from your boots as you look around. The lifeless sands stretch out to the
+horizon. You notice that to the south, the air shimmers and waves. You feel
+great energy nearby.
+~
+203 4098 4
+D0
+~
+~
+0 -1 20409
+D1
+~
+~
+0 -1 20411
+D2
+You see that there is a glowing portal here.~
+~
+0 -1 20045
+S
+#20411
+The Desert~
+   You have been walking for hours, and there seems no end to this desert.
+The hot sands stretch out as far as you can see. There is no life here, only
+the sand. You notice a skeleton of a lost adventurer half covered by the
+drifting sands.
+~
+203 4102 4
+D0
+~
+~
+0 -1 20411
+D1
+~
+~
+0 -1 20411
+D2
+~
+~
+0 -1 20411
+D3
+~
+~
+0 -1 20411
+S
+#99999
+
+#RESET
+D 0 20367   0     2    Queen's Chambers
+D 0 20368   2     2    Egg Chamber
+M 0 20004  60 20301   a giant worker ant (A Dead End)
+G 1 20010  20             an egg of the queen ant
+M 0 20003   5 20406   a giant worker ant (A Path In The Desert)
+M 0 20003   5 20403   a giant worker ant (A Path In The Desert)
+M 0 20003   5 20408   a giant worker ant (A Path In The Desert)
+G 1 20010  20             an egg of the queen ant
+M 0 20003   5 20409   a giant worker ant (A Path In The Desert)
+G 1 20010  20             an egg of the queen ant
+M 0 20003   5 20405   a giant worker ant (A Path In The Desert)
+M 0 20005   1 20407   a giant guard ant (Edge Of The Crater)
+M 1 20005  22 20407   a giant guard ant (Edge Of The Crater)
+M 1 20005  22 20304   a giant guard ant (Entrance To The Ant Kingdom)
+M 1 20005  22 20304   a giant guard ant (Entrance To The Ant Kingdom)
+M 1 20005  22 20314   a giant guard ant (Three Way Intersection)
+M 1 20005  22 20314   a giant guard ant (Three Way Intersection)
+M 1 20005  22 20323   a giant guard ant (A Four Way Intersection)
+M 1 20005  22 20323   a giant guard ant (A Four Way Intersection)
+M 1 20005  22 20325   a giant guard ant (A Four Way Intersection)
+M 1 20005  22 20325   a giant guard ant (A Four Way Intersection)
+M 1 20005  22 20333   a giant guard ant (A Three Way Intersection)
+M 1 20005  22 20333   a giant guard ant (A Three Way Intersection)
+M 1 20005  22 20343   a giant guard ant (A Three Way Intersection)
+M 1 20005  22 20343   a giant guard ant (A Three Way Intersection)
+M 1 20005  22 20345   a giant guard ant (A North-South Tunnel)
+M 1 20005  22 20345   a giant guard ant (A North-South Tunnel)
+M 1 20005  22 20347   a giant guard ant (A Four Way Intersection)
+M 1 20005  22 20347   a giant guard ant (A Four Way Intersection)
+M 1 20005  22 20358   a giant guard ant (A Four Way Intersection)
+M 1 20005  22 20358   a giant guard ant (A Four Way Intersection)
+M 1 20005  22 20360   a giant guard ant (A Three Way Intersection)
+M 1 20005  22 20360   a giant guard ant (A Three Way Intersection)
+M 0 20006   5 20304   the soldier ant (Entrance To The Ant Kingdom)
+M 1 20006  13 20314   the soldier ant (Three Way Intersection)
+M 1 20006  13 20323   the soldier ant (A Four Way Intersection)
+M 1 20006  13 20325   the soldier ant (A Four Way Intersection)
+M 1 20006  13 20333   the soldier ant (A Three Way Intersection)
+M 1 20006  13 20343   the soldier ant (A Three Way Intersection)
+M 1 20006  13 20358   the soldier ant (A Four Way Intersection)
+M 1 20006  13 20360   the soldier ant (A Three Way Intersection)
+M 0 20006  15 20377   the soldier ant (The Caverns of The Ant Kingdom)
+M 0 20006  15 20330   the soldier ant (A Vertical Tunnel)
+M 0 20009   8 20367   a nurse ant (Queen's Chambers)
+M 0 20009   8 20368   a nurse ant (Egg Chamber)
+M 0 20009   8 20367   a nurse ant (Queen's Chambers)
+G 1 20010 100             an egg of the queen ant
+O 1 20010 100 20368    an egg of the queen ant (Egg Chamber)
+O 0 20024  10 20368    the larva of a giant ant (Egg Chamber)
+O 0 20024   2 20367    the larva of a giant ant (Queen's Chambers)
+M 0 20007   1 20365   a Royal Guard Ant (First Guard Chanber)
+M 1 20007   4 20365   a Royal Guard Ant (First Guard Chanber)
+M 1 20007   4 20366   a Royal Guard Ant (Second Guard Chamber)
+M 1 20007   4 20366   a Royal Guard Ant (Second Guard Chamber)
+M 0 20008   1 20367   the Queen Ant (Queen's Chambers)
+G 1 20010  30             an egg of the queen ant
+G 1 20010  30             an egg of the queen ant
+G 1 20010  30             an egg of the queen ant
+G 0 20011   1             a reddish-brown key
+E 0 20012   1    20     the leg plates of a giant ant
+E 1 20013   1     5     the armored shell of a giant ant
+E 1 20014   1    10     the armplates of a giant ant
+E 1 20015   1    16     the Pinchers of a Gaint Queen Ant
+S
+
+#SHOPS
+$
+#END of Antkingdom.

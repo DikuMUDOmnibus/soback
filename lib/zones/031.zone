@@ -1,0 +1,1473 @@
+#31 Zone.
+NAME       : Southern part of Midgaard~
+INFO       : Midgaard 의 남쪽 도시.. 몇 개의 다른 존과 연계된다.~
+PATH       : Temple 에서 d.2s.3w.s.s.s~
+ALIGN      : 2
+AGGRESSIVE : 0
+LEVEL      : 1 ~ 40
+MAX        : 3199
+LIFESPAN   : 40
+RESET      : 2
+
+#MOBILES
+#3100
+maid~
+the Maid~
+The Maid is waiting for your order.
+~
+She is very beautiful with golden hair, and deep blue eyes. A good reason
+for coming here more often.
+~
+10 0 1000 S
+23 2 2 6d10+790 1d8+12
+2000 80000
+8 8 2
+#3120
+sexton~
+the Sexton~
+A Sexton is sitting here, drinking hot tea.
+~
+The Sexton looks like he is relaxing after another gravedigging job.
+~
+10 0 800 S
+3 18 7 2d6+35 1d7+0
+13 350
+6 6 1
+#3121
+swan~
+the Swan~
+A swan is swimming around in the pond.
+~
+The white swan is very elegant.
+~
+10 0 1000 S
+1 20 9 2d6+10 1d5+0
+0 100
+8 8 0
+#3122
+duckling~
+the Duckling~
+A duckling is swimming around in the pond.
+~
+The duckling is adorable, it looks most of all like a tiny furball.
+~
+10 0 1000 S
+0 20 10 1d1+0 1d1+0
+0 1
+8 8 0
+#3123
+sparrow~
+the Sparrow~
+A sparrow is flapping around on the ground.
+~
+The sparrow looks like it is enjoying life.
+~
+200 0 1000 S
+0 20 10 2d6+0 1d3+0
+0 25
+8 8 0
+#3124
+duck~
+the Duck~
+A duck is here, quacking happily.
+~
+The duck is quite fat.  It looks like it is enjoying life.
+~
+72 0 1000 S
+1 20 10 2d6+5 1d4+0
+0 75
+8 8 0
+#3125
+Diana~
+the Diana~
+The beautiful Diana is here, about to start long adventure.
+~
+Diana is a most well known dragon hunter. But, you cloud not belive that
+she is such a great fighter. Because of her beauty.
+~
+32776 2176 1000 S
+44 -14 -20 5d200+13500 5d5+95
+40000 2500000
+8 8 2
+#3126
+Massacre~
+The Massacre~
+A Massacre is here. 
+~
+Massacre hit you with massacre power !.
+~
+9 128 1000 S
+45 -7 -10 5d200+13500 5d18+85
+40000 1500000
+8 8 1
+#3127
+extremely hard~
+The Extremely Hard~
+A Extremely Hard is here .
+~
+Extremely Hard hit you with extremely power !.
+~
+9 128 1000 S
+45 -7 -10 5d200+14500 5d5+55
+40000 1500000
+8 8 1
+#3128
+hit hard~
+The Hit Hard~
+The Hit Hard is here .
+~
+The Hit Hard hit you with hit hard power !.
+~
+9 128 1000 S
+45 -7 -10 5d200+16500 5d5+35
+40000 1500000
+8 8 1
+#3129
+hit~
+The Hit~
+The Hit is here .
+~
+The Hit hit you with hit power !.
+~
+9 128 1000 S
+45 -7 -10 5d200+20000 5d5+25
+40000 1500000
+8 8 1
+#3130
+barely hit~
+The Barely Hit~
+The Barely Hit is here .
+~
+The Barely Hit hit you with Barely hit power !.
+~
+9 128 1000 S
+45 -7 -13 5d20+22500 5d5+15
+40000 1500000
+8 8 1
+#3131
+tickle~
+The Tickle~
+The Tickle is here .
+~
+The Tickle hit you with tickle power !.
+~
+9 128 1000 S
+45 -7 -17 5d20+26000 5d5+10
+40000 1500000
+8 8 1
+#3132
+miss~
+The Miss~
+The Miss is here.
+~
+The Miss hit you with miss power !.
+~
+9 128 1000 S
+45 -7 -20 5d20+30000 5d5+5
+40000 1500000
+8 8 1
+#3133
+musashi~
+Musashi~
+Musashi is pointing Daimyo with his samurai sword. ATTACKS Daimyo!
+~
+I CHALLENGE YOU.
+~
+11 33556480 1000 S
+44 -14 -30 5d200+13000 5d5+95
+10000 3000000
+8 8 1
+#3134
+bombard~
+Bombard~
+Bombard is here, look at you .
+~
+ Bombard is the maker of Bombard Sword. But Laow broke the sword to
+seven particle. Laow is a brother of Gaiot. Laow gave that particles
+to his Mud Message Fighters. Bombard want to reget them to remake
+his Bombard Sword.
+Bombard can hit you with his bomabrd power .
+~
+11 0 1000 S
+31 -10 -30 5d20+19000 5d5+95
+10000 1500000
+8 8 1
+#3135
+super deathcure~
+Super DeathCure~
+Super DeathCure is here, looking your hit point ???
+~
+Super DeathCure is deciding your health . hmmmmm.... you killed or recreated .
+~
+9 128 1000 S
+44 -20 -20 5d200+13500 5d5+95
+10000 5000000
+8 8 2
+#3140
+chief~
+the Chief~
+The Chief Guard is looking very upset.
+~
+A very angry chief.
+~
+46 8 1000 S
+17 4 1 1d12+210 1d8+8
+0 60000
+8 8 1
+#3141
+cityguard guard~
+the Cityguard~
+A cityguard stands here, looking very upset.
+~
+A big, strong, angry guard.
+~
+46 0 1000 S
+10 10 2 1d12+123 1d8+3
+0 9000
+8 8 1
+#3142
+secretary~
+the Secretary~
+A secretary is sitting at the desk, typing away on the typewriter.
+~
+She looks very busy.
+
+>
+The Secretary says 'Sorry, but the Mayor is extremely busy today.'
+The Secretary says 'Please sit down and have a seat in the meantime.'
+~
+10 0 900 S
+12 9 2 1d12+148 2d7+1
+100 13000
+8 8 2
+#3143
+mayor~
+the Mayor~
+The Mayor is sitting in his huge chair, snoring loudly.
+~
+He is a stocky, middle-aged man with thin, grey hair.
+~
+11 0 900 S
+23 2 2 6d10+390 1d8+12
+1000 80000
+4 4 1
+#3144
+crier~
+the Town Crier~
+The Town Crier is here, weeping quietly.
+~
+He is very good at his job - completely dissolved in tears.
+~
+136 0 900 S
+1 20 9 2d6+10 1d5+0
+34 100
+8 8 1
+#3145
+mom~
+Mom~
+Mom is here, shaking her finger at you.
+~
+Mom is getting a little tired of the nonsense around here.
+~
+9 128 1000 S
+44 -5 -10 5d200+3500 5d5+95
+10000 800000
+8 8 2
+#3146
+suzy~
+Suzy the Street Walker~
+Suzy, a seductive street walker, leans against the lamp post and smiles.
+~
+Suzy lights up a smoke and winks at you.
+~
+72 0 0 S
+12 9 2 2d12+300 2d7+4
+2500 22000
+8 8 2
+#3147
+urchin~
+the street urchin~
+A dirty little street urchin is here, looking at your coins.
+~
+The little street urchin is a dirty, but quick, little bugger.
+~
+2252 524298 -100 S
+5 13 3 2d10+75 2d4+0
+100 1500
+8 8 1
+#3148
+unarmed cityguard guard~
+the Unarmed Cityguard~
+An Unarmed Cityguard is here, yawning.
+~
+A very big, very strong, somewhat helpful, unarmed guard.
+~
+131144 8 1000 S
+23 0 -7 1d1+999 2d7+17
+1000 10000
+8 8 1
+#3149
+ranger forest~
+the Forest Ranger~
+A Forest Ranger is here, checking the ecology and all that.
+~
+A very dedicated Forest Ranger.
+~
+65610 10 1000 S
+23 0 -7 1d1+999 2d7+17
+1000 20000
+8 8 1
+#3150
+security guard~
+The Security Guard~
+A Security Guard is here, hoping to go on lunch break soon.
+~
+The security guard is an ex-jock.
+~
+65610 8 1000 S
+23 0 -7 1d1+999 2d7+17
+1000 10000
+8 8 1
+#3151
+bogan~
+A Bogan~
+A Bogan is here, looking for a Volvo to steal.
+~
+The Bogan is an ugly punk, with greasy hair, dirty clothes, and he's listening
+to some Heavy Metal music.
+~
+2124 8 -900 S
+31 0 -6 1d1+2999 2d7+17
+10 95000
+8 8 1
+#3152
+examiner~
+The Bank Examiner~
+The Bank Examiner is here, making sure the bank isn't cheating you.
+~
+The Bank Examiner is a weak little guy.  Save him for a low level player.
+~
+10 0 100 S
+7 14 4 1d12+85 2d4+1
+250 1000
+6 6 1
+#3153
+president~
+The Bank President~
+The Bank President is here, scowling.
+~
+The Bank President is a large fellow, his pockets appear to be bulging.
+~
+10 0 100 S
+25 1 -9 1d1+2999 2d4+24
+500 1000
+6 6 1
+#3154
+undercover cop~
+The Undercover Cop~
+The Undercover Cop is sneaky and strong.
+~
+He says 'SCRAM!'.
+~
+65546 1048576 100 S
+27 0 -8 1d1+999 2d8+28
+2500 10000
+8 8 1
+#3155
+teof nogada eof~
+Teof~
+Teof, the nogada, is here, finding fidos to kill..
+~
+Teof looks so tired, but he will be the last person to leave this mud.
+
+He says 'Wanna make a group with me? May i follow you?'.
+
+~
+2101321 33556616 1000 S
+44 -14 -25 5d200+30000 6d8+120
+100000000 2000000
+8 8 1
+#99999
+
+#OBJECTS
+#3100
+tea cup~
+a cup~
+A cup has been set here.~
+~
+17 0 1
+8 8 11 0
+1 5 1 0
+#3101
+coffee cup~
+a cup~
+A cup has been set here.~
+~
+17 0 1
+8 8 12 0
+1 7 0 0
+#3102
+water bottle~
+a bottle~
+A water bottle has been set here.~
+~
+17 0 1
+64 64 0 0
+5 10 0 0
+#3120
+key iron~
+a key~
+An iron key has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 10 0
+E
+key iron~
+The iron key is not special.
+~
+#3121
+key rusty~
+a key~
+A rusty key has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 0 0
+E
+key rusty~
+The key is a fairly large rusty key. You notice a lot of dirt it.
+~
+#3122
+key wooden~
+a key~
+A wooden key has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 10 0
+E
+key wooden~
+The wooden key is not special.
+~
+#3123
+key brass~
+a key~
+A brass key has been left here.~
+~
+18 0 1
+0 0 0 0
+1 0 0 0
+E
+key brass~
+The brass key is small and looks like it fits a very complicated lock.
+~
+#3130
+desk drawer~
+the desk~
+A desk is set against the western wall.~
+The desk looks very sparse, there is a drawer in the left side.
+~
+15 0 0
+34 15 3122 0
+100 0 0 0
+E
+drawer~
+You notice a keyhole in the drawer.
+~
+#3131
+safe~
+the safe~
+A safe is placed in a dark corner of the room.~
+The safe has a keyhole.
+~
+15 0 0
+34 15 3123 0
+100 0 0 0
+E
+safe~
+The safe is very heavy.
+~
+#3132
+gold coins~
+the gold~
+A lot of gold is here.~
+Looks like at least 10,000 coins.
+~
+20 0 1
+52385 0 0 0
+0 52385 0 0
+#3133
+city key~
+the City Key~
+The very big City Key is lying here.~
+It is probably the biggest key you have seen in your life.  It is made from
+polished gold and has various patterns on it along with the Midgaard Coat of
+Arms.
+~
+18 0 1
+0 0 0 0
+10 10000 0 0
+#3134
+bench~
+the Bench~
+A white-painted wooden bench is standing here.~
+~
+12 0 0
+0 0 0 0
+100 600 0 0
+E
+bench~
+It is a quite heavy but very comfortable bench.  It is placed with its front
+towards the river so you can sit and watch the river and the houses on the
+other side.
+~
+#3135
+fountain~
+a fountain~
+A small white fountain is standing at the end of the road.~
+~
+17 0 0
+50 50 0 0
+500 3000 0 0
+E
+fountain~
+It is very nice.  Made from fine white marble.
+~
+#3136
+coins gold~
+a small pile of gold coins~
+A small pile of gold coins lies here.~
+~
+20 0 1
+20 0 0 0
+0 0 0 0
+#99999
+
+#ROOMS
+#3100
+Northwest end of Concourse~
+   You are at the concourse, the city wall is just west.  A small promenade
+goes east, and the bridge is just north of here.  The concourse continues
+south along the city wall.
+~
+31 0 1
+D0
+~
+~
+0 -1 3051
+D1
+~
+~
+0 -1 3101
+D2
+~
+~
+0 -1 3127
+S
+#3101
+Promenade~
+   The river gently flows east just north of here.  The promenade continues
+further east and to the west you see the city wall.  Park Road leads south
+from here.
+~
+31 0 1
+D1
+~
+~
+0 -1 3102
+D2
+~
+~
+0 -1 3131
+D3
+~
+~
+0 -1 3100
+S
+#3102
+Promenade~
+   The river gently flows east just north of here.  The promenade continues
+both east and west.  South of here you see the entrance to the park, and a
+small building seems to be just west of the entrance.
+~
+31 0 1
+D1
+~
+~
+0 -1 3103
+D2
+~
+~
+0 -1 3105
+D3
+~
+~
+0 -1 3101
+S
+#3103
+Promenade~
+   The river gently flows east just north of here.  The promenade continues
+both east and west.  A small path leads south.  Looking across the river you
+see the levee.
+~
+31 0 1
+D1
+~
+~
+0 -1 3104
+D2
+~
+~
+0 -1 3132
+D3
+~
+~
+0 -1 3102
+S
+#3104
+Northeast end of Concourse~
+   You are at the Concourse.  The city wall is just east and a small
+promenade goes west.  Looking across the river you see a building that
+resembles a warehouse.  The Concourse continues south along the city wall.
+~
+31 0 1
+E
+wall~
+It is built from large grey rocks that have been fastened to each other with
+some kind of mortar.  It is far too high to climb.
+~
+D2
+The Concourse continues south.
+~
+~
+0 -1 3130
+D3
+You see the promenade.
+~
+~
+0 -1 3103
+S
+#3105
+Park Entrance~
+   You are standing just inside the small park of Midgaard.  To the north is
+the promenade and a small path leads south into the park.  To your east is
+the famous Park Cafe.
+~
+31 4 1
+D0
+You see the promenade.
+~
+~
+0 -1 3102
+D1
+You see Park Cafe.
+~
+~
+0 -1 3106
+D2
+You see the park.
+~
+~
+0 -1 3108
+S
+#3106
+Park Cafe~
+   You are inside Park Cafe, a very well lighted, cosy place. The cafe
+is built from large logs. Through the windows in the northern wall you
+see the river, and through the southern window you see many vigorous
+colourful plants.
+~
+31 8 0
+D3
+You see the park entrance.
+~
+~
+0 -1 3105
+S
+#3107
+Small path through the park~
+   You are walking along a small path through the park.  The path continues
+south and east.
+~
+31 0 1
+D1
+~
+~
+0 -1 3108
+D2
+~
+~
+0 -1 3113
+S
+#3108
+Small path in the park~
+   You are standing on a small path inside the park.  The park entrance is
+just north of here, and Park Cafe is just east of the entrance.  The path
+leads further east and west.
+~
+31 0 1
+D0
+You see the northern park entrance.
+~
+~
+0 -1 3105
+D1
+~
+~
+0 -1 3109
+D3
+~
+~
+0 -1 3107
+S
+#3109
+Small path in the park~
+   You are on a small path running through the park.  It continues west and
+south and just north of here you see the southern wall of Park Cafe.
+~
+31 0 1
+D2
+~
+~
+0 -1 3115
+D3
+~
+~
+0 -1 3108
+S
+#3110
+Cityguard Head Quarters~
+   You are inside a tidy office.
+~
+31 8 0
+D1
+You see the park road.
+~
+door~
+1 3120 3111
+S
+#3111
+Park Road~
+   The road continues north and south.  A building is just west of here, you
+notice a sign on the door.  The park entrance is to the east.
+~
+31 0 1
+E
+building door sign~
+The sign on the door says:-
+
+                 Cityguard Head Quarters
+
+           WARNING: Authorized Personnel Only!
+~
+D0
+~
+~
+0 -1 3131
+D1
+You see the park entrance.
+~
+~
+0 -1 3112
+D2
+~
+~
+0 -1 3118
+D3
+You see the cityguard head quarters.
+~
+door~
+1 3120 3110
+S
+#3112
+Western Park Entrance~
+   You are standing at the western end of the park.  A small path leads east
+into the park and going west through the entrance you will reach Park Road.
+~
+31 4 1
+D1
+~
+~
+0 -1 3113
+D3
+~
+~
+0 -1 3111
+D4
+~
+~
+0 -1 1425
+S
+#3113
+A path in the park~
+   You are in the park.  The paths lead north and west.  Westwards is the
+park entrance and to the east you see a small pond.
+~
+31 0 1
+D0
+~
+~
+0 -1 3107
+D1
+You see the pond.
+~
+~
+0 -1 3114
+D3
+You see the western park entrance.
+~
+~
+0 -1 3112
+S
+#3114
+The Pond~
+   You are swimming around in the pond, feeling rather stupid.  You can get
+back on the path from the eastern and western end of the pond.
+~
+31 0 6
+D1
+~
+~
+0 -1 3115
+D3
+~
+~
+0 -1 3113
+S
+#3115
+A path in the park~
+   You are in the park.  The paths lead north and east.  Eastwards is the
+park entrance and to the west you see a small pond.
+~
+31 0 1
+D0
+~
+~
+0 -1 3109
+D1
+~
+~
+0 -1 3116
+D3
+~
+~
+0 -1 3114
+S
+#3116
+Eastern Park Entrance~
+   You are standing at the eastern end of the park.  A small path leads west
+into the park.  Going east through the entrance you will reach Emerald
+Avenue.
+~
+31 4 1
+D1
+~
+~
+0 -1 3117
+D3
+~
+~
+0 -1 3115
+S
+#3117
+Emerald Avenue~
+   You are standing on the north end of Emerald Avenue.  To the north is the
+promenade and to the west is the park entrance.  To the east is the not very
+big Town Hall of Midgaard.
+~
+31 0 1
+D0
+~
+~
+0 -1 3132
+D1
+~
+~
+0 -1 3137
+D2
+~
+~
+0 -1 3119
+D3
+~
+~
+0 -1 3116
+S
+#3118
+Park Road~
+   You are on Park Road which leads north and south.
+~
+31 0 1
+D0
+~
+~
+0 -1 3111
+D2
+~
+~
+0 -1 3135
+S
+#3119
+Emerald Avenue~
+   You are standing at a bend on Emerald Avenue.  The road leads north and
+west.
+~
+31 0 1
+D0
+~
+~
+0 -1 3117
+D3
+~
+~
+0 -1 3133
+S
+#3120
+Road Crossing~
+   You are in the middle of the road cross.  Roads lead in all directions.
+A huge black iron chain as thick as a tree trunk is fastened into the ground
+at the centre of the road cross.  Its other end leads directly upwards towards
+the sky.
+A road sign is here.
+~
+31 0 1
+E
+sign~
+The sign points in all directions:
+
+   North - Emerald Avenue.
+   East  - Park Road.
+   South - Emerald Avenue.
+   West  - Park Road.
+
+Someone has added the following with red paint:
+
+   Up    - Redferne's Flying Citadel.
+~
+E
+chain~
+The the chain reaches the clouds high above you.  It must take some really
+powerful magic to hold such a chain in place.
+~
+D0
+~
+~
+0 -1 3133
+D1
+~
+~
+0 -1 3136
+D2
+~
+~
+0 -1 3134
+D3
+~
+~
+0 -1 3135
+D4
+The chain disappears in the clouds.~
+~
+0 -1 7914
+S
+#3121
+Emerald Avenue~
+   You are standing at a bend on Emerald Avenue.  The road leads south and
+east.
+~
+31 0 1
+D1
+~
+~
+0 -1 3134
+D2
+~
+~
+0 -1 3125
+S
+#3122
+Park Road~
+   You are on Park Road which leads south and north.  Elm Street is east of
+here.
+~
+31 0 1
+D0
+~
+~
+0 -1 3136
+D1
+~
+~
+0 -1 3123
+D2
+~
+~
+0 -1 3126
+S
+#3123
+Elm Street~
+   You are on Elm street.  Park Road is to the west and Elm Street continues
+in eastward direction.
+~
+31 0 1
+D1
+~
+~
+0 -1 3124
+D3
+~
+~
+0 -1 3122
+S
+#3124
+End of Elm Street~
+   You are at the end of Elm Street.
+An old elm tree grows here.
+~
+31 0 1
+E
+elm tree~
+The fresh young leaves of the elm tree wave gently in the wind.
+~
+D1
+~
+~
+0 -1 3095
+D3
+~
+~
+0 -1 3123
+S
+#3125
+Emerald Avenue~
+   You are on Emerald Avenue which continues north.  The Concourse is south
+of here.
+~
+31 0 1
+D0
+~
+~
+0 -1 3121
+D2
+~
+~
+0 -1 3128
+S
+#3126
+Park Road~
+   You are on Park Road which continues north.  The Concourse is south of
+here.
+~
+31 0 1
+D0
+~
+~
+0 -1 3122
+D2
+~
+~
+0 -1 3129
+S
+#3127
+On the Concourse~
+   You are at the southwest corner of the city wall.  The Concourse leads
+both north and east.
+~
+31 0 1
+D0
+~
+~
+0 -1 3100
+D1
+~
+~
+0 -1 3128
+D2
+~
+~
+0 -1 14601
+S
+#3128
+On the Concourse~
+   The Concourse continues both east and west.  Emerald Avenue is north of
+here.
+~
+31 0 1
+D0
+~
+~
+0 -1 3125
+D1
+~
+~
+0 -1 3129
+D3
+~
+~
+0 -1 3127
+S
+#3129
+On the Concourse~
+   The Concourse continues both east and west.  Park Road is north of here
+and an iron grate leads south to the graveyard.
+~
+31 0 1
+D0
+~
+~
+0 -1 3126
+D1
+~
+~
+0 -1 3130
+D2
+Through the solid iron bars you see the graveyard.
+~
+grate~
+2 3121 3400
+D3
+~
+~
+0 -1 3128
+S
+#3130
+On the Concourse~
+   You are at the southeast corner of the city wall.  The Concourse leads
+both north and west.
+~
+31 0 1
+D0
+~
+~
+0 -1 3104
+D3
+~
+~
+0 -1 3129
+D5
+~
+~
+0 -1 5374
+S
+#3131
+Park Road~
+   You are at Park Road which continues north and south.
+~
+31 0 1
+D0
+~
+~
+0 -1 3101
+D2
+~
+~
+0 -1 3111
+S
+#3132
+Emerald Avenue~
+   You are at Emerald Avenue which continues north and south.  Penny Lane leads
+east from here.
+~
+31 0 1
+D0
+~
+~
+0 -1 3103
+D1
+~
+~
+0 -1 3139
+D2
+~
+~
+0 -1 3117
+S
+#3133
+Emerald Avenue~
+   You are standing at a bend on Emerald Avenue.  To the east the road goes on
+and to the south is the Road Crossing.
+~
+31 0 1
+D1
+~
+~
+0 -1 3119
+D2
+~
+~
+0 -1 3120
+S
+#3134
+Emerald Avenue~
+   You are standing at a bend on Emerald Avenue.  To the west the road goes on
+and to the north is the Road Crossing.
+~
+31 0 1
+D0
+~
+~
+0 -1 3120
+D3
+~
+~
+0 -1 3121
+S
+#3135
+Park Road~
+   You are at a bend on Park Road.  To the north the road goes on and to the
+east is the Road Crossing.
+~
+31 0 1
+D0
+~
+~
+0 -1 3118
+D1
+~
+~
+0 -1 3120
+S
+#3136
+Park Road~
+   You are at a bend on Park Road.  To the south the road goes on and to the
+west is the Road Crossing.
+~
+31 0 1
+D2
+~
+~
+0 -1 3122
+D3
+~
+~
+0 -1 3120
+S
+#3137
+The Waiting Room~
+   You are standing in the waiting room at the town hall.  Wooden chairs stand
+along the walls and a long desk with a typewriter is placed in the middle of
+the room.
+~
+31 8 0
+E
+chair chairs~
+Not the very least comfortable.
+~
+E
+desk~
+An extremely heavy desk.  It is so large that it doesn't even need drawers.
+Everything can be stored on its top.
+~
+E
+typewriter~
+It is an ancient Quifatronic T-1000 mk I.  These machines are known for their
+incredible durability, and for their even more incredible weight.  They make
+a Cray II look like a laptop.
+~
+D1
+It looks like some kind of office.
+~
+~
+0 -1 3138
+D3
+The exit west leads to Emerald Avenue.
+~
+~
+0 -1 3117
+S
+#3138
+The Mayors Office~
+   You are in the not very big office of the Mayor of Midgaard.  A large and
+polished but completely empty desk is standing in front of an armchair that
+looks so comfortable that it most of all resembles a bed with the head end
+raised slightly.
+~
+31 8 0
+E
+desk~
+This desk is obviously very old.  Nevertheless it looks as if has never been
+used.
+~
+E
+chair armchair~
+This chair is really a masterpiece.  A chair where one can sit as comfortably
+as in a bed.  All auditoriums should be equipped with these things.  A shame
+that there wouldn't be room for the students too, though.
+~
+D3
+The waiting room is to the west.
+~
+~
+0 -1 3137
+S
+#3139
+Penny Lane~
+   You are on Penny Lane.  Emerald Avenue is to the west and Penny Lane
+continues in eastward direction.
+~
+31 0 1
+D1
+~
+~
+0 -1 3140
+D3
+~
+~
+0 -1 3132
+S
+#3140
+Penny Lane~
+   You are on Penny Lane.  The narrow road continues north and west.
+~
+31 0 1
+D0
+~
+~
+0 -1 3141
+D3
+~
+~
+0 -1 3139
+S
+#3141
+End of Penny Lane~
+   You are at the end of Penny Lane.  The only exit appears to be south.
+~
+31 0 1
+D2
+~
+~
+0 -1 3140
+S
+#99999
+
+#RESET
+*
+D 0  3110   1     2    Cityguard Head Quarters
+D 0  3111   3     2    Park Road
+D 0  3129   2     2    On the Concourse
+D 0  3400   0     2    A Gravel Road on the Graveyard
+*
+O 0  3134   3  3101    the Bench (Promenade)
+O 0  3134   3  3102    the Bench (Promenade)
+O 0  3134   3  3103    the Bench (Promenade)
+*
+M 0  3100   1  3106   the Maid (Park Cafe)
+G 1  3100 500             a cup
+G 1  3101 500             a cup
+G 1  3102 500             a bottle
+*
+M 0  3120   1  3106   the Sexton (Park Cafe)
+G 1  3121   2             a key
+*
+M 0  3121   1  3114   the Swan (The Pond)
+M 0  3122   1  3114   the Duckling (The Pond)
+M 0  3123   1  3109   the Sparrow (Small path in the park)
+M 0  3123   1  3136   the Sparrow (Park Road)
+M 0  3124   2  3113   the Duck (A path in the park)
+M 0  3124   2  3114   the Duck (The Pond)
+M 0  3124   2  3115   the Duck (A path in the park)
+M 0  6006   3  3115   the gray squirrel (A path in the park)
+M 0  6006   3  3123   the gray squirrel (Elm Street)
+M 0  6006   3  3124   the gray squirrel (End of Elm Street)
+M 0  6006   3  3124   the gray squirrel (End of Elm Street)
+M 0  6008   3  3140   A mouse (Penny Lane)
+M 0  6008   3  3140   A mouse (Penny Lane)
+*
+M 0  3140   1  3110   the Chief (Cityguard Head Quarters)
+G 1  3122   2             a key
+M 0  3141   4  3110   the Cityguard (Cityguard Head Quarters)
+M 1  3141   4  3110   the Cityguard (Cityguard Head Quarters)
+M 1  3141   4  3110   the Cityguard (Cityguard Head Quarters)
+M 1  3141   4  3110   the Cityguard (Cityguard Head Quarters)
+*
+X 0  3130  3110       the desk (Cityguard Head Quarters)
+X 0  3131  3110       the safe (Cityguard Head Quarters)
+O 0  3130   1  3110    the desk (Cityguard Head Quarters)
+P 1  3123   1  3130       a key (desk drawer)
+O 0  3131   1  3110    the safe (Cityguard Head Quarters)
+P 1  3132   1  3131       the gold (safe)
+*
+M 0  3060  20  3111   the Cityguard (Park Road)
+G 1  3120   2             a key
+M 0  3060  20  3111   the Cityguard (Park Road)
+M 0  3060  20  3111   the Cityguard (Park Road)
+M 0  3060  20  3111   the Cityguard (Park Road)
+*
+M 0  3142   1  3137   the Secretary (The Waiting Room)
+M 0  3143   1  3138   the Mayor (The Mayors Office)
+E 1  3133   1    17     the City Key
+M 0  3061   2  3138   the Janitor named 영구 (The Mayors Office)
+*
+M 0  3144   1  3120   the Town Crier (Road Crossing)
+M 0  3126   1  3012   The Massacre (Main Street)
+E 1  3025   7    16     a particle of bombard sword
+M 0  3127   1  3013   The Extremely Hard (Main Street)
+E 1  3025   7    16     a particle of bombard sword
+M 0  3128   1  3014   The Hit Hard (Southern Market Square)
+E 1  3025   7    16     a particle of bombard sword
+M 0  3129   1  3015   The Hit (The Main Street)
+E 1  3025   7    16     a particle of bombard sword
+M 0  3130   1  3025   The Barely Hit (The Southern Common Square)
+E 1  3025   7    16     a particle of bombard sword
+M 0  3131   1  3026   The Tickle (The Dark Alley)
+E 1  3025   7    16     a particle of bombard sword
+M 0  3132   1  3024   The Miss (Eastern End of Poor Alley)
+E 1  3025   7    16     a particle of bombard sword
+*M 0 3155 1 3030       Teof
+M 0  3135   1  3034   Super DeathCure (Room of SUPER DeathCure (only death))
+E 1  1317   1    20     The ANTI DeathCure
+M 0  3125   1  3016   the Diana (The Main Street)
+G 1  2221  10             An arrow for Diana's bow
+E 1  1326   2     3     A diamond pendant
+E 1  1345   1    11     the brass shield
+E 1  2224   1     6     A fur hat
+E 1  1302   2     8     a bangard boots
+E 1  2223   1    13     A fur sash
+E 1  2244   1     1     A brass ring
+E 1  2222   1     7     Diana's leggings
+E 1  2220   1    17     Diana's great bow
+M 0  3146   1  3044   Suzy the Street Walker (Poor Alley)
+E 1  1320   8     6     a pair of sunglasses
+M 0  3147   5  3014   the street urchin (Southern Market Square)
+M 0  3147   5  3024   the street urchin (Eastern End of Poor Alley)
+E 1  1330   3     6     a Cleveland Indians baseball cap
+M 0  3147   5  3026   the street urchin (The Dark Alley)
+M 0  3095   1  3025   the Bag Lady (The Southern Common Square)
+*
+M 0  3151   1  3045   A Bogan (Alley at Levee)
+*
+O 0  3135   1  3141    a fountain (End of Penny Lane)
+O 0  3136   1  3141    a small pile of gold coins (End of Penny Lane)
+*
+M 0  3068   1  3095   Mike Smith (The House of Repair)
+S
+
+#SHOPS
+#28 maid (Park Cafe)
+3100
+3101
+3102
+-1
+1.100000
+0.900000
+-1
+%s I got no such drink.~
+%s I see no such thing.~
+%s I do not buy, would you like a drink?~
+%s BUG, Please report~
+%s You can't afford such a fine drink, try the Grubby Inn.~
+%s Fine, that'll be %d gold pieces.~
+%s Bug, please report (%d).~
+0
+0
+3100
+0
+3106
+6
+23
+23
+24
+$
+#END of Southern part of Midgaard.

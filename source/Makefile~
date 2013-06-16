@@ -1,0 +1,48 @@
+INCLUDE	= -I../header
+WFLAGS	= -Wall
+OFLAGS	= -O
+
+CC	= gcc
+LFLAGS	= 
+DFLAGS	= -DIMO=41 -ggdb -D__BSD__ -D__BSD_DEBUG__ 
+CFLAGS	= $(INCLUDE) $(WFLAGS) $(OFLAGS) $(DFLAGS) -pipe 
+
+OBJS = main.o \
+	act.comm.o act.info.o act.movement.o act.get.o act.eat.o \
+	act.wear.o act.offensive.o act.other.o act.social.o \
+	act.wizard.o act.cast.o act.group.o act.who.o act.look.o \
+	act.use.o act.help.o act.rent.o act.round_skill.o \
+	act.second_skill.o act.skills.o \
+	magic.mobile.o magic.other.o magic.offen.o magic.weapon.o \
+	magic.point.o magic.object.o magic.room.o magic.world.o \
+	magic.affect.o \
+	shop.o \
+	interpreter.o nanny.o \
+	limits.o find.o affect.o locker.o transfer.o \
+	modify.o weather.o \
+	fight.o \
+	mail.o board.o pawn.o bank.o \
+	insurance.o \
+	constants.o variables.o \
+	quest.o \
+	errhandler.o utility.o strings.o \
+	stash.o character.o \
+	comm.o sockets.o \
+	spec.rooms.o spec.items.o spec.mids.o spec.assign.o \
+	spec.mobiles.o spec.school.o spec.unit.o spec.reboot.o \
+	mobile.action.o \
+	update.o \
+	hash.o queue.o \
+	allocate.o mobile.o world.o object.o zone.o \
+	edit.o iedit.o medit.o redit.o zedit.o \
+	sundhaven.o
+
+
+dms : $(OBJS)
+	$(CC) -o dms.tmp $(CFLAGS) $(LFLAGS) $(OBJS)
+
+.c.o:
+	$(CC) -c $(CFLAGS) $<
+
+clean :
+	/bin/rm -f *.o

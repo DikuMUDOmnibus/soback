@@ -1,0 +1,31 @@
+#!/usr/bin/ksh 
+tmsBase=/var/tmp/MUD/diku
+objdir=$tmsBase/obj
+RM='/usr/bin/rm -f'
+CC=gcc
+incdir=../header
+CFLAGS="-D__STDC__=0 -Wall -ggdb -pipe -DIMO=41 -I$incdir -O -c"
+
+if [ ! -d $objdir ]
+then
+	/usr/bin/mkdir $objdir
+fi
+
+if [ ! -f $1 ]; then
+	echo "$1 file not found."
+	exit
+fi
+
+echo $1 > temp.out
+f=$1
+o="$objdir/`sed -e 's/\.c$/\.o/g' temp.out`"
+if [ -f "$o" ]
+then
+	echo "$RM $o"
+	$RM $o
+	echo "$CC $CFLAGS -o $o $f"
+	$CC $CFLAGS -o $o $f
+else
+	echo "$CC $CFLAGS -o $o $f"
+	$CC $CFLAGS -o $o $f
+fi

@@ -1,0 +1,587 @@
+#13 Zone.
+NAME       : Mel's Doghouse~
+INFO       : Penter pen 이 사는 작은 몇 개의 방.~
+PATH       : Temple 에서 d.2s.3w.s.e~
+ALIGN      : 2
+AGGRESSIVE : 2
+LEVEL      : 20 ~ 30
+MAX        : 1399
+LIFESPAN   : 25
+RESET      : 2
+
+#MOBILES
+#1300
+cat~
+the neighborhood alley cat~
+A lean, gray alley cat is here.
+~
+The cat is a lean, gray animal who probably has not had enough to eat.
+He has very sharp teeth and extremely sharp claws.  It seems doubtful
+that this cat was ever a kitten.
+~
+106 0 -250 S
+8 13 3 1d12+98 2d6+2
+25 3000
+4 8 0
+#1303
+ant~
+a fire ant~
+A nasty fire ant is here.
+~
+These ants are so aggressive that one rarely has a chance to examine them
+closely.  Hence this description is rather short.
+~
+106 0 -1 S
+1 19 1 1d6+1 1d6+1
+0 10
+8 8 0
+#1305
+dragon white~
+The white dragon~
+An extremely large white dragon frowns at you.  You hear a thunderous
+roar and then...
+~
+He looks lonely.
+~
+8234 136 0 S
+44 -13 -19 1d1+9999 8d8+64
+500 1000000
+8 8 1
+#1307
+pan peter~
+Peter Pan~
+Peter Pan is here grinning at you.
+~
+You see a young lad who looks a bit elfish.  There is a sparkle in his
+eye, and a devilish twist to his smile.
+~
+330 136 1000 S
+35 -9 -14 1d1+3750 8d8+18
+25000 400000
+6 6 1
+#99999
+
+#OBJECTS
+#1300
+immo gloves magic~
+a pair of IMMO Magic Gloves~
+a strange useless Gloves is here~
+~
+9 4098 129
+10 0 0 0
+1 50000000 0 0
+A
+18 4
+A
+19 4
+#1301
+immo wooden Kal~
+a ruined wooden IMMO Kal~
+a ruined harmless Kal is here.~
+pound~
+5 323 8193
+1 6 7 7
+3 50000000 40 0
+A
+18 4
+A
+19 5
+#1302
+boots bangard~
+a bangard boots~
+a Beautiful decorated Boots is here.~
+~
+9 4161 65
+7 0 0 0
+1 200000 20 0
+A
+18 2
+A
+12 20
+#1303
+Protecter of Seraphim~
+a Seraphim Protecter~
+a smart knee protecter is here.~
+~
+9 5121 65537
+5 0 0 0
+1 300000 25 0
+A
+14 10
+A
+19 1
+#1304
+immo vulcan mail~
+A glowing suit of IMMO vulcan mail~
+A glowing suit of vulcan mail lies on the ground~
+~
+9 4161 9
+50 0 0 0
+0 75000000 40 0
+A
+18 3
+A
+19 3
+#1305
+silver epee~
+a silver epee~
+A beautifully crafted silver epee is here.~
+pierce~
+5 0 8193
+0 1 16 11
+8 10000 0 0
+#1306
+scythe~
+a large scythe~
+A large cumbersome looking scythe is here.~
+slash~
+5 4608 8193
+0 21 1 3
+16 150000 0 0
+A
+2 1
+A
+18 -5
+#1307
+hammer~
+a hammer~
+A carpenter's hammer lies here.~
+pound~
+5 0 8193
+0 1 18 7
+8 5000 0 0
+#1308
+key vault~
+a key~
+The key to the vault has been left here.~
+~
+18 0 1
+0 0 0 0
+1 5 0 0
+#1309
+plates ancient~
+an ancient Plates~
+an ancient Dragon scale Plates is here.~
+~
+9 2049 131073
+2 0 0 0
+1 800000 1 0
+A
+19 2
+#1310
+Danbi immo light~
+Danbi's IMMO Light~
+The great light lies here.~
+Danbi's IMMO Light~
+1 33 1
+0 0 -1 0
+120 10000000 23 0
+A
+18 5
+A
+19 5
+#1311
+totem~
+a totem~
+A strange looking totem is here.~
+~
+3 2 16385
+0 0 0 0
+1 100000 30 0
+#1312
+claws faust~
+Claws of Faust~
+a heavy looking claws of faust is lying here.~
+crush~
+5 130 8193
+0 4 7 6
+16 15000 0 0
+A
+18 2
+A
+17 -10
+#1313
+map~
+A map~
+A map has been dropped here.~
+~
+8 0 1
+0 0 0 0
+1 10 1 0
+E
+map~
++--------------------------------------------------------------------+
+|                         Valley  Olympus                            |
+|                        Keroft       Ofcol    Dragon Tower          |
+|  DeathStar   Zyekian                      Moria ||                 |
+|        Galaxy   Glade      +--------+     Castle||Sikhs Dark Castle|
+|Arachonos =================Main  Street=========(Dwarven)           |
+|                     Shire | Midgaard |           ||                |
+|               Mah'n tor   |  Dump    |   Rome    Eastern World     |
+|  Dark Forest              | (Arena)  |  Greece                     |
+|                           |(LoftCity)|   |  Wasteland     Aerie    |
+|        Ocean ======River================River==                    |
+|                                 ||  Drow  Sorsery                  |
+|   Death Kindom                   ====tunnel======= Desert          |
+|                                                     Nomad          |
+|                                               Thalos               |
++--------------------------------------------------------------------+
+AREA - LEVEL KEY:
+Arena : very easy  Arachnos: easy/a little hard   Dragon Tower: extremely hard
+Moria : easy       Shire   : easy                 Galaxy: extremely hard
+Forest: very easy  Dark Forest: hard/very hard    Dwarven: little hard
+Glade : easy/mid   Wasteland: little hard         Chapel: very hard  
+Castle: easy       Drow: hard                     DK: extremely hard
+Desert: easy       Thalos: little easy            Aerie: very hard
+Sewers: easy       Loftwick: hard                 Greece: hard/very hard
+                   Robot City:very/extremely hard E.world: very/extremely hard
+
+~
+#1314
+white dove~
+the White Dove of Peace~
+The peace is here.~
+~
+9 96 16387
+1 1 0 0
+3 5000000 25 0
+A
+25 5
+A
+17 -12
+#1315
+broom~
+an ordinary broom~
+An ordinary broom has been discarded here.~
+pound~
+5 0 8193
+0 9 1 7
+3 10000 0 0
+#1316
+plates armored~
+an armored plates~
+an armored plates is here~
+~
+9 1 131073
+6 0 0 0
+1 100000 0 0
+A
+18 1
+#1317
+anti deathcure~
+The ANTI DeathCure~
+The ANTI DeathCure is here~
+~
+9 4097 131073
+7 0 0 0
+1 1500000 30 0
+A
+14 70
+A
+12 70
+#1318
+banner bloody cross~
+the bloody cross banner~
+the bloody cross banner lies on the ground.~
+~
+1 4163 16385
+0 0 -1 0
+460 1000000 26 0
+A
+17 -10
+A
+19 2
+#1319
+banner green crescent~
+the green crescent banner~
+the green crescent banner lies on the ground.~
+~
+1 102467 16385
+0 0 -1 0
+200 250000 17 0
+A
+17 -10
+A
+18 2
+#1320
+shades sunglasses~
+a pair of sunglasses~
+A pair of sunglasses is here.~
+~
+9 0 17
+3 0 0 0
+3 1500 0 0
+A
+2 1
+#1321
+blade chaos~
+Chaos Blade~
+A sword of streaked Obsidian, examines you closely.~
+slash~
+5 1 24577
+0 7 4 3
+30 4444444 35 0
+A
+17 -8
+A
+18 2
+#1322
+align keywords great super sundew supersundew nogada~
+A align Keywords by Great SuperSundew's NOGADA !!~
+A align Keywords by Great SuperSundew's NOGADA !! has been dropped here.~
+~
+8 0 1
+0 0 0 0
+1 10 1 0
+E
+align Keywords by Great SuperSundew's NOGADAi !!~
+*Zone*  Aerie	:  *Mob's Align*     Devil 	   *Aggresive?*   Yes
+   Arachnos	:	 Good( Except Arach.)   --------->         No
+    Arena 	:	      Evil        --------------->         No
+    Castle	:	     Neutral	    ------------->         No
+    Chapel	:         Devil        -------------->        Yes 
+ Dark Forest:  	   Evil & Devil       ----------->        Yes
+    Desert	: 	  Newtral & Evil       ---------->     Yes or No
+      DK	:         Good        --------------->        Yes 
+Dragon Tower:         Devil        -------------->     Yes or No
+     Drow	:         Devil        -------------->        Yes
+   Dwarven	:         Good        --------------->         No
+    Galaxy	:         Good        --------------->         No
+    Glade 	:         Good        --------------->         No
+    Greece	:         Devil        -------------->        Yes
+   Loftwick	:        Newtral        ------------->        Yes 
+    Marsh	:         Devil        -------------->        Yes
+    Moria 	:         Devil        -------------->     Yes or No
+    Ocean	:         Devil        -------------->        Yes
+    Sewers	:         Devil        -------------->        Yes
+    Shire 	:         Good        --------------->         No
+   Thalos	:         Evil        --------------->         Yes
+   Wasteland          Devil        -------------->         Yes
+~
+#1323
+champion belt~
+Champion belt~
+a Champion belt which is decorated with gold and many jewels is here.~
+This Champion belt means that someone who wears this belt is best player.~
+9 4161 2049
+10 0 0 0
+4 50000000 0 0
+A
+31 10
+A
+19 5
+#1324
+altar~
+Temple Altar~
+A altar made of white marble sits in the middle of the room.~
+~
+15 0 0
+1200 0 0 0
+0 0 0 0
+#1325
+stone mauve~
+A mauve stone~
+A mauve stone sits here.~
+~
+8 45120 16385
+0 0 0 0
+10 200000 20 0
+A
+31 10
+A
+2 1
+#1326
+pendant diamond~
+A diamond pendant~
+A beautiful diamond pendant sits here.~
+~
+9 4161 5
+0 0 0 0
+10 300000 23 0
+A
+17 -13
+A
+18 1
+#1327
+magnolias garland~
+A garland of beautiful magnolias~
+A garland of beautiful magnolias is here.~
+~
+9 0 5
+0 0 0 0
+1 1 1 0
+#1328
+water holy bubble machine~
+liquid bubbles~
+A mysterious liquid bubbles from the ground.~
+~
+17 0 0
+100000 100000 19 0
+100000 0 0 0
+E
+bubbles~
+Use "drink holy" to get a refreshing drink.
+~
+#1330
+baseball cap~
+a Cleveland Indians baseball cap~
+A Cleveland Indians baseball cap is here.~
+~
+9 0 17
+4 0 0 0
+3 150 0 0
+#1331
+cape white~
+a white cape~
+A white cape is in a heap on the ground.~
+~
+3 4097 1025
+5 0 0 0
+10 100000 30 0
+A
+12 45
+#1332
+needle~
+A bloody soaked diamond needle~
+A needle made by diamond has been left here.~
+~
+5 65 8193
+0 7 4 11
+9 16000000 28 0
+A
+2 5
+A
+19 3
+#1335
+potion speckled~
+a speckled potion~
+A speckled potion has been left here.~
+~
+10 64 1
+15 15 -1 -1
+2 200 0 0
+E
+potion speckled~
+It has an interesting speckled pattern and it smells like lilacs.
+~
+#1340
+wand~
+a wand of energy drain~
+A wand has been left here on the ground.~
+~
+3 65 16385
+30 1 1 25
+3 5000 0 0
+#1345
+brass shield brassshield~
+the brass shield~
+The brass shield in on the floor.~
+This shield is a handsome item.
+~
+9 4416 513
+8 0 0 0
+50 25000 0 0
+#1350
+colt gun~
+a Colt 45~
+An original Colt 45 has been set here.~
+~
+6 4096 16385
+6 6 100 0
+12 150000 1 0
+#1351
+bullets ammo~
+some bullets for a Colt 45~
+A small supply of bullets for a Colt 45 is here.~
+~
+8 4096 1
+0 0 0 0
+2 50000 0 0
+#1352
+shotgun~
+an old shotgun~
+An ancient shotgun has been dropped here.~
+~
+6 4096 16385
+2 2 60 0
+16 100000 0 0
+#1353
+shells ammo~
+two shotgun shells~
+A pair of shotgun shells is here.~
+~
+8 4096 1
+0 0 0 0
+2 20000 0 0
+#99999
+
+#ROOMS
+#1301
+Mel's Dog House~
+    This is a nice little dog house, built for medium size dogs.  The floor
+is nice and soft.
+~
+13 8 0
+D3
+Wall Road.
+~
+~
+0 -1 3047
+D4
+The roof of the doghouse.
+~
+~
+0 -1 1302
+D5
+The hole under Mel's doghouse.
+~
+~
+0 -1 1303
+S
+#1302
+The Roof of Mel's Doghouse~
+    This is the roof of Mel's doghouse.  Not a lot of room up here.  The
+roof is made of cedar shingles.  They have been painted gray.  There are
+a few claw marks in the cedar.
+~
+13 8 0
+D0
+~
+window~
+1 0 2700
+D5
+Inside Mel's Doghouse.
+~
+~
+0 -1 1301
+S
+#1303
+A hole under Mel's doghouse~
+    This hole, obviously Mel's work, is pretty small.  It's also damp.
+Mel likes it down here.
+~
+13 8 0
+D4
+Inside Mel's Doghouse.
+~
+~
+0 -1 1301
+S
+#99999
+
+#RESET
+M 0  1300   1  1302   the neighborhood alley cat (The Roof of Mel's Doghouse)
+M 0  1307   1  1302   Peter Pan (The Roof of Mel's Doghouse)
+E 1  1325   2    17     A mauve stone
+*
+M 0  1303   9  1303   a fire ant (A hole under Mel's doghouse)
+M 0  1303   9  1303   a fire ant (A hole under Mel's doghouse)
+M 0  1303   9  1303   a fire ant (A hole under Mel's doghouse)
+M 0  6008  25  1303   A mouse (A hole under Mel's doghouse)
+*
+D 0  1302   0     1    The Roof of Mel's Doghouse
+S
+
+#SHOPS
+$
+#END of Mel's Doghouse.

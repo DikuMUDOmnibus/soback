@@ -1,0 +1,2342 @@
+#186 Zone.
+NAME       : Three of Swords~
+INFO       : ~
+PATH       : Turning ¿¡¼­ 4n.e~
+ALIGN      : 2
+AGGRESSIVE : 2
+LEVEL      : 1 ~ 40
+MAX        : 18699
+LIFESPAN   : 30
+RESET      : 2
+
+#MOBILES
+#18600
+farmer~
+the Farmer~
+A farmer walks around, looking for something to do.
+~
+This farmer is a resident of Stanneg by the Mountains,
+and as such, is one of the most boring people on earth.
+~
+204 0 500 S
+7 14 0 3d5+83 2d4+1
+1000 2250
+8 8 1
+#18601
+storekeeper~
+the Storekeeper~
+A bored storekeeper waits for you to do something.
+~
+The bored storekeeper keeps a lazy eye on you as he
+waits for you to buy something.  Whee.
+~
+10 0 750 S
+20 1 0 3d5+245 3d6+6
+10000 40000
+8 8 1
+#18602
+Cowgirl~
+the Cowgirl~
+A cowgirl stand here ready to defend her horses...
+~
+This woman seems ready for anything you might do...
+she is truly a woman to be reckoned with...
+~
+10 524296 750 S
+20 1 0 3d5+245 3d6+4
+8000 40000
+8 8 2
+#18603
+horse~
+the Horse~
+A horse does horsely things here.
+~
+This horse looks like a nice horse.  It looks at you
+with soft brown eyes and you want to give it a carrot.
+~
+10 0 250 S
+5 16 0 1d10+60 2d4+0
+0 1000
+8 8 1
+#18604
+farmer's wife~
+the Farmer's Wife~
+A farmer's wife offers you some vegetables.
+~
+This woman has many different types of fruits and
+vegetables for you to buy.  She looks bored, though.
+~
+10 0 500 S
+20 1 0 3d5+245 3d6+6
+10000 40000
+8 8 2
+#18605
+Aglandiir dragon~
+Aglandiir~
+The Dragon Prince, Aglandiir, sits here looking at you curiously.
+~
+Aglandiir is a prince of his kind, and he didn't get where 
+he is today by letting people steal from his horde!
+~
+8234 136 750 S
+41 -5 -1 1d1+4500 8d5+25
+500000 2000000
+8 8 1
+#18606
+Cyclops~
+the Cyclops~
+A Cyclops is here, trying to judge range with no depth perception.
+~
+This Cyclops throws rocks real good.  With one eye though, 
+hitting the target is another matter.  He looks at you and 
+growls as he misses again!
+~
+46 0 -500 S
+16 8 0 3d5+295 2d8+2
+10000 24000
+8 8 1
+#18607
+Salle woman~
+Salle~
+A woman ignores you completely, so intent is she upon her sword.
+~
+   She is a stunning woman, all hair and eyes, it seems.
+Her clothing is of the same tawny brown of her skin and
+hair.  Her blue eyes look at you appraisingly, seemingly
+to show great intelligence.  Her mouth twitches into a 
+sneer...
+~
+10 0 -600 S
+15 6 -3 3d5+200 2d6+6
+6500 24000
+8 8 2
+#18608
+Duwick man~
+Duwick~
+A truly immense man laughs at you, and draws his knife!
+~
+   This has to be one of the biggest men you've ever seen.  
+He is a full seven feet toe to head, and weighs a good three 
+hundred pounds -- mostly on his biceps and pectorals it appears.  
+An ornate scabbard slaps by his side, with the pommel of a 
+silvered dagger sticking out...a tiny weapon for such a large man!
+~
+10 128 -900 S
+41 -5 -7 3d5+3500 3d6+15
+15000 2000000
+8 8 1
+#18609
+Receptionist~
+the Receptionist~
+A receptionist offers you a room.
+~
+   He looks like a retired farmer now making an honest living
+in an inn.  More power to him!
+~
+10 0 400 S
+12 9 -3 3d5+140 2d7+1
+8000 8000
+8 8 1
+#18610
+innkeeper~
+the innkeeper~
+An aged innkeeper greets you as you enter.
+~
+   He's old and greying, but seems to have been able to
+keep his mental faculties through the years.  A large
+woolen sweater is wrapped about him for warmth.  His
+blue eyes dance with amusement as he notices your weapons,
+but he doesn't seem too terribly startled.
+~
+10 0 750 S
+10 11 2 3d5+120 2d6+1
+2000 9000
+8 8 1
+#18611
+hunter~
+the hunter~
+A hunter walks through the town streets on his own time.
+~
+   He looks mean, as if the very personality of the mountains
+had infected him with hardness.  His stride is purposeful,
+his face weathered, his eyes cold and dark.  Others are
+standing out of his way as he walks on by.
+~
+76 0 500 S
+11 10 -2 3d5+133 2d6+2
+1200 11000
+8 8 1
+#18612
+waiter~
+a waiter~
+A waiter rushes by, intent on his business.
+~
+   He looks harried from the way he hastily takes orders and 
+rushes in the back to get food, and to the bar for drinks.  
+He doesn't even spare you a glance as he passes by.
+~
+10 0 0 S
+5 16 7 3d5+60 2d4+0
+500 850
+8 8 1
+#18613
+waitress~
+a waitress~
+A waitress rushes by, intent on her business.
+~
+   She looks harried from the way she hastily takes orders and rushes
+in the back to get food, and to the bar for drinks.  She doesn't even
+spare you a glance as she passes by.
+~
+10 0 0 S
+5 16 7 3d5+60 2d4+0
+500 850
+8 8 2
+#18614
+bartender~
+a bartender~
+A bartender washes a glass idly here.
+~
+   He nods, smiles, and asks you what you would like to drink.
+As you decide, he slowly polishes a glass with an old bar
+rag.  The glass is completely clean, but he polishes it anyway.
+Go figure.
+~
+8 0 200 S
+15 6 1 3d5+180 2d8+2
+10000 21000
+8 8 1
+#18615
+bandit~
+the bandit~
+A bandit springs into action upon seeing you.
+~
+   Whew!  Has this guy ever seen a bath?  His face, hands, arms...
+nearly every bit of him is covered with grime, dust, dirt and
+decay.  His sword is polished and cleaned though...
+~
+172 0 -500 S
+16 5 0 3d5+195 2d8+3
+1000 25000
+8 8 1
+#18616
+bandit guard~
+the bandit guard~
+A bandit guard stands at attention here.
+~
+   He may be a bandit, but he's no slacker.  You wonder
+who would be able to keep these bandits in line enough
+to pull a good guard duty...
+
+(boy is this guy DIRTY!!!)
+~
+42 0 -500 S
+18 3 0 3d5+220 3d6+2
+2400 32000
+8 8 1
+#18617
+miner worker slave~
+the slave~
+A slave here is mining out a new passageway.
+~
+   The slave looks up at you with pleading eyes.  He
+wants his freedom.  The chains around his ankles are
+tight, and you wonder if you should set him free, and
+if you even can.
+~
+10 0 1000 S
+6 15 1 3d5+70 1d8+1
+0 1500
+8 8 1
+#18618
+farmer~
+the Farmer~
+A farmer walks around, looking for something to do.
+~
+This farmer is a resident of Stanneg by the Mountains,
+and as such, is one of the most boring people on earth.
+~
+206 0 500 S
+7 14 0 3d5+83 2d4+1
+1000 2250
+8 8 1
+#18619
+hunter~
+the hunter~
+A hunter walks through the town streets on his own time.
+~
+   He looks mean, as if the very personality of the mountains
+had infected him with hardness.  His stride is purposeful,
+his face weathered, his eyes cold and dark.  Others are
+standing out of his way as he walks on by.
+~
+78 0 500 S
+11 10 0 3d5+133 2d6+2
+1200 11000
+8 8 1
+#99999
+
+#OBJECTS
+#18600
+orange~
+an orange~
+An orange lies on the ground here.~
+~
+19 0 1
+8 0 0 0
+1 8 8 10
+E
+orange~
+   You wonder how it got here, seeing how 
+oranges are non-migratory.
+~
+#18601
+bale wheat~
+a bale of wheat~
+There is a bale of wheat here.~
+~
+19 0 1
+24 0 0 0
+100 1000 1 10
+E
+bale wheat~
+   It doesn't look appetizing to you, but
+a horse might enjoy this...
+~
+#18602
+zither~
+a big zither~
+A HUGE zither made of gold rests in the corner~
+~
+8 0 1
+0 0 0 0
+40 20000 1 10
+E
+zither~
+   Someone truly huge with big fingers might be
+able to play this.  You can't.
+~
+#18603
+barrel perfume~
+a barrel of perfume~
+You can smell a barrel on the other side of the room from here.~
+~
+8 0 1
+0 0 0 0
+20 10000 1 10
+E
+barrel perfume~
+   Smells good...the label reads:
+
+   "Somewhere between GPA and MUD there lies...
+		OBSESSION"
+~
+#18604
+statue~
+a statue~
+There is a statue of Aglandiir here, made of solid gold.~
+~
+8 0 1
+0 0 0 0
+30 15000 1 10
+E
+statue~
+   He's a pretty striking chap, for a dragon.
+~
+#18605
+Halberd~
+a halberd~
+A runed halberd lies on the ground here.~
+~
+5 64 8193
+0 1 12 3
+16 10000 1 10
+E
+halberd~
+   The runes glow with a bright light, making you
+think that this might be a pretty decent weapon.
+~
+A
+18 5
+#18606
+potion protection dun vial~
+a potion of protection~
+A vial of a dun fluid is here.~
+~
+10 1 1
+20 36 1 3
+1 10000 1 10
+E
+potion protection dun vial~
+   Looks thick, and brownish-grey (dun).  Ick!
+~
+#18607
+crown~
+a dragon's crown~
+Aglandiir's crown sits here, radiating a shield.~
+~
+8 1 0
+0 0 0 0
+1000 0 0 10
+E
+crown~
+   The shield repulses you, making you wonder how
+you're going to get your hands on this huge, valuble
+chunk of gold...
+~
+#18608
+apple~
+an apple~
+A scrawny red apple sits here.~
+~
+19 0 1
+4 0 0 0
+1 5 2 10
+E
+apple~
+   Its not wormy...yet.
+~
+#18609
+bread loaf~
+a loaf of bread~
+A fresh loaf of bread lies here.~
+~
+19 0 1
+12 0 0 0
+1 10 5 10
+E
+bread loaf~
+   Mmmm...Rye!
+~
+#18610
+melon~
+a melon~
+A melon sits here, discarded evidently.~
+~
+19 0 1
+8 0 0 0
+3 8 3 10
+E
+melon~
+   Wow!  Look at the size of that melon!
+~
+#18611
+knife~
+An exquisitely crafted knife.~
+An exquisitely crafted knife rests here.~
+~
+5 2 24577
+0 3 5 11
+8 600000 25 10
+E
+knife~
+   The craftsmanship...it takes your breath away!
+This knife...it had to have been forged by the 
+legendary smith Gabadiel.  It must be worth a fortune!
+~
+A
+18 3
+A
+2 2
+#18612
+sword long~
+a long sword~
+A superb long sword sticks in the earth.~
+~
+5 0 8193
+0 2 7 3
+15 750 1 10
+E
+sword long~
+   This sword is light, but the heft is perfectly
+balanced.  Such an incredible weapon can only have
+be crafted by the legendary smith Gabadiel, and
+as such be worth a fortune!
+~
+A
+18 2
+A
+1 1
+#18613
+sword short~
+a short sword~
+A short sword lies here...a work of art!~
+~
+5 0 8193
+0 4 6 3
+10 1000 1 10
+E
+sword short~
+   It brings tears to your eyes.  This must have
+been Gabadiel the smith's masterpiece; his final
+work.  Simply invaluble.
+~
+A
+18 4
+A
+2 3
+#18614
+corpse~
+a dismembered and burnt corpse~
+A dismembered and burnt corpse lies on the ground here.~
+~
+13 0 0
+0 0 0 0
+1 1 1 10
+E
+corpse~
+   It's still smouldering a little; the culprits can't
+be far off!
+
+~
+#18615
+scimitar~
+a scimitar~
+A scimitar as long as your arm lies here.~
+~
+5 0 8193
+0 1 7 3
+10 500 1 10
+E
+scimitar~
+   This weapon really isn't of too high a quality.
+~
+#18616
+crate~
+a crate~
+A crate is stacked here.~
+~
+15 0 1
+200 5 0 0
+50 100 20 10
+E
+crate~
+   It's a standard wooden crate.
+~
+#18617
+bow hunting~
+a hunting bow~
+A hunting bow lies here, unwanted~
+~
+5 0 8193
+0 1 5 11
+6 400 40 10
+E
+bow hunting~
+   This is the type of weapon you would use to bag
+some deer or rabbits, but not the type you'd take
+into battle...
+~
+A
+19 1
+#18618
+vest leather~
+a leather vest~
+A nice leather vest lies here.~
+~
+9 64 9
+6 0 0 0
+6 5000 1 10
+E
+vest leather~
+   The seams are delicately sewn with a enruned thread...
+~
+#18619
+glass~
+a glass~
+A glass of beer sits forgotten here.~
+~
+17 0 16385
+1 1 1 0
+2 5 1 10
+E
+Beer glass~
+   A nice glass filled with homebrew.  There
+doesn't seem to be too much stuff floating
+in it.
+~
+#18620
+glass~
+a glass~
+A big glass of mead sits here, cool and frosty.~
+~
+17 0 16385
+1 1 3 0
+2 8 3 10
+E
+Mead glass~
+   Looks good.  Looks warm.  Doesn't matter;
+it still looks good.
+~
+#18621
+shot~
+a shot~
+A shot of Whiskey is sitting here.~
+~
+17 0 16385
+1 1 5 0
+1 10 5 10
+E
+Whiskey shot~
+   Whew!  Looks like potent stuff!
+~
+#18622
+bag~
+a bag~
+A small bag.~
+~
+15 0 1
+50 0 0 0
+2 20 5 10
+E
+bag~
+   This is a standard bag.
+~
+#18623
+candle~
+a candle~
+A candle lies here, unlit.~
+~
+1 0 16385
+0 0 4 0
+1 5 1 10
+E
+candle~
+   A home-made candle, how quaint!
+~
+#18624
+nail~
+a nail~
+A penny nail lies in the dust.~
+~
+5 0 8193
+0 1 1 11
+1 5 1 10
+E
+nail~
+   Its a common iron nail, used for carpentry work.
+~
+#18625
+pot~
+a pot~
+A cast-iron pot sits on the ground.~
+~
+15 0 1
+10 0 0 0
+10 100 20 10
+E
+pot~
+   It's a nice pot.  You could use it, if you ever settled down.
+~
+#99999
+
+#ROOMS
+#18600
+A Scraggly Trail~
+   This trail slopes up and away from the main road to 
+the west.  At points the trail seems to fade into 
+obscurity against the grey stone and near-grey mountain 
+grass prevalent here.  The trail leads generally eastward 
+and up higher into the rocky ground.  There is a sign 
+here, seemingly out-of-place in this rough country.
+~
+186 0 5
+E
+sign~
+    ,_____________________________.
+    |                             |
+	|         Gabadiel's          |
+	|          Smithery           |
+	|      -------------->        |
+	|			      |
+	|           --BUAG SIGNS INC. |
+	`-----------------------------'
+		     |  |
+		     |  |
+		     |  |
+		     |  |     
+~
+D1
+~
+~
+0 0 18601
+D3
+~
+~
+0 0 4001
+S
+#18601
+A Scraggly Trail~
+   What could barely be called a trail leads west back 
+down the mountainside, and down into a very small valley 
+where a small house sits in the middle of a well-groomed 
+yard.  The door to the house is open and inviting, 
+welcoming you for a visit.
+~
+186 0 5
+D3
+~
+~
+0 0 18600
+D5
+~
+~
+0 0 18602
+S
+#18602
+A Groomed Path~
+   You are standing in the western end of a very, very 
+small valley, just about room enough for the one house 
+standing to your east.  You can see from here that the 
+door to the cozy cottage is open and inviting, but the 
+interior seems very dark.  A path bordered by shrubberies 
+leads up to the structure, and ends where you are 
+standing; right by the easiest path back up into the 
+mountains.
+~
+186 0 5
+D1
+~
+~
+0 0 18603
+D4
+~
+~
+0 0 18601
+S
+#18603
+Outside a House~
+   The path you are on leads from the front door of the
+cottage to your east, to the edge of the small valley
+to the west.  The building seems quiet...almost too
+quiet.  A small voice in the back of your head, the
+same voice that has saved your life on countless
+occasions, seems to be telling you that something is
+very, very wrong here.
+~
+186 0 2
+D1
+It's a normal front door to a house.
+~
+door front~
+1 -1 18604
+D3
+~
+~
+0 0 18602
+S
+#18604
+Smithery~
+   Devastation greets your eyes.
+   The forge has been blasted apart, along with most of 
+the back door.  Hammers, tongs, and anvils lie about in 
+one gigantic mess, and the smith's bed smoulders yet.  
+This place has been utterly wrecked and blasted apart, by 
+more than one man you would think from all the tracks in 
+the dust...
+~
+186 8 0
+E
+bed~
+   Ha!  Lucky, you were always lucky!
+
+   Under the pillow is a half-written letter, unaddressed.
+The bits of text that aren't smudged, burnt, and smeared 
+tell tale of the smith/mage Gabadiel's masterwork: a sword
+of unequalled power, and two swords that came before, 
+discarded as 'Not quite what I was working towards'.
+
+   Looking around, you notice a distinct lack of any 
+swords.  You think you may have a motive now...
+~
+E
+tracks dust~
+   Three sets of prints lead out where the back door used 
+to stand.
+~
+D1
+~
+~
+0 0 18605
+D3
+It's a normal front door.
+~
+door front~
+1 -1 18603
+S
+#18605
+A Small Garden~
+    This garden was probably once kept orderly and 
+weedless.  Unfortunately, it seems someone has been 
+careless with a fireball.  There's nothing here now but 
+blast-marks and ashes, and the remains of a trail leading 
+to the east edge of this tiny valley.
+~
+186 0 2
+E
+tracks~
+   They lead east.
+~
+D1
+~
+~
+0 0 18606
+D3
+~
+~
+0 0 18604
+S
+#18606
+Mountain Ridge~
+   You are standing on a ridge in the mountains, just east
+of a very small valley.  You spot a tiny cottage sitting 
+in the center of the valley, and the ridge continues 
+south.  Looking at the sheer drops to the north and west, 
+you consider not taking those directions.
+~
+186 0 5
+E
+tracks track~
+   The tracks lead south.
+~
+D2
+~
+~
+0 0 18607
+D3
+~
+~
+0 0 18605
+S
+#18607
+Mountain Ridge~
+    The mountain range continues north from here, and 
+widens out into a small plateau just to your south.  Going
+east and west from here would be a bad idea, considering 
+the steepness of the drop.  From this height, you have a 
+fairly good panoramic view to the south, including what 
+appears to be a small mountain village to your south and 
+west, and a tall, ominous peak westwards from here.
+~
+186 0 5
+E
+tracks track~
+   They lead south.
+~
+D0
+~
+~
+0 0 18606
+D2
+~
+~
+0 0 18608
+S
+#18608
+Diverging Paths~
+   You are standing on a small plateau in the mountains, 
+just south of a ridge that leads northwards through the 
+rocky area.  To the east, south, and west are gentle 
+slopes leading down into different areas of the mountains.
+A giant, dark peak looks down over you to the west, 
+looking quite spooky indeed!
+~
+186 0 5
+E
+tracks track~
+   The three sets of tracks split up here, one west, one 
+east, one south.
+~
+D0
+~
+~
+0 0 18607
+D1
+~
+~
+0 0 18641
+D2
+~
+~
+0 0 18609
+D3
+~
+~
+0 0 18659
+S
+#18609
+A Steep Slope~
+   This slopes leads down and to the west from here.  Up 
+above, you see a plateau at the southern end of a long 
+mountain ridge.  Surpisingly, there seems to be signs of 
+traffic in this area, leading into the large depression 
+here.  The going looks somewhat dangerous, and you decide 
+to exercise a little caution.
+~
+186 0 4
+E
+signs tracks~
+   A few boot prints lead way in the dust here.  There's 
+definitely traffic here, but this area is not what you 
+would call well-travelled.
+~
+D0
+~
+~
+0 0 18608
+D3
+~
+~
+0 0 18610
+D4
+~
+~
+0 0 18608
+S
+#18610
+Small Plateau~
+   You are standing upon another mini-plateau, bordered by
+a sheer wall of rock to the north.  You can climb up the 
+slope to the east, or continue along the flat area to the 
+west.  Another slope leads downwards to the south, looking
+unsafe but climbable.
+~
+186 0 4
+D1
+~
+~
+0 0 18609
+D2
+~
+~
+0 0 18614
+D3
+~
+~
+0 0 18611
+S
+#18611
+Small Plateau~
+   This plateau ends here, with a steep drop-off to the 
+south, and a solid wall of rock to the north.  Eastwards 
+the plateau continues, and you think you can climb up the 
+steep rocky slope just west of here.  You are afforded a 
+good view of the lower regions of this depression, and you
+think you spot what might be a cave south and down from 
+here...
+~
+186 0 4
+D1
+~
+~
+0 0 18610
+D3
+~
+~
+0 0 18612
+S
+#18612
+Rocky Slope~
+   This slope is fairly treacherous, but looks to be 
+somewhat safer to the north.  East the slope leads down 
+to a small plateau that also looks considerably safer 
+than your other choices.  The shale under your feet 
+slips badly, and you are almost thrown off balance; 
+this is no place to be without mountaineering equipment.
+~
+186 0 5
+D0
+~
+~
+0 0 18613
+D1
+~
+~
+0 0 18611
+S
+#18613
+Overlook~
+   You are standing on a point outcropping with a 
+beautiful view of the mountains to the north.  Far 
+below, you see what appears to be a foot-path climb 
+up to the central mountain, a peak that looks dark 
+and disturbing.  You get very bad vibes from that 
+mountain for some reason, and it doesn't seem like 
+a very good idea to try to find a way to get there.
+   The only safe way to leave this overlook is to 
+the south.
+~
+186 0 4
+D2
+~
+~
+0 0 18612
+S
+#18614
+Rocky Slope~
+    You slip and slide your way across the steep ground, 
+trying desperately to keep your balance.  You can climb 
+up to a small plateau to the north from here, or carefully
+head down to the floor of the depression to the west.  
+You're not sure which is safer...
+~
+186 0 5
+D0
+~
+~
+0 0 18610
+D3
+~
+~
+0 0 18615
+S
+#18615
+Depression Floor~
+   A small path leads south here, away from the rocky 
+slope leading up to the east.  A small spring burbles 
+here, evidently the cause of much of the traffic.  
+Looking up, you see sheer rock walls surrounding much 
+of the depression, making an effective fortress of
+this place.
+~
+186 0 4
+D1
+~
+~
+0 0 18614
+D2
+~
+~
+0 0 18616
+S
+#18616
+Depression Floor~
+   The small path you are standing on leads north, and
+east into what appears to be a large cave hollowed out
+of the mountainside.  The whole place seems quiet, too
+quiet in fact.  Your little adventurer's intuition is
+busily warning you of traps.
+~
+186 0 4
+D0
+~
+~
+0 0 18615
+D1
+~
+~
+0 0 18617
+S
+#18617
+Cave Entrance~
+   A cave leads into the heart of the mountainside, well-
+lit by sconces upon the walls.  A large rock sits by 
+the side here, near a small firepit.  Debris litters the 
+area; rabbit bones, half of a broken whetstone, and random
+litter.  The ground is devoid of grass, and well trodden 
+by many pairs of boots.  Strange that someone should live 
+so deep in the mountains...
+~
+186 4 0
+D1
+~
+~
+0 0 18618
+D3
+~
+~
+0 0 18616
+S
+#18618
+Cave Passageway~
+   You are near the entrance of the cave.  The outside 
+light streams in from the west, accompanied by a slight 
+breeze, making the flames in the sconces flutter a bit
+and throw stange shadows upon the walls.  This passageway 
+heads north and south from here, each way seeming dark and
+stuffy compared to outdoors.  From the tracks in the 
+floor, you guess that the north is the more used.
+~
+186 8 0
+D0
+~
+~
+0 0 18619
+D2
+~
+~
+0 0 18631
+D3
+~
+~
+0 0 18617
+S
+#18619
+Cave Passageway~
+   The passage turns here, one end leading south, towards 
+the cave's entrance, and east -- that much deeper into the
+mountain.  The light sconces keep the area bright enough 
+to see, but not nearly bright enough for you to be quite 
+comfortable in this strange place.  From far off you hear 
+the echoes of what sound to be voices.
+~
+186 8 0
+D1
+~
+~
+0 0 18620
+D2
+~
+~
+0 0 18618
+S
+#18620
+Cave Passageway~
+   This twisty passage leads east and west from here.  
+Eastwards you hear the unmistakable sounds of low 
+voices.  The echoes seem to be playing funny effects 
+on you, however, and you are not sure  from how far 
+off these voices might be coming.
+~
+186 8 0
+D1
+~
+~
+0 0 18621
+D3
+~
+~
+0 0 18619
+S
+#18621
+Cave Passageway~
+   The passage you are standing in turns west and south 
+from here.  One of the sconces here is out, making this 
+area extremely dark and hard to see in.  You do see lights
+from the south, however, seemingly brighter than the 
+sconces you've seen along the walls so far.
+~
+186 8 0
+D2
+~
+~
+0 0 18622
+D3
+~
+~
+0 0 18620
+S
+#18622
+Cave Passageway~
+   This is a T-intersection in the cave passageway, the 
+north leading back towards the cave's entrance (you 
+think!), the west leading towards a well-lighted area.  
+Eastwards the passageway continues into the shadowy 
+recesses of the mountain uninvitingly.  The echoes of 
+voices are confusing you a bit, and you are not sure 
+whether you should try to remain quiet or not.
+~
+186 8 0
+D0
+~
+~
+0 0 18621
+D1
+~
+~
+0 0 18624
+D3
+~
+~
+0 0 18623
+S
+#18623
+Cave~
+   Many sconces line the walls here, casting light on 
+some weapon racks and chests of armor.  Everything
+is neat, orderly, and actually well-dusted.  Someone
+cares for these items...frequently it seems.
+~
+186 8 0
+D1
+~
+~
+0 0 18622
+S
+#18624
+Cave Passageway~
+   The passageway you are in leads south and west from 
+here.  Many large stones and rocks are on the floor of the
+cave, making walking difficult in the dim light from the 
+sconces on the walls.  You hear the continued echo of 
+voices, seemingly fainter now.  Must be the strange 
+acoustics of this place...
+~
+186 8 0
+D2
+~
+~
+0 0 18625
+D3
+~
+~
+0 0 18622
+S
+#18625
+Cave Passageway~
+   The cave twists around like a coiled snake, leading 
+east and north from here.  You begin to wonder if your 
+orientations are still correct.  That worries you for
+some reason.
+~
+186 8 0
+D0
+~
+~
+0 0 18624
+D1
+~
+~
+0 0 18626
+S
+#18626
+Cave Passageway~
+   You can head north and west through the cave passageways
+here, both ways dimly lit by the ever-present sconces on 
+the walls.  The echoes you heard earlier seem to be getting
+louder, and seem to be coming from the northern passage.  
+You feeled a bit chilled from the cooled cave air and 
+shiver a bit in the faint whisper of a breeze.  This place 
+is a little too eerie and dark to be comfortable in.
+~
+186 8 0
+D0
+~
+~
+0 0 18627
+D3
+~
+~
+0 0 18625
+S
+#18627
+Cave Passageway~
+   The echoes are growing louder, and seem to be coming 
+from the northern end of this corridor.  Southwards you 
+see the tunnel continue right before yet another bend in 
+the passagway.  You spot a small piece of red cloth torn 
+against a sharp rock jutting out from the passage's side.  
+It looks like silk, very nice in fact.
+~
+186 8 0
+D0
+~
+~
+0 0 18628
+D2
+~
+~
+0 0 18626
+S
+#18628
+Cave Passageway~
+   The main passageway leads south from here, and a smaller
+cave tunnel leads away to the west.  Two large boulders 
+sit against the wall, wiped clean of dirt and grime.  A 
+paper food wrapper has been trodden under several pairs of 
+feet here; at best guess, you'd say this would probably be 
+a guard post.
+~
+186 8 0
+D2
+~
+~
+0 0 18627
+D3
+~
+~
+0 0 18629
+S
+#18629
+End of the Passageway~
+   The cave passageway ends abruptly here to the north in 
+a large wooden door set into the stone walls.  The 
+craftsmanship is superb!  You can also head back to the 
+main passage to the west, where there seems to be more
+light than here.  An echo from down the passage makes you 
+wonder for a moment if you're being followed, but you
+see nothing there...
+~
+186 8 0
+D0
+It's a sturdy wooden door.
+~
+door wooden~
+1 -1 18630
+D1
+~
+~
+0 0 18628
+S
+#18630
+Cavern~
+   This natural cavern has been turned into a combination 
+office/storeroom.  A small brook rushes through the south 
+wall, and flows back into the west wall through a tiny 
+hole.  Boxes and crates are stacked against the walls, and 
+a beat up oaken desk stands near the door stacked with 
+papers written upon by an unsteady hand.  Some large 
+lanterns keep the place very well lighted.
+~
+186 8 0
+D2
+It's a sturdy wooden door.
+~
+door wooden~
+1 -1 18629
+S
+#18631
+Cave Passageway~
+   You are standing south of the main entrance to this 
+cave.  The passage you are in continues south, very badly 
+lit along its length by the sconces lining the walls 
+every fifteen feet or so.  From somewhere deep in the 
+recesses of the cave, you hear a faint, rhythmic thumping 
+sound distorted by the passage's strange acoustics.
+~
+186 8 0
+D0
+~
+~
+0 0 18618
+D2
+~
+~
+0 0 18632
+S
+#18632
+Cave Passageway~
+   You are standing at the southern bend of this passage,
+able to head east and north from here.  The rock around you
+echoes the sound of far-off pounding to you, making the
+place seem somehow alive, with a heartbeat.  This place
+is fairly eerie, now that you come to think of it.
+~
+186 8 0
+D0
+~
+~
+0 0 18631
+D1
+~
+~
+0 0 18633
+S
+#18633
+Cave Passageway~
+   The passageway makes a U-turn here, heading north and
+westwards to the other side of the 'U'.  The air seems
+humid and hard to breathe.  Some algae grows near the
+floor in the slick spots, giving a definite subtle smell
+of rot to the air.
+~
+186 8 0
+D0
+~
+~
+0 0 18634
+D3
+~
+~
+0 0 18632
+S
+#18634
+Cave Passageway~
+   The tunnel twists to the south and east from here, 
+its dark length seemingly dismal and lifeless.  A faint 
+thumping sound reverberates from the walls, making you 
+perk your ears for the direction of the noise.
+~
+186 8 0
+D1
+~
+~
+0 0 18635
+D2
+~
+~
+0 0 18633
+S
+#18635
+Cave Passageway~
+   This area darker than the rest of the passageway, due
+to the fact that the sconces along the walls stop abruptly
+here.  The way to the south is completely dark, in direct
+contrast to the tunnels to the west.  You peer hard to the
+south, but can make out nothing in the impenetrable 
+darkness.  And still that distant thumping impinges on 
+your consciousness...
+~
+186 8 0
+D2
+~
+~
+0 0 18636
+D3
+~
+~
+0 0 18634
+S
+#18636
+Cave Passageway~
+   You are standing in a north-south tunnel carved 
+naturally through the stone of the mountain.  To the 
+north the tunnel is lighted by sconces along the wall, 
+banishing the deep, deep darkness you now stand in.  To 
+the south you can see nothing.  A deep thumping noise 
+seems to be getting louder and louder as you stand here, 
+coming from somewhere deep inside.
+~
+186 9 0
+D0
+~
+~
+0 0 18635
+D2
+~
+~
+0 0 18637
+S
+#18637
+Cave Passageway~
+   The passageway switches directions again in the dark 
+gloom of the mountain, heading to the north and east from 
+here.  As you round the corner, a trick of the acoustics 
+make the deep thrumming and pounding you've been hearing 
+sound as if its coming from two feet away!  Very unsettling.
+~
+186 9 0
+D0
+~
+~
+0 0 18636
+D1
+~
+~
+0 0 18638
+S
+#18638
+Cave Passageway~
+   The tunnel weaves around, twisting to the north and 
+west here.  The darkness around you is near total.  Ahead, 
+you hear the sounds of something metal banging against 
+stone.  Could someone be mining out the tunnel, perhaps?
+~
+186 9 0
+D0
+~
+~
+0 0 18639
+D3
+~
+~
+0 0 18637
+S
+#18639
+Cave Passageway~
+   A glimmer of light to the east alerts you to the fact
+that something is going on in the tunnel nearby.  The south
+exit of the tunnel leads off into complete darkness.  All
+around on the ground are piles of earth and stone, making
+you have to wend through the tunnel carefully.  Hmm.
+~
+186 9 0
+D1
+~
+~
+0 0 18640
+D2
+~
+~
+0 0 18638
+S
+#18640
+End of Passage~
+   The tunnel stops abruptly here at a fissure in the stone.
+All around on the ground are rocks and gravel, mined from
+the fissure in an attempt to widen it enough for passage.
+A few pieces of paper litter and wrappers tells you that
+the work here is relatively recent.
+~
+186 8 0
+D3
+~
+~
+0 0 18639
+S
+#18641
+A Rocky Slope~
+   This treacherous slope leads ever-downward quite a ways,
+down to a valley where there seems to be a small village!  
+What a village is doing this far from civilization, and how
+they survive you've no idea.  From the smoke wafting from 
+some of the chimneys, it looks like this place is still 
+inhabited as well.
+   Now if you can only get down this slope without breaking
+an ankle...
+~
+186 0 5
+D1
+~
+~
+0 0 18642
+D3
+~
+~
+0 0 18608
+S
+#18642
+A Rocky Slope~
+   You're slipping and sliding across this slope, trying to
+get to your destination without breaking your leg or falling
+and shattering your head.  Below, you spot some movement in
+the village, giving proof the place is not a ghost-town.
+   The main road of the village starts at the bottom of 
+the slope just to the east, and the slope continues west
+and up far, far up the mountain.
+~
+186 4 5
+D1
+~
+~
+0 0 18643
+D3
+~
+~
+0 0 18641
+S
+#18643
+Main Road~
+   This place leaves you very unimpressed.  And bored.  
+You are definitely bored by this place.  The people are 
+listless, going about their daily chores with a slowness 
+that pains your eyes.  A slope to the west climbs up the 
+mountainside, and two open shops made of wood and stone 
+are to your north and south.  East-wards this road continues.
+   There is a small sign here.
+~
+186 0 1
+E
+sign~
+
+        ,_____________________________.
+        |                             |
+	|   Stanneg by the Mountains  |
+	|                             |
+	|       Population: 27        |
+	|			      |
+	|           --BUAG SIGNS INC. |
+	`-----------------------------'
+		     |  |
+		     |  |
+		     |  |
+		     |  |   
+
+~
+D0
+~
+~
+0 0 18644
+D1
+~
+~
+0 0 18646
+D2
+~
+~
+0 0 18645
+D3
+~
+~
+0 0 18642
+S
+#18644
+The Mountain Tavern~
+Hmm.  Looks like there's no one here, not even an
+bartender.  Evidently you've come during off hours,
+since no bar could be THIS dull.  The walls are 
+decorated with mounted animal heads and arrows
+and longbows and other hunting equipment/trophies.
+All of it looks rather plain.
+~
+186 8 0
+D2
+~
+~
+0 0 18643
+S
+#18645
+General Store~
+A bored shopkeeper waves an idle hand towards his stock
+of stuff.  Browse, type list, buy, sell, whatever...
+~
+186 8 0
+D0
+~
+~
+0 0 18643
+S
+#18646
+Main Road~
+Nothing is going on in this section of village either.
+To the east is an actual road intersection, and to the
+west you see one of the ends of this road.  A large
+grassy area to the south is fenced off for a horse
+corral.
+~
+186 0 1
+D1
+~
+~
+0 0 18648
+D2
+~
+~
+0 0 18647
+D3
+~
+~
+0 0 18643
+S
+#18647
+Corral~
+Many horses look up at you when you enter this corral.
+The horses are kept in by a big wooden fence, which 
+they seem quite happy to been kept in by.  You don't
+see anyone around taking care of these horses, but
+someone is probably close by.
+~
+186 8 0
+D0
+~
+~
+0 0 18646
+S
+#18648
+Intersection~
+   You are standing in an intersection deep in the heart
+of Stanneg by the Mountains.  In fact, this is the ONLY
+intersection anywhere in Stanneg by the Mountain it 
+appears.
+   There are some buildings to the north, and south, and
+east, and west.  None particularly stand out from the 
+others.
+~
+186 0 1
+D0
+~
+~
+0 0 18649
+D1
+~
+~
+0 0 18655
+D2
+~
+~
+0 0 18653
+D3
+~
+~
+0 0 18646
+S
+#18649
+Small Road~
+   This road runs north through Stanneg by the Mountains, 
+if through would be the operative word for such a motley 
+collection of buildings.  Westwards is a small, open-roofed
+building that appears to be a farmer's market.  The road 
+you are on continues north, and comes to an intersection 
+just south of here.
+~
+186 0 1
+D0
+~
+~
+0 0 18651
+D2
+~
+~
+0 0 18648
+D3
+~
+~
+0 0 18650
+S
+#18650
+Farmer's Market~
+One farmer's wife stands here, waiting for someone
+to buy the food her family has grown.  She looks
+bored, but not unhappy...no competition!
+~
+186 0 0
+D1
+~
+~
+0 0 18649
+S
+#18651
+Small Road~
+   The small, north-south road running through Stanneg
+by the Mountains ends here, curving to become the front
+walk of a private home to the east.  The road runs south
+from this house, towards the center of the village.
+~
+186 0 1
+D1
+A normal, wooden front door to a normal looking
+home.  Its nothing to write home about.
+~
+door front~
+1 -1 18652
+D2
+~
+~
+0 0 18649
+S
+#18652
+Private Home~
+   The interior of this home is simple and rustic.  A 
+ladder leads up to the loft, where the sleeping pallets 
+are tucked away.  A wood-burning stove keeps the place 
+well heated and cozy.  A homemade rocking chair stands 
+crooked in the corner, draped with a old looking afghan.  
+This home is a nice place, very comfortable.
+~
+186 8 0
+D3
+Its a normal appearing door set in the western wall.
+~
+door front~
+1 -1 18651
+S
+#18653
+Small Road~
+   The road ends here, leading up to a stone house
+to the south.  Smoke rises from the chimney in a dark
+stream, and the windows are frosted over with humidity.
+North, you see the main intersection of Stanneg.
+~
+186 0 1
+D0
+~
+~
+0 0 18648
+D2
+A normal looking front door made of wood.
+~
+door front~
+1 -1 18654
+S
+#18654
+Private Home~
+   This home strikes you as unbearable warm and uncomfortable.
+The fireplace is going at a full-bonfire, a mammoth stack of
+firewood beside it against the wall.  The decorations seem
+somewhat spartan and plain; a landscape, an old hunting 
+bow...nothing much of interest.
+~
+186 8 0
+D0
+A normal looking wooden door.
+~
+door front~
+1 -1 18653
+S
+#18655
+Main Road~
+   The main road through Stanneg ends here at a large well
+that leads deep, deep into the earth.  To the north of the 
+well is a large building, with a large WELCOME mat outside 
+its front door.  Westwards you see the a road intersection 
+in the center of the tiny village.  Around you is a rocky 
+terrain in the middle of this mountain range...not very 
+many places else to go.
+~
+186 0 1
+D0
+A large set of double doors, made of wood.
+~
+door doors double~
+1 -1 18656
+D3
+~
+~
+0 0 18648
+S
+#18656
+Stanneg Inn~
+   This is a plainly decorated room, the main room of the
+Stanneg Inn.  A large arch to the west leads to a common
+room where food and drink can be ordered, and a set of
+rickety wooden stairs lead up to the rooms are.  A thread-
+bare rug lies in the middle of the floor, evidently well-
+loved by a cat or two from the quantity of hair on it.
+~
+186 8 0
+D2
+A large set of double doors, made of wood.
+~
+door doors double~
+1 -1 18655
+D3
+~
+~
+0 0 18657
+D4
+~
+~
+0 0 18658
+S
+#18657
+Common Room~
+   A large fireplace warms this room in great waves of
+heat, to combat the chill drafts eminating from the windows
+on the west and north sides of this room.  A few benches
+and tables are clustered in the center of the room, for
+the use of the locals.  Fairly plain, for a frequented
+gathering place.
+~
+186 8 0
+D1
+~
+~
+0 0 18656
+S
+#18658
+Reception~
+   A hall leads away to the west lined with small brown
+doors.  A small table has a ledger on it, seemingly
+almost unused.  The hall is plain and without any 
+decoration, except for a nice painting of (what else)
+a mountain hanging above the stairs that lead back
+down to the inn proper.
+~
+186 8 0
+D5
+~
+~
+0 0 18656
+S
+#18659
+A Rocky Slope~
+   This slope is fairly shallow and easy to walk on, 
+despite the loose shale and gravel.  To the east is a high 
+ridge you could stand on, and to the west is a flat area 
+near two trails leading up and down into the mountains.  
+High above you, to your west, is that ominous, dark peak, 
+which seems to radiating a sense of hopelessness...
+~
+186 0 5
+D1
+~
+~
+0 0 18608
+D3
+~
+~
+0 0 18660
+S
+#18660
+Ledge~
+   This ledge overlooks a small path that leads up and 
+down from here.  Below, you see the path head down to a 
+large flat area where a small cottage lies nestled in the 
+mountains, smoke rising from it in a curling line.  Above, 
+the path seems to head towards that dark peak piercing the 
+sky.  You notice a few boot-tracks in the earth, seemingly 
+to lead down towards the cottage.
+~
+186 0 4
+D1
+~
+~
+0 0 18659
+D4
+~
+~
+0 0 18663
+D5
+~
+~
+0 0 18661
+S
+#18661
+Outside of a Cottage~
+   Now that you approach closer to the cottage, you notice 
+that the smoke is not coming from the chimney, but rather 
+the gutted ruins of the building.  Something torched this 
+place, badly.  You see no signs of life among the wreckage.
+You can enter one of the particularly large holes in the 
+wall to the west, with caution.
+~
+186 0 4
+D3
+~
+~
+0 0 18662
+D4
+~
+~
+0 0 18660
+S
+#18662
+Torched Cottage~
+   This whole place is smouldering still from whatever 
+decided to try to burn it to the ground.  On the floor 
+near the center of the ruined structure is the burnt and 
+dessicated corpse of a man, outstretched and blackened.  
+There's not much to see here; whatever decided to destroy 
+this place did it very well.
+~
+186 0 0
+D1
+~
+~
+0 0 18661
+S
+#18663
+Mountain Trail~
+   This mountain trail leads straight up into the evil 
+looking mountains.  High above you, one mountain peak 
+seems to radiate danger and fear, and the trail seems 
+to be leading straight up to it.  You wonder if it is 
+wise to continue this way...
+   The trail goes even higher up to the west, and back 
+down to the east.
+~
+186 0 5
+D3
+~
+~
+0 0 18664
+D5
+~
+~
+0 0 18660
+S
+#18664
+Mountain Trail~
+   The trail leads up even higher into the mountains to the
+west here.  You shiver as the cold mountain air washes over
+you, and your back prickles as you wonder if anything lives
+up here, or anything _dangerous_ for that matter.  Maybe 
+heading back down to the east would be a good idea...
+~
+186 0 5
+D1
+~
+~
+0 0 18663
+D3
+~
+~
+0 0 18665
+S
+#18665
+Mountain Trail~
+   The trail leads up the side of the tallest mountain in 
+the range--the one that sticks up into the dark sky like a 
+monument to death and futility.  The trail leads back to 
+safety to the east, and goes even higher to the west.
+~
+186 0 5
+D1
+~
+~
+0 0 18664
+D3
+~
+~
+0 0 18666
+S
+#18666
+Near the Peak~
+   This is as close to the peak as you're going to get, 
+unless you use that tiny, tiny path leading up to your 
+north.  Up the side of the mountain you see a great cave 
+hollowed out, the inside pitch black.  The path leads down 
+the mountains to your east, which seems to be the best 
+place to go.
+~
+186 0 5
+D0
+~
+~
+0 0 18667
+D1
+~
+~
+0 0 18665
+S
+#18667
+Small, Dangerous Path~
+   This path leads up, up, up the side of the mountain, to 
+the evil-seeming cave.  It also heads down to the south--a 
+lot safer place to be.  In fact, you hear footsteps above 
+your head...
+~
+186 0 5
+D2
+~
+~
+0 0 18666
+D4
+~
+~
+0 0 18668
+S
+#18668
+Small, Dangerous Path~
+   Unfortunately, you realize too late that this bigger 
+ledge that leads north to the darkened cave is an ideal 
+spot for an ambush.  This ledge gives you a beautiful 
+panoramic view of the entire mountain range, however.  
+Breathtaking!
+~
+186 0 5
+D0
+~
+~
+0 0 18669
+D5
+~
+~
+0 0 18667
+S
+#18669
+Cave Entrance~
+   You are standing in the entrance of a simply huge cave!
+The size is stunning!  All around the entrance are burnt 
+bones and various types of wooden and metal debris.  Giant 
+claw marks are all along the ground, leading back deeper 
+into the cave.
+   Two tunnels lead off from here, one up, one down.  There
+are claw marks leading in either direction.
+~
+186 9 4
+D2
+~
+~
+0 0 18668
+D4
+~
+~
+0 0 18670
+D5
+~
+~
+0 0 18673
+S
+#18670
+Sloping Tunnel~
+   The tunnels slopes up to the north deeper into the 
+mountain.  A rather gusty breeze riffles your clothing 
+from ahead somewhere.  The claw marks in the stone floor 
+continue up the passage, through the darkness.
+~
+186 9 0
+D0
+~
+~
+0 0 18671
+D5
+~
+~
+0 0 18669
+S
+#18671
+Sloping Tunnel~
+   The tunnel continues its slope upwards, and the wind 
+blows at you even stronger yet.  The claw tracks in the 
+stone stop abruptly here, where there seems to be a lot of 
+unearthed dirt and stone around, heaped upon the floor.  
+You feel uneasy about this place.
+~
+186 9 4
+E
+dirt stone~
+   It has been dug from somewhere, but where?
+~
+E
+claw claws track tracks mark marks~
+   They stop very abruptly here, right where the piles of
+earth begin, it seems.
+~
+E
+floor~
+   The floor up ahead looks...strange.  You don't think
+going ahead would be a good idea.
+~
+D0
+~
+~
+0 0 18672
+D2
+~
+~
+0 0 18670
+S
+#18672
+Pit~
+  You fall through the illusionary floor.
+
+  You hit the poisoned spikes below.
+
+  You die very slowly of bloodloss, your head impaled at 
+an awkward angle.
+
+  
+
+
+
+
+
+~
+186 10 0
+D2
+~
+~
+0 0 18671
+S
+#18673
+Sloping Tunnel~
+   This tunnel slopes deep, down into the mountain's heart.
+The air feels still and uncomfortably warm, despite the 
+closeness of the cave's entrance above you.  There's a 
+deep, musky odor in the air, and the giant claw marks 
+continue downwards.
+~
+186 9 4
+D4
+~
+~
+0 0 18669
+D5
+~
+~
+0 0 18674
+S
+#18674
+Sloping Tunnel~
+   A bright light greets your eyes from the north, in 
+direct contrast to the darkness of the tunnel overhead.  
+You break  out in a sweat due to the overwhelming warmth 
+of the air.  The musky odor has grown quite intense, 
+drowning out everything else in the air and making it hard 
+to breathe.  Something in your gut begins squirming 
+uncomfortably as you wonder what's ahead...
+~
+186 9 4
+D0
+~
+~
+0 0 18675
+D4
+~
+~
+0 0 18673
+S
+#18675
+Lair~
+This place is huge!!!  It should be considering the 
+dragon's great bulk.  However, instead of seeing the 
+customary carnage and mound of gold that one is accustomed 
+to seeing in a dragon lair, this one is decorated subtly 
+with tapestries and drapes, and other comforts of human 
+life.  There is even a huge-dragon sized bed--undoubtedly 
+conjured to life by its elder dragon owner.
+~
+186 8 4
+D2
+~
+~
+0 0 18674
+S
+#99999
+
+#RESET
+M 0 18600   2 18646   the Farmer (Main Road)
+M 0 18600   2 18653   the Farmer (Small Road)
+M 0 18601   1 18645   the Storekeeper (General Store)
+G 1 18622 1000             a bag
+G 1 18623 1000             a candle
+G 1 18624 1000             a nail
+G 1 18625 1000             a pot
+M 0 18602   1 18647   the Cowgirl (Corral)
+M 0 18603   4 18647   the Horse (Corral)
+M 0 18603   4 18647   the Horse (Corral)
+M 0 18603   4 18647   the Horse (Corral)
+M 0 18603   4 18647   the Horse (Corral)
+M 0 18604   1 18650   the Farmer's Wife (Farmer's Market)
+G 1 18600 1000             an orange
+G 1 18601 1000             a bale of wheat
+G 1 18608 1000             an apple
+G 1 18609 1000             a loaf of bread
+G 1 18610 1000             a melon
+M 0 18605   1 18675   Aglandiir (Lair)
+G 1 18613   5             a short sword
+O 1 18602   5 18675    a big zither (Lair)
+O 1 18603   5 18675    a barrel of perfume (Lair)
+O 1 18604   5 18675    a statue (Lair)
+O 1 18605  25 18675    a halberd (Lair)
+O 1 18606  25 18675    a potion of protection (Lair)
+O 1 18607   1 18675    a dragon's crown (Lair)
+M 0 18606   3 18668   the Cyclops (Small, Dangerous Path)
+M 0 18606   3 18668   the Cyclops (Small, Dangerous Path)
+M 0 18606   3 18668   the Cyclops (Small, Dangerous Path)
+M 0 18607   1 18657   Salle (Common Room)
+E 1 18618  25     5     a leather vest
+E 1 18612  20    16     a long sword
+M 0 18608   1 18630   Duwick (Cavern)
+E 1 18611  10    16     An exquisitely crafted knife.
+M 0 18609   1 18658   the Receptionist (Reception)
+M 0 18610   1 18656   the innkeeper (Stanneg Inn)
+M 0 18611   2 18649   the hunter (Small Road)
+E 1 18617 1000    16     a hunting bow
+M 0 18611   2 18655   the hunter (Main Road)
+E 1 18617 1000    16     a hunting bow
+M 0 18612   1 18657   a waiter (Common Room)
+M 0 18613   1 18657   a waitress (Common Room)
+M 0 18614   1 18657   a bartender (Common Room)
+G 1 18619 1000             a glass
+G 1 18620 1000             a glass
+G 1 18621 1000             a shot
+M 0 18615   9 18619   the bandit (Cave Passageway)
+E 1 18615 1000    16     a scimitar
+M 0 18615   9 18623   the bandit (Cave)
+E 1 18615 1000    16     a scimitar
+M 0 18615   9 18625   the bandit (Cave Passageway)
+E 1 18615 1000    16     a scimitar
+M 0 18615   9 18627   the bandit (Cave Passageway)
+E 1 18615 1000    16     a scimitar
+M 0 18615   9 18632   the bandit (Cave Passageway)
+E 1 18615 1000    16     a scimitar
+M 0 18615   9 18636   the bandit (Cave Passageway)
+E 1 18615 1000    16     a scimitar
+M 0 18615   9 18639   the bandit (Cave Passageway)
+E 1 18615 1000    16     a scimitar
+M 0 18615   9 18621   the bandit (Cave Passageway)
+E 1 18615 1000    16     a scimitar
+M 0 18615   9 18627   the bandit (Cave Passageway)
+E 1 18615 1000    16     a scimitar
+M 0 18616   5 18629   the bandit guard (End of the Passageway)
+E 1 18615 1000    16     a scimitar
+M 0 18616   5 18629   the bandit guard (End of the Passageway)
+E 1 18615 1000    16     a scimitar
+M 0 18616   5 18640   the bandit guard (End of Passage)
+E 1 18615 1000    16     a scimitar
+M 0 18616   5 18640   the bandit guard (End of Passage)
+E 1 18615 1000    16     a scimitar
+M 0 18616   5 18617   the bandit guard (Cave Entrance)
+E 1 18615 1000    16     a scimitar
+M 0 18617   2 18640   the slave (End of Passage)
+M 0 18617   2 18640   the slave (End of Passage)
+M 0 18618   2 18657   the Farmer (Common Room)
+M 0 18618   2 18657   the Farmer (Common Room)
+M 0 18619   1 18657   the hunter (Common Room)
+E 1 18617 1000    16     a hunting bow
+O 0 18614   1 18604    a dismembered and burnt corpse (Smithery)
+O 0 18616   3 18630    a crate (Cavern)
+O 0 18616   3 18630    a crate (Cavern)
+O 0 18616   3 18630    a crate (Cavern)
+O 0 18615   2 18623    a scimitar (Cave)
+O 0 18615   2 18623    a scimitar (Cave)
+D 0 18629   0     1    End of the Passageway
+D 0 18630   2     1    Cavern
+D 0 18651   1     1    Small Road
+D 0 18652   3     1    Private Home
+D 0 18653   2     1    Small Road
+D 0 18654   0     1    Private Home
+D 0 18655   0     1    Main Road
+D 0 18656   2     1    Stanneg Inn
+S
+
+#SHOPS
+#52 farmer's wife (Farmer's Market)
+18600
+18601
+18608
+18609
+18610
+-1
+1.100000
+0.900000
+-1
+%s We didn't grow any of those this year.~
+%s You don't have that!~
+%s I won't buy that!~
+%s I can't buy that!~
+%s You can't buy that!~
+%s Ok, %d coins please!~
+%s Ok, %d coins please!~
+1
+0
+18604
+0
+18650
+8
+22
+8
+22
+#53 storekeeper (General Store)
+18622
+18623
+18624
+18625
+-1
+1.100000
+0.900000
+-1
+%s Could you repeat that please?~
+%s I don't buy!~
+%s I don't buy!~
+%s I don't buy!~
+%s But you haven't the money!~
+%s Ok, %d gold please.~
+%s Ok, %d gold please.~
+1
+0
+18601
+0
+18645
+8
+22
+8
+22
+#54 bartender (Common Room)
+18619
+18620
+18621
+-1
+1.200000
+1.000000
+-1
+%s I don't know how to make one of those!~
+%s We don't *buy* drinks...we sell 'em!~
+%s We don't *buy* drinks...we sell 'em!~
+%s We don't *buy* drinks...we sell 'em!~
+%s I don't give 'em away free, you know!~
+%s That's %d gold.~
+%s We don't *buy* drinks...we sell 'em!~
+1
+0
+18614
+0
+18657
+1
+24
+1
+24
+$
+#END of Three of Swords.

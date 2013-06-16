@@ -1,0 +1,3148 @@
+#25 Zone.
+NAME       : The Corporation~
+INFO       : 31 층짜리 회사의 건물이다. 22 층부터는 aggressive.~
+PATH       : Temple 에서 d.2e.2s.u~
+ALIGN      : 2
+AGGRESSIVE : 2
+LEVEL      : 1 ~ 40
+MAX        : 2699
+LIFESPAN   : 30
+RESET      : 2
+
+#MOBILES
+#2500
+Clerk Temporary~
+The Temporary Clerk~
+The Temporary Clerk is diligently working here.
+~
+~
+72 0 0 S
+1 20 9 2d5+2 1d3+0
+50 100
+8 8 2
+#2501
+Clerk Experienced~
+The Experienced Clerk~
+The Experienced Clerk is here, looking very busy.
+~
+~
+72 0 0 S
+2 19 8 2d5+8 1d4+0
+100 200
+8 8 2
+#2502
+Clerk Head~
+The Head Clerk~
+The Head Clerk is diligently working here.
+~
+~
+72 0 0 S
+3 18 7 2d5+18 1d4+0
+250 350
+8 8 2
+#2507
+Bookkeeper Temporary~
+The Temporary Bookkeeper~
+The Temporary Bookkeeper is standing here.
+~
+~
+72 0 0 S
+2 19 8 2d5+8 1d4+0
+100 200
+8 8 2
+#2508
+Bookkeeper Experienced~
+The Experienced Bookkeeper~
+The Experienced Bookkeeper is here, eyeing you suspiciously.
+~
+~
+72 0 0 S
+4 18 6 2d5+32 1d5+0
+300 600
+8 8 2
+#2509
+Bookkeeper Head~
+The Head Bookkeeper~
+The Head Bookkeeper is standing here.
+~
+~
+72 0 0 S
+6 16 4 2d5+72 2d6+0
+400 1500
+8 8 2
+#2514
+Accountant Temporary~
+The Temporary Accountant~
+The Temporary Accountant is about to go to lunch.
+~
+~
+72 0 0 S
+4 18 6 2d5+32 1d5+0
+200 600
+8 8 2
+#2515
+Accountant Experienced~
+The Experienced Accountant~
+The Experienced Accountant is standing here.
+~
+~
+72 0 0 S
+7 16 3 2d5+98 2d6+1
+550 2250
+8 8 2
+#2516
+Accountant Head~
+The Head Accountant~
+The Head Accountant is standing here.
+~
+~
+72 0 0 S
+10 14 0 2d5+200 2d8+3
+1000 9000
+8 8 2
+#2521
+Attorney Assistant~
+The Assistant Attorney~
+The Assistant Attorney is here, eyeing you suspiciously.
+~
+~
+72 0 0 S
+5 17 5 2d5+50 1d5+0
+250 900
+8 8 1
+#2522
+Attorney Associate~
+The Associate Attorney~
+The Associate Attorney is here, eyeing you suspiciously.
+~
+~
+72 0 0 S
+8 15 2 2d5+128 2d7+1
+1200 3750
+8 8 1
+#2523
+Attorney Corporate~
+The Corporate Attorney~
+The Corporate Attorney is diligently working here.
+~
+~
+72 0 0 S
+11 13 -1 2d5+242 2d8+4
+1350 11000
+8 8 1
+#2528
+Manager Branch~
+The Branch Manager~
+The Branch Manager is diligently working here.
+~
+~
+72 0 0 S
+9 14 1 2d5+162 2d7+2
+1150 6000
+8 8 2
+#2529
+Manager Regional~
+The Regional Manager~
+The Regional Manager is shuffling papers here.
+~
+~
+72 0 0 S
+12 12 -2 2d5+288 3d9+5
+7200 13000
+8 8 2
+#2530
+Manager National~
+The National Manager~
+The National Manager is standing here.
+~
+~
+72 0 0 S
+15 10 -5 2d5+450 3d10+11
+11250 21000
+8 8 1
+#2535
+Vice-president Junior~
+The Junior Vice-president~
+The Junior Vice-president is about to go to lunch.
+~
+~
+72 128 0 S
+16 10 -6 2d5+512 3d11+13
+12800 44000
+8 8 2
+#2536
+Vice-president Senior~
+The Senior Vice-president~
+The Senior Vice-president is diligently working here.
+~
+~
+72 128 0 S
+19 8 -9 2d5+622 4d12+22
+18050 55000
+8 8 1
+#2537
+Vice-president Executive~
+The Executive Vice-president~
+The Executive Vice-president is diligently working here.
+~
+~
+104 136 0 S
+22 6 -12 2d5+968 4d14+35
+24200 300000
+8 8 2
+#2542
+President Former~
+The Former President~
+The Former President is here, looking very busy.
+~
+~
+104 136 0 S
+24 4 -14 2d5+1152 5d15+46
+28800 400000
+8 8 2
+#2543
+President Unpopular~
+The Unpopular President~
+The Unpopular President is shuffling papers here.
+~
+~
+104 136 0 S
+27 2 -17 2d5+1458 5d16+65
+36450 500000
+8 8 2
+#2544
+President Corporation~
+The Corporation President~
+The Corporation President is here, looking very busy.
+~
+~
+104 136 0 S
+30 0 -20 2d5+1800 6d18+90
+45000 600000
+8 8 2
+#2550
+Building Guard~
+The Building Guard~
+The Building Guard is here.
+~
+~
+72 8 1000 S
+23 0 -7 1d1+999 2d7+27
+1000 10000
+8 8 1
+#2551
+director member~
+The Board Member~
+A Member of the Board of Directors is here, looking disgusted.
+~
+~
+110 136 0 S
+30 0 -20 2d5+2800 6d18+90
+150000 300000
+8 8 1
+#2552
+chairman boss~
+The Chairman of the Board~
+The Chairman of the Board is here, scowling.
+~
+~
+32874 136 0 S
+44 -5 -20 2d5+4900 6d24+90
+100000 800000
+8 8 1
+#2553
+babe~
+The Righteous Babe~
+The Righteous Babe, companion to the Chairman, is here.
+~
+This is one righteous babe.
+~
+106 136 0 S
+44 -5 -20 2d5+3900 6d20+70
+10000 700000
+8 8 2
+#2560
+newsboy paperboy~
+The Newsboy~
+The Newsboy is here, hawking papers.
+~
+~
+74 0 0 S
+12 9 2 2d5+800 1d4+4
+200 200
+8 8 1
+#2561
+salesclerk clerk~
+The Salesclerk~
+The Salesclerk is here, ready to buy or sell.
+~
+~
+74 0 0 S
+12 7 0 2d5+900 1d4+6
+10000 200
+8 8 1
+#2562
+chemist~
+The Chemist~
+The Chemist is here, doing research on new products.
+~
+The Chemist looks a lot like Cary Grant.
+~
+586 0 0 S
+15 6 1 2d9+290 2d9+3
+1000 20000
+8 8 1
+#99999
+
+#OBJECTS
+#2500
+suit polyester~
+A polyester suit~
+A polyester suit has been left here.~
+~
+9 1536 9
+2 0 0 0
+3 500 0 0
+#2501
+suit tweed~
+A tweed suit~
+A tweed suit has been left here.~
+~
+9 1536 9
+3 0 0 0
+4 1000 0 0
+#2502
+suit cotton~
+A cotton suit~
+A cotton suit has been discarded here.~
+~
+9 1536 9
+5 0 0 0
+5 1500 0 0
+#2503
+suit wool~
+A wool suit~
+A wool suit has been discarded here.~
+~
+9 1536 9
+7 0 0 0
+6 2000 0 0
+#2504
+suit cashmere~
+A cashmere suit~
+A cashmere suit has been discarded here.~
+~
+9 5632 9
+9 0 0 0
+7 2500 0 0
+#2505
+hat polyester~
+A polyester hat~
+A polyester hat has been left here.~
+~
+9 1536 17
+2 0 0 0
+3 500 0 0
+#2506
+hat tweed~
+A tweed hat~
+A tweed hat has been dropped here.~
+~
+9 1536 17
+3 0 0 0
+4 1000 0 0
+#2507
+hat cotton~
+A cotton hat~
+A cotton hat has been left here.~
+~
+9 1536 17
+5 0 0 0
+5 1500 0 0
+#2508
+hat wool~
+A wool hat~
+A wool hat has been dropped here.~
+~
+9 1536 17
+7 0 0 0
+6 2000 0 0
+#2509
+hat cashmere~
+A cashmere hat~
+A cashmere hat has been discarded here.~
+~
+9 5632 17
+9 0 0 0
+7 2500 0 0
+#2510
+pants polyester~
+A pair of polyester pants~
+A pair of polyester pants has been dropped here.~
+~
+9 1536 33
+2 0 0 0
+3 500 0 0
+#2511
+pants tweed~
+A pair of tweed pants~
+A pair of tweed pants has been dropped here.~
+~
+9 1536 33
+3 0 0 0
+4 1000 0 0
+#2512
+pants cotton~
+A pair of cotton pants~
+A pair of cotton pants has been discarded here.~
+~
+9 1536 33
+5 0 0 0
+5 1500 0 0
+#2513
+pants wool~
+A pair of wool pants~
+A pair of wool pants has been dropped here.~
+~
+9 1536 33
+7 0 0 0
+6 2000 0 0
+#2514
+pants cashmere~
+A pair of cashmere pants~
+A pair of cashmere pants has been dropped here.~
+~
+9 5632 33
+9 0 0 0
+7 2500 0 0
+#2515
+shoes vinyl~
+A pair of vinyl shoes~
+A pair of vinyl shoes has been dropped here.~
+~
+9 1536 65
+2 0 0 0
+3 500 0 0
+#2516
+shoes rubber~
+A pair of rubber shoes~
+A pair of rubber shoes has been discarded here.~
+~
+9 1536 65
+3 0 0 0
+4 1000 0 0
+#2517
+shoes suede~
+A pair of suede shoes~
+A pair of suede shoes has been discarded here.~
+~
+9 1536 65
+5 0 0 0
+5 1000 0 0
+#2518
+shoes leather~
+A pair of leather shoes~
+A pair of leather shoes has been dropped here.~
+~
+9 1536 65
+7 0 0 0
+6 2000 0 0
+#2519
+shoes corfam~
+A pair of corfam shoes~
+A pair of corfam shoes has been left here.~
+~
+9 5632 65
+9 0 0 0
+7 25000 0 0
+#2520
+gloves vinyl~
+A pair of vinyl gloves~
+A pair of vinyl gloves has been left here.~
+~
+9 1536 129
+2 0 0 0
+3 500 0 0
+#2521
+gloves rubber~
+A pair of rubber gloves~
+A pair of rubber gloves has been dropped here.~
+~
+9 1536 129
+3 0 0 0
+4 1000 0 0
+#2522
+gloves suede~
+A pair of suede gloves~
+A pair of suede gloves has been dropped here.~
+~
+9 1536 129
+5 0 0 0
+5 1500 0 0
+#2523
+gloves leather~
+A pair of leather gloves~
+A pair of leather gloves has been dropped here.~
+~
+9 1536 129
+7 0 0 0
+6 2000 0 0
+#2524
+gloves corfam~
+A pair of corfam gloves~
+A pair of corfam gloves has been left here.~
+~
+9 5632 129
+9 0 0 0
+7 25000 0 0
+#2550
+briefcase~
+A leather briefcase~
+A brown leather briefcase was left here.~
+~
+15 0 16385
+100 15 2551 0
+10 60000 0 0
+#2551
+key small~
+A small key~
+A small key is barely visible here.~
+~
+18 0 1
+0 0 0 0
+1 1000 0 0
+#2552
+fortune coins~
+A fortune in coins~
+A fortune in coins has been left here.~
+~
+20 0 1
+500000 0 0 0
+1 1 0 0
+#2553
+briefcase~
+A vinyl briefcase~
+A black vinyl briefcase was left here.~
+~
+15 0 16385
+100 5 -1 0
+10 10000 0 0
+#2555
+file cabinet~
+A large grey file cabinet~
+A large grey file cabinet is here.~
+~
+15 0 0
+100 15 2556 0
+10 1000 0 0
+#2556
+key tin~
+A tin key~
+A tin key was dropped here.~
+~
+18 0 1
+0 0 0 0
+1 1000 0 0
+#2560
+shorts boxer~
+A pair of boxer shorts~
+A pair of dippy looking boxer shorts has been left here.~
+~
+9 1536 33
+8 0 0 0
+3 5000 0 0
+A
+5 2
+#2561
+towel~
+A bath towel~
+A damp bath towel has been dropped here.~
+~
+9 1536 33
+8 0 0 0
+3 5000 0 0
+A
+5 2
+#2570
+stun gun~
+A high-voltage stun gun~
+A high-voltage stun gun has been left here.~
+~
+6 4096 16385
+16 16 32 0
+5 10000 20 0
+E
+gun~
+The gun is cheaply made, designed for a limited lifetime.
+~
+#2571
+battery pack~
+a battery pack~
+A small battery pack has been left here.~
+~
+8 4096 1
+0 0 0 0
+2 10000 1 0
+#2572
+tube ointment~
+A tube of translucent ointment~
+A tube of translucent ointment has been left here.~
+~
+3 0 16385
+15 5 5 15
+4 5000 0 0
+E
+tube oimtment~
+Directions:
+  HOLD and USE for best results.  Keep of the reach of children.
+~
+#2575
+coffee machine~
+a coffee machine~
+A coffee machine is standing here.~
+~
+15 2 0
+3 0 -1 0
+100 3000 0 0
+E
+coffee machine~
+The machine has been recently repainted, but you can still make out the
+letter Q through the paint.
+~
+#2576
+coffee cup~
+a coffee cup~
+A coffee cup has been left here.~
+~
+17 0 1
+3 3 12 0
+1 6 3 0
+#2577
+newspaper paper~
+a newspaper~
+A copy of the Midgaard Plain Dealer has been left here.~
+~
+12 0 1
+0 0 0 0
+1 10 0 0
+E
+paper newspaper~
+The Headlines:
+
+   BOARD MEMBERS INDICTED IN MONEY LAUNDERING SCHEME
+
+           Emergency Board Meeting Called
+
+      Chairman of the Board in Love Nest Scandal
+
+              Mayor Denounces Chairman
+
+
+~
+#99999
+
+#ROOMS
+#2500
+The Central Tower~
+  You are in the main hall on floor 1 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2501
+D1
+~
+~
+0 -1 2502
+D2
+~
+~
+0 -1 2503
+D3
+~
+~
+0 -1 2504
+D4
+~
+~
+0 -1 2505
+D5
+~
+~
+0 -1 2690
+S
+#2501
+A Meeting Room~
+  You are in a meeting room on floor 1 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2500
+S
+#2502
+A Modern Office~
+  You are in a modern office on floor 1 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2500
+S
+#2503
+A Storage Room~
+  You are in a storage room on floor 1 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2500
+S
+#2504
+A Large Office~
+  You are in a large office on floor 1 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2500
+S
+#2505
+The Central Tower~
+  You are in the main hall on floor 2 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2506
+D1
+~
+~
+0 -1 2507
+D2
+~
+~
+0 -1 2508
+D3
+~
+~
+0 -1 2509
+D4
+~
+~
+0 -1 2510
+D5
+~
+~
+0 -1 2500
+S
+#2506
+A Meeting Room~
+  You are in a meeting room on floor 2 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2505
+S
+#2507
+A Modern Office~
+  You are in a modern office on floor 2 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2505
+S
+#2508
+A Storage Room~
+  You are in a storage room on floor 2 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2505
+S
+#2509
+A Large Office~
+  You are in a large office on floor 2 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2505
+S
+#2510
+The Central Tower~
+  You are in the main hall on floor 3 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2511
+D1
+~
+~
+0 -1 2512
+D2
+~
+~
+0 -1 2513
+D3
+~
+~
+0 -1 2514
+D4
+~
+~
+0 -1 2515
+D5
+~
+~
+0 -1 2505
+S
+#2511
+A Meeting Room~
+  You are in a meeting room on floor 3 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2510
+S
+#2512
+A Modern Office~
+  You are in a modern office on floor 3 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2510
+S
+#2513
+A Storage Room~
+  You are in a storage room on floor 3 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2510
+S
+#2514
+A Large Office~
+  You are in a large office on floor 3 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2510
+S
+#2515
+The Central Tower~
+  You are in the main hall on floor 4 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2516
+D1
+~
+~
+0 -1 2517
+D2
+~
+~
+0 -1 2518
+D3
+~
+~
+0 -1 2519
+D4
+~
+~
+0 -1 2520
+D5
+~
+~
+0 -1 2510
+S
+#2516
+A Meeting Room~
+  You are in a meeting room on floor 4 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2515
+S
+#2517
+A Modern Office~
+  You are in a modern office on floor 4 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2515
+S
+#2518
+A Storage Room~
+  You are in a storage room on floor 4 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2515
+S
+#2519
+A Large Office~
+  You are in a large office on floor 4 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2515
+S
+#2520
+The Central Tower~
+  You are in the main hall on floor 5 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2521
+D1
+~
+~
+0 -1 2522
+D2
+~
+~
+0 -1 2523
+D3
+~
+~
+0 -1 2524
+D4
+~
+~
+0 -1 2525
+D5
+~
+~
+0 -1 2515
+S
+#2521
+A Meeting Room~
+  You are in a meeting room on floor 5 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2520
+S
+#2522
+A Modern Office~
+  You are in a modern office on floor 5 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2520
+S
+#2523
+A Storage Room~
+  You are in a storage room on floor 5 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2520
+S
+#2524
+A Large Office~
+  You are in a large office on floor 5 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2520
+S
+#2525
+The Central Tower~
+  You are in the main hall on floor 6 of a modern skyscraper.
+~
+25 4108 2
+D0
+~
+~
+0 -1 2526
+D1
+~
+~
+0 -1 2527
+D2
+~
+~
+0 -1 2528
+D3
+~
+~
+0 -1 2529
+D4
+~
+~
+0 -1 2530
+D5
+~
+~
+0 -1 2520
+S
+#2526
+A Meeting Room~
+  You are in a meeting room on floor 6 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2525
+S
+#2527
+A Modern Office~
+  You are in a modern office on floor 6 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2525
+S
+#2528
+A Storage Room~
+  You are in a storage room on floor 6 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2525
+S
+#2529
+A Large Office~
+  You are in a large office on floor 6 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2525
+S
+#2530
+The Central Tower~
+  You are in the main hall on floor 7 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2531
+D1
+~
+~
+0 -1 2532
+D2
+~
+~
+0 -1 2533
+D3
+~
+~
+0 -1 2534
+D4
+~
+~
+0 -1 2535
+D5
+~
+~
+0 -1 2525
+S
+#2531
+A Meeting Room~
+  You are in a meeting room on floor 7 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2530
+S
+#2532
+A Modern Office~
+  You are in a modern office on floor 7 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2530
+S
+#2533
+A Storage Room~
+  You are in a storage room on floor 7 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2530
+S
+#2534
+A Large Office~
+  You are in a large office on floor 7 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2530
+S
+#2535
+The Central Tower~
+  You are in the main hall on floor 8 of a modern skyscraper.
+There is a small sign here.
+~
+25 4104 2
+E
+sign small~
+  Please come and see if you
+  are below than 16 level.
+          - Chemist 
+~
+D0
+~
+~
+0 -1 2536
+D1
+~
+~
+0 -1 2537
+D2
+~
+~
+0 -1 2538
+D3
+~
+~
+0 -1 2539
+D4
+~
+~
+0 -1 2540
+D5
+~
+~
+0 -1 2530
+S
+#2536
+A Meeting Room~
+  You are in a meeting room on floor 8 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2535
+S
+#2537
+A Modern Office~
+  You are in a modern office on floor 8 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2535
+S
+#2538
+A Laboratory~
+  You are in a modern chemical laboratory on the 8th floor of a
+modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2535
+S
+#2539
+A Large Office~
+  You are in a large office on floor 8 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2535
+S
+#2540
+The Central Tower~
+  You are in the main hall on floor 9 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2541
+D1
+~
+~
+0 -1 2542
+D2
+~
+~
+0 -1 2543
+D3
+~
+~
+0 -1 2544
+D4
+~
+~
+0 -1 2545
+D5
+~
+~
+0 -1 2535
+S
+#2541
+A Meeting Room~
+  You are in a meeting room on floor 9 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2540
+S
+#2542
+A Modern Office~
+  You are in a modern office on floor 9 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2540
+S
+#2543
+A Storage Room~
+  You are in a storage room on floor 9 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2540
+S
+#2544
+A Large Office~
+  You are in a large office on floor 9 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2540
+S
+#2545
+The Central Tower~
+  You are in the main hall on floor 10 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2546
+D1
+~
+~
+0 -1 2547
+D2
+~
+~
+0 -1 2548
+D3
+~
+~
+0 -1 2549
+D4
+~
+~
+0 -1 2550
+D5
+~
+~
+0 -1 2540
+S
+#2546
+A Meeting Room~
+  You are in a meeting room on floor 10 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2545
+S
+#2547
+A Modern Office~
+  You are in a modern office on floor 10 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2545
+S
+#2548
+A Storage Room~
+  You are in a storage room on floor 10 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2545
+S
+#2549
+A Large Office~
+  You are in a large office on floor 10 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2545
+S
+#2550
+The Central Tower~
+  You are in the main hall on floor 11 of a modern skyscraper.
+~
+25 4108 2
+D0
+~
+~
+0 -1 2551
+D1
+~
+~
+0 -1 2552
+D2
+~
+~
+0 -1 2553
+D3
+~
+~
+0 -1 2554
+D4
+~
+~
+0 -1 2555
+D5
+~
+~
+0 -1 2545
+S
+#2551
+A Meeting Room~
+  You are in a meeting room on floor 11 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2550
+S
+#2552
+A Modern Office~
+  You are in a modern office on floor 11 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2550
+S
+#2553
+A Storage Room~
+  You are in a storage room on floor 11 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2550
+S
+#2554
+A Large Office~
+  You are in a large office on floor 11 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2550
+S
+#2555
+The Central Tower~
+  You are in the main hall on floor 12 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2556
+D1
+~
+~
+0 -1 2557
+D2
+~
+~
+0 -1 2558
+D3
+~
+~
+0 -1 2559
+D4
+~
+~
+0 -1 2560
+D5
+~
+~
+0 -1 2550
+S
+#2556
+A Meeting Room~
+  You are in a meeting room on floor 12 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2555
+S
+#2557
+A Modern Office~
+  You are in a modern office on floor 12 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2555
+S
+#2558
+A Storage Room~
+  You are in a storage room on floor 12 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2555
+S
+#2559
+A Large Office~
+  You are in a large office on floor 12 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2555
+S
+#2560
+The Central Tower~
+  You are in the main hall on floor 13 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2561
+D1
+~
+~
+0 -1 2562
+D2
+~
+~
+0 -1 2563
+D3
+~
+~
+0 -1 2564
+D4
+~
+~
+0 -1 2565
+D5
+~
+~
+0 -1 2555
+S
+#2561
+A Meeting Room~
+  You are in a meeting room on floor 13 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2560
+S
+#2562
+A Modern Office~
+  You are in a modern office on floor 13 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2560
+S
+#2563
+A Storage Room~
+  You are in a storage room on floor 13 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2560
+S
+#2564
+A Large Office~
+  You are in a large office on floor 13 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2560
+S
+#2565
+The Central Tower~
+  You are in the main hall on floor 14 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2566
+D1
+~
+~
+0 -1 2567
+D2
+~
+~
+0 -1 2568
+D3
+~
+~
+0 -1 2569
+D4
+~
+~
+0 -1 2570
+D5
+~
+~
+0 -1 2560
+S
+#2566
+A Meeting Room~
+  You are in a meeting room on floor 14 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2565
+S
+#2567
+A Modern Office~
+  You are in a modern office on floor 14 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2565
+S
+#2568
+A Storage Room~
+  You are in a storage room on floor 14 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2565
+S
+#2569
+A Large Office~
+  You are in a large office on floor 14 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2565
+S
+#2570
+The Central Tower~
+  You are in the main hall on floor 15 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2571
+D1
+~
+~
+0 -1 2572
+D2
+~
+~
+0 -1 2573
+D3
+~
+~
+0 -1 2574
+D4
+~
+~
+0 -1 2575
+D5
+~
+~
+0 -1 2565
+S
+#2571
+A Meeting Room~
+  You are in a meeting room on floor 15 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2570
+S
+#2572
+A Modern Office~
+  You are in a modern office on floor 15 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2570
+S
+#2573
+A Storage Room~
+  You are in a storage room on floor 15 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2570
+S
+#2574
+A Large Office~
+  You are in a large office on floor 15 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2570
+S
+#2575
+The Central Tower~
+  You are in the main hall on floor 16 of a modern skyscraper.
+~
+25 4108 2
+D0
+~
+~
+0 -1 2576
+D1
+~
+~
+0 -1 2577
+D2
+~
+~
+0 -1 2578
+D3
+~
+~
+0 -1 2579
+D4
+~
+~
+0 -1 2580
+D5
+~
+~
+0 -1 2570
+S
+#2576
+A Meeting Room~
+  You are in a meeting room on floor 16 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2575
+S
+#2577
+A Modern Office~
+  You are in a modern office on floor 16 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2575
+S
+#2578
+A Storage Room~
+  You are in a storage room on floor 16 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2575
+S
+#2579
+A Large Office~
+  You are in a large office on floor 16 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2575
+S
+#2580
+The Central Tower~
+  You are in the main hall on floor 17 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2581
+D1
+~
+~
+0 -1 2582
+D2
+~
+~
+0 -1 2583
+D3
+~
+~
+0 -1 2584
+D4
+~
+~
+0 -1 2585
+D5
+~
+~
+0 -1 2575
+S
+#2581
+A Meeting Room~
+  You are in a meeting room on floor 17 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2580
+S
+#2582
+A Modern Office~
+  You are in a modern office on floor 17 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2580
+S
+#2583
+A Storage Room~
+  You are in a storage room on floor 17 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2580
+S
+#2584
+A Large Office~
+  You are in a large office on floor 17 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2580
+S
+#2585
+The Central Tower~
+  You are in the main hall on floor 18 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2586
+D1
+~
+~
+0 -1 2587
+D2
+~
+~
+0 -1 2588
+D3
+~
+~
+0 -1 2589
+D4
+~
+~
+0 -1 2590
+D5
+~
+~
+0 -1 2580
+S
+#2586
+A Meeting Room~
+  You are in a meeting room on floor 18 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2585
+S
+#2587
+A Modern Office~
+  You are in a modern office on floor 18 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2585
+S
+#2588
+A Storage Room~
+  You are in a storage room on floor 18 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2585
+S
+#2589
+A Large Office~
+  You are in a large office on floor 18 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2585
+S
+#2590
+The Central Tower~
+  You are in the main hall on floor 19 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2591
+D1
+~
+~
+0 -1 2592
+D2
+~
+~
+0 -1 2593
+D3
+~
+~
+0 -1 2594
+D4
+~
+~
+0 -1 2595
+D5
+~
+~
+0 -1 2585
+S
+#2591
+A Meeting Room~
+  You are in a meeting room on floor 19 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2590
+S
+#2592
+A Modern Office~
+  You are in a modern office on floor 19 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2590
+S
+#2593
+A Storage Room~
+  You are in a storage room on floor 19 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2590
+S
+#2594
+A Large Office~
+  You are in a large office on floor 19 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2590
+S
+#2595
+The Central Tower~
+  You are in the main hall on floor 20 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2596
+D1
+~
+~
+0 -1 2597
+D2
+~
+~
+0 -1 2598
+D3
+~
+~
+0 -1 2599
+D4
+~
+~
+0 -1 2600
+D5
+~
+~
+0 -1 2590
+S
+#2596
+A Meeting Room~
+  You are in a meeting room on floor 20 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2595
+S
+#2597
+A Modern Office~
+  You are in a modern office on floor 20 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2595
+S
+#2598
+A Storage Room~
+  You are in a storage room on floor 20 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2595
+S
+#2599
+A Large Office~
+  You are in a large office on floor 20 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2595
+S
+#2600
+The Central Tower~
+  You are in the main hall on floor 21 of a modern skyscraper.
+~
+25 4108 2
+D0
+~
+~
+0 -1 2601
+D1
+~
+~
+0 -1 2602
+D2
+~
+~
+0 -1 2603
+D3
+~
+~
+0 -1 2604
+D4
+~
+~
+0 -1 2605
+D5
+~
+~
+0 -1 2595
+S
+#2601
+A Meeting Room~
+  You are in a meeting room on floor 21 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2600
+S
+#2602
+A Modern Office~
+  You are in a modern office on floor 21 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2600
+S
+#2603
+A Storage Room~
+  You are in a storage room on floor 21 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2600
+S
+#2604
+A Large Office~
+  You are in a large office on floor 21 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2600
+S
+#2605
+The Central Tower~
+  You are in the main hall on floor 22 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2606
+D1
+~
+~
+0 -1 2607
+D2
+~
+~
+0 -1 2608
+D3
+~
+~
+0 -1 2609
+D4
+~
+~
+0 -1 2610
+D5
+~
+~
+0 -1 2600
+S
+#2606
+A Meeting Room~
+  You are in a meeting room on floor 22 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2605
+S
+#2607
+A Modern Office~
+  You are in a modern office on floor 22 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2605
+S
+#2608
+A Storage Room~
+  You are in a storage room on floor 22 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2605
+S
+#2609
+A Large Office~
+  You are in a large office on floor 22 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2605
+S
+#2610
+The Central Tower~
+  You are in the main hall on floor 23 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2611
+D1
+~
+~
+0 -1 2612
+D2
+~
+~
+0 -1 2613
+D3
+~
+~
+0 -1 2614
+D4
+~
+~
+0 -1 2615
+D5
+~
+~
+0 -1 2605
+S
+#2611
+A Meeting Room~
+  You are in a meeting room on floor 23 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2610
+S
+#2612
+A Modern Office~
+  You are in a modern office on floor 23 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2610
+S
+#2613
+A Storage Room~
+  You are in a storage room on floor 23 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2610
+S
+#2614
+A Large Office~
+  You are in a large office on floor 23 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2610
+S
+#2615
+The Central Tower~
+  You are in the main hall on floor 24 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2616
+D1
+~
+~
+0 -1 2617
+D2
+~
+~
+0 -1 2618
+D3
+~
+~
+0 -1 2619
+D4
+~
+~
+0 -1 2620
+D5
+~
+~
+0 -1 2610
+S
+#2616
+A Meeting Room~
+  You are in a meeting room on floor 24 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2615
+S
+#2617
+A Modern Office~
+  You are in a modern office on floor 24 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2615
+S
+#2618
+A Storage Room~
+  You are in a storage room on floor 24 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2615
+S
+#2619
+A Large Office~
+  You are in a large office on floor 24 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2615
+S
+#2620
+The Central Tower~
+  You are in the main hall on floor 25 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2621
+D1
+~
+~
+0 -1 2622
+D2
+~
+~
+0 -1 2623
+D3
+~
+~
+0 -1 2624
+D4
+~
+~
+0 -1 2625
+D5
+~
+~
+0 -1 2615
+S
+#2621
+A Meeting Room~
+  You are in a meeting room on floor 25 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2620
+S
+#2622
+A Modern Office~
+  You are in a modern office on floor 25 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2620
+S
+#2623
+A Storage Room~
+  You are in a storage room on floor 25 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2620
+S
+#2624
+A Large Office~
+  You are in a large office on floor 25 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2620
+S
+#2625
+The Central Tower~
+  You are in the main hall on floor 26 of a modern skyscraper.
+~
+25 4108 2
+D0
+~
+~
+0 -1 2626
+D1
+~
+~
+0 -1 2627
+D2
+~
+~
+0 -1 2628
+D3
+~
+~
+0 -1 2629
+D4
+~
+~
+0 -1 2630
+D5
+~
+~
+0 -1 2620
+S
+#2626
+A Meeting Room~
+  You are in a meeting room on floor 26 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2625
+S
+#2627
+A Modern Office~
+  You are in a modern office on floor 26 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2625
+S
+#2628
+A Storage Room~
+  You are in a storage room on floor 26 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2625
+S
+#2629
+A Large Office~
+  You are in a large office on floor 26 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2625
+S
+#2630
+The Central Tower~
+  You are in the main hall on floor 27 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2631
+D1
+~
+~
+0 -1 2632
+D2
+~
+~
+0 -1 2633
+D3
+~
+~
+0 -1 2634
+D4
+~
+~
+0 -1 2635
+D5
+~
+~
+0 -1 2625
+S
+#2631
+A Meeting Room~
+  You are in a meeting room on floor 27 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2630
+S
+#2632
+A Modern Office~
+  You are in a modern office on floor 27 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2630
+S
+#2633
+A Storage Room~
+  You are in a storage room on floor 27 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2630
+S
+#2634
+A Large Office~
+  You are in a large office on floor 27 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2630
+S
+#2635
+The Central Tower~
+  You are in the main hall on floor 28 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2636
+D1
+~
+~
+0 -1 2637
+D2
+~
+~
+0 -1 2638
+D3
+~
+~
+0 -1 2639
+D4
+~
+~
+0 -1 2640
+D5
+~
+~
+0 -1 2630
+S
+#2636
+A Meeting Room~
+  You are in a meeting room on floor 28 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2635
+S
+#2637
+A Modern Office~
+  You are in a modern office on floor 28 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2635
+S
+#2638
+A Storage Room~
+  You are in a storage room on floor 28 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2635
+S
+#2639
+A Large Office~
+  You are in a large office on floor 28 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2635
+S
+#2640
+The Central Tower~
+  You are in the main hall on floor 29 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2641
+D1
+~
+~
+0 -1 2642
+D2
+~
+~
+0 -1 2643
+D3
+~
+~
+0 -1 2644
+D4
+~
+~
+0 -1 2645
+D5
+~
+~
+0 -1 2635
+S
+#2641
+A Meeting Room~
+  You are in a meeting room on floor 29 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2640
+S
+#2642
+A Modern Office~
+  You are in a modern office on floor 29 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2640
+S
+#2643
+A Storage Room~
+  You are in a storage room on floor 29 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2640
+S
+#2644
+A Large Office~
+  You are in a large office on floor 29 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2640
+S
+#2645
+The Central Tower~
+  You are in the main hall on floor 30 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2646
+D1
+~
+~
+0 -1 2647
+D2
+~
+~
+0 -1 2648
+D3
+~
+~
+0 -1 2649
+D4
+~
+~
+0 -1 2650
+D5
+~
+~
+0 -1 2640
+S
+#2646
+A Meeting Room~
+  You are in a meeting room on floor 30 of a modern skyscraper.
+~
+25 4104 2
+D2
+~
+~
+0 -1 2645
+S
+#2647
+A Modern Office~
+  You are in a modern office on floor 30 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2645
+S
+#2648
+A Storage Room~
+  You are in a storage room on floor 30 of a modern skyscraper.
+~
+25 4104 2
+D0
+~
+~
+0 -1 2645
+S
+#2649
+A Large Office~
+  You are in a large office on floor 30 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2645
+S
+#2650
+The Central Tower~
+  You are in the main hall on floor 31 of a modern skyscraper.
+~
+25 4108 2
+D0
+~
+door~
+1 0 2651
+D1
+~
+~
+0 -1 2652
+D2
+~
+penthouse~
+1 0 2653
+D3
+~
+~
+0 -1 2654
+D5
+~
+~
+0 -1 2645
+S
+#2651
+The Board Room~
+  You are in the meeting room used by the board of directors.
+~
+25 4104 2
+D2
+~
+door~
+1 0 2650
+S
+#2652
+A Modern Office~
+  You are in a modern office on floor 31 of a modern skyscraper.
+~
+25 4104 2
+D3
+~
+~
+0 -1 2650
+S
+#2653
+A Penthouse Suite~
+  You are in a sumptuous penthouse suite.  There is a lot of dog hair
+on the rug.
+~
+25 6152 2
+D0
+~
+penthouse~
+1 0 2650
+S
+#2654
+A Large Office~
+  You are in a large office on floor 31 of a modern skyscraper.
+~
+25 4104 2
+D1
+~
+~
+0 -1 2650
+S
+#2690
+The Ground Floor~
+  You are on the ground floor of a massive skyscraper.  The building
+is rumored to be the tallest structure in MUD history.
+~
+25 12 0
+D0
+~
+~
+0 -1 3021
+D1
+~
+~
+0 -1 2691
+D3
+~
+~
+0 -1 2692
+D4
+~
+~
+0 -1 2500
+S
+#2691
+The News Stand~
+  You are at the newsstand, ready to buy a newspaper.
+~
+25 12 0
+D3
+~
+~
+0 -1 2690
+S
+#2692
+The Polyester Place~
+  This is where they buy and sell all manner of cheap clothes.  So save
+your old polyester threads and bring it here.
+~
+25 12 0
+D1
+~
+~
+0 -1 2690
+S
+#99999
+
+#RESET
+*
+D 0  2650   0     1    The Central Tower
+D 0  2650   2     1    The Central Tower
+D 0  2651   2     1    The Board Room
+D 0  2653   0     1    A Penthouse Suite
+*
+M 0  2550  15  2510   The Building Guard (The Central Tower)
+M 0  2550  15  2520   The Building Guard (The Central Tower)
+M 0  2550  15  2530   The Building Guard (The Central Tower)
+M 0  2550  15  2540   The Building Guard (The Central Tower)
+M 0  2550  15  2550   The Building Guard (The Central Tower)
+M 0  2550  15  2560   The Building Guard (The Central Tower)
+M 0  2550  15  2570   The Building Guard (The Central Tower)
+M 0  2550  15  2580   The Building Guard (The Central Tower)
+M 0  2550  15  2590   The Building Guard (The Central Tower)
+M 0  2550  15  2600   The Building Guard (The Central Tower)
+M 0  2550  15  2610   The Building Guard (The Central Tower)
+M 0  2550  15  2620   The Building Guard (The Central Tower)
+M 0  2550  15  2630   The Building Guard (The Central Tower)
+M 0  2550  15  2640   The Building Guard (The Central Tower)
+*
+M 0  2500   4  2504   The Temporary Clerk (A Large Office)
+M 0  2500   4  2501   The Temporary Clerk (A Meeting Room)
+M 0  2500   4  2504   The Temporary Clerk (A Large Office)
+M 0  2500   4  2504   The Temporary Clerk (A Large Office)
+E 1  2500   7     5     A polyester suit
+E 1  2505   7     6     A polyester hat
+E 1  2510   7     7     A pair of polyester pants
+E 1  2515   7     8     A pair of vinyl shoes
+E 1  2520   7     9     A pair of vinyl gloves
+M 0  2501   4  2506   The Experienced Clerk (A Meeting Room)
+M 0  2501   4  2507   The Experienced Clerk (A Modern Office)
+M 0  2501   4  2508   The Experienced Clerk (A Storage Room)
+M 0  2501   4  2506   The Experienced Clerk (A Meeting Room)
+E 1  2500   7     5     A polyester suit
+E 1  2505   7     6     A polyester hat
+E 1  2510   7     7     A pair of polyester pants
+E 1  2515   7     8     A pair of vinyl shoes
+E 1  2520   7     9     A pair of vinyl gloves
+M 0  2502   4  2513   The Head Clerk (A Storage Room)
+M 0  2502   4  2511   The Head Clerk (A Meeting Room)
+M 0  2502   4  2511   The Head Clerk (A Meeting Room)
+M 0  2502   4  2514   The Head Clerk (A Large Office)
+E 1  2500   7     5     A polyester suit
+E 1  2505   7     6     A polyester hat
+E 1  2510   7     7     A pair of polyester pants
+E 1  2515   7     8     A pair of vinyl shoes
+E 1  2520   7     9     A pair of vinyl gloves
+M 0  2507   4  2507   The Temporary Bookkeeper (A Modern Office)
+M 0  2507   4  2505   The Temporary Bookkeeper (The Central Tower)
+M 0  2507   4  2507   The Temporary Bookkeeper (A Modern Office)
+M 0  2507   4  2506   The Temporary Bookkeeper (A Meeting Room)
+E 1  2500   7     5     A polyester suit
+E 1  2505   7     6     A polyester hat
+E 1  2510   7     7     A pair of polyester pants
+E 1  2515   7     8     A pair of vinyl shoes
+E 1  2520   7     9     A pair of vinyl gloves
+M 0  2508   4  2519   The Experienced Bookkeeper (A Large Office)
+M 0  2508   4  2516   The Experienced Bookkeeper (A Meeting Room)
+M 0  2508   4  2516   The Experienced Bookkeeper (A Meeting Room)
+M 0  2508   4  2515   The Experienced Bookkeeper (The Central Tower)
+E 1  2500   7     5     A polyester suit
+E 1  2505   7     6     A polyester hat
+E 1  2510   7     7     A pair of polyester pants
+E 1  2515   7     8     A pair of vinyl shoes
+E 1  2520   7     9     A pair of vinyl gloves
+M 0  2509   4  2527   The Head Bookkeeper (A Modern Office)
+M 0  2509   4  2525   The Head Bookkeeper (The Central Tower)
+M 0  2509   4  2525   The Head Bookkeeper (The Central Tower)
+M 0  2509   4  2525   The Head Bookkeeper (The Central Tower)
+E 1  2500   7     5     A polyester suit
+E 1  2505   7     6     A polyester hat
+E 1  2510   7     7     A pair of polyester pants
+E 1  2515   7     8     A pair of vinyl shoes
+E 1  2520   7     9     A pair of vinyl gloves
+M 0  2514   4  2519   The Temporary Accountant (A Large Office)
+M 0  2514   4  2515   The Temporary Accountant (The Central Tower)
+M 0  2514   4  2516   The Temporary Accountant (A Meeting Room)
+E 1  2500   7     5     A polyester suit
+E 1  2505   7     6     A polyester hat
+E 1  2510   7     7     A pair of polyester pants
+E 1  2515   7     8     A pair of vinyl shoes
+E 1  2520   7     9     A pair of vinyl gloves
+M 0  2514   4  2519   The Temporary Accountant (A Large Office)
+M 0  2515   4  2534   The Experienced Accountant (A Large Office)
+E 1  2501   6     5     A tweed suit
+E 1  2506   6     6     A tweed hat
+E 1  2511   6     7     A pair of tweed pants
+E 1  2516   6     8     A pair of rubber shoes
+E 1  2521   6     9     A pair of rubber gloves
+M 0  2515   4  2531   The Experienced Accountant (A Meeting Room)
+M 0  2515   4  2532   The Experienced Accountant (A Modern Office)
+M 0  2515   4  2530   The Experienced Accountant (The Central Tower)
+M 0  2516   3  2547   The Head Accountant (A Modern Office)
+M 0  2516   3  2547   The Head Accountant (A Modern Office)
+M 0  2516   3  2546   The Head Accountant (A Meeting Room)
+E 1  2501   6     5     A tweed suit
+E 1  2506   6     6     A tweed hat
+E 1  2511   6     7     A pair of tweed pants
+E 1  2516   6     8     A pair of rubber shoes
+E 1  2521   6     9     A pair of rubber gloves
+M 0  2521   4  2520   The Assistant Attorney (The Central Tower)
+M 0  2521   4  2522   The Assistant Attorney (A Modern Office)
+M 0  2521   4  2523   The Assistant Attorney (A Storage Room)
+M 0  2521   4  2520   The Assistant Attorney (The Central Tower)
+M 0  2522   4  2535   The Associate Attorney (The Central Tower)
+M 0  2522   4  2536   The Associate Attorney (A Meeting Room)
+E 1  2501   6     5     A tweed suit
+E 1  2506   6     6     A tweed hat
+E 1  2511   6     7     A pair of tweed pants
+E 1  2516   6     8     A pair of rubber shoes
+E 1  2521   6     9     A pair of rubber gloves
+M 0  2522   4  2543   The Associate Attorney (A Storage Room)
+M 0  2522   4  2537   The Associate Attorney (A Modern Office)
+M 0  2523   3  2551   The Corporate Attorney (A Meeting Room)
+M 0  2523   3  2554   The Corporate Attorney (A Large Office)
+E 1  2501   6     5     A tweed suit
+E 1  2506   6     6     A tweed hat
+E 1  2511   6     7     A pair of tweed pants
+E 1  2516   6     8     A pair of rubber shoes
+E 1  2521   6     9     A pair of rubber gloves
+M 0  2523   3  2553   The Corporate Attorney (A Storage Room)
+M 0  2528   4  2543   The Branch Manager (A Storage Room)
+E 1  2501   6     5     A tweed suit
+E 1  2506   6     6     A tweed hat
+E 1  2511   6     7     A pair of tweed pants
+E 1  2516   6     8     A pair of rubber shoes
+E 1  2521   6     9     A pair of rubber gloves
+M 0  2528   4  2544   The Branch Manager (A Large Office)
+M 0  2528   4  2544   The Branch Manager (A Large Office)
+M 0  2528   4  2543   The Branch Manager (A Storage Room)
+M 0  2529   3  2558   The Regional Manager (A Storage Room)
+E 1  2501   6     5     A tweed suit
+E 1  2506   6     6     A tweed hat
+E 1  2511   6     7     A pair of tweed pants
+E 1  2516   6     8     A pair of rubber shoes
+E 1  2521   6     9     A pair of rubber gloves
+M 0  2529   3  2559   The Regional Manager (A Large Office)
+M 0  2529   3  2558   The Regional Manager (A Storage Room)
+M 0  2530   3  2571   The National Manager (A Meeting Room)
+E 1  2502   3     5     A cotton suit
+E 1  2507   3     6     A cotton hat
+E 1  2512   3     7     A pair of cotton pants
+E 1  2517   3     8     A pair of suede shoes
+E 1  2522   3     9     A pair of suede gloves
+M 0  2530   3  2572   The National Manager (A Modern Office)
+M 0  2530   3  2572   The National Manager (A Modern Office)
+M 0  2535   3  2577   The Junior Vice-president (A Modern Office)
+M 0  2535   3  2575   The Junior Vice-president (The Central Tower)
+M 0  2535   3  2579   The Junior Vice-president (A Large Office)
+E 1  2502   3     5     A cotton suit
+E 1  2507   3     6     A cotton hat
+E 1  2512   3     7     A pair of cotton pants
+E 1  2517   3     8     A pair of suede shoes
+E 1  2522   3     9     A pair of suede gloves
+M 0  2536   3  2590   The Senior Vice-president (The Central Tower)
+M 0  2536   3  2592   The Senior Vice-president (A Modern Office)
+M 0  2536   3  2590   The Senior Vice-president (The Central Tower)
+E 1  2502   3     5     A cotton suit
+E 1  2507   3     6     A cotton hat
+E 1  2512   3     7     A pair of cotton pants
+E 1  2517   3     8     A pair of suede shoes
+E 1  2522   3     9     A pair of suede gloves
+E 1  2553   2    17     A vinyl briefcase
+M 0  2537   2  2606   The Executive Vice-president (A Meeting Room)
+M 0  2537   2  2605   The Executive Vice-president (The Central Tower)
+E 1  2503   3     5     A wool suit
+E 1  2508   3     6     A wool hat
+E 1  2513   3     7     A pair of wool pants
+E 1  2518   3     8     A pair of leather shoes
+E 1  2523   3     9     A pair of leather gloves
+E 1  2553   2    17     A vinyl briefcase
+M 0  2542   2  2616   The Former President (A Meeting Room)
+E 1  2503   3     5     A wool suit
+E 1  2508   3     6     A wool hat
+E 1  2513   3     7     A pair of wool pants
+E 1  2518   3     8     A pair of leather shoes
+E 1  2523   3     9     A pair of leather gloves
+M 0  2542   2  2619   The Former President (A Large Office)
+M 0  2543   2  2631   The Unpopular President (A Meeting Room)
+M 0  2543   2  2634   The Unpopular President (A Large Office)
+E 1  2503   3     5     A wool suit
+E 1  2508   3     6     A wool hat
+E 1  2513   3     7     A pair of wool pants
+E 1  2518   3     8     A pair of leather shoes
+E 1  2523   3     9     A pair of leather gloves
+M 0  2544   1  2647   The Corporation President (A Modern Office)
+E 1  2504   5     5     A cashmere suit
+E 1  2509   5     6     A cashmere hat
+E 1  2514   5     7     A pair of cashmere pants
+E 1  2519   5     8     A pair of corfam shoes
+E 1  2524   5     9     A pair of corfam gloves
+*
+M 0  2551   4  2651   The Board Member (The Board Room)
+M 0  2551   4  2651   The Board Member (The Board Room)
+E 1  2504   5     5     A cashmere suit
+E 1  2509   5     6     A cashmere hat
+E 1  2514   5     7     A pair of cashmere pants
+E 1  2519   5     8     A pair of corfam shoes
+E 1  2524   5     9     A pair of corfam gloves
+E 1  2550   1    17     A leather briefcase
+P 1  2552   1  2550       A fortune in coins (briefcase)
+M 0  2551   4  2651   The Board Member (The Board Room)
+G 1  2551   1             A small key
+M 0  2551   4  2651   The Board Member (The Board Room)
+*
+M 0  2552   1  2653   The Chairman of the Board (A Penthouse Suite)
+E 1  2560   2     7     A pair of boxer shorts
+E 1  2570   1    17     A high-voltage stun gun
+M 0  2553   1  2653   The Righteous Babe (A Penthouse Suite)
+E 1  2561   2    13     A bath towel
+G 1  2556   1             A tin key
+*
+O 0  2575   2  2551    a coffee machine (A Meeting Room)
+P 1  2576   6  2575       a coffee cup (coffee machine)
+*
+O 0  2555   1  2573    A large grey file cabinet (A Storage Room)
+P 1  2571   1  2555       a battery pack (file cabinet)
+*
+M 0  2560   1  2691   The Newsboy (The News Stand)
+E 1  2839   1    17     The Kangyu Key
+G 1  2577  50             a newspaper
+*
+M 0  2561   1  2692   The Salesclerk (The Polyester Place)
+*
+M 0  2562   1  2538   The Chemist (A Laboratory)
+E 1  2572   3    17     A tube of translucent ointment
+*
+S
+
+#SHOPS
+#14 newsboy paperboy (The News Stand)
+2577
+-1
+1.000000
+1.000000
+-1
+%s What was that pal?~
+%s What was that pal?~
+%s Buzz off.~
+%s Buzz off.~
+%s Buzz off.~
+%s That'll be %d coins.~
+%s Bug.  Please report.~
+1
+0
+2560
+0
+2691
+0
+24
+0
+24
+#15 salesclerk clerk (The Polyester Place)
+2500
+2505
+2510
+2515
+2520
+-1
+1.100000
+0.900000
+9
+-1
+%s What was that pal?~
+%s What was that pal?~
+%s Buzz off.~
+%s Buzz off.~
+%s Buzz off.~
+%s That'll be %d coins.~
+%s Here's %d coins.~
+1
+0
+2561
+0
+2692
+0
+24
+0
+24
+$
+#END of The Corporation.

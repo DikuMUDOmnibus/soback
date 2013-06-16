@@ -1,0 +1,343 @@
+#94 Zone.
+NAME       : Arena~
+INFO       : 초보레벨을 위한 훈련 존..~
+PATH       : Temple 에서 d.6s~
+ALIGN      : 2
+AGGRESSIVE : 0
+LEVEL      : 1 ~ 4
+MAX        : 9499
+LIFESPAN   : 20
+RESET      : 1
+
+#MOBILES
+#9400
+reject guard~
+The reject guard~
+A Rejected Cityguard candidate is here, he looks like he is in a bad mood.
+~
+The reject does not look as tough as a regular guard but he certainly does
+not look like he is going to fall over and die for you.
+~
+12 8 1000 S
+4 18 5 1d12+30 1d4+1
+400 500
+8 8 1
+#9405
+roland~
+The roland~
+A roland is here, shoveling something.
+~
+The roland is an ugly cuss.
+~
+24 0 -400 S
+2 19 5 1d4+4 1d4+0
+5 20
+8 8 0
+#9410
+stingray~
+The stingray~
+A stingray is here, whining about something.
+~
+The stingray is a cute little fellow.
+~
+76 0 -400 S
+3 18 10 1d8+10 1d4+4
+20 40
+8 8 1
+#9420
+arena guard~
+Guard~
+The Arena guard is here, looking grim.
+~
+The Arena guard looks like a very strong person, His job is to keep out lower
+level people if i was you i would not mess with him.
+~
+10 8 1000 S
+23 2 2 8d12+788 1d8+17
+8500 90000
+8 8 1
+#9425
+dj~
+The DJ~
+The DJ is here, looking pathetic, as usual.
+~
+The DJ is harmless, just noisy.
+~
+8 0 -400 S
+2 20 10 1d4+4 1d4+0
+10 25
+8 8 1
+#9430
+ericol~
+the ericol~
+The ericol is here making sure you don't use any of his toys.
+~
+The ericol is a selfish little fellow.
+~
+8 0 -300 S
+1 20 5 1d6+4 1d4+1
+15 30
+8 8 1
+#99999
+
+#OBJECTS
+#99999
+
+#ROOMS
+#9400
+The Training arena entrance~
+This is the entrance to the training arena, to the south you can hear 
+the sounds of trainees fighting everything in sight, you also hear the
+occasional spell or two uttered. Something makes you think that this would
+be a great place to gain some experience and learn this great game!
+There is a SIGN here you might want to READ it.
+~
+94 12 0
+E
+sign~
+The sign says:
+This is the Training arena, it is for level 3 and below only. This does NOT
+mean you are  safe in  here you  CAN  die so be careful what you attack, the 
+monsters here are meant to be easy but not simple. There  ARE  some that are
+difficult and you may need  help  with them (the harder the monster the more
+XP points you get).
+                  
+                 THERE WILL BE NO PLAYER KILLING ALLOWED
+~
+D0
+~
+~
+0 -1 3078
+D2
+~
+~
+0 -1 9405
+D4
+~
+~
+0 -1 12000
+S
+#9405
+The Arena~
+You have entered the training arena and something tells you that you had better
+be prepared to fight for your life!
+~
+94 512 1
+D0
+~
+~
+0 -1 9400
+D1
+~
+~
+0 -1 9410
+D2
+~
+~
+0 -1 9440
+D3
+~
+~
+0 -1 9445
+S
+#9410
+NE corner of the Arena~
+You are in the North East corner of the Arena.
+~
+94 512 1
+D2
+~
+~
+0 -1 9415
+D3
+~
+~
+0 -1 9405
+S
+#9415
+East wall of the Arena~
+You are  standing next to the East  wall of the arena. The bottom of the wall
+looks as if it has been burrowed through as there is a big hole in the bottom
+of it even  though it is not  quite big  enough to squeeze your body  through
+it is big enough to let in some unwanted visitors.
+~
+94 512 1
+D0
+~
+~
+0 -1 9410
+D2
+~
+~
+0 -1 9420
+D3
+~
+~
+0 -1 9440
+S
+#9420
+SE Corner~
+You have arrived in the south east corner of the arena. You can see what looks 
+like a slide leading up into the walls but they are to steep and slick to climb.
+Something  makes you  think  maybe you  had better not stand  here just  incase
+something big and nasty comes sliding down one of those slides.
+~
+94 512 1
+D0
+~
+~
+0 -1 9415
+D3
+~
+~
+0 -1 9425
+S
+#9425
+The far end of the Arena~
+This is the Far end of the Arena if you look to the north you can just make out
+the entrance.
+~
+94 512 1
+D0
+~
+~
+0 -1 9440
+D1
+~
+~
+0 -1 9420
+D3
+~
+~
+0 -1 9430
+S
+#9430
+The SW corner~
+This is the South West corner and it looks much the same as the South East
+corner with slides and all.
+~
+94 512 1
+D0
+~
+~
+0 -1 9435
+D1
+~
+~
+0 -1 9425
+S
+#9435
+The West wall~
+This wall looks like someone with a huge sledge hammer attacked it. There is a
+crack all the  way down it about 6 inches wide and you can hear strange sounds
+coming from within.
+~
+94 512 1
+D0
+~
+~
+0 -1 9445
+D1
+~
+~
+0 -1 9440
+D2
+~
+~
+0 -1 9430
+S
+#9440
+The middle of the Arena~
+Here is the center of the arena you can go anywhere you wish from here.
+~
+94 512 1
+D0
+~
+~
+0 -1 9405
+D1
+~
+~
+0 -1 9415
+D2
+~
+~
+0 -1 9425
+D3
+~
+~
+0 -1 9435
+S
+#9445
+The NW corner~
+Your are standing in the North West corner of the arena. There is not much here
+to interest you.
+~
+94 512 1
+D1
+~
+~
+0 -1 9405
+D2
+~
+~
+0 -1 9435
+S
+#99999
+
+#RESET
+*
+M 0  9420   1  9400   Guard (The Training arena entrance)
+E 1  7212   1    16     a huge bastard sword
+M 0  9400   4  9405   The reject guard (The Arena)
+E 1  7211   1    16     a short sword
+M 0  9405  10  9405   The roland (The Arena)
+G 1  7208   1             a small stick
+M 0  9410   1  9410   The stingray (NE corner of the Arena)
+M 0  9405  10  9415   The roland (East wall of the Arena)
+M 0  9405  10  9415   The roland (East wall of the Arena)
+M 0  9405  10  9415   The roland (East wall of the Arena)
+M 0  3062   3  9420   the Beastly Ddaeng-7 (SE Corner)
+M 0  3063   1  9425   the Mercenary (The far end of the Arena)
+E 1  3021  10    16     a small sword
+G 1  1322  10             A align Keywords by Great SuperSundew's NOGADA !!
+M 0  3063   1  9435   the Mercenary (The West wall)
+E 1  3021  10    16     a small sword
+G 1  1322  10             A align Keywords by Great SuperSundew's NOGADA !!
+M 0  3063   1  9445   the Mercenary (The NW corner)
+E 1  3021  10    16     a small sword
+G 1  1322  10             A align Keywords by Great SuperSundew's NOGADA !!
+O 0  3020   5  9410    a dagger (NE corner of the Arena)
+O 0  3020   5  9425    a dagger (The far end of the Arena)
+M 0  6006  15  9415   the gray squirrel (East wall of the Arena)
+M 0  6006  15  9420   the gray squirrel (SE Corner)
+M 0  6006  15  9425   the gray squirrel (The far end of the Arena)
+M 0  9405  10  9430   The roland (The SW corner)
+M 0  9410   5  9430   The stingray (The SW corner)
+M 0  9410   5  9435   The stingray (The West wall)
+O 0  3021   5  9400    a small sword (The Training arena entrance)
+M 0  9400   4  9435   The reject guard (The West wall)
+E 1  7211   1    16     a short sword
+M 0  9405  10  9440   The roland (The middle of the Arena)
+M 0  9405  10  9440   The roland (The middle of the Arena)
+M 0  9405  10  9440   The roland (The middle of the Arena)
+M 0  9400   4  9445   The reject guard (The NW corner)
+E 1  7211   1    16     a short sword
+M 0  9400   4  9445   The reject guard (The NW corner)
+E 1  7211   1    16     a short sword
+M 0  9430   4  9445   the ericol (The NW corner)
+M 0  9430   4  9410   the ericol (NE corner of the Arena)
+O 0  3010  20  9410    a bread (NE corner of the Arena)
+O 0  3010  20  9445    a bread (The NW corner)
+M 0  9430   4  9415   the ericol (East wall of the Arena)
+M 0  9430   4  9430   the ericol (The SW corner)
+M 0  9425   5  9405   The DJ (The Arena)
+M 0  9425   5  9425   The DJ (The far end of the Arena)
+M 0  9425   5  9420   The DJ (SE Corner)
+M 0  9425   5  9445   The DJ (The NW corner)
+M 0  9425   5  9435   The DJ (The West wall)
+S
+
+#SHOPS
+$
+#END of Arena.

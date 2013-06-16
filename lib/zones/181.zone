@@ -1,0 +1,2445 @@
+#181 Zone.
+NAME       : Trade Road~
+INFO       : 상점이 많은 거리이며 중간 레벨을 위한 존.~
+PATH       : 북문밖에서 w.w.w.w , 또는 zyekian road 에서 east~
+ALIGN      : 2
+AGGRESSIVE : 0
+LEVEL      : 15 ~ 30
+MAX        : 18199
+LIFESPAN   : 20
+RESET      : 2
+
+#MOBILES
+#18100
+madman man mad~
+the Madman~
+A madman has tea with his mortally challenged friends.
+~
+   He looks up at you with misted eyes and clenches his 
+knife convusively.  Spluttering and shaking, he begins 
+to rise to his feet, cradling the cold steel of his 
+knife in his hands.  A tiny voice in your head says very
+clearly, 'Uh-oh.'  You feel chilled...distant.
+~
+10 8 -1000 S
+18 3 0 3d5+233 2d6+6
+11 40000
+8 8 1
+#18101
+rat~
+the rat~
+A rat scurries near the wall.
+~
+Its black, furry, and seems to have a serious problem
+with fleas.
+~
+200 0 0 S
+1 20 80 1d4+5 1d4+0
+0 30
+8 8 0
+#18102
+Leatherworker worker~
+The Leatherworker~
+A Leatherworker is here...working with leather.
+~
+He smiles at your attention, and then turns back to his
+work.  His hands are rough and scarred from frequent
+accidents with needles and leather-knives...a hazard
+of the trade.
+~
+10 0 350 S
+18 3 0 3d5+220 3d6+2
+12000 30000
+8 8 1
+#18103
+Jeweller~
+The Jeweller~
+The Jeweller smiles at you briefly and motions you in.
+~
+You can't guess what age she is; she's one of those few
+women that seem to be almost timeless in their looks.
+Her eyes glint with laughter as she notices your 
+scrutiny and slowly examines you.  You squirm under her
+penetrating gaze.
+~
+10 0 500 S
+18 3 0 3d5+220 3d6+2
+20000 21000
+8 8 2
+#18104
+Butcher~
+The Butcher~
+The butcher glances at you briefly and SLAMS down his cleaver.
+~
+His apron is covered with bloodstains, as are his large,
+thick python-arms.  He holds a cleaver loosely and 
+easily, almost as if he were born gripping that thing.  
+His hair seems greasy and useless on his balding pate.  
+He sneers at you and motions for you to take a number.
+~
+10 0 100 S
+25 -2 0 3d5+800 3d8+12
+8000 120000
+8 8 1
+#18105
+Sakifan librarian~
+Sakifan~
+Sakifan the librarian looks up from his book as you enter.
+~
+Sakifan sits on a small pile of books, idly caressing 
+the cover of one while he reads.  He puts his book down 
+with a sigh as you come in.
+
+Sakifan says, 'May I help you?'
+~
+1034 0 750 S
+25 0 0 3d5+600 3d6+10
+8000 120000
+8 8 1
+#18106
+Brewermaster Brewer~
+the Brewermaster~
+The Brewermaster oversees the work and marks upon a clipboard.
+~
+The Brewermaster looks you up and down, nods 
+approvingly, and says, 'Would you like to chip in with 
+the work?  Pays well...'
+~
+10 0 600 S
+25 -6 0 3d5+950 3d6+20
+12000 150000
+8 8 1
+#18107
+Ceran contractor~
+Ceran~
+Ceran the Contractor waves for you to sit down in a chair.
+~
+Ceran plots a final line on his sketch and sighs in
+gratification.  He holds the finished architectural
+drawing up to you; a plan to rebuild the ruined 
+temple to the north!  He examines it again, and then
+slaps it down onto a sheaf of similar papers on his
+desk.
+~
+522 0 100 S
+25 -4 -5 3d5+725 3d6+12
+12000 110000
+8 8 1
+#18108
+Grebe bartender~
+Grebe~
+Grebe tends bar here between the drunkards.
+~
+Grebe is an old, weatherbeaten scarred hulk of a man who
+looks as if he survived the holocaust with only a few
+minor bruises to show for it.  You're not sure if you
+want to mess with him or not.
+~
+10 0 -300 S
+30 -5 -10 3d5+600 3d8+12
+18000 140000
+8 8 1
+#18109
+Sailor Merchant Sailor-Merchant~
+the Sailor-Merchant~
+A Sailor-Merchant points out his wares.
+~
+This retired weather-beaten sailor man has quite a 
+booming trade going on here.  He grins snaggle-toothedly
+at you and tries to sell you an anchor.  You don't think
+you need it.
+~
+10 0 0 S
+28 3 -8 3d5+2500 3d7+20
+18000 250000
+8 8 1
+#18110
+Landlord lord land~
+the Landlord~
+The Landlord asks you how long you'll be staying.
+~
+The landlord of this boarding house sneers at you and
+sticks out his hand.  Payment in advance.
+~
+10 128 -500 S
+30 -6 -10 3d50+1800 3d5+35
+100000 400000
+8 8 1
+#18111
+cityguard guard~
+the Cityguard~
+A cityguard stands here.
+~
+The Cityguard looks bland and weak.  You should copy 
+your own Cityguard stats into him, to make all the 
+Cityguards in the city the same level.
+~
+65736 0 1000 S
+21 3 2 1d12+323 1d8+13
+500 28000
+8 8 1
+#18112
+Worker brewery~
+the Brewery Worker~
+A Brewery Worker rolls a barrel right on by you.
+~
+He waves at you and keeps going on by...
+~
+10 0 200 S
+15 10 5 3d5+145 1d8+8
+100 16000
+8 8 1
+#18113
+Boarder~
+the Boarder~
+A Boarder sighs and tromps back to his room.
+~
+Sad, poor, and depressed.  Obviously not one of the
+citizenry elite of Trade Road.
+~
+10 0 0 S
+16 5 1 3d5+200 2d7+2
+25 17000
+8 8 1
+#18114
+Citizen~
+the Citizen~
+A Citizen of Trade Road passes you without a glance.
+~
+You make eye contact with the average looking man for
+a moment, and he quickly looks away.  You notice his
+pace has sped up slightly; in a hurry to get away from
+you?  Why would he...oh.  You've still got your weapon
+out.
+~
+72 0 0 S
+10 12 5 3d5+100 1d8+5
+200 5500
+8 8 1
+#18115
+Citizen~
+the Citizen~
+A Citizen of Trade Road passes you without a glance.
+~
+You make eye contact with the average looking woman for
+a moment, and she quickly looks away.  You notice her
+pace has sped up slightly; in a hurry to get away from
+you?  Why would she...oh.  You've still got your weapon
+out.
+~
+72 0 0 S
+8 8 4 3d5+75 1d8+3
+200 3500
+8 8 2
+#18116
+Trader Merchant~
+the Trader~
+A Merchant Trader is doing inventory in his head.
+~
+His clothes are silken, and eyes hands soft, but his
+movement belie combat training.  You don't think he
+would have gotten so successful by letting just anyone
+knock over his operation here.
+~
+266 128 350 S
+27 -8 -20 3d5+900 3d6+24
+18000 250000
+8 8 1
+#18117
+Woman Old~
+the Old Woman~
+An Old Woman sits here, rembering better times...
+~
+Looking closer, you see that she isn't remembering; 
+she's asleep!
+~
+10 0 0 S
+4 17 80 3d5+30 1d7+0
+100 450
+4 4 2
+#18118
+Child Boy Young~
+the Young Boy~
+A young boy plays quietly here.
+~
+He looks up at you with watery eyes and asks for
+a drink.  He looks rather sickly.
+~
+10 0 0 S
+1 20 100 1d4+0 1d1+0
+2 300
+6 6 1
+#18119
+Housewife woman wife~
+the Housewife~
+An aging housewife is waiting for her husband to return.
+~
+You see worry in her eyes; is her husband overdue?
+Possibly dead?  You know with all those marauding
+bands of adventurers out there...you never know!
+~
+10 0 0 S
+4 17 80 3d5+45 1d7+0
+100 600
+8 8 2
+#18120
+Slob sleeping man~
+the Slob~
+An utter slob of a man is curled up in his chair.
+~
+He hasn't bathed in, what?  One, two...
+
+You stand away quickly; the smell got to you.
+~
+10 0 0 S
+4 17 80 3d5+45 1d7+0
+100 600
+4 4 1
+#18121
+Man Old~
+the Old Man~
+An Old Man stares at the checkerboard intently.
+~
+He's playing checkers.  Leave him alone!
+~
+10 0 0 S
+4 17 80 3d5+45 1d7+0
+100 600
+6 6 1
+#18122
+Bachelor man~
+the Bachelor~
+A man sits in his bachelor pad, just hanging out.
+~
+He's cool, he's slick, he's got a job, and no woman
+will come near him.
+
+That's life...
+~
+10 0 0 S
+4 17 80 3d5+45 1d7+0
+100 600
+6 6 1
+#99999
+
+#OBJECTS
+#18100
+Knife madman madmans piece cutlery~
+the Madman's Knife~
+A dangerous piece of cutlery sits here.~
+~
+5 0 8193
+0 4 3 11
+6 50 1 10
+E
+Knife madman madmans piece cutlery~
+There's dried blood on the blade.
+~
+A
+4 -2
+#18101
+Awl~
+an Awl~
+A discarded awl lies here.~
+~
+5 0 8193
+0 3 1 11
+1 5 1 10
+E
+awl~
+Looks like a normal awl, used to punch holes through leather.
+~
+#18102
+T-Square square t~
+a T-Square~
+An architect's T-Square lies forgotten here.~
+~
+13 0 1
+0 0 0 0
+1 30 1 10
+E
+T-Square square t~
+You think its used for angles and lines and ... stuff.
+~
+#18103
+Cleaver knife meat meatcleaver~
+a Huge Meat Cleaver~
+A huge meat cleaver gathers rust here.~
+~
+5 0 8193
+0 4 4 7
+15 100 1 10
+E
+Cleaver knife meat meatcleaver~
+Looks like you could really hack through some meat with
+that thing!
+~
+A
+17 -7
+A
+18 -3
+#18104
+Earring ear ring~
+an earring~
+A small golden earring sits here.~
+~
+9 0 16401
+2 0 0 0
+1 1000 1 10
+E
+Earring ear ring~
+Small and gold.  Nice.
+
+Question is, do you have a pierced ear?  (Ouch!)
+~
+#18105
+boots pair leather~
+a pair of Leather Boots~
+A pair of Leather Boots are sitting here.~
+~
+9 0 65
+4 0 0 0
+6 200 1 10
+E
+boots pair leather~
+A nice set of heavy leather boots.
+~
+#18106
+Tie leather necktie~
+a Leather Tie~
+A Leather tie is here.  Fashionable!~
+~
+9 0 5
+1 0 0 0
+1 50 1 10
+E
+Tie leather necktie~
+A black leather necktie.  It would go well with nothing
+you have.
+~
+A
+3 2
+#18107
+jacket leather~
+a Leather Jacket~
+A nice leather jacket gathers dust on the ground.~
+~
+9 0 9
+5 0 0 0
+15 300 1 10
+E
+jacket leather~
+A heavy-duty leather jacket, made for warmth and protection.
+~
+#18108
+Gloves leather~
+a pair of Leather Gloves~
+A pair of leather gloves have been discarded in a pile.~
+~
+9 0 129
+2 0 0 0
+1 30 1 10
+E
+Gloves leather~
+These heavy-duty leather gloves seem to offer a lot of
+hand protection for day-to-day activities.
+~
+A
+19 1
+#18109
+Sapphire gem jewel~
+a Sapphire~
+A glittering blue gem sits here.~
+~
+8 0 16385
+0 0 0 0
+1 10000 1 10
+E
+Sapphire gem jewel~
+Pretty.  It's a sapphire, isn't it?
+~
+#18110
+Emerald gem jewel~
+an Emerald~
+A sparkling green jewel sits here.~
+~
+8 0 16385
+0 0 0 0
+1 50000 1 10
+E
+Emerald gem jewel~
+Exquisite...a fantastic stone.
+~
+#18111
+Diamond gem jewel~
+a Diamond~
+A diamond gathers dust here.~
+~
+8 0 16385
+0 0 0 0
+1 200000 1 10
+E
+Diamond gem jewel~
+Wow!  A real Diamond!
+~
+A
+2 2
+#18112
+Slab beef~
+a slab of beef~
+A fresh slab of beef is wrapped up here.~
+~
+19 0 16385
+15 0 0 0
+10 50 1 10
+E
+Slab beef~
+It's a big, bloody hunk of meat.  Mmmm.
+~
+#18113
+Haunch mutton~
+a haunch of mutton~
+A haunch of fresh mutton is sitting here.~
+~
+19 0 16385
+8 0 0 0
+7 25 1 10
+E
+Haunch mutton~
+Looks like it came from a nice, fat sheep.
+~
+#18114
+Steak deer~
+a deer steak~
+A steak of deer meat is wrapped in paper here.~
+~
+19 0 16385
+9 0 0 0
+5 30 1 10
+E
+Steak deer~
+Smells gamy, but seems edible.
+~
+#18115
+Rope coil~
+a coil of rope~
+A length of rope is neatly coiled here.~
+~
+13 0 1
+0 0 0 0
+25 250 1 10
+E
+Rope coil~
+The rope seems to be made of a good quality hemp.
+~
+#18116
+Anchor~
+an anchor~
+A large metal anchor sits here.~
+~
+13 0 1
+0 0 0 0
+100 1000 1 10
+#18117
+Net~
+a net~
+A fishing net is lying on the ground.~
+~
+5 0 8193
+0 2 4 3
+10 1000 1 10
+E
+Net~
+Its a fishing net, with little fishing hooks attached to the knots.
+~
+#18118
+Fishhook hook~
+a fishhook~
+A stray fishhook is lying here.~
+~
+5 0 8193
+0 1 1 11
+1 1 1 10
+E
+Fishhook hook~
+Its a tiny wire fishhook.  You've seen these before...
+~
+#18119
+Beer glass~
+a glass of beer~
+A glass of beer sits forgotten here.~
+~
+17 0 16385
+1 1 1 0
+2 5 1 10
+E
+Beer glass~
+A nice glass filled with 'Mr. Beer' brand beer.
+~
+#18120
+Mead glass~
+a glass of mead~
+A big glass of mead sits here, cool and frosty.~
+~
+17 0 16385
+1 1 3 0
+2 8 1 10
+E
+Mead glass~
+Looks good.  Looks cold.  You sure could use some cold and
+alcoholic right about now...
+~
+#18121
+Whiskey shot~
+a shot of whiskey~
+A shot of Whiskey is sitting here.~
+~
+17 0 16385
+1 1 5 0
+1 10 1 10
+E
+Whiskey shot~
+Whew!  Looks like potent stuff!
+~
+#18122
+Sword Long Longsword~
+a long sword~
+A long sword gathers rust here.~
+~
+5 0 8193
+0 1 8 3
+12 600 1 10
+E
+Sword Long Longsword~
+Looks like your generic long sword.
+~
+#18123
+kayak~
+a kayak~
+A kayak has been left here.~
+~
+22 0 1
+0 0 0 0
+10 800 1 0
+#99999
+
+#ROOMS
+#18100
+Gatehouse~
+   You are standing in an ancient, disused gatehouse.  
+The gates are flung open, and from the rust on the immense 
+hinges, you would guess that they have been kept this way
+for years.  To the west is Trade Road city proper, and eastwards 
+is a long road, leading through the center of this 
+residential district.
+~
+181 8 0
+E
+gate gates~
+Big, steel, and rusty.  Looks like it would take an extremely
+violent act to close them...
+~
+D1
+~
+~
+0 0 18101
+D3
+~
+~
+0 0 1948
+S
+#18101
+Trade Road~
+   This is the west-most end of Trade Road.  Eastwards,
+the road continues deep into the city, its length disguised
+by distance.  Just to the west, you see a largish gatehouse
+in the city wall.  It seems rather quiet in the area so close
+to a city gate...
+~
+181 0 1
+E
+alley alleys~
+There are alleys to the north and south.
+~
+E
+gatehouse~
+The gatehouse stands to the west, allowing entrance and exit
+through the city walls.  Approximately fifteen feet tall, the
+gates seem permanently open, allowing free passage.
+~
+D0
+A small alleyway leading north.
+~
+~
+0 0 18104
+D1
+~
+~
+0 0 18102
+D2
+A small alleyway leads to the south.  Looks ominous.
+~
+~
+0 0 18109
+D3
+~
+~
+0 0 18100
+S
+#18102
+Trade Road~
+   This great road runs directly through the heart of Trade Road.
+The area seems odd around here; the air still.  A gate marks
+the end of the road to the west, and the road continues to 
+the east.  Two shops stand across from each other here, the 
+north seeming more busy, the south seeming to attract a 
+better quality of customer.
+~
+181 0 1
+E
+gate gates gatehouse~
+The gatehouse stands to the west, allowing entrance and exit
+through the city walls.  Approximately fifteen feet tall, the
+gates seem permanently open, allowing free passage.
+~
+E
+shop shops~
+Upon closer inspection, the northern one appears to be a 
+butchery, and the southern one has a sign reading, 'Baubles 
+and Beads.'
+~
+D0
+There's a small shop there with a sign above it.  The sign 
+has the form of a cow in silohuette on it.
+~
+~
+0 0 18135
+D1
+~
+~
+0 0 18103
+D2
+A rather well kept shop is to the south, with a large steel 
+door propped open to the street by a wooden block.  A large 
+rectangular sign hangs in place of a window, 'Baubles and 
+Beads.'
+~
+~
+0 0 18136
+D3
+~
+~
+0 0 18101
+S
+#18103
+Trade Road~
+   Here Trade Road is intersected by another, smaller road.
+A street sign identifies it as 'Clay Street'.  A cursory 
+look north and south reveals a shop or two, but not much 
+else of interest.  Looking west, you spy a gate in the 
+city wall, and Trade Road continues to the east.
+~
+181 0 1
+E
+gate gates gatehouse~
+The gatehouse stands to the west, allowing entrance and exit
+through the city walls.  Approximately fifteen feet tall, the
+gates seem permanently open, allowing free passage.
+~
+D0
+~
+~
+0 0 18108
+D1
+~
+~
+0 0 18114
+D2
+~
+~
+0 0 18113
+D3
+~
+~
+0 0 18102
+S
+#18104
+Alley~
+   You squeeze down this alleyway, scrunching up obscenely to
+pass by the rubbish.  The alley opens up between two buildings
+on Trade Road southwards, and to the north the alley 
+continues.  There is a slight smell of decay that teases 
+your nose, making you feel as if it were time to move on...
+~
+181 0 1
+E
+trash rubbish~
+Garbage, trash, and filth.  You decide not to root through it.
+~
+D0
+~
+~
+0 0 18105
+D2
+Trade Road is to the south.
+~
+~
+0 0 18101
+S
+#18105
+Alley~
+   An alley leads south here from an entrace eastwards on Clay
+Street.  Trash and rubbish grime up your footwear as you tread
+lightly through the alleyway; obviously this is not one of the
+highlight attractions of Trade Road.
+~
+181 0 1
+E
+trash rubbish~
+Garbage, trash, and filth.  You decide not to root through it.
+~
+D1
+Clay Street is to your east.
+~
+~
+0 0 18106
+D2
+~
+~
+0 0 18104
+S
+#18106
+Clay Street~
+   Clay Street ends abruptly here.  Looking around, you espy
+few exits -- one going back down Clay Street to the east, over
+the wall, and a shop to the south.  The wall doesn't look too 
+safe, however; what with all those guards on top.  The shop
+to the south looks like a considerably nicer place to go.
+~
+181 0 1
+E
+wall~
+   Looking up, you see a guard post right above you.  You
+wouldn't stand a chance; you'd be dead long before you 
+reached the top to defend yourself.
+~
+E
+shop~
+A small shop is to the south.  The sign is delicately 
+lettered,
+           "Sakifan's Library"
+~
+E
+guard guards~
+A guard on patrol looks at your boredly and walks by...
+~
+D1
+~
+~
+0 0 18107
+D2
+A small shop is to the south.  The sign is delicately 
+lettered,
+           "Sakifan's Library"
+~
+~
+0 0 18140
+D3
+There is a small alley to the west.
+~
+~
+0 0 18105
+S
+#18107
+Clay Street~
+   Clay Street curves about to the west here.  Southwards you
+see the intersection of Trade Road and Clay Street.  To the 
+north is a large building from which you hear a lot of 
+laughing and general merryment.  The building seems tall 
+and imposing, making the evident good times inside that 
+much more out of place...
+~
+181 0 1
+E
+building~
+There's a larger building to the north, looking to be some 
+sort of factory.  You smell a faint tinge of alcohol in the 
+air.
+~
+D0
+There's a larger building to the north, looking to be some 
+sort of factory.  You smell a faint tinge of alcohol in the 
+air.
+~
+~
+0 0 18139
+D1
+There's an alley leading east from here.
+~
+~
+0 0 18125
+D2
+~
+~
+0 0 18108
+D3
+~
+~
+0 0 18106
+S
+#18108
+Clay Street~
+   Clay Street heads north here, and intersects Trade Road to
+the south.  The buildings in this area of town look fairly 
+delapidated; this is not where 'urban renewal' happens
+evidently.  Westwards, a single intact stone gargoyle marks
+the rubble of an ancient church.  A sad feeling akin to gloom
+presses down upon your shoulders, making your own load feel
+that much more heavier to bear here.
+~
+181 0 1
+E
+gargoyle~
+It grimaces at you.  You can almost hear its laugh.
+~
+E
+rubble church path~
+It looks like it was destroyed many, many years ago.
+~
+D0
+~
+~
+0 0 18107
+D2
+~
+~
+0 0 18103
+D3
+A small path leads through the rubble.
+~
+~
+0 0 18138
+S
+#18109
+Alley~
+   A dead cat lies across the entrance to this alleyway as if
+some sort of guardian or omen.  None of the pedestrians on
+Trade Road to the north even glance in this direction as
+they pass on by.  The alley continues on to the south.  A 
+strong smell of old blood and rot wafts through the area...
+~
+181 4 1
+E
+cat dead~
+Its been dead a few days.  Food for flies and rats.
+~
+D0
+You see Trade Road to the north.
+~
+~
+0 0 18101
+D2
+~
+~
+0 0 18110
+S
+#18110
+Alley~
+   A table has been set up here, with a rather nice tablecloth
+and wooden utensils adorning it.  Two corpses sit propped up 
+in chairs before the table, their relative decay giving their 
+age to be about two weeks dead.  You shift your weight 
+uneasily, startling two rats sniffing around the taller 
+corpse.  The alley leads north and east from here.
+~
+181 0 1
+E
+corpse corpses~
+They look like the bodies of some upper- to middle-class
+people; the clothes were once very nice, and you can tell
+the hair had once been well-kempt.
+~
+E
+table utensils tablecloth cloth chairs chair~
+A truly disgusting dining experience, to say the least!
+~
+D0
+~
+~
+0 0 18109
+D1
+~
+~
+0 0 18111
+S
+#18111
+Alley~
+   A small straw pallet lies in the middle of this alleyway, 
+with a few bits of wood and string are gathered around it as 
+decoration.  The alley opens up on the south end of Clay 
+Street to the east, and leads deeper in between the buildings 
+to the west.  A strong smell makes your eyes water; there is 
+graffiti on the walls, drawn with an unsteady hand and a 
+large supply of fecal material.  A more sinister smell teases 
+you just below the stench here just before a breeze from the 
+east blows it away from you.
+~
+181 4 1
+E
+pallet bed~
+Lice-ridden and rife with bedbugs, this is a truly 
+unappetizing place to sleep.
+~
+E
+graffiti writing wall~
+It says, 
+
+"Drazel kamp miya fond."
+
+~
+D1
+You see Clay Street opening up to the east.
+~
+~
+0 0 18112
+D3
+~
+~
+0 0 18110
+S
+#18112
+Clay Street~
+   Clay Street ends right up against the southern wall here,  
+the only way to go is back north towards Trade Road.  A 
+small breeze teases you with an awful smell, and
+whisks it away just as quickly.  Something is making you feel
+rather uneasy about this area, but its probably just your 
+imagination.
+~
+181 0 1
+D0
+~
+~
+0 0 18113
+D1
+A small alley leading east.
+~
+~
+0 0 18132
+D3
+You see a small alley opening to the west.
+~
+~
+0 0 18111
+S
+#18113
+Clay Street~
+   The intersection of Trade Road and Clay Street is just
+to the north from here.  To the south, Clay Road continues 
+towards the southern city wall, not far away.  A nicely 
+built building with an exquisite architecture is to the 
+east, while the distinctive smell of tannin comes from a 
+shop from the west.
+~
+181 0 1
+E
+wall~
+The wall is high and looks hard to climb.  The guards on top 
+would knock you down long before you ever got up there, 
+though.  Oh well.
+~
+E
+building~
+A beautifully constructed shop is east of here.
+~
+E
+shop~
+There is an old shop to the west.  The door is almost falling 
+off its hinges with heavy use.
+~
+D0
+~
+~
+0 0 18103
+D1
+A beautifully constructed shop is east of here.
+~
+~
+0 0 18142
+D2
+~
+~
+0 0 18112
+D3
+There is a old shop to the west.  The door is almost falling
+off its hinges from heavy use.
+~
+~
+0 0 18141
+S
+#18114
+Trade Road~
+   The traffic on this road seems light at best, becoming
+a bit thicker to the east.  Westwards, you see the 
+intersection of Trade Road and Clay Street, which runs 
+north-south.  A large open-air building is to the north,
+and southwards is a large open lot; a fairgrounds, closed
+for the time being.
+~
+181 0 1
+E
+fairgrounds fairground lot open~
+Its a wide area, suitable for flea markets, festivals, bazaars
+and carnivals.  Right now it's closed, though.
+~
+E
+building~
+A large building with many tethering posts outside is to the 
+north.
+~
+D0
+A large building with many tethering posts outside is to 
+the north.
+~
+~
+0 0 18153
+D1
+~
+~
+0 0 18115
+D3
+~
+~
+0 0 18103
+S
+#18115
+Trade Road~
+   Trade Road seems to widen here slightly, allowing more 
+traffic to travel through the area.  You spot near-identical
+gatehouses to the east and west marking the boundries of 
+Trade Road, and this neighborhood.  To the south is a large 
+fairgrounds area, closed for the time being.  A building to 
+the north seems to be locked up tight, with a large, 'FOR 
+RENT' sign out front...
+~
+181 0 1
+E
+sign~
+It says 'For Rent'.  You would guess that the building is 
+unoccupied.
+~
+E
+building~
+It's for rent.  You can tell by the sign.  The sign says 'For 
+Rent'.
+~
+E
+gatehouse gatehouses~
+The gatehouse stands to the west, allowing entrance and exit
+through the city walls.  Approximately fifteen feet tall, the
+gates seem permanently open, allowing free passage.
+~
+E
+fairground fairgrounds~
+Its a wide area, suitable for flea markets, festivals, bazaars
+and carnivals.  Right now it's closed, though.
+~
+D1
+~
+~
+0 0 18116
+D3
+~
+~
+0 0 18114
+S
+#18116
+Trade Road~
+   Several people are walking along the road here, but they 
+seem to be avoiding you with eyes and movements for the most 
+part.  The citizenry seem quiet; depressed or merely sedentary
+you would guess.  Trade Road leads far to the west from here, 
+and there is a largish gatehouse not far to the east.  A 
+north-south running road labeled 'Staid Avenue' intersects 
+here, taking much of the traffic away from the main road to
+the south.
+~
+181 0 1
+E
+gatehouse gatehouses gate gates~
+The gatehouse stands to the west, allowing entrance and exit
+through the city walls.  Approximately fifteen feet tall, the
+gates seem permanently open, allowing free passage.
+~
+D0
+~
+~
+0 0 18118
+D1
+~
+~
+0 0 18117
+D2
+~
+~
+0 0 18126
+D3
+~
+~
+0 0 18115
+S
+#18117
+Gatehouse~
+   This is a rather large gatehouse in the city wall.  Through
+the gates you can see Trade Road.
+
+The gate looks to be a good defensible point in the city wall,
+an architectural artifact of more dangerous times in these 
+realms.  Westwards a large road leads through Trade Road.
+~
+181 0 1
+E
+gate gates~
+Big and steel.  These gates were meant to keep people out.  
+They look like they'd do a good job.
+~
+E
+wall~
+The wall stands high and proud.  Guards walk along its length 
+on top, looking out for the safety of the city, and intruders.
+Makes you feel safe, somehow.
+~
+D1
+~
+~
+0 0 316
+D3
+~
+~
+0 0 18116
+S
+#18118
+Staid Avenue~
+   This is Staid Avenue, just north of where it intersects
+Trade Road.  The neighborhood here seems fairly low-class, 
+but not unliveable by any means.  Most of the buildings
+seem to be low cost housing for the common populace of
+Trade Road; making you guess there is a very high population
+density in this area.
+~
+181 0 1
+D0
+~
+~
+0 0 18119
+D2
+~
+~
+0 0 18116
+S
+#18119
+Staid Avenue~
+   Staid Avenue continues through the city here, and to the 
+north you spot another intersection of roads.  There seems to 
+be many buildings used as domiciles in this area.  You 
+wouldn't exactly call this neighborhood a 'bad' neighborhood 
+yet, but the potential is certainly there.
+~
+181 0 1
+E
+buildings building~
+The seem to be low-class, low-quality, and heavily used.
+~
+D0
+~
+~
+0 0 18120
+D2
+~
+~
+0 0 18118
+S
+#18120
+Harple Road~
+  The street sign identifies this east-west road to be 'Harple
+Road'.  Staid Avenue leads south from here towards Trade Road
+and the southern section of Trade Road.  Harple Road seems to run
+along part of the length of the wall here, lined with 
+apartment buildings and a few duplexed houses.  To the north 
+is one particularly bad looking boarding house.
+~
+181 0 1
+E
+building buildings~
+Tenements, apartments, and boarding houses.  (oh my!)
+~
+E
+boarding house~
+Its a nasty, ugly, run-down boarding house to the north.
+~
+D0
+There is a boarding house to the north.
+~
+~
+0 0 18143
+D1
+~
+~
+0 0 18122
+D2
+~
+~
+0 0 18119
+D3
+~
+~
+0 0 18121
+S
+#18121
+Harple Road~
+   This, the western section of Harple Road, is bordered by 
+the large, divided buildings and houses typical of this 
+section of town.  Idly, you notice an amazing lack of the 
+graffiti typical of other large, heavily populated towns in 
+this neighborhood.  Seems as if the average populace in 
+Trade Road is considerably more well-behaved than most other 
+places.
+~
+181 0 1
+E
+buildings building house houses~
+Its not a very nice place to visit, and you wouldn't want
+to live here.
+~
+D0
+An ordinary house is to the north.
+~
+~
+0 0 18147
+D1
+~
+~
+0 0 18120
+D3
+~
+~
+0 0 18123
+S
+#18122
+Harple Road~
+   Harple Road runs erratically here, the buildings on either 
+side seemingly crooked and warped by the uneven ground.  Just 
+to the west Staid Avenue runs south from Harple, towards Trade
+Road.  The neighborhood seems quiet, pensive even.  Strange...
+~
+181 0 1
+D0
+A normal-looking house is to the north.
+~
+~
+0 0 18145
+D2
+A normal-looking home is to the south.
+~
+~
+0 0 18146
+D3
+~
+~
+0 0 18120
+S
+#18123
+Harple Road~
+   This is the western end of Harple Road.  To the west you 
+can see where Staid Avenue leads south from Harple not far 
+from here.  There doesn't seem to be much going on around 
+here at all...a very calm neighborhood.
+~
+181 0 1
+D1
+A private home is to the east.
+~
+~
+0 0 18121
+D2
+Another standard home is south.
+~
+~
+0 0 18148
+D3
+An alley leading west.
+~
+~
+0 0 18124
+S
+#18124
+Alley~
+   This is a back alley near Harple Road that leads to the 
+south.  A putrid stench puts you off for a moment; the alley 
+is filled with garbage and human wastes.  Breathing through 
+your mouth makes it a little more tolerable, but not by much. 
+The buildings to either side of you rise high up, cutting off 
+most of the light available from the sky.  The stench and 
+darkness raises your hackles, and you shiver involuntarily.
+~
+181 0 1
+E
+garbage trash waste wastes~
+Human sewage.  Yuck.
+~
+E
+buildings building~
+They loom, tall and spooky over you.
+~
+D1
+Harple Road runs to the east.
+~
+~
+0 0 18123
+D2
+~
+~
+0 0 18125
+S
+#18125
+Alley~
+   This is the southern end of an alley that connects with 
+Clay Street to the west.  An ill wind ruffles your hair from 
+the north, carrying a smell of sewage, of rot, sickness and 
+decomposition.  Your stomach squirms like a live animal in 
+your gut, making you feel distinctly uneasy.
+~
+181 0 1
+D0
+~
+~
+0 0 18124
+D3
+The north end of Clay Street is to the west.
+~
+~
+0 0 18107
+S
+#18126
+Staid Avenue~
+   Staid Avenue heads south from Trade Road towards the river.
+The quality of the shops and buildings in this area are 
+getting noticeably worse now, and the litter in the street is 
+getting thicker the farther south you go.
+~
+181 0 1
+E
+river~
+The river flows by grandly, only slightly polluted by the
+city and its populace.  Looks nice, but get your drinking
+water from upstream.
+~
+E
+litter~
+You see numerous copies of newbie pamplets.  Damn newbies!
+~
+E
+shop shops building buildings~
+They're getting noticeably worse now.
+
+You have a sudden attack of deja vu.
+~
+D0
+~
+~
+0 0 18116
+D1
+~
+~
+0 0 18149
+D2
+~
+~
+0 0 18127
+S
+#18127
+Staid Avenue~
+   You are near the southern end of Staid Road, where it 
+intersects Klelk Boulevard near the river.  The neighborhood 
+seems to be getting worse and worse the closer to the river 
+you actually get.  Westwards is an open shop with a monstrous 
+anchor out in front being used for a tethering post.
+~
+181 0 1
+E
+river~
+The river flows by grandly, only slightly polluted by the
+city and its populace.  Looks nice, but get your drinking
+water from upstream.
+~
+E
+shop~
+A small shop is to the west.
+~
+D0
+~
+~
+0 0 18126
+D2
+~
+~
+0 0 18128
+D3
+A small shop is to the west.
+~
+~
+0 0 18150
+S
+#18128
+Klelk Boulevard~
+   Klelk Boulevard runs here parallel to the river's edge.  
+To the east you see the docks jutting out into the water,
+its wooden planks well-used by the crews of the trading ships 
+that load and unload every day.  Lining the street on the 
+north side of Klelk in both directions you see some of the
+typical dives you would expect close to the waterfront.  North
+from here Staid Avenue heads towards Trade Road and the 
+central areas of the city.
+~
+181 0 1
+E
+river~
+The river flows by grandly, only slightly polluted by the
+city and its populace.  Looks nice, but get your drinking
+water from upstream.
+~
+E
+dock docks~
+The docks just out into the river for passing ships to
+moor against.  They're just to the south-east.
+~
+E
+dive dives~
+There's a tavern to the north west from here.
+~
+D0
+~
+~
+0 0 18127
+D1
+~
+~
+0 0 18133
+D3
+~
+~
+0 0 18129
+S
+#18129
+Klelk Boulevard~
+   The city wall begins here, where the river leads slightly 
+away from the city.  The buildings here are run down, but not 
+quite condemnable yet.  On the whole, this doesn't seem like 
+a nice place to live, no matter how busy the area seems to be.
+You would guess that the sailors of the river bring money to
+this section of town; hence all the low-grade shops and 
+wayhouses, not to mention what might be called a 'tavern' 
+to the north.
+~
+181 0 1
+E
+river~
+The river flows by grandly, only slightly polluted by the
+city and its populace.  Looks nice, but get your drinking
+water from upstream.
+~
+E
+building buildings shop shops wayhouse wayhouses tavern taverns~
+A horrible, disgusting tavers is to the north.  It's open.
+~
+D0
+A horrible, disgusting tavern is to the north.  It's open 
+though.
+~
+~
+0 0 18152
+D1
+~
+~
+0 0 18128
+D3
+~
+~
+0 0 18130
+S
+#18130
+Klelk Boulevard~
+   Klelk Boulevard ends here, right up against the curving 
+city wall.  The wall is especially high here, perhaps to 
+protect the guards above from the rabble below.  The wall is 
+stained with trash and refuse, obviously missed shots at the 
+guards patrolling on the top...
+~
+181 0 1
+E
+wall~
+The wall stands high and proud.  Guards walk along its length 
+on top, looking out for the safety of the city, and intruders.
+Makes you feel safe, somehow.
+~
+D0
+There seems to be an alley to the north...
+~
+~
+0 0 18131
+D1
+~
+~
+0 0 18129
+S
+#18131
+Alley~
+   This small alley seems well traveled.  Tracks in the dust 
+and dirt lead through, in all directions.  The alley continues
+to the west, and south you see Klelk Boulevard.
+~
+181 0 1
+D2
+You spot Klelk Boulevard to the south.
+~
+~
+0 0 18130
+D3
+~
+~
+0 0 18132
+S
+#18132
+Alley~
+   This is a small alley, dusty and forgotten.  A few lone 
+pieces of assorted junk lie about, unwanted and thrown away.  
+This alley seems not to be travelled at all, or used for 
+trash and refuse.  The path between buildings continues to 
+the east, and west is an opening up onto Clay Street.
+~
+181 0 1
+E
+junk~
+Broken furniture, paper trash, and even an old shattered 
+prosthetic arm.  Junk.
+~
+D1
+~
+~
+0 0 18131
+D3
+The southern end of Clay Street is to the west.
+~
+~
+0 0 18112
+S
+#18133
+Klelk Boulevard~
+   Klelk Boulevard ends here abruptly.  It appears that there 
+used to be more to the east, but fresh mortarwork extends the 
+wall right through the road.  To the south are the city docks,
+extending into the swiftly flowing river.  A lone ship sails 
+past, travelling eastward and sporting a merchant's flag.  A 
+ruined building nearly stands to the north.
+~
+181 0 1
+E
+mortarwork wall~
+Looks fresh.  It also looks hastily built...to keep something
+out, or in?
+~
+E
+ship~
+It sails out of sight as you watch.
+~
+E
+dock docks~
+There is a maze of wooden docks to the south.
+~
+D0
+What appears to have once been a shop is to the north.
+~
+~
+0 0 18151
+D2
+There is a maze of wooden docks to the south.
+~
+~
+0 0 18134
+D3
+~
+~
+0 0 18128
+S
+#18134
+City Docks~
+   Wooden gangways and delicate rope bridges form a warren of 
+ship and dock, wood, water, and hemp.  The docks are small--
+much too small for how many water vessels seem to pass by this
+way.  One large ship is docked well away from the other boats,
+an odd sigil marked on its side in the place of a name.  Its 
+gangway is up right now, however...no entrance today.
+~
+181 0 5
+E
+ship~
+Its a nice ship, well taken care of.
+~
+E
+boat boats~
+Fishing boats and the ilk.  Nothing of interest.
+~
+E
+dock docks~
+The wooden planks are well-worn.  Looks like it's time to
+build a new set of docks...
+~
+E
+river~
+The river flows by grandly, only slightly polluted by the
+city and its populace.  Looks nice, but get your drinking
+water from upstream.
+~
+E
+sigil~
+replace this.
+~
+D0
+Klelk Boulevard is to the north.
+~
+~
+0 0 18133
+D2
+~
+~
+0 0 3200
+S
+#18135
+Butcher's Shop~
+   A somewhat unpleasant smell strikes your nose as you walk 
+through the open screen door of the shop.  The scent of raw 
+meat, blood and sweat are clearly noticable; standard for a 
+good butchery shop.  A glass panel separates you from a 
+bewildering array of various slabs and shoulders of beef, 
+deer, rabbit, and others.  A sign hangs nearby, wooden numbers
+hanging from it on a large nail...take a number?
+~
+181 8 0
+E
+meat slabs slab meats shoulder shoulders beef deer rabbit~
+Looks good, if you like raw meat.
+~
+E
+panel glass~
+You believe this is called a 'sneeze guard'.
+~
+E
+blood~
+Blood is splattered on the countertop and floor.  What
+were you expecting from a butchery shop?
+~
+E
+sign number numbers~
+Next number on the sign is number 4.  That's not too
+long of a wait...
+~
+D2
+This shop steps out onto Trade Road to the south.
+~
+~
+0 0 18102
+S
+#18136
+Jeweller's~
+   A few strategically placed lanterns keep this shop well-lit
+in the absence of any windows.  Surprisingly, there is only a 
+plain bench with a few chairs in the shop; you see absolutely 
+nothing to buy at all!  As you observe, it slowly becomes 
+clear that this merchant's method of sale consists of having 
+the customer describe what they want, whereupon the merchant 
+brings something similar from the back through a large metal
+door.  This strikes you as a fairly inefficient method of 
+shop-keeping, but very secure.  
+~
+181 8 1
+E
+lantern lanterns~
+Your standard lantern, available for a pittance at your
+local General Store.
+~
+E
+bench chair chairs~
+Normal looking wooden furniture.  That's all.
+~
+E
+door metal south back backroom~
+It's locked, and you don't see a keyhole.  Strange...
+~
+D0
+Trade Road runs right outside.
+~
+~
+0 0 18102
+S
+#18138
+Rubble and Ruin~
+   You follow a path through the rocks and mortar to what was 
+once the center of the church.  A few old apple cores and a 
+broken wooden truck tell tales of this area being a playground
+for children now, but the ancient, broken stonework around 
+stand testament to a better age.  For a moment, your 
+imagination calls images forth of a dynamic pulpit and a full 
+set of pews around you...images quickly shattered by the 
+rustle of your clothing in the wind and a distant sound of 
+someone talking on the street.  A sense of sadness consumes 
+you as you stand here, and then you turn to go.
+~
+181 4 4
+E
+truck broken wooden~
+   Looks like a toy made with loving care, now shattered by 
+carelessness.
+~
+E
+mortar stonework rock rocks~
+Evidence of a grand church, and grander catastrophe.
+~
+E
+apple core cores~
+A few hours old, not more than that.
+~
+D1
+~
+~
+0 0 18108
+S
+#18139
+Brewery~
+    Barrels of beer and wine are stacked high against the 
+walls, waiting to be shipped out to various taverns 
+everywhere.  The smell of fermentation is strong in the air, 
+and the floorboards of the brewery are permanently stained 
+brown and red from spilled alcohol.  Various signs with 
+exciting slogans are scattered around the area, obviously
+for the worker's morale.  You also notice that several barrels
+are open for the employees enjoyment.  The owner of this 
+establishment is obviously no terrible taskmaster!
+~
+181 8 0
+E
+sign signs~
+DON'T WORRY, BE HAPPY.  DRINK SOME BEER.
+~
+E
+barrel barrels beer wine~
+There's a lot of alcohol here.  This brewery puts out a lot
+of fluid...enough to keep several tavern in brew.
+~
+E
+floorboard floorboards board boards floor~
+Big stains and little stains.  The workers look at you
+funny as you spend time examining the floor...
+~
+D2
+Clay Street is right outside here.
+~
+~
+0 0 18107
+S
+#18140
+Sakifan's Library~
+   BOOKS!
+   Shelves of books, piles of books, walls of books, stacks of
+books!  You boggle at the sheer mass of paper and ink 
+surrounding you in this shopfor a moment.  If its in print, 
+it's probably here...somewhere.  Looking around, you realize 
+that's the key; finding what you need in these mounds and 
+mountains of mess.
+~
+181 8 0
+E
+book books shelf shelves stack stacks~
+"The Ways of Poke-Fu" "How to train a seagull" "Elementary 
+Elementals" "Dwarven Rituals" "An annotated history of Trade Road" 
+"The art of pleasing a man"
+
+The last makes you blush a little bit, and you try not to 
+obviously look at it.
+~
+D0
+Clay Street is just to the north.
+~
+~
+0 0 18106
+S
+#18141
+Leatherworker's Shop~
+   The smell of old tannin wafts through the air in this shop.
+A large countertop runs along the length of three of the 
+interior walls, with many strips and bits of leather are lying
+on it in various stages of completion.  Many finished products
+are hanging on the walls, awaiting a buyer.
+~
+181 8 0
+E
+countertop~
+It's a plain wooden countertop about waist high.
+~
+E
+strips strip bit bits leather~
+Some look half-finished, the others look barely off the cow...
+~
+E
+finished finish products~
+Not bad, not bad at all...for leather.
+~
+D1
+Clay Street runs north-south right outside.
+~
+~
+0 0 18113
+S
+#18142
+Ceran's Contracting~
+   This shop consists simply of a large wooden desk with a few
+chairs sitting in front of it.  Along the walls are renderings
+of many of Trade Road's buildings, and in the corner is an easel 
+with sketchings of what looks to be a large trade center.  The
+air seems cooler in here than anywhere else, and you feel a 
+faint draft from the ceiling.
+~
+181 8 0
+E
+desk chair chairs~
+Standard pieces of wooden furniture.  What were you expecting?
+~
+E
+rendering renderings picture pictures sketching sketchings~
+The sketchings are drawn with exquisite care.  The buildings
+depicted were designed almost as well.
+~
+E
+easel trade center~
+Looks nice.  One problem, though....
+
+Looks like its planned to be built right over top a bunch
+of apartment houses.  You guess this is 'progress'.
+~
+D3
+Clay Street is right outside.
+~
+~
+0 0 18113
+S
+#18143
+Boarding House~
+   This room serves as the main entrance and lobby for this 
+run-down boarding house.  The wooden walls are stained with 
+rot and gods know what else.  The floors are even worse.  A 
+rickety old desk stands near the interior door, with a torn 
+and ripped ledger book on it.  The air seems humid with sweat 
+and desperation, making you feel distinctly uncomfortable.
+~
+181 12 0
+E
+walls floors desk floor wall~
+Dirty.  Grungy.  Rotted.  Stained.  Damaged.  Defaced.  Awful.
+~
+E
+ledger book~
+There's only one page left in the book.  So many people have 
+signed it that it is now illegible.
+~
+D0
+~
+~
+0 0 18144
+D2
+Harple Road runs by right outside.
+~
+~
+0 0 18120
+S
+#18144
+Hallway~
+   This hallway runs the length of the building, with several 
+small rooms splitting off from it at regular intervals.  One 
+ajar door lends you a glimpse into the tiny, tiny rooms; room 
+enough for one bed, one chest of drawers, and one person to 
+stand.  There seems to be plenty of room for dirt and grunge, 
+however.  Looking around, you see no reason to enter the tiny 
+rooms.  The lobby to the south is the only exit of interest.
+~
+181 8 0
+E
+dirt grunge~
+What exactly were you expecting to find?
+~
+E
+bed chest drawer drawers~
+These must be sec..er..thir...err..fourth hand furniture?
+~
+E
+room rooms~
+Tiny, tiny things.  Sleeping in one would be a cramped affair
+to say the least!
+~
+D2
+~
+~
+0 0 18143
+S
+#18145
+A private home~
+   This seems to be a rather small, well-lived in home.  From
+the outside it looks exactly the same as many of the other 
+houses typical of this neighborhood of Trade Road, but on the 
+inside -- well, ok, it looks the same as all the rest.  You
+see the standard trappings of family life; a careworn rocking
+chair in the corner, and a small toy truck abandoned on a 
+sitting table nearby.
+~
+181 12 0
+E
+rocking chair~
+Time- and care-worn, this chair has seen a lot of 
+grandchildren.
+~
+E
+truck toy~
+Its a very crudely crafted toy.  The wheels move, though.
+~
+D2
+Harple Road is just outside.
+~
+~
+0 0 18122
+S
+#18146
+A private home~
+   This seems to be a rather small, well-lived in home.  From
+the outside it looks exactly the same as many of the other 
+houses typical of this neighborhood of Trade Road, but on the 
+inside -- well, ok, it looks the same as all the rest.  You
+see the standard trappings of family life; a stack of wood
+in the corner for the fireplace and a few loaves of dough
+wrapped in towels to rise.
+~
+181 12 0
+E
+wood stack fireplace~
+Enough wood to last the winter, at least!
+~
+E
+dough towels loaves~
+Smells good, but it hasn't quite finished rising yet...
+~
+D0
+Harple Road is just to the north.
+~
+~
+0 0 18122
+S
+#18147
+A private home~
+   This seems to be a rather small, well-lived in home.  From
+the outside it looks exactly the same as many of the other 
+houses typical of this neighborhood of Trade Road, but on the 
+inside -- well, ok, it looks the same as all the rest.  You
+see the standard trappings of family life; a plate with the
+crumbs of the last meal lying next to an overstuffed easy
+chair that faces the window and the street beyond.
+~
+181 12 0
+E
+overstuffed easy chair~
+A very comfortable-looking chair, with enough crumbs between 
+the crevices to support a colony of roaches.
+~
+E
+plate crumb crumbs meal~
+Looks like its been picked clean by the bugs that live here.
+~
+D2
+Harple Road is just south from here.
+~
+~
+0 0 18121
+S
+#18148
+A private home~
+   This seems to be a rather small, well-lived in home.  From
+the outside it looks exactly the same as many of the other 
+houses typical of this neighborhood of Trade Road, but on the 
+inside -- well, ok, it looks the same as all the rest.  You
+see the standard trappings of family life; a half-played out
+game of checkers on a table between two stiff-backed wooden
+chairs.
+~
+181 12 0
+E
+game checkers~
+Black is winning.
+~
+E
+wooden chair chairs table~
+Homemade, but better crafted than a lot of store-bought
+furniture you've seen...
+~
+D0
+The west end of Harple Road is to the north.
+~
+~
+0 0 18123
+S
+#18149
+A private home~
+   This seems to be a rather small, well-lived in home.  From
+the outside it looks exactly the same as many of the other 
+houses typical of this neighborhood of Trade Road, but on the 
+inside -- well, ok, it looks the same as all the rest.  You
+see the standard trappings of family life; an empty bottle
+of ale holding a copy of the Trade Road city news down in the
+draft.
+~
+181 12 0
+E
+bottle empty ale~
+The label reads:
+
+'Mystic Brew'
+
+and not much else.
+~
+E
+news copy Trade Road~
+It's old.  You'd be better off typing 'News' and reading the
+newest version.
+~
+D3
+Staid avenue is just to the west.
+~
+~
+0 0 18126
+S
+#18150
+Ship Shop~
+   This shop is decorated with ropes and nets along the walls.
+On second thought, you realize that the ropes and nets are the
+shop's wares, along with many other various useful sailing 
+equipment.  The shopkeeper's desk is a simple plank of wood 
+laid across two small anchors...this place has a definite 
+atmosphere!  An open window to the river lets the breeze over
+the river into the shop to ruffle your hair gently.
+~
+181 8 0
+E
+rope ropes net nets equipment anchor anchors~
+Nice stuff, affordably priced for the sailor's active
+budget.  You wonder if you could use anything here...
+~
+E
+river~
+The river flows by grandly, only slightly polluted by the
+city and its populace.  Looks nice, but get your drinking
+water from upstream.
+~
+D1
+This shop is right on Staid Avenue to the east.
+~
+~
+0 0 18127
+S
+#18151
+Wrecked Shop~
+   This appears to have once been some sort of dry-goods shop.
+You step lightly through the moldy spilled grain and 
+broken barrels to take a look around.  This place has been 
+utterly trashed; your first guess would be goblins, your 
+second, drunk sailors.  Considering the area, drunk sailors
+would probably be your best bet.  There's nothing here 
+anymore, nothing at all.
+~
+181 12 0
+E
+grain barrel barrels~
+Useless.  Trashed.
+~
+D2
+Klelk Boulevard runs beside the river to the south.
+~
+~
+0 0 18133
+S
+#18152
+Grebe's Tavern~
+    Dive.  That's all you can say about this place; its a 
+dive.  You step carefully over the dead and/or drunk sailors 
+on the floor toward the center of the room.  There's no 
+decorations on the wall; they've all been ripped down in anger
+or for use as weapons at one time or another.  Looking around,
+you search vainly for a clean table to sit at, and then give 
+up.
+~
+181 8 0
+E
+table tables~
+You find a table that's relatively vomit-free.
+~
+E
+wall walls~
+Bare, except for the holes.
+~
+D2
+Klelk Boulevard is to the south.
+~
+~
+0 0 18129
+S
+#18153
+Trading Post~
+   Bolts of cloth and barrels of spices stand in monstrous 
+heaps, arranged in a chaotic haphazard of valuble trade goods.
+As you watch, a small man enters from the back room, grabs a 
+box of something unidentifiable, and leaves just as quickly.  
+A schedule on the wall keeps track of the caravans and ships 
+passing through the city -- very important information for a 
+merchant.
+~
+181 8 0
+E
+bolt bolts cloth~
+Nice material...would make a good shirt.
+~
+E
+barrel barrels spice spices~
+Smells good.  Real....spicy.
+~
+E
+trade good goods~
+The tradesman says, 'May I help you sirrah?'
+~
+E
+schedule~
+Looks like another caravan from the east is due in any day now...
+~
+D2
+Trade Road runs by outside.
+~
+~
+0 0 18114
+S
+#99999
+
+#RESET
+M 0 18100   1 18110   the Madman (Alley)
+E 1 18100 1000    16     the Madman's Knife
+M 0 18101   6 18110   the rat (Alley)
+M 0 18101   6 18110   the rat (Alley)
+M 0 18101   6 18132   the rat (Alley)
+M 0 18101   6 18105   the rat (Alley)
+M 0 18101   6 18125   the rat (Alley)
+M 0 18101   6 18124   the rat (Alley)
+M 0 18102   1 18141   The Leatherworker (Leatherworker's Shop)
+E 1 18101 1000    17     an Awl
+G 1 18105 1000             a pair of Leather Boots
+G 1 18106 1000             a Leather Tie
+G 1 18107 1000             a Leather Jacket
+G 1 18108 1000             a pair of Leather Gloves
+M 0 18103   1 18136   The Jeweller (Jeweller's)
+G 1 18109 1000             a Sapphire
+G 1 18110 1000             an Emerald
+G 1 18111 1000             a Diamond
+M 0 18104   1 18135   The Butcher (Butcher's Shop)
+E 1 18103 1000    16     a Huge Meat Cleaver
+G 1 18112 1000             a slab of beef
+G 1 18113 1000             a haunch of mutton
+G 1 18114 1000             a deer steak
+M 0 18105   1 18140   Sakifan (Sakifan's Library)
+M 0 18106   1 18139   the Brewermaster (Brewery)
+M 0 18107   1 18142   Ceran (Ceran's Contracting)
+E 1 18102  10    17     a T-Square
+M 0 18108   1 18152   Grebe (Grebe's Tavern)
+G 1 18119 1000             a glass of beer
+G 1 18120 1000             a glass of mead
+G 1 18121 1000             a shot of whiskey
+M 0 18109   1 18150   the Sailor-Merchant (Ship Shop)
+E 0 18104  50     6     an earring
+G 1 18115 1000             a coil of rope
+G 1 18116 1000             an anchor
+G 1 18117 1000             a net
+G 1 18118 1000             a fishhook
+G 1 18123 1000             a kayak
+M 0 18110   1 18143   the Landlord (Boarding House)
+M 0 18111  10 18100   the Cityguard (Gatehouse)
+E 1 18122 1000    16     a long sword
+M 0 18111  10 18100   the Cityguard (Gatehouse)
+E 1 18122 1000    16     a long sword
+M 0 18111  10 18100   the Cityguard (Gatehouse)
+E 1 18122 1000    16     a long sword
+M 0 18111  10 18117   the Cityguard (Gatehouse)
+E 1 18122 1000    16     a long sword
+M 0 18111  10 18117   the Cityguard (Gatehouse)
+E 1 18122 1000    16     a long sword
+M 0 18111  10 18117   the Cityguard (Gatehouse)
+E 1 18122 1000    16     a long sword
+M 0 18111  10 18116   the Cityguard (Trade Road)
+E 1 18122 1000    16     a long sword
+M 0 18111  10 18103   the Cityguard (Trade Road)
+E 1 18122 1000    16     a long sword
+M 0 18111  10 18120   the Cityguard (Harple Road)
+E 1 18122 1000    16     a long sword
+M 0 18111  10 18120   the Cityguard (Harple Road)
+E 1 18122 1000    16     a long sword
+M 0 18112   4 18139   the Brewery Worker (Brewery)
+M 0 18112   4 18139   the Brewery Worker (Brewery)
+M 0 18112   4 18139   the Brewery Worker (Brewery)
+M 0 18112   4 18139   the Brewery Worker (Brewery)
+M 0 18113   3 18144   the Boarder (Hallway)
+M 0 18113   3 18144   the Boarder (Hallway)
+M 0 18113   3 18143   the Boarder (Boarding House)
+M 0 18114   4 18127   the Citizen (Staid Avenue)
+M 0 18114   4 18107   the Citizen (Clay Street)
+M 0 18114   4 18121   the Citizen (Harple Road)
+M 0 18114   4 18114   the Citizen (Trade Road)
+M 0 18115   4 18102   the Citizen (Trade Road)
+M 0 18115   4 18113   the Citizen (Clay Street)
+M 0 18115   4 18118   the Citizen (Staid Avenue)
+M 0 18115   4 18115   the Citizen (Trade Road)
+M 0 18116   1 18153   the Trader (Trading Post)
+M 0 18117   1 18145   the Old Woman (A private home)
+M 0 18118   1 18145   the Young Boy (A private home)
+M 0 18119   1 18146   the Housewife (A private home)
+M 0 18120   1 18147   the Slob (A private home)
+M 0 18121   2 18148   the Old Man (A private home)
+M 0 18121   2 18148   the Old Man (A private home)
+M 0 18122   1 18149   the Bachelor (A private home)
+S
+
+#SHOPS
+#47 Leatherworker worker (Leatherworker's Shop)
+18105
+18106
+18107
+18108
+-1
+1.100000
+1.000000
+-1
+%s I haven't made any of those lately, but I'll consider it.~
+%s I don't buy used leather.  Try a pawnshop.~
+%s I don't buy used leather.  Try a pawnshop.~
+%s I don't buy used leather.  Try a pawnshop.~
+%s You can't afford this.  I'm sorry.~
+%s That will cost you %d gold coins.~
+%s I don't buy used leather.  Try a pawnshop.~
+1
+1
+18102
+0
+18141
+8
+17
+8
+17
+#48 Jeweller (Jeweller's)
+18109
+18110
+18111
+-1
+1.300000
+0.700000
+8
+-1
+%s I don't have any of those!~
+%s Are you sure you have one of those?~
+%s Yes, but do you have any valuble gems or jewels?~
+%s I'd love to, but tomorrow the rent is due.~
+%s We don't have a layaway plan, sorry.~
+%s That will run %d gold coins.~
+%s How about %d gold coins?~
+0
+1
+18103
+0
+18136
+8
+17
+8
+17
+#49 Butcher (Butcher's Shop)
+18112
+18113
+18114
+-1
+1.100000
+1.000000
+-1
+%s Whah kind of ammynal iz dat?~
+%s I sells meats.  I no buyz meats.~
+%s I sells meats.  I no buyz meats.~
+%s I sells meats.  I no buyz meats.~
+%s Gold coinz!  I ownly take gold coins!~
+%s That costses you %d golds.~
+%s I sells meats.  I no buyz meats.~
+1
+0
+18104
+0
+18135
+7
+18
+7
+18
+#50 Sailor Merchant Sailor-Merchant (Ship Shop)
+18115
+18116
+18117
+18118
+18123
+-1
+1.200000
+0.800000
+-1
+%s I don't have that.~
+%s You don't have that.~
+%s I don't buy those.~
+%s I won't buy that.~~
+%s You can't buy that.~
+%s That's %d gold.~
+%s Here's %d gold.~
+1
+0
+18109
+0
+18150
+0
+28
+0
+0
+#51 Grebe bartender (Grebe's Tavern)
+18119
+18120
+18121
+-1
+1.100000
+1.000000
+-1
+%s I don't have that on tap, putz!~
+%s I only buy from the distributor, dwick!~
+%s I only buy from the distributor, dwick!~
+%s I only buy from the distributor, dwick!~
+%s Get some cash, you flaming newbie!~
+%s Gimme %d gold first!~
+%s I only buy from the distributor, dwick!~
+1
+0
+18108
+0
+18152
+1
+24
+1
+24
+$
+#END of Trade Road.

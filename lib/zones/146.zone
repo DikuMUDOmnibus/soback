@@ -1,0 +1,927 @@
+#146 Zone.
+NAME       : South castle~
+INFO       : 중급레벨을 위한 exp 존.~
+PATH       : Temple 에서 d.2s.3w.5s~
+ALIGN      : 2
+AGGRESSIVE : 0
+LEVEL      : 5 ~ 28
+MAX        : 14699
+LIFESPAN   : 30
+RESET      : 2
+
+#MOBILES
+#14601
+king Tephes tephes~
+Tephes, the King~
+Tephes, the Owner of this castle is standing here.
+~
+King Tephes.
+
+The strong warrior in the southern world.
+
+~
+266 136 -500 S
+30 -4 -12 2d5+2100 2d2+29
+10000 290000
+8 8 1
+#14602
+queen Queen~
+Queen~
+Queen looks lovely. standing here.
+~
+~
+524298 8 -700 S
+25 0 -8 2d5+1000 2d2+20
+10000 95000
+8 8 2
+#14603
+guard Guard~
+Castle guard~
+A castle guard is walking around here.
+~
+says:
+" 
+Do not be rude to me. You can be killed by a blow of mine.
+I'm proud of our King Tephes.
+He is the greatest king in the world."
+~
+72 0 -300 S
+16 8 -2 2d5+400 1d3+17
+0 23000
+8 8 1
+#14604
+soldier Soldier~
+Castle soldier~
+A castle soldier stands here on the alert.
+~
+Get away Boy!
+This is not the place for you chicken.
+~
+72 0 -300 S
+17 9 -2 2d5+500 1d3+18
+0 25000
+8 8 1
+#14605
+peasant~
+Peasant~
+A peasant stands here.
+~
+Work hard. Wasting time is the worst sin in the world.
+~
+72 0 0 S
+13 10 0 2d5+300 1d3+15
+5000 10000
+8 8 1
+#14606
+merchant~
+Merchant~
+A merchant is walking around here.
+~
+Gather coins !!
+Money is stronger than the pen.
+~
+72 0 0 S
+17 9 -2 2d5+800 1d3+17
+15000 25000
+8 8 1
+#14607
+thief pilferer~
+Thief~
+A dirty thief is here, looking at your coins.
+~
+Merong!!!! 약오르지요?
+~
+2268 524298 -800 S
+5 16 6 2d5+60 1d3+7
+100 1000
+8 8 1
+#14608
+lady~
+Lady~
+A beautiful lady is walking around here.
+~
+I like Rose .
+~
+72 0 0 S
+5 16 6 2d5+50 1d3+4
+1000 400
+8 8 2
+#14609
+mage~
+Powerful Mage~
+A Mage studies spells here.
+~
+utters , "Omni Budaya namakrosite"
+~
+522 2186 -200 S
+25 0 -8 2d5+1185 1d3+25
+10000 100000
+8 8 1
+#14610
+scholar~
+Learned scholar~
+A learned scholar studies about the nature.
+~
+You are a fool, I believe.
+~
+522 2186 -200 S
+25 0 -8 2d5+1185 1d3+24
+1 95000
+8 8 1
+#14611
+killer drik~
+Drik, the notorious killer~
+Drik, the notorious killer stares at the sky.
+~
+CALM
+~
+16554 17301504 -900 S
+25 0 -8 2d5+1200 1d3+29
+0 120000
+8 8 1
+#14612
+weaponmaster master~
+Weaponmaster~
+Weaponmaster looks around here to find solid matrials.
+~
+.....
+~
+10 17301504 -200 S
+25 0 -8 2d5+1100 1d3+28
+10000 100000
+8 8 1
+#99999
+
+#OBJECTS
+#14601
+silver dagger~
+Glintting silver dagger~
+A glintting silver dagger is lying here.~
+~
+5 2 8193
+0 3 4 11
+10 10000 0 10
+#14602
+knee band~
+Leather knee band~
+A leathre knee band is lying here.~
+~
+9 4098 65537
+3 0 0 0
+7 50000 0 10
+A
+2 1
+#14603
+arm protecter~
+Leather arm protecter~
+A leather arm protecter is lying here.~
+~
+9 4098 257
+4 0 0 0
+8 5000 0 10
+A
+18 1
+#14604
+shield bronze~
+Bronze shield~
+A shield made of bronze is lying here.~
+~
+9 4098 513
+7 0 0 0
+12 1000 0 10
+#14605
+plates war~
+War plates~
+War plates are lying here.~
+~
+9 4098 131073
+2 0 0 0
+12 20000 0 10
+A
+18 1
+#14606
+magic key~
+Magic key~
+A magic key is lying here calmy.~
+~
+18 4098 1
+0 0 0 0
+9 10000 0 10
+#14607
+jail key~
+Jail key~
+A key is lying here.~
+~
+18 4098 1
+0 0 0 0
+9 1000 0 10
+#99999
+
+#ROOMS
+#14601
+The entrance gate to the castle~
+This huge gate shows the prosperity of the this castle.
+You can hear guards whistling on the watchtower which lies to the northwest.
+A sign hanging on one side of the brick wall.
+~
+146 0 2
+D0
+~
+~
+0 -1 3127
+D2
+~
+~
+0 -1 14616
+S
+#14602
+Throne Room~
+A Large shinney Room here. In the middle of this room, A marble throne sits.
+And the waxed wooden floor makes you feel warm. On the wall in front of you,
+A portrait of the first owner of this castle is hanging.
+~
+146 0 2
+D5
+~
+~
+0 -1 14605
+S
+#14603
+Weapons storeroom~
+The king of this castle stores his weapons here when he rests. Now Empty.
+This rooms is somewhat dark compared with the another rooms.
+~
+146 1 2
+D2
+~
+~
+0 -1 14605
+S
+#14604
+Treasure Room~
+What a beautiful room here! Each side of the walls are painted with gorgeous colours and the floors is glintting gold.
+~
+146 0 2
+D1
+~
+~
+0 -1 14605
+S
+#14605
+The luxurious stairway~
+The luxurious stairway leads you to the throne.    
+You can go north,west,south,up,down from here. 
+~
+146 0 2
+D0
+~
+~
+0 -1 14603
+D2
+~
+~
+0 -1 14606
+D3
+~
+~
+0 -1 14604
+D4
+~
+~
+0 -1 14602
+D5
+~
+door~
+1 0 14617
+S
+#14606
+A study~
+The king reads some bookes here when he are not in a battle field.
+the open windows supply the fresh air of the outer field.
+~
+146 0 2
+D0
+~
+~
+0 -1 14605
+S
+#14607
+The top level of watchtower~
+You can see the obscure image of the Grand Knight's tower to the north
+from here.  
+~
+146 0 2
+D2
+~
+~
+0 -1 14609
+S
+#14608
+Mage's study~
+The powerful mage Krone's room.
+It smells bad, sometimes you can hear the roaring of thunder in the skies 
+through the open windows.
+~
+146 0 2
+D1
+~
+door~
+1 0 14609
+S
+#14609
+Guard room~
+Many guards are wlking around here.
+~
+146 0 2
+D0
+~
+~
+0 -1 14607
+D3
+~
+door~
+1 0 14608
+D5
+~
+~
+0 -1 14610
+S
+#14610
+Stairs~
+The stairway leads you up to the top levels of this watchtower.
+~
+146 0 2
+D1
+~
+~
+0 -1 14611
+D4
+~
+~
+0 -1 14609
+S
+#14611
+Corridor~
+It is very plain here, probably to keep it easy to move in.
+~
+146 0 2
+D3
+~
+~
+0 -1 14610
+D5
+~
+~
+0 -1 14613
+S
+#14612
+Fountain~
+The marvelous fountain lies here.
+A few trees are standing here and on the branches of them The birds are 
+singing happily.
+~
+146 0 2
+D1
+~
+~
+0 -1 14613
+D2
+~
+~
+0 -1 14615
+S
+#14613
+Under the tower~
+You are under one of the watchtowers. It is rather dark here, but still 
+light enough to see. There is ladder leading upward in the middle of the room.
+~
+146 0 2
+D3
+~
+~
+0 -1 14612
+D4
+~
+~
+0 -1 14611
+S
+#14614
+The Scholar's Room~
+This room looks humble. Book shelves fill all the room and many books 
+are there. the books cover many parts of sociology, economy, mathematics, etc.
+~
+146 0 2
+D2
+~
+~
+0 -1 14617
+S
+#14615
+Wall Road~
+This Road leads north & south.
+At each side of road many trees boast their opulent leaves.
+~
+146 0 2
+D0
+~
+~
+0 -1 14612
+D2
+~
+~
+0 -1 14619
+S
+#14616
+Wall Road~
+This Road leads north & south.
+At each side of road many trees boast their opulent leaves.
+~
+146 0 2
+D0
+~
+~
+0 -1 14601
+D2
+~
+~
+0 -1 14622
+S
+#14617
+The luxurious stairway~
+This stairway is the way to the king's tower. The tower shows you some 
+mystic image of the ancient reign.
+~
+146 0 2
+D0
+~
+~
+0 -1 14614
+D1
+~
+~
+0 -1 14618
+D4
+~
+door~
+1 0 14605
+S
+#14618
+Main street~
+The mains street of this castle.
+This street leads west & east. Many merchants, soldiers, peasants are walking
+around here.
+~
+146 0 2
+D1
+~
+~
+0 -1 14619
+D3
+~
+~
+0 -1 14617
+S
+#14619
+Cross road~
+You may go all directions north, east, west, south.
+Many people say one another about the life inside the castle and the legend 
+of the great adventurers who travel outer space of the world.
+~
+146 0 2
+D0
+~
+~
+0 -1 14615
+D1
+~
+~
+0 -1 14620
+D2
+~
+~
+0 -1 14625
+D3
+~
+~
+0 -1 14618
+S
+#14620
+Main street~
+The mains street of this castle.
+This street leads west & east. Many merchants, soldiers, peasants are walking
+around here.
+~
+146 0 2
+D1
+~
+~
+0 -1 14621
+D3
+~
+~
+0 -1 14619
+S
+#14621
+Main street~
+The mains street of this castle.
+This street leads west & east. Many merchants, soldiers, peasants are walking
+around here.
+~
+146 0 2
+D1
+~
+~
+0 -1 14622
+D3
+~
+~
+0 -1 14620
+S
+#14622
+Cross road~
+You may go all directions north, east, west, south.
+Many people say one another about the life inside the castle and the legend 
+of the great adventurers who travel outer space of the world.
+~
+146 0 2
+D0
+~
+~
+0 -1 14616
+D1
+~
+~
+0 -1 14623
+D2
+~
+~
+0 -1 14626
+D3
+~
+~
+0 -1 14621
+S
+#14623
+Main street~
+The mains street of this castle.
+This street leads west & east. Many merchants, soldiers, peasants are walking
+around here.
+~
+146 0 2
+D1
+~
+~
+0 -1 14624
+D3
+~
+~
+0 -1 14622
+S
+#14624
+Warehouse~
+Dark room.
+~
+146 0 2
+D3
+~
+~
+0 -1 14623
+S
+#14625
+Wall Road~
+This Road leads north & south.
+At each side of road many trees boast their opulent leaves.
+~
+146 0 2
+D0
+~
+~
+0 -1 14619
+D2
+~
+~
+0 -1 14627
+S
+#14626
+Wall Road~
+This Road leads north & south.
+At each side of road many trees boast their opulent leaves.
+~
+146 0 2
+D0
+~
+~
+0 -1 14622
+D2
+~
+~
+0 -1 14630
+S
+#14627
+Public square~
+There are many pubs around here. Even at night, this part is not a dark block
+cuz many lighted shops and restaurants are open.  
+
+Cheers !! 
+~
+146 0 2
+D0
+~
+~
+0 -1 14625
+D1
+~
+~
+0 -1 14628
+D2
+~
+~
+0 -1 14631
+S
+#14628
+Ruby street~
+Here lies the market through the streets.
+Many people trade items and foods. Very noisy by the shouttings of the 
+merchants and ladies.
+~
+146 0 2
+D1
+~
+~
+0 -1 14629
+D3
+~
+~
+0 -1 14627
+S
+#14629
+Ruby street~
+Here lies the market through the streets.
+Many people trade items and foods. Very noisy by the shouttings of the 
+merchants and ladies.
+~
+146 0 2
+D1
+~
+~
+0 -1 14630
+D3
+~
+~
+0 -1 14628
+S
+#14630
+Public square~
+There are many pubs around here. Even at night, this part is not a dark block
+cuz many lighted shops and restaurants are open.  
+
+Cheers !! 
+~
+146 0 2
+D0
+~
+~
+0 -1 14626
+D2
+~
+~
+0 -1 14632
+D3
+~
+~
+0 -1 14629
+S
+#14631
+Wall Road~
+This Road leads north & south.
+At each side of road many trees boast their opulent leaves.
+~
+146 0 2
+D0
+~
+~
+0 -1 14627
+D2
+~
+~
+0 -1 14633
+S
+#14632
+Wall Road~
+This Road leads north & south.
+At each side of road many trees boast their opulent leaves.
+~
+146 0 2
+D0
+~
+~
+0 -1 14630
+D2
+~
+~
+0 -1 14636
+S
+#14633
+Under the tower~
+You are under one of the watchtowers. It is rather dark here, but still 
+light enough to see. There is ladder leading upward in the middle of the room.
+~
+146 0 2
+D0
+~
+~
+0 -1 14631
+D1
+~
+~
+0 -1 14634
+D4
+~
+~
+0 -1 14641
+S
+#14634
+Silver street~
+People who live in this street suffer from the frequent haunts of thieves.
+~
+146 0 2
+D1
+~
+~
+0 -1 14635
+D3
+~
+~
+0 -1 14633
+S
+#14635
+Silver street~
+People who live in this street suffer from the frequent haunts of thieves.
+~
+146 0 2
+D1
+~
+~
+0 -1 14636
+D3
+~
+~
+0 -1 14634
+S
+#14636
+The corner of the road~
+It is rather cold here. No one seems to sojourn here long time.
+~
+146 0 2
+D0
+~
+~
+0 -1 14632
+D3
+~
+~
+0 -1 14635
+S
+#14637
+Jail~
+The notorious killers are imprisoned here.
+~
+146 1 2
+D1
+~
+jail~
+1 14607 14638
+S
+#14638
+Guard room~
+Many guards are wlking around here.
+~
+146 0 2
+D1
+~
+~
+0 -1 14639
+D3
+~
+jail~
+1 14607 14637
+S
+#14639
+The top level of watchtower~
+You can see the obscure image of the Brop's castle over the sea which lies 
+between this castle and there.
+~
+146 0 2
+D3
+~
+~
+0 -1 14638
+D5
+~
+~
+0 -1 14640
+S
+#14640
+Stairs~
+The stairway leads you up to the top levels of this watchtower.
+~
+146 0 2
+D1
+~
+~
+0 -1 14641
+D4
+~
+~
+0 -1 14639
+S
+#14641
+Stairs~
+You can see the ladder which leads you the top of this tower at the next room
+to the west. And corridor lies to the east.
+~
+146 0 2
+D1
+~
+~
+0 -1 14642
+D3
+~
+~
+0 -1 14640
+D5
+~
+~
+0 -1 14633
+S
+#14642
+Corridor~
+It is very plain here, probably to keep it easy to move in.
+~
+146 0 2
+D2
+~
+~
+0 -1 14643
+D3
+~
+~
+0 -1 14641
+S
+#14643
+Rest room~
+Off duty Guards rest here. On the one side of this room, bed lies calmly.
+~
+146 0 2
+D0
+~
+~
+0 -1 14642
+S
+#99999
+
+#RESET
+* 이존은 Pink 님이 만드신 존 입니다.
+M 0 14601   1 14602   Tephes, the King (Throne Room)
+E 1 14605   1    20     War plates
+G 1 14607   1             Jail key
+E 1 14604   1    11     Bronze shield
+M 0 14602   1 14602   Queen (Throne Room)
+M 0 14603  20 14609   Castle guard (Guard room)
+M 0 14603  20 14638   Castle guard (Guard room)
+M 0 14603  20 14643   Castle guard (Rest room)
+M 0 14603  20 14633   Castle guard (Under the tower)
+M 0 14603  20 14631   Castle guard (Wall Road)
+M 0 14603  20 14623   Castle guard (Main street)
+M 0 14604  17 14622   Castle soldier (Cross road)
+M 0 14604  17 14621   Castle soldier (Main street)
+G 1 14607  30             Jail key
+M 0 14604  17 14620   Castle soldier (Main street)
+M 0 14604  17 14616   Castle soldier (Wall Road)
+M 0 14605  15 14613   Peasant (Under the tower)
+M 0 14605  15 14612   Peasant (Fountain)
+M 0 14605  15 14619   Peasant (Cross road)
+M 0 14605  15 14629   Peasant (Ruby street)
+M 0 14606   5 14622   Merchant (Cross road)
+M 0 14606   5 14627   Merchant (Public square)
+M 0 14607   5 14628   Thief (Ruby street)
+M 0 14608   8 14622   Lady (Cross road)
+M 0 14608   8 14622   Lady (Cross road)
+M 0 14609   1 14608   Powerful Mage (Mage's study)
+E 1 14603   1    10     Leather arm protecter
+M 0 14610   1 14614   Learned scholar (The Scholar's Room)
+E 1 14602   1    18     Leather knee band
+M 0 14611   1 14637   Drik, the notorious killer (Jail)
+M 0 14612   1 14624   Weaponmaster (Warehouse)
+E 1 14601   5    16     Glintting silver dagger
+D 0 14605   5     2    The luxurious stairway
+D 0 14617   4     2    The luxurious stairway
+D 0 14608   1     2    Mage's study
+D 0 14609   3     2    Guard room
+D 0 14637   1     2    Jail
+D 0 14638   3     2    Guard room
+S
+
+#SHOPS
+$
+#END of South castle.

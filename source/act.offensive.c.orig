@@ -1,0 +1,1134 @@
+#include <stdio.h>
+#include <string.h>
+
+#include "defines.h"
+#include "character.h"
+#include "object.h"
+#include "world.h"
+#include "mobile.h"
+#include "utils.h"
+#include "comm.h"
+#include "interpreter.h"
+#include "find.h"
+#include "magics.h"
+#include "limits.h"
+#include "misc.h"
+#include "fight.h"
+#include "stash.h"
+#include "variables.h"
+#include "strings.h"
+#include "affect.h"
+#include "transfer.h"
+
+void do_hit(charType *ch, char *argument, int cmd)
+{
+  	char 			arg[MAX_STRING_LENGTH];
+  	charType 	*	victim;
+
+  	oneArgument(argument, arg);
+
+  	if( *arg ) 
+  	{
+    	victim = find_char_room( ch, arg );
+
+    	if( victim ) 
+		{
+      		if( victim == ch ) 
+	  		{
+        		sendf( ch, "You hit yourself..OUCH!." );
+        		act("$n hits $mself, and says OUCH!", FALSE, ch, 0, victim, TO_ROOM);
+      		} 
+	  		else 
+			{
+        		if(nokillflag)	if((!IS_NPC(ch)) && (!IS_NPC(victim))) return;
+
+        		if( IS_AFFECTED(ch, AFF_CHARM ) && (!IS_NPC(victim)) ) return;
+        		if( (GET_POS(ch)==POSITION_STANDING) && (victim != ch->fight)) 
+				{
+          			hit(ch, victim, TYPE_UNDEFINED);
+          			WAIT_STATE(ch, PULSE_VIOLENCE/2);
+        		} 
+				else 
+				{
+          			sendf( ch, "You do the best you can!" );
+				}
+			}
+		} 
+		else sendf( ch, "They aren't here." );
+  	} 
+  	else sendf( ch, "Hit who?" );
+}
+
+void do_chop(charType *ch, char *argument, int cmd)
+{
+  	char 				arg[MAX_STRING_LENGTH];
+  	charType  *	victim;
+
+  	if( GET_LEVEL(ch) >= IMO && GET_LEVEL(ch) < IMO+3 )
+  	{
+    	log( "Fight IMO:%s v.s. %s", GET_NAME(ch), argument );
+    	return;
+  	}
+
+  	oneArgument(argument, arg);
+
+  	if( !*arg ) 
+  	{
+    	send_to_char("Chop who?\n\r", ch);
+  	} 
+  	else 
+  	{
+    	if( !(victim = find_char_room(ch, arg)) ) sendf( ch, "They aren't here." );
+    	else if ( ch == victim ) 				  sendf( ch, "Your mother would be so sad.. :(" );
+       	else 
+	   	{
+        	if( GET_LEVEL(ch) < IMO+3 && GET_LEVEL(victim) >=(IMO+3) ) return;
+
+        	act("You chop $M to pieces! Ah! The blood!", FALSE, ch, 0, victim, TO_CHAR);
+        	act("$N chops you to pieces!", FALSE, victim, 0, ch, TO_CHAR);
+        	act("$n brutally slays $N", FALSE, ch, 0, victim, TO_NOTVICT);
+
+	        if( !IS_NPC(victim) )
+        	{   
+            	wipe_stash( GET_NAME(victim), 1 );
+            	loose_exp_die( victim );
+        	}
+	
+			kill_char( victim, 0, 1000, TYPE_SLASH );
+      	}
+  	}
+}
+
+void do_backstab(charType *ch, char *argument, int cmd)
+{
+  	charType 	* 			victim;
+  	char 					name[256];
+  	int 					percent;
+
+  	oneArgument(argument, name);
+
+  	if( !(victim = find_char_room(ch, name)) ) 
+  	{
+    	sendf( ch, "Backstab who?" );
+    	return;
+  	}
+  	if( victim == ch ) 
+  	{
+    	sendf( ch, "How can you sneak up on yourself?" );
+    	return;
+  	}
+  	if( !ch->equipment[WIELD] ) 
+  	{
+    	sendf( ch, "You need to wield a weapon, to make it a succes." );
+    	return;
+  	}
+  	if( ch->equipment[WIELD]->value[3] != 11 ) 
+  	{
+    	sendf( ch, "Only piercing weapons can be used for backstabbing." );
+    	return;
+  	}
+  	if( ch->fight )
+  	{
+    	sendf( ch, "You can't backstab while fighting, too alert!." );
+    	return;
+  	}
+
+  	percent = number( 1, 110 ) + GET_LEVEL( victim ) + 18 - GET_DEX( ch );
+
+  	if( AWAKE(victim) && (percent > ch->skills[SKILL_BACKSTAB]) )
+    	damage( ch, victim, 0, SKILL_BACKSTAB );
+  	else
+    	hit( ch, victim, SKILL_BACKSTAB );
+}
+
+void do_order(charType *ch, char *argument, int cmd)
+{
+	char 					name[100]; 
+	char					message[256];
+	char 					buf[256];
+	bool 					found = FALSE;
+	int 					org_room;
+  	charType 	*	victim;
+  	followType  *	k;
+
+  	halfchop(argument, name, message);
+
+  	if( !*name || !*message ) 
+  	{
+  		sendf( ch, "Order who to do what?" );
+  		return;
+  	}
+
+  	if( !(victim = find_char_room(ch, name)) && 
+  		stricmp( "follower", name ) && stricmp("followers", name) )
+      						sendf( ch, "That person isn't here." );
+  	else if( ch == victim ) sendf( ch, "You decline to do it." );
+  	else 
+  	{
+    	if( IS_AFFECTED(ch, AFF_CHARM) ) 
+		{
+      		sendf( ch, "Your superior would not approve." );
+      		return;
+    	}
+
+    	if( victim ) 
+		{
+      		sprintf(buf, "$N orders you to '%s'", message);
+      		act(buf, FALSE, victim, 0, ch, TO_CHAR);
+      		act("$n gives $N an order.", FALSE, ch, 0, victim, TO_ROOM);
+      		if( (victim->master!=ch) || !IS_AFFECTED(victim, AFF_CHARM) )
+        		act("$n has an indifferent look.", FALSE, victim, 0, 0, TO_ROOM);
+      		else 
+	  		{
+        		sendf( ch, "Ok." );
+        		interpreter(victim, message);
+      		}
+    	} 
+		else 
+		{
+      		sprintf(buf, "$n issues the order '%s'.", message);
+      		act(buf, FALSE, ch, 0, victim, TO_ROOM);
+
+      		org_room = ch->in_room;
+
+      		for( k = ch->followers; k; k = k->next ) 
+	  		{
+        		if( org_room == k->follower->in_room )
+          			if( IS_AFFECTED(k->follower, AFF_CHARM)) 
+		  			{
+            			found = TRUE;
+            			interpreter(k->follower, message);
+          			}
+      		}
+
+      		if( found )	sendf( ch , "Ok." );
+      		else 		sendf( ch, "Nobody here are loyal subjects of yours!" );
+    	}
+  	}
+  	if(victim) WAIT_STATE(victim, PULSE_VIOLENCE);
+}
+
+void do_flee(charType *ch, char *argument, int cmd)
+{
+  	int 				i, attempt, loose, ret;
+  	charType		*	tmp, * tmp_next;
+
+	if( GET_POS(ch) < POSITION_STUNNED ) return;
+
+  	if( !ch->fight ) 
+  	{
+    	for( i = 0; i < 6; i++ ) 
+		{
+      		attempt = number(0, 5);  /* Select a random direction */
+      		if( can_go(ch, attempt) ) 
+	  		{
+        		act("$n panics, and attempts to flee.", TRUE, ch, 0, 0, TO_ROOM);
+        		if( ret = do_simple_move(ch, attempt, FALSE), ret == 1 ) 
+				{
+          			sendf( ch, "You flee head over heels." );
+		  			return;
+        		} 
+				else if( ret == 2 )
+				{
+           			act("$n tries to flee, but is too exhausted!",TRUE,ch,0,0,TO_ROOM);
+          			return;
+        		}
+      		}
+    	} 
+    	sendf( ch, "PANIC! You couldn't escape!" );
+    	return;
+  	}
+
+  	for( i = 0; i < 6; i++) 
+  	{
+    	if( attempt = number( 0, 5 ), can_go(ch, attempt)) 
+		{
+      		act("$n panics, and attempts to flee.", TRUE, ch, 0, 0, TO_ROOM);
+      		if( ret = do_simple_move(ch, attempt, FALSE), ret == 1) 
+	  		{
+				loose = (GET_HIT(ch) - (GET_MAX_HIT(ch)/5)) * GET_LEVEL(ch) * 4;
+				loose = loose > 0 ? loose : 0;
+
+  				WAIT_STATE(ch, PULSE_VIOLENCE/5);
+
+        		if(!IS_NPC(ch)) loose_exp_flee(ch, loose);
+
+        		send_to_char("You flee head over heels.\n\r", ch);
+
+				for( tmp = combat_list; tmp; tmp = tmp_next )
+				{
+					tmp_next = tmp->next_fighting;
+
+					if( tmp->fight == ch ) stop_fighting( tmp );
+				}
+
+        		stop_fighting(ch);
+        		return;
+      		} 
+	  		else if( ret == 2 ) 
+			{
+        		act("$n tries to flee, but is too exhausted!", TRUE, ch, 0, 0, TO_ROOM);
+        		return;
+      		}
+    	}
+  	}
+  	sendf( ch, "PANIC! You couldn't escape!" );
+}
+
+void do_bash( charType * ch, char * argument, int cmd )
+{
+	directionType	*	back;
+  	charType 		*	victim;
+  	objectType		* 	weapon;
+  	char 				name[256];
+	char				dir[256];
+  	int 				percent;
+  	int					dam;
+  	int					i, other_room, door;
+
+  	twoArgument( argument, name, dir );
+
+  	if( weapon = ch->equipment[WIELD], !weapon ) 
+  	{
+    	sendf( ch, "You need to wield a weapon, to make it a success." );
+    	return;
+  	}
+
+  	if( !(victim = find_char_room(ch, name)) ) 
+  	{
+    	if( !*name && ch->fight ) 
+		{
+      		victim = ch->fight;
+    	} 
+		else if( *name && (door = find_door(ch, name, dir), door >= 0) )
+		{
+			act( "$n whirls $s $p and make a swish of $s $p.", TRUE,
+					ch, weapon, 0, TO_ROOM );
+			act( "You whirl your $p and make a swish of your $p.", TRUE,
+					ch, weapon, 0, TO_CHAR );
+
+			if( number( 1, 5 ) == 1 )
+			{
+				weapon->status /= 2;
+				sendf( ch, "You see some particle of %s.", weapon->wornd );
+			}
+
+			if(ch->skills[SKILL_BASH] < (number( 1, 1400 )/dice( weapon->value[1],weapon->value[2])))
+			{
+				sendf( ch, "You faid to break the lock." );
+				return;
+			}
+
+    		if( !IS_SET(EXIT(ch, door)->exit_info, EX_ISDOOR) )
+      			sendf( ch, "That's absurd." );
+    		else if( !IS_SET(EXIT(ch, door)->exit_info, EX_CLOSED) )
+      			sendf( ch, "You realize that the door is already open." );
+    		else if( EXIT(ch, door)->key < 0 )
+      			sendf( ch, "You can't seem to find any lock to break." );
+    		else if( !IS_SET(EXIT(ch, door)->exit_info, EX_LOCKED) )
+      			sendf( ch, "Oh.. it wasn't locked at all." );
+    		else if( IS_SET(EXIT(ch, door)->exit_info, EX_PICKPROOF) )
+      			sendf( ch, "You seem to be unable to break this lock." );
+    		else
+    		{
+      			REMOVE_BIT(EXIT(ch, door)->exit_info, EX_LOCKED);
+      			if (EXIT(ch, door)->keyword)
+	  			{
+        			act("$n breaks the lock of the $F.", 0, ch, 0, EXIT(ch, door)->keyword, TO_ROOM);
+        			act("You break the lock of the $F.", 0, ch, 0, EXIT(ch, door)->keyword, TO_CHAR);
+		  		}
+      			else  
+	  			{
+        			act( "$n breaks the lock of the $F.", TRUE, ch, (objectType*)name, 0, TO_ROOM);
+        			act( "You break the lock of the $F.", TRUE, ch, (objectType*)name, 0, TO_CHAR);
+				}
+      			if( (other_room = EXIT(ch, door)->to_room) != NOWHERE )
+        			if( back = world[other_room].dirs[rev_dir[door]], back )
+          				if( back->to_room == ch->in_room )
+            				REMOVE_BIT(back->exit_info, EX_LOCKED);
+
+			}
+			return;
+		}
+		else
+		{
+      		send_to_char("Bash what?\n\r", ch);
+      		return;
+    	}
+  	}
+
+  	if(victim->in_room != ch->in_room) return;
+
+  	if(victim == ch) 
+  	{
+    	send_to_char("Aren't we funny today...\n\r", ch);
+    	return;
+  	}
+
+  	percent=number(1,101); /* 101% is a complete failure */
+
+  	if( percent > ch->skills[SKILL_BASH] ) 
+  	{
+    	damage(ch, victim, 0, SKILL_BASH);
+    	GET_POS(ch) = POSITION_SITTING;
+  	} 
+  	else 
+  	{
+  		for( dam = 0, i = 0; i < MAX_APPLY; i++ )
+  		{
+  			if( weapon->apply[i].location == APPLY_DAMROLL )
+  				dam += weapon->apply[i].modifier;
+  		}
+
+  		if( !dam ) dam = 1;
+  		
+    	damage( ch, victim, GET_LEVEL(ch)/10 * dam, SKILL_BASH );
+    	percent=number(1,400);
+    	if( percent < GET_LEVEL(ch) ) 	GET_POS(victim) = POSITION_STUNNED;
+    	else 							GET_POS(victim) = POSITION_SITTING;
+  	}
+  	WAIT_STATE(ch, PULSE_VIOLENCE);
+}
+
+void do_rescue(charType *ch, char *argument, int cmd)
+{
+  	charType  *	victim;
+  	charType  *	tmp_ch;
+  	int 				percent;
+  	char 				name[MAX_INPUT_LENGTH];
+
+  	oneArgument( argument, name );
+
+  	if( !(victim = find_char_room(ch, name)) ) 
+  	{
+    	sendf( ch, "Who do you want to rescue?" );
+    	return;
+  	}
+  	if( victim == ch ) 
+  	{
+    	sendf( ch, "What about fleeing instead?" );
+    	return;
+  	}
+  
+  	if( IS_NPC(victim) && !IS_NPC(ch) )
+  	{
+    	sendf( ch, "But why?" );
+    	return;
+  	}
+
+  	if( ch->fight == victim ) 
+  	{
+    	sendf( ch, "How can you rescue someone you are trying to kill?" );
+    	return;
+  	}
+
+  	for( tmp_ch = world[ch->in_room].people; tmp_ch &&
+      	(tmp_ch->fight != victim); tmp_ch=tmp_ch->next_in_room)  ;
+  	if( !tmp_ch ) 
+  	{
+    	sendf( ch, "But nobody is fighting %s.", name );
+    	return;
+  	}
+
+  	percent=number(1,101); /* 101% is a complete failure */
+
+  	if(	percent > ch->skills[SKILL_RESCUE] ) 
+  	{
+    	sendf( ch, "You fail the rescue.", ch );
+    	return;
+  	}
+
+  	send_to_char("Banzai! To the rescue...\n\r", ch);
+  	act("You are rescued by $N, you are confused!",FALSE,victim,0,ch,TO_CHAR);
+  	act("$n heroically rescues $N.", FALSE, ch, 0, victim, TO_NOTVICT);
+
+  	if( victim->fight == tmp_ch ) stop_fighting(victim);
+  	if( tmp_ch->fight )			  stop_fighting(tmp_ch);
+  	if( ch->fight ) 			  stop_fighting(ch);
+
+  	set_fighting( ch, tmp_ch );
+  	set_fighting( tmp_ch, ch );
+  	WAIT_STATE(victim, PULSE_VIOLENCE * 2);
+}
+
+void do_chain_punch(charType *ch, char *argument, int cmd)
+{
+  	charType 	*	victim;
+  	objectType			 	*	hands;
+  	int 					percent;
+  	int 					i;
+  	int 					dam;
+
+  	victim = ch->fight;
+
+  	if( victim==0 )
+  	{
+    	sendf( ch, "This skill can be used only in fighting!" ); return;
+  	}
+  	if( GET_MANA(ch) < 0 )
+  	{
+    	sendf( ch, "You are too exhausted!" ); return;
+  	}
+
+  	GET_MANA(ch) -= 35;
+
+	dam = 0;
+  	if( hands = ch->equipment[WEAR_HANDS], hands )
+  	{
+  		for( i = 0; i < MAX_APPLY; i++ )
+  		{
+  			if( hands->apply[i].location == APPLY_DAMROLL )
+  				dam += hands->apply[i].modifier;
+  		}
+  	}
+  	if( !dam ) dam = 1;
+
+  	for( i = 0; i < GET_LEVEL(ch)/5; i++ )
+  	{
+    	if( !ch->fight || (victim->in_room != ch->in_room) ) break;
+
+    	percent = ((10-(GET_AC(victim)/10))<<1) + number(1,101);
+    	if( percent > ch->skills[SKILL_CHAIN_PUNCH] ) 
+		{
+      		damage(ch, victim, 0, SKILL_PUNCH);
+    	} 
+		else 
+		{
+      		damage(ch, victim,GET_LEVEL(ch)*2/3*dam, SKILL_PUNCH );
+    	}
+    	if( number( 1, GET_LEVEL(ch)/4 ) == 1 ) break;
+  	}
+  	WAIT_STATE(ch, PULSE_VIOLENCE*2);
+}
+
+void do_punch(charType *ch, char *argument, int cmd)
+{
+  	charType *		victim;
+  	char 					name[256];
+  	int 					percent;
+  	objectType				*   hands;
+  	int						dam, i;
+
+  	oneArgument(argument, name);
+
+  	if( !(victim = find_char_room(ch, name)) ) 
+  	{
+    	if( ch->fight ) 
+		{
+      		victim = ch->fight;
+    	} 
+		else 
+		{
+      		sendf( ch, "Punch who?" ); return;
+    	}
+  	}
+
+  	if( victim == ch ) 
+  	{
+    	sendf( ch, "Aren't we funny today..." ); return;
+  	}
+  	if( GET_MANA(ch) < 0 )
+  	{
+    	sendf( ch, "You are too exhausted!" ); return;
+  	}
+
+  	percent=((10-(GET_AC(victim)/10))<<1)+number(1,101);
+
+  	GET_MANA(ch) -= 10;
+
+  	if( percent > ch->skills[SKILL_PUNCH] ) 
+  	{
+    	damage(ch, victim, 0, SKILL_PUNCH);
+  	} 
+  	else 
+  	{
+  		dam = 0;
+  		if( hands = ch->equipment[WEAR_HANDS], hands )
+  		{
+  			for( i = 0; i < MAX_APPLY; i++ )
+  			{
+  				if( hands->apply[i].location == APPLY_DAMROLL )
+  					dam += hands->apply[i].modifier;
+  			}
+  		}
+  		if( !dam ) dam = 1;
+
+    	damage(ch,victim,GET_LEVEL(ch)*2/3*dam, SKILL_PUNCH );
+  	}
+  	WAIT_STATE(ch, PULSE_VIOLENCE);
+}
+
+void do_multi_kick(charType *ch, char *argument, int cmd)
+{
+  	charType *		victim;
+  	objectType			 *		boots;
+  	int 					percent;
+  	int 					i;
+  	int 					dam;
+
+  	victim = ch->fight;
+
+  	if( !is_fighting( ch ) )
+  	{
+    	sendf( ch, "This skill can be used only in fighting!" ); return;
+  	}
+
+  	if( GET_MOVE(ch) < 0 )
+  	{
+    	sendf( ch, "You are too exhausted!" ); return;
+  	}
+
+  	GET_MOVE(ch)=GET_MOVE(ch)-2*(IMO-GET_LEVEL(ch));
+
+  	dam = 0;
+  	if( boots = ch->equipment[WEAR_FEET], boots )
+  	{
+  		for( i = 0; i < MAX_APPLY; i++ )
+  		{
+  			if( boots->apply[i].location == APPLY_DAMROLL )
+  				dam += boots->apply[i].modifier;
+  		}
+  	}
+  	if( !dam ) dam = 1;
+
+  	for( i = 0; i < GET_LEVEL(ch)/6; i++ )
+  	{
+    	if( !ch->fight || (victim->in_room != ch->in_room) ) break;
+
+    	percent = ((10-(GET_AC(victim)/10))<<1)+number(1,101);
+
+    	if( percent > ch->skills[SKILL_MULTI_KICK] ) 
+      		damage(ch, victim, 0, SKILL_KICK);
+		else 
+      		damage(ch, victim,GET_LEVEL(ch)/2*dam, SKILL_KICK );
+    	if( number(1,GET_LEVEL(ch) / 4) == 1 ) break;
+  	}
+  	WAIT_STATE(ch, PULSE_VIOLENCE*2);
+}
+
+void do_kick(charType *ch, char *argument, int cmd)
+{
+  	charType 		*		victim;
+  	objectType		*		boots;
+  	char 					name[256];
+  	int 					percent;
+  	int						dam, i;
+
+  	oneArgument(argument, name);
+
+  	if( !(victim = find_char_room(ch, name)) ) 
+  	{
+    	if( ch->fight ) 
+		{
+      		victim = ch->fight;
+    	} 
+		else 
+		{
+      		sendf( ch, "Kick who?" );
+      		return;
+    	}
+  	}
+
+  	if( victim == ch ) 
+  	{
+    	sendf( ch, "Aren't we funny today..." ); return;
+  	}
+
+  	if( GET_MOVE(ch) < 0 )
+  	{
+    	sendf( ch, "You are too exhausted!" ); return;
+  	}
+
+  	percent=((10-(GET_AC(victim)/10))<<1)+number(1,101);
+
+  	GET_MOVE(ch) -= 5;
+
+  	if( percent > ch->skills[SKILL_KICK] ) 
+  	{
+    	damage(ch, victim, 0, SKILL_KICK);
+  	} 
+  	else 
+  	{
+  		dam = 0;
+  		if( boots = ch->equipment[WEAR_FEET], boots )
+  		{
+  			for( i = 0; i < MAX_APPLY; i++ )
+  			{
+  				if( boots->apply[i].location == APPLY_DAMROLL )
+  					dam += boots->apply[i].modifier;
+  			}
+  		}
+  		if( !dam ) dam = 1;
+
+    	damage( ch, victim,GET_LEVEL(ch)/2 * dam, SKILL_KICK);
+  	}
+  	WAIT_STATE(ch, PULSE_VIOLENCE);
+}
+
+void do_tornado( charType *ch, char * argument, int cmd )
+{
+  	charType  * tch, *tch2;
+
+  	for( tch=world[ch->in_room].people; tch; tch = tch2) 
+  	{
+    	tch2 = tch->next_in_room;
+    	if( IS_NPC(tch) && ch->move>0 ) 
+		{
+   			if( ch->skills[SKILL_TORNADO] > number(1,99) )
+   			{
+    			hit(ch,tch,TYPE_UNDEFINED); 
+				if( ch->move > 0 ) ch->move -= ( IMO-GET_LEVEL(ch)+2 );
+  			}
+    	}
+  	}
+
+  	WAIT_STATE( ch, PULSE_VIOLENCE / 3 );
+}
+
+void do_swirl( charType * ch, char * argument, int cmd )
+{
+  	charType  	* 	vict, * vict_next;
+	objectType	* 	weapon;
+	int				dam;
+
+	if( IS_NPC( ch ) ) return;
+
+	DEBUG( "===> %s swirl blade", ch->name );
+
+	if( weapon = ch->equipment[WIELD], !weapon )
+	{
+		sendf( ch, "You should wield a weapon to swirl your weapon." ); return;
+	}
+
+  	act( "A beutiful circle made by $s $p turns to a swirl.", TRUE, ch, weapon, 0, TO_ROOM );
+  	act( "A beutiful circle made by your $p turns to a swirl.",	TRUE, ch, weapon, 0, TO_CHAR );
+
+	dam = GET_ADD( ch ) + dice( weapon->value[1], weapon->value[2] );
+
+  	for( vict = world[ch->in_room].people; vict; vict = vict_next ) 
+  	{
+    	vict_next = vict->next_in_room;
+
+    	if( IS_NPC( vict ) && ch->move > 0 ) 
+		{
+   			if( ch->skills[SKILL_SWIRL] > number( 1,99 ) )
+   			{
+    			damage( ch, vict, dam, SKILL_SWIRL ); 
+
+				GET_MOVE( ch ) -= 30 - GET_DEX( ch );
+  			}
+    	}
+  	}
+  	WAIT_STATE( ch, PULSE_VIOLENCE / 2 );
+}
+
+void do_light_move( charType *ch, char *argument, int cmd )
+{
+    static short    diffs[37] =
+    {
+        19, 18, 18, 18, 18, 18, 17, 17, 17,
+        16, 15, 15, 14, 14, 14, 13, 13, 13,
+        12,
+        11, 10, 10,  9,  9,  8,  8,  7,  7,
+         6,  6,  6,  5,  5,  4,  4,  3,  3
+    };
+		
+  	charType 	*  victim;
+  	charType 	*  tmp;
+  	int				diff;
+
+	if( is_fighting(ch) )
+	{
+  		if( ch->skills[SKILL_LIGHT_MOVE] > 10 && ch->mana > 0 ) 
+  		{
+			ch->mana -= 15 - GET_LEVEL(ch)/3 + 6;	
+
+			if( number( 1, 101 ) < ch->skills[SKILL_LIGHT_MOVE] )
+			{
+				victim = ch->fight;
+				hit( ch, victim, TYPE_UNDEFINED );
+
+				if( !is_fighting(ch) ) return;
+
+				diff = victim->level - ch->level + 18;
+
+				if( diff < 0  ) diff = 0;
+				if( diff > 36 ) diff = 36;
+
+				if(  diffs[diff] >= number(1,20) )
+				{	   
+					stop_fighting(ch); 
+					if( victim->fight == ch ) stop_fighting( victim );
+
+					act("$n looks confused!",FALSE,victim,0,victim,TO_NOTVICT);
+
+					if( number( 1, 3 ) == 1 )
+					{
+						for( tmp = world[ch->in_room].people; tmp; tmp = tmp->next_in_room )
+						{
+							if( !IS_NPC(tmp) & tmp != ch && tmp != victim && tmp->fight == victim )
+							{
+								hit(victim, tmp, TYPE_UNDEFINED);
+								break;
+							}
+  						}
+  					}
+  				}
+           	}
+  			WAIT_STATE( ch, PULSE_VIOLENCE / 5 );
+  		}
+  		else sendf( ch, "You are too exhausted." );
+ 	}
+ 	else 
+ 	{	
+ 		sendf( ch, "This skill can used only in fighting." );
+  	}
+}
+
+void do_flash(charType *ch, char *argument, int cmd)
+{
+  	charType 	*		victim;
+  	char 				name[256];
+  	int 				percent;
+
+  	if( GET_LEVEL(ch) < 5 ) return ;
+
+  	name[0] = 0 ;
+
+  	oneArgument(argument, name);
+
+  	if( name == NULL || name[0] == 0 ) 
+  	{
+    	if( is_fighting( ch ) )
+		{
+      		victim = ch->fight;
+    	} 
+		else 
+		{
+      		send_to_char("flash who?\n\r", ch);
+      		return;
+    	}
+  	}
+  	else if ((victim = find_char_room(ch, name)) == NULL ) 
+  	{
+    	send_to_char("flash who?\n\r", ch);
+    	return;
+  	}
+
+  	if( victim == ch )
+  	{
+    	sendf( ch, "You are foolish.." );
+    	return;
+  	}
+
+  	percent = (!IS_NPC(ch) && GET_CLASS(ch) == CLASS_THIEF) ?
+  					number(1,101)+GET_LEVEL(victim)*2-GET_LEVEL(ch) : 101;
+
+  	if( GET_MOVE(ch) <= 0 && number(1,10) < 7 ) 
+  	{
+    	sendf( ch, "You can't get a chance." );
+    	act("$n try flash attack $N, but failed.", FALSE,ch,0,victim, TO_NOTVICT);
+    }
+  	else if( percent > ch->skills[SKILL_FLASH] ) 
+  	{
+    	sendf( ch, "You can't get a chance." );
+    	act("$n try flash attack $N, but failed.", FALSE,ch,0,victim, TO_NOTVICT);
+    	damage(ch, victim, 0, SKILL_FLASH);
+    	ch->hit -= GET_MAX_HIT(ch)/100;
+		update_pos( ch );
+  	} 
+  	else 
+  	{
+    	act("$n strike $N's head with circular spanning triple kick .", 0, ch, 0, victim, TO_NOTVICT);
+    	act("$n throw $N into sun with double tumbling.", 0, ch, 0, victim, TO_NOTVICT);
+    	act("$n jump kick down  $N's heart with making beautifle circle.", 0, ch,0,victim, TO_NOTVICT);
+    	act("$n punch $N's head line drive.", 0, ch, 0, victim, TO_NOTVICT);
+
+    	act("You strike $N's head with circular spanning triple kick .", 0, ch, 0, victim, TO_CHAR);
+    	act("You throw $N into sun with double tumbling.", 0, ch, 0, victim, TO_CHAR);
+    	act("You jump kick down  $N's heart with making beautifle circle.", 0,ch,0,victim, TO_CHAR);
+    	act("You punch $N's head line drive.", 0, ch, 0, victim, TO_CHAR);
+    	sendf( ch, "You attack like flash ..." );
+
+    	act("$n strike your head with circular spanning triple kick .", 0, ch, 0, victim, TO_VICT);
+    	act("$n throw you into sun with double tumbling.", 0, ch, 0, victim, TO_VICT);
+    	act("$n jump kick down your heart with making beautifle circle.", 0, ch,0,victim, TO_VICT);
+    	act("$n punch your head line drive.", 0, ch, 0, victim, TO_VICT);
+    	act("You can star above your head ?!? by $N, you are confused!", 0, victim,0,ch,TO_CHAR);
+
+    	damage( ch, victim, dex_rate( ch, GET_MOVE(ch)/3+GET_LEVEL(ch), 5), SKILL_FLASH );
+    	ch->move=0;
+  	}
+  	WAIT_STATE( ch, PULSE_VIOLENCE / 3 );
+}
+
+void shoot(charType *ch, charType *victim, int type)
+{
+  	int 	percent;
+  	int 	dam;
+
+  	if( !ch || !victim ) 
+  	{
+    	DEBUG( "shoot> no char or no victim") ;
+    	return ;
+    }
+
+  	if( victim == ch )
+  	{
+    	if( !IS_NPC(ch) ) sendf( ch, "Shoot yourself? Nah...");
+    	return;
+  	}
+
+	if( ch->equipment[HOLD] == NULL ) 
+	{
+		sendf( ch, "Shoot with empty hand ?!?" ) ;
+		return ;
+	}
+
+  	if( ch->equipment[HOLD]->type !=ITEM_FIREWEAPON ) 
+  	{
+    	if(!IS_NPC(ch))
+      		sendf( ch, "To shoot, you need to HOLD a firing weapon." );
+    	return;
+  	}
+
+  	if( ch->equipment[HOLD]->value[0] <= 0)
+  	{
+    	if(!IS_NPC(ch)) sendf( ch, "Oops.  Nothing to shoot." );
+    	act("Hmmm.  $n fires an empty $p.", FALSE, ch, ch->equipment[HOLD],0,TO_ROOM);
+    	return;
+  	}
+
+  	if( !IS_NPC(ch) || (IS_NPC(ch)&&IS_AFFECTED(ch,AFF_CHARM)) )
+    	ch->equipment[HOLD]->value[0]--;
+
+  	if( (!IS_NPC(ch)) && (GET_LEVEL(ch)>=(IMO+3))) percent=0;
+  	else
+    	percent=number(1,101)+GET_LEVEL(victim)-GET_LEVEL(ch)-GET_DEX(ch);
+
+  	if( percent < 50)
+  	{
+    	act("Thwapp! You shoot $M with $p.", FALSE, ch, ch->equipment[HOLD],victim,TO_CHAR);
+    	act("Thwapp! You are shot by $n with $p.", FALSE, ch, ch->equipment[HOLD],victim,TO_VICT);
+    	act("Thwapp! $n shoots $N with $p.", FALSE, ch, ch->equipment[HOLD],victim,TO_NOTVICT);
+
+    	dam = ch->equipment[HOLD]->value[2];
+    	damage(ch, victim, dam, TYPE_SHOOT);
+    	if( GET_LEVEL(ch) < (IMO+3) ) WAIT_STATE(ch, PULSE_VIOLENCE*2);
+    	WAIT_STATE(victim, PULSE_VIOLENCE*2);
+  	} 
+  	else 
+  	{
+    act("You try to shoot $M with $p, but miss.", FALSE, ch, ch->equipment[HOLD],victim,TO_CHAR);
+    act("You are shot at by $n with $p, but missed.", FALSE, ch, ch->equipment[HOLD],victim,TO_VICT);
+    act("$n tries to shoot $N with $p, but misses.", FALSE, ch, ch->equipment[HOLD],victim,TO_NOTVICT);
+  	}
+}
+
+void do_shoot(charType *ch, char *argument, int cmd)
+{
+  	charType *	victim;
+  	char 				name[256];
+
+  	oneArgument(argument, name);
+
+  	if( !(victim = find_char_room(ch, name))) 
+  	{
+    	if( is_fighting( ch ) )
+		{
+      		victim = ch->fight;
+    	} 
+		else 
+		{
+      		sendf( ch, "Shoot whom?\n\r" );
+      		return;
+    	}
+  	}
+  	if( (GET_LEVEL(victim) >= IMO) && (!IS_NPC(victim)) )
+  	{
+    	if(!IS_NPC(ch))	sendf( ch, "Shoot an immortal?  Never." );
+    	return;
+  	}
+  	shoot(ch,victim,TYPE_SHOOT);
+}
+
+void do_assist(charType *ch, char *argument, int cmd)
+{
+  char arg[MAX_STRING_LENGTH];
+  charType *victim;
+  char cyb[80];
+
+  oneArgument(argument, arg);
+
+  if (*arg) {
+    victim = find_char_room(ch, arg);
+    if (victim) {
+      if (victim == ch) {
+        send_to_char("Can you assist your self?\n\r", ch);
+        act("$n tries to help $mself, and says YAHA!", FALSE, ch, 0, victim, TO_ROOM);
+      } else {
+
+        if(nokillflag) {
+          if((!IS_NPC(ch)) && (IS_NPC(victim))) {
+            send_to_char("You can't help MOB.\n\r", ch);
+	    return;
+	    }
+          }
+
+        /* block indirect player killing */
+        if (IS_AFFECTED(ch, AFF_CHARM) && (IS_NPC(victim))) return;
+        if ((GET_POS(ch)==POSITION_STANDING) &&
+            (victim != ch->fight)) {
+	  if (!(victim->fight)) {
+	    send_to_char("Who do you think fight ?\n\r", ch);
+	    return ;
+	    }
+	  	  sprintf(cyb, "%s assist you !!\n\r", GET_NAME(ch));
+          send_to_char(cyb, victim);
+	  	  sprintf(cyb, "You assist %s !!\n\r", GET_NAME(victim));
+          send_to_char(cyb, ch);
+          act("$n ASSIST $N !", FALSE, ch, 0, victim, TO_NOTVICT);
+          hit(ch, victim->fight, TYPE_UNDEFINED);
+          WAIT_STATE(ch, PULSE_VIOLENCE); /* HVORFOR DET?? */
+        } else {
+          send_to_char("You do the best you can!\n\r",ch);
+        }
+      }
+    } else {
+      send_to_char("They aren't here.\n\r", ch);
+    }
+  } else {
+    send_to_char("Assist who?\n\r", ch);
+  }
+}
+
+void throw_object(objectType *obj, charType *ch, charType *vict)
+{
+	int	i, dam ;
+
+	switch ( obj->type ) 
+	{
+		case ITEM_POTION :
+			act("$p의 내용물이 $N님 몸에 퍼집니다.", 0, ch, obj, vict, TO_CHAR);
+			act("$p의 병이 깨지며 조각이 사방에 흩어 집니다.",	FALSE, ch, obj, vict, TO_NOTVICT);
+			act("$p이 깨지면서 약이 당신의 몸에 퍼지기 시작 합니다.", FALSE, ch, obj, vict, TO_VICT);
+			for( i = 1 ; i < 4 ; i ++ )
+				if (obj->value[i] >= 1)
+					((*spells[obj->value[i]].func)((int)obj->value[0], ch, "", SPELL_POTION, vict, 0));
+			extract_obj( obj, 1 ) ;
+			damage(ch, vict, 0, TYPE_UNDEFINED) ;
+			break ;
+		case ITEM_FOOD :
+		case ITEM_WEAPON :
+		case ITEM_DRINKCON :
+		default :
+			dam = obj->weight;
+			damage(ch, vict, dam, TYPE_UNDEFINED) ;
+			obj_to_room( obj, ch->in_room ) ;
+			break ;
+	}
+}
+
+/*  Throw object to victim  */
+void do_throw(charType *ch, char *argument, int cmd)
+{
+	objectType 	*	obj ;
+	charType 	*	vict ;
+	char					obj_name[80], vict_name[80] ;
+	int						catch_rate, hitting_rate ;
+
+	argument = oneArgument(argument, obj_name);
+	if ( !*obj_name ) 
+	{
+		send_to_char("무엇을 던지고 싶으세요 ?\n\r", ch) ;
+		return ;
+	}
+
+	argument = oneArgument(argument, vict_name) ;
+	if ( !*vict_name ) 
+	{
+		send_to_char("무엇을 누구에게 던질까요?\n\r", ch) ;
+		return ;
+	}
+	if (!(obj = find_obj_inven( ch, obj_name ))) {
+		send_to_char("당신에게는 그런 물건이 없습니다.\n\r", ch);
+		return;
+		}
+
+	if (IS_SET(obj->extra, ITEM_NODROP)) {
+		send_to_char("이크!! 저주받은 물건이라 던질 수가 없습니다 !!\n\r", ch);
+		return;
+		}
+
+	if (!(vict = find_char_room(ch, vict_name))) {
+		send_to_char("여기에 그런 사람은 없는데요 ?\n\r", ch);
+		return;
+		}
+
+	if( obj->weight > str_apply(ch)->wield_w ) {
+		send_to_char("물건이 너무 무거워 금방 땅에 떨어집니다.\n\r", ch) ;
+		act("$n님이 $p을 던지려 했으나 발밑에 떨어집니다.", 1, ch, obj,
+			0, TO_ROOM);
+		obj_from_char(obj);
+		obj_to_room( obj, ch->in_room) ;
+		return ;
+		}
+
+	if ( ch == vict ) {
+		act("당신은 $p에 머리를 받았습니다.", 0, ch, obj, ch, TO_CHAR);
+		act("$n님이 주머니에서 꺼낸 $p에 얼굴을 갖다 댑니다.", 1, ch, obj,
+			ch, TO_ROOM);
+		return ;
+		}
+
+	/* avoid players fight : also block 'order' */
+	if (nokillflag && !IS_NPC(vict) ) {
+		send_to_char("친구와는 싸우지 마세요 !\n\r", ch) ;
+		return ;
+		}
+
+	/* Now throw item to victim */
+	obj_from_char(obj);	/* get object from ch */
+		
+	/* calculate hitting probability */
+	hitting_rate = (500 - ch->carry_weight - obj->weight)/10 ;
+
+	if ( hitting_rate > number(1,50)) {	/* hit */
+		catch_rate = GET_LEVEL(vict) + 5 ;
+		if ( catch_rate > number(1,50)) {	/* catch */
+			act("당신이 던진 $p을 $N님이 잡았습니다.", 0, ch, obj, vict, TO_CHAR);
+			act("$n님이 던진 $p을 $N님이 잡았습니다.",
+				FALSE, ch, obj, vict, TO_NOTVICT);
+			act("$n님이 당신에게 던진 $p를 잡는데 성공했습니다.", FALSE, ch,
+				obj, vict, TO_VICT);
+			obj_to_char(obj, vict);
+			}
+		else {	/* hit realy */
+			send_to_char("맞았습니다!\n\r", ch);
+			act("$n님이 던진 $p이 $N님의 이마에 정통으로 맞았습니다.",
+				FALSE, ch, obj, vict, TO_NOTVICT);
+			act("당신은 $n님이 던진 $p에 맞았습니다.", FALSE, ch,
+				obj, vict, TO_VICT);
+			throw_object(obj, ch, vict) ;
+			}
+		}
+	else 
+	{	/* missed */
+		if ( number(1,2) == 1 ) {
+			act("던진 $p이 빗나가서 땅에 떨어집니다.", 0, ch, obj, 0, TO_CHAR);
+			act("$n님이 $p을 $N님에게 던졌습니다만 아슬아슬하게 빗나갑니다.",
+				FALSE, ch, obj, vict, TO_NOTVICT);
+			act("$n님이 당신에게 던진 $p를 아슬아슬하게 피했습니다.", FALSE, ch,
+				obj, vict, TO_VICT);
+			}
+		else {
+			act("당신이 던진 $p을 $N님이 쳐냈습니다.", 0, ch, obj, vict, TO_CHAR);
+			act("$n님이 던진 $p을 $N님이 가볍게 쳐냅니다.",
+				FALSE, ch, obj, vict, TO_NOTVICT);
+			act("$n님이 당신에게 던진 $p를 받아 쳤습니다.", FALSE, ch,
+				obj, vict, TO_VICT);
+			}
+		obj_to_room( obj, ch->in_room) ;
+	}
+}
+
